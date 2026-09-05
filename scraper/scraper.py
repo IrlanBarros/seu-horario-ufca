@@ -19,9 +19,8 @@ CURSO_NOME = "Ciência da Computação"
 ANO = "2026"
 PERIODO = "2"
 
-DATA_DIR = Path("data")
-DATA_DIR.mkdir(exist_ok=True)
-
+DATA_DIR = Path("public/data")
+DATA_DIR.mkdir(parents=True, exist_ok=True)
 
 def criar_sessao():
     session = requests.Session()
