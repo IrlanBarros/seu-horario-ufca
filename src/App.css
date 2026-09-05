@@ -342,3 +342,66 @@ header p {
   margin-top: auto;
   font-size: 0.7rem;
 }
+
+.turmas-titulo {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.turmas-titulo h2 {
+  margin-bottom: 4px;
+}
+
+.turmas-titulo p {
+  margin: 0;
+  color: #6b7280;
+  font-size: 0.9rem;
+}
+
+.busca-container {
+  margin-bottom: 24px;
+}
+
+.campo-busca {
+  width: 100%;
+  padding: 13px 16px;
+
+  border: 1px solid #d1d5db;
+  border-radius: 9px;
+
+  background: #fff;
+  color: #111827;
+
+  font-size: 1rem;
+
+  outline: none;
+}
+
+.campo-busca:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 3px #2563eb20;
+}
+
+.campo-busca::placeholder {
+  color: #9ca3af;
+}
+
+.nenhum-resultado {
+  margin-bottom: 24px;
+  padding: 24px;
+
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+
+  background: #fff;
+
+  text-align: center;
+}
+
+.nenhum-resultado p {
+  margin: 6px 0 0;
+  color: #6b7280;
+}

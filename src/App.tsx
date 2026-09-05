@@ -16,17 +16,23 @@ function gerarIdTurma(turma: Turma) {
   ].join('|')
 }
 
+function normalizarTexto(texto: string) {
+  return texto
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .toLowerCase()
+    .trim()
+}
+
 const STORAGE_KEY = 'seu-horario-cc-ufca:2026.2:turmas'
 
 function App() {
   const [dados, setDados] = useState<DadosCurso | null>(null)
   const [erro, setErro] = useState<string | null>(null)
-
   const [selecionadas, setSelecionadas] = useState<Turma[]>([])
-
+  const [busca, setBusca] = useState('')
   const [conflitos, setConflitos] =
     useState<ConflitoHorario[]>([])
-
   const [turmaComConflito, setTurmaComConflito] =
     useState<Turma | null>(null)
 
@@ -171,6 +177,24 @@ function App() {
     )
   }
 
+  const termoBusca = normalizarTexto(busca)
+
+  const turmasFiltradas = dados.turmas.filter((turma) => {
+    if (!termoBusca) {
+      return true
+    }
+
+    const codigo = normalizarTexto(turma.codigo)
+    const disciplina = normalizarTexto(turma.disciplina)
+    const docente = normalizarTexto(turma.docente)
+
+    return (
+      codigo.includes(termoBusca) ||
+      disciplina.includes(termoBusca) ||
+      docente.includes(termoBusca)
+    )
+  })
+
   return (
     <main className="container">
       <header>
@@ -288,12 +312,48 @@ function App() {
       </section>
 
       <section>
-        <h2>
-          Turmas disponíveis
-        </h2>
+
+        <div className="turmas-titulo">
+          <div>
+            <h2>
+              Turmas disponíveis
+            </h2>
+
+            <p>
+              {turmasFiltradas.length} de{' '}
+              {dados.turmas.length} turma(s)
+            </p>
+          </div>
+        </div>
+
+        <div className="busca-container">
+          <input
+            type="search"
+            className="campo-busca"
+            placeholder="Buscar por código, disciplina ou docente..."
+            value={busca}
+            onChange={(event) =>
+              setBusca(event.target.value)
+            }
+            aria-label="Buscar turmas"
+          />
+        </div>
+
+        {turmasFiltradas.length === 0 && (
+          <div className="nenhum-resultado">
+            <strong>
+              Nenhuma turma encontrada
+            </strong>
+
+            <p>
+              Tente pesquisar por outro código,
+              disciplina ou docente.
+            </p>
+          </div>
+        )}
 
         <div className="lista-turmas">
-          {dados.turmas.map((turma) => {
+          {turmasFiltradas.map((turma) => {
           const selecionada =
             turmaEstaSelecionada(turma)
 
