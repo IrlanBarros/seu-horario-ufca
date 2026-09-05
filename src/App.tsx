@@ -16,6 +16,8 @@ function gerarIdTurma(turma: Turma) {
   ].join('|')
 }
 
+const STORAGE_KEY = 'seu-horario-cc-ufca:2026.2:turmas'
+
 function App() {
   const [dados, setDados] = useState<DadosCurso | null>(null)
   const [erro, setErro] = useState<string | null>(null)
@@ -42,6 +44,20 @@ function App() {
         const json: DadosCurso = await response.json()
 
         setDados(json)
+
+        try {
+          const idsSalvos = JSON.parse(
+            localStorage.getItem(STORAGE_KEY) ?? '[]',
+          ) as string[]
+
+          const turmasSalvas = json.turmas.filter((turma) =>
+            idsSalvos.includes(gerarIdTurma(turma)),
+          )
+
+          setSelecionadas(turmasSalvas)
+        } catch {
+          localStorage.removeItem(STORAGE_KEY)
+        }
       } catch (error) {
         console.error(error)
         setErro('Não foi possível carregar as turmas.')
@@ -50,6 +66,19 @@ function App() {
 
     carregarDados()
   }, [])
+
+  useEffect(() => {
+    if (!dados) {
+      return
+    }
+
+    const ids = selecionadas.map(gerarIdTurma)
+
+    localStorage.setItem(
+      STORAGE_KEY,
+      JSON.stringify(ids),
+    )
+  }, [selecionadas, dados])
 
   function turmaEstaSelecionada(turma: Turma) {
     const id = gerarIdTurma(turma)
