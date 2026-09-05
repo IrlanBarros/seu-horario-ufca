@@ -405,3 +405,34 @@ header p {
   margin: 6px 0 0;
   color: #6b7280;
 }
+
+.filtros-turmas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+
+  margin-bottom: 24px;
+}
+
+.filtros-turmas button {
+  border: 1px solid #d1d5db;
+  border-radius: 999px;
+
+  padding: 8px 14px;
+
+  background: #fff;
+  color: #374151;
+
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.filtros-turmas button:hover {
+  background: #f3f4f6;
+}
+
+.filtros-turmas .filtro-ativo {
+  border-color: #2563eb;
+  background: #2563eb;
+  color: #fff;
+}

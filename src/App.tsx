@@ -7,6 +7,12 @@ import {
 import './App.css'
 import GradeSemanal from './components/GradeSemanal'
 
+type FiltroTurmas =
+  | 'todas'
+  | 'disponiveis'
+  | 'conflito'
+  | 'selecionadas'
+
 function gerarIdTurma(turma: Turma) {
   return [
     turma.codigo,
@@ -33,8 +39,12 @@ function App() {
   const [busca, setBusca] = useState('')
   const [conflitos, setConflitos] =
     useState<ConflitoHorario[]>([])
+
   const [turmaComConflito, setTurmaComConflito] =
     useState<Turma | null>(null)
+
+  const [filtro, setFiltro] =
+    useState<FiltroTurmas>('todas')
 
   useEffect(() => {
     async function carregarDados() {
@@ -180,19 +190,43 @@ function App() {
   const termoBusca = normalizarTexto(busca)
 
   const turmasFiltradas = dados.turmas.filter((turma) => {
-    if (!termoBusca) {
-      return true
+    const selecionada =
+      turmaEstaSelecionada(turma)
+
+    const conflitosDaTurma = selecionada
+      ? []
+      : encontrarConflitos(
+          turma,
+          selecionadas,
+        )
+
+    const possuiConflito =
+      conflitosDaTurma.length > 0
+
+    const correspondeBusca =
+      !termoBusca ||
+      normalizarTexto(turma.codigo).includes(termoBusca) ||
+      normalizarTexto(turma.disciplina).includes(termoBusca) ||
+      normalizarTexto(turma.docente).includes(termoBusca)
+
+    if (!correspondeBusca) {
+      return false
     }
 
-    const codigo = normalizarTexto(turma.codigo)
-    const disciplina = normalizarTexto(turma.disciplina)
-    const docente = normalizarTexto(turma.docente)
+    switch (filtro) {
+      case 'disponiveis':
+        return !selecionada && !possuiConflito
 
-    return (
-      codigo.includes(termoBusca) ||
-      disciplina.includes(termoBusca) ||
-      docente.includes(termoBusca)
-    )
+      case 'conflito':
+        return possuiConflito
+
+      case 'selecionadas':
+        return selecionada
+
+      case 'todas':
+      default:
+        return true
+    }
   })
 
   return (
@@ -337,6 +371,40 @@ function App() {
             }
             aria-label="Buscar turmas"
           />
+        </div>
+
+        <div className="filtros-turmas">
+          <button
+            type="button"
+            className={filtro === 'todas' ? 'filtro-ativo' : ''}
+            onClick={() => setFiltro('todas')}
+          >
+            Todas
+          </button>
+
+          <button
+            type="button"
+            className={filtro === 'disponiveis' ? 'filtro-ativo' : ''}
+            onClick={() => setFiltro('disponiveis')}
+          >
+            Disponíveis
+          </button>
+
+          <button
+            type="button"
+            className={filtro === 'conflito' ? 'filtro-ativo' : ''}
+            onClick={() => setFiltro('conflito')}
+          >
+            Com conflito
+          </button>
+
+          <button
+            type="button"
+            className={filtro === 'selecionadas' ? 'filtro-ativo' : ''}
+            onClick={() => setFiltro('selecionadas')}
+          >
+            Selecionadas
+          </button>
         </div>
 
         {turmasFiltradas.length === 0 && (
