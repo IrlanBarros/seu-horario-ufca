@@ -1,0 +1,586 @@
+{
+  "curso": {
+    "id": "32652294",
+    "nome": "Ciência da Computação"
+  },
+  "periodo": "2026.2",
+  "atualizado_em": "2026-09-05T15:35:41.787258+00:00",
+  "quantidade_turmas": 25,
+  "turmas": [
+    {
+      "codigo": "CC0063",
+      "disciplina": "ÁLGEBRA LINEAR",
+      "turma": "01",
+      "docente": "ERICA BOIZAN BATISTA",
+      "vagas_reservadas": 50,
+      "horario_sigaa": "24T46",
+      "horarios": [
+        {
+          "dia": 2,
+          "dia_nome": "segunda-feira",
+          "inicio": "14:00",
+          "fim": "16:00"
+        },
+        {
+          "dia": 4,
+          "dia_nome": "quarta-feira",
+          "inicio": "14:00",
+          "fim": "16:00"
+        }
+      ],
+      "periodo": "2026.2"
+    },
+    {
+      "codigo": "CC0061",
+      "disciplina": "ALGORITMOS E ESTRUTURAS DE DADOS",
+      "turma": "01",
+      "docente": "LUIS HENRIQUE BUSTAMANTE DE MORAIS",
+      "vagas_reservadas": 50,
+      "horario_sigaa": "246M68",
+      "horarios": [
+        {
+          "dia": 2,
+          "dia_nome": "segunda-feira",
+          "inicio": "10:00",
+          "fim": "12:00"
+        },
+        {
+          "dia": 4,
+          "dia_nome": "quarta-feira",
+          "inicio": "10:00",
+          "fim": "12:00"
+        },
+        {
+          "dia": 6,
+          "dia_nome": "sexta-feira",
+          "inicio": "10:00",
+          "fim": "12:00"
+        }
+      ],
+      "periodo": "2026.2"
+    },
+    {
+      "codigo": "CC0076",
+      "disciplina": "ARQUITETURA DE COMPUTADORES DE ALTO DESEMPENHO",
+      "turma": "01",
+      "docente": "RAMON SANTOS NEPOMUCENO",
+      "vagas_reservadas": 50,
+      "horario_sigaa": "35T46",
+      "horarios": [
+        {
+          "dia": 3,
+          "dia_nome": "terça-feira",
+          "inicio": "14:00",
+          "fim": "16:00"
+        },
+        {
+          "dia": 5,
+          "dia_nome": "quinta-feira",
+          "inicio": "14:00",
+          "fim": "16:00"
+        }
+      ],
+      "periodo": "2026.2"
+    },
+    {
+      "codigo": "CC0020",
+      "disciplina": "ARQUITETURA E ORGANIZAÇÃO DE COMPUTADORES",
+      "turma": "01",
+      "docente": "RAMON SANTOS NEPOMUCENO",
+      "vagas_reservadas": 50,
+      "horario_sigaa": "35M24",
+      "horarios": [
+        {
+          "dia": 3,
+          "dia_nome": "terça-feira",
+          "inicio": "08:00",
+          "fim": "10:00"
+        },
+        {
+          "dia": 5,
+          "dia_nome": "quinta-feira",
+          "inicio": "08:00",
+          "fim": "10:00"
+        }
+      ],
+      "periodo": "2026.2"
+    },
+    {
+      "codigo": "CC0025",
+      "disciplina": "BANCO DE DADOS",
+      "turma": "01",
+      "docente": "THIAGO BESSA PONTES",
+      "vagas_reservadas": 50,
+      "horario_sigaa": "35M68",
+      "horarios": [
+        {
+          "dia": 3,
+          "dia_nome": "terça-feira",
+          "inicio": "10:00",
+          "fim": "12:00"
+        },
+        {
+          "dia": 5,
+          "dia_nome": "quinta-feira",
+          "inicio": "10:00",
+          "fim": "12:00"
+        }
+      ],
+      "periodo": "2026.2"
+    },
+    {
+      "codigo": "CC0007",
+      "disciplina": "CÁLCULO DIFERENCIAL E INTEGRAL II",
+      "turma": "01",
+      "docente": "FRANCISCA DAMIANA VIEIRA",
+      "vagas_reservadas": 50,
+      "horario_sigaa": "24M24",
+      "horarios": [
+        {
+          "dia": 2,
+          "dia_nome": "segunda-feira",
+          "inicio": "08:00",
+          "fim": "10:00"
+        },
+        {
+          "dia": 4,
+          "dia_nome": "quarta-feira",
+          "inicio": "08:00",
+          "fim": "10:00"
+        }
+      ],
+      "periodo": "2026.2"
+    },
+    {
+      "codigo": "CC0112",
+      "disciplina": "CARREIRA, NEGÓCIOS E SOFT SKILLS",
+      "turma": "01",
+      "docente": "CARLOS JULIAN MENEZES ARAUJO",
+      "vagas_reservadas": 50,
+      "horario_sigaa": "24M24",
+      "horarios": [
+        {
+          "dia": 2,
+          "dia_nome": "segunda-feira",
+          "inicio": "08:00",
+          "fim": "10:00"
+        },
+        {
+          "dia": 4,
+          "dia_nome": "quarta-feira",
+          "inicio": "08:00",
+          "fim": "10:00"
+        }
+      ],
+      "periodo": "2026.2"
+    },
+    {
+      "codigo": "CC0032",
+      "disciplina": "COMPILADORES",
+      "turma": "01",
+      "docente": "LASZLON RODRIGUES DA COSTA",
+      "vagas_reservadas": 50,
+      "horario_sigaa": "24M24",
+      "horarios": [
+        {
+          "dia": 2,
+          "dia_nome": "segunda-feira",
+          "inicio": "08:00",
+          "fim": "10:00"
+        },
+        {
+          "dia": 4,
+          "dia_nome": "quarta-feira",
+          "inicio": "08:00",
+          "fim": "10:00"
+        }
+      ],
+      "periodo": "2026.2"
+    },
+    {
+      "codigo": "CC0068",
+      "disciplina": "COMPUTAÇÃO, ÉTICA E SOCIEDADE",
+      "turma": "01",
+      "docente": "JOAO ADOLFO RIBEIRO BANDEIRA",
+      "vagas_reservadas": 50,
+      "horario_sigaa": "3T46",
+      "horarios": [
+        {
+          "dia": 3,
+          "dia_nome": "terça-feira",
+          "inicio": "14:00",
+          "fim": "16:00"
+        }
+      ],
+      "periodo": "2026.2"
+    },
+    {
+      "codigo": "CC0065",
+      "disciplina": "CONSTRUÇÃO E ANÁLISE DE ALGORITMOS",
+      "turma": "01",
+      "docente": "THIAGO BRAGA MARCILON",
+      "vagas_reservadas": 50,
+      "horario_sigaa": "24M68",
+      "horarios": [
+        {
+          "dia": 2,
+          "dia_nome": "segunda-feira",
+          "inicio": "10:00",
+          "fim": "12:00"
+        },
+        {
+          "dia": 4,
+          "dia_nome": "quarta-feira",
+          "inicio": "10:00",
+          "fim": "12:00"
+        }
+      ],
+      "periodo": "2026.2"
+    },
+    {
+      "codigo": "CC0022",
+      "disciplina": "FUNDAMENTOS DE LINGUAGENS DE PROGRAMAÇÃO",
+      "turma": "01",
+      "docente": "NELSON CARVALHO SANDES",
+      "vagas_reservadas": 50,
+      "horario_sigaa": "24M24",
+      "horarios": [
+        {
+          "dia": 2,
+          "dia_nome": "segunda-feira",
+          "inicio": "08:00",
+          "fim": "10:00"
+        },
+        {
+          "dia": 4,
+          "dia_nome": "quarta-feira",
+          "inicio": "08:00",
+          "fim": "10:00"
+        }
+      ],
+      "periodo": "2026.2"
+    },
+    {
+      "codigo": "CC0005",
+      "disciplina": "FUNDAMENTOS DE MATEMÁTICA DISCRETA",
+      "turma": "01",
+      "docente": "CARLOS VINICIUS GOMES COSTA LIMA",
+      "vagas_reservadas": 50,
+      "horario_sigaa": "35T46",
+      "horarios": [
+        {
+          "dia": 3,
+          "dia_nome": "terça-feira",
+          "inicio": "14:00",
+          "fim": "16:00"
+        },
+        {
+          "dia": 5,
+          "dia_nome": "quinta-feira",
+          "inicio": "14:00",
+          "fim": "16:00"
+        }
+      ],
+      "periodo": "2026.2"
+    },
+    {
+      "codigo": "CC0027",
+      "disciplina": "INTELIGÊNCIA ARTIFICIAL",
+      "turma": "01",
+      "docente": "NELSON CARVALHO SANDES",
+      "vagas_reservadas": 50,
+      "horario_sigaa": "24M68",
+      "horarios": [
+        {
+          "dia": 2,
+          "dia_nome": "segunda-feira",
+          "inicio": "10:00",
+          "fim": "12:00"
+        },
+        {
+          "dia": 4,
+          "dia_nome": "quarta-feira",
+          "inicio": "10:00",
+          "fim": "12:00"
+        }
+      ],
+      "periodo": "2026.2"
+    },
+    {
+      "codigo": "CC0052",
+      "disciplina": "INTRODUÇÃO À ANÁLISE DE DADOS",
+      "turma": "01",
+      "docente": "NELSON CARVALHO SANDES",
+      "vagas_reservadas": 25,
+      "horario_sigaa": "35M24",
+      "horarios": [
+        {
+          "dia": 3,
+          "dia_nome": "terça-feira",
+          "inicio": "08:00",
+          "fim": "10:00"
+        },
+        {
+          "dia": 5,
+          "dia_nome": "quinta-feira",
+          "inicio": "08:00",
+          "fim": "10:00"
+        }
+      ],
+      "periodo": "2026.2"
+    },
+    {
+      "codigo": "CC0062",
+      "disciplina": "LABORATÓRIO DE ALGORITMOS E ESTRUTURAS DE DADOS",
+      "turma": "01",
+      "docente": "ROBERTO HUGO WANDERLEY PINHEIRO",
+      "vagas_reservadas": 25,
+      "horario_sigaa": "35M68",
+      "horarios": [
+        {
+          "dia": 3,
+          "dia_nome": "terça-feira",
+          "inicio": "10:00",
+          "fim": "12:00"
+        },
+        {
+          "dia": 5,
+          "dia_nome": "quinta-feira",
+          "inicio": "10:00",
+          "fim": "12:00"
+        }
+      ],
+      "periodo": "2026.2"
+    },
+    {
+      "codigo": "CC0062",
+      "disciplina": "LABORATÓRIO DE ALGORITMOS E ESTRUTURAS DE DADOS",
+      "turma": "02",
+      "docente": "RAMON SANTOS NEPOMUCENO",
+      "vagas_reservadas": 25,
+      "horario_sigaa": "35M68",
+      "horarios": [
+        {
+          "dia": 3,
+          "dia_nome": "terça-feira",
+          "inicio": "10:00",
+          "fim": "12:00"
+        },
+        {
+          "dia": 5,
+          "dia_nome": "quinta-feira",
+          "inicio": "10:00",
+          "fim": "12:00"
+        }
+      ],
+      "periodo": "2026.2"
+    },
+    {
+      "codigo": "CC0010",
+      "disciplina": "PROBABILIDADE E ESTATÍSTICA",
+      "turma": "01",
+      "docente": "FRANCISCO ALIXANDRE AVILA RODRIGUES",
+      "vagas_reservadas": 50,
+      "horario_sigaa": "35M24",
+      "horarios": [
+        {
+          "dia": 3,
+          "dia_nome": "terça-feira",
+          "inicio": "08:00",
+          "fim": "10:00"
+        },
+        {
+          "dia": 5,
+          "dia_nome": "quinta-feira",
+          "inicio": "08:00",
+          "fim": "10:00"
+        }
+      ],
+      "periodo": "2026.2"
+    },
+    {
+      "codigo": "CC0021",
+      "disciplina": "PROGRAMAÇÃO CONCORRENTE",
+      "turma": "01",
+      "docente": "LASZLON RODRIGUES DA COSTA",
+      "vagas_reservadas": 25,
+      "horario_sigaa": "24M68",
+      "horarios": [
+        {
+          "dia": 2,
+          "dia_nome": "segunda-feira",
+          "inicio": "10:00",
+          "fim": "12:00"
+        },
+        {
+          "dia": 4,
+          "dia_nome": "quarta-feira",
+          "inicio": "10:00",
+          "fim": "12:00"
+        }
+      ],
+      "periodo": "2026.2"
+    },
+    {
+      "codigo": "CC0098",
+      "disciplina": "RACIOCÍNIO AUTOMATIZADO VIA LÓGICA",
+      "turma": "01",
+      "docente": "LUIS HENRIQUE BUSTAMANTE DE MORAIS",
+      "vagas_reservadas": 50,
+      "horario_sigaa": "35T46",
+      "horarios": [
+        {
+          "dia": 3,
+          "dia_nome": "terça-feira",
+          "inicio": "14:00",
+          "fim": "16:00"
+        },
+        {
+          "dia": 5,
+          "dia_nome": "quinta-feira",
+          "inicio": "14:00",
+          "fim": "16:00"
+        }
+      ],
+      "periodo": "2026.2"
+    },
+    {
+      "codigo": "CC0024",
+      "disciplina": "REDES DE COMPUTADORES",
+      "turma": "01",
+      "docente": "CAMILA HELENA SOUZA OLIVEIRA",
+      "vagas_reservadas": 50,
+      "horario_sigaa": "24T46",
+      "horarios": [
+        {
+          "dia": 2,
+          "dia_nome": "segunda-feira",
+          "inicio": "14:00",
+          "fim": "16:00"
+        },
+        {
+          "dia": 4,
+          "dia_nome": "quarta-feira",
+          "inicio": "14:00",
+          "fim": "16:00"
+        }
+      ],
+      "periodo": "2026.2"
+    },
+    {
+      "codigo": "CC0049",
+      "disciplina": "SEGURANÇA DE REDES",
+      "turma": "01",
+      "docente": "CAMILA HELENA SOUZA OLIVEIRA",
+      "vagas_reservadas": 25,
+      "horario_sigaa": "35M68",
+      "horarios": [
+        {
+          "dia": 3,
+          "dia_nome": "terça-feira",
+          "inicio": "10:00",
+          "fim": "12:00"
+        },
+        {
+          "dia": 5,
+          "dia_nome": "quinta-feira",
+          "inicio": "10:00",
+          "fim": "12:00"
+        }
+      ],
+      "periodo": "2026.2"
+    },
+    {
+      "codigo": "CC0042",
+      "disciplina": "SISTEMAS DISTRIBUÍDOS",
+      "turma": "01",
+      "docente": "CARLOS JULIAN MENEZES ARAUJO",
+      "vagas_reservadas": 50,
+      "horario_sigaa": "35M24",
+      "horarios": [
+        {
+          "dia": 3,
+          "dia_nome": "terça-feira",
+          "inicio": "08:00",
+          "fim": "10:00"
+        },
+        {
+          "dia": 5,
+          "dia_nome": "quinta-feira",
+          "inicio": "08:00",
+          "fim": "10:00"
+        }
+      ],
+      "periodo": "2026.2"
+    },
+    {
+      "codigo": "CC0067",
+      "disciplina": "TEORIA DA COMPUTAÇÃO",
+      "turma": "01",
+      "docente": "LUIS HENRIQUE BUSTAMANTE DE MORAIS",
+      "vagas_reservadas": 50,
+      "horario_sigaa": "35M68",
+      "horarios": [
+        {
+          "dia": 3,
+          "dia_nome": "terça-feira",
+          "inicio": "10:00",
+          "fim": "12:00"
+        },
+        {
+          "dia": 5,
+          "dia_nome": "quinta-feira",
+          "inicio": "10:00",
+          "fim": "12:00"
+        }
+      ],
+      "periodo": "2026.2"
+    },
+    {
+      "codigo": "CC0058",
+      "disciplina": "TÓPICOS AVANÇADOS EM ALGORITMOS E COMPLEXIDADE",
+      "turma": "01",
+      "docente": "",
+      "vagas_reservadas": 50,
+      "horario_sigaa": "24T46",
+      "horarios": [
+        {
+          "dia": 2,
+          "dia_nome": "segunda-feira",
+          "inicio": "14:00",
+          "fim": "16:00"
+        },
+        {
+          "dia": 4,
+          "dia_nome": "quarta-feira",
+          "inicio": "14:00",
+          "fim": "16:00"
+        }
+      ],
+      "periodo": "2026.2"
+    },
+    {
+      "codigo": "CC0095",
+      "disciplina": "TÓPICOS AVANÇADOS EM COMPLEXIDADE",
+      "turma": "01",
+      "docente": "THIAGO BRAGA MARCILON",
+      "vagas_reservadas": 50,
+      "horario_sigaa": "24T46",
+      "horarios": [
+        {
+          "dia": 2,
+          "dia_nome": "segunda-feira",
+          "inicio": "14:00",
+          "fim": "16:00"
+        },
+        {
+          "dia": 4,
+          "dia_nome": "quarta-feira",
+          "inicio": "14:00",
+          "fim": "16:00"
+        }
+      ],
+      "periodo": "2026.2"
+    }
+  ]
+}
