@@ -1,0 +1,16 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Node
+node_modules/
+dist/
+
+# Ambiente
+.env
+.env.*
+
+# Arquivos temporários do scraper
+data/*.html
