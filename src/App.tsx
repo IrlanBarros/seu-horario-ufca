@@ -5,6 +5,7 @@ import {
   type ConflitoHorario,
 } from './utils/conflitos'
 import './App.css'
+import GradeSemanal from './components/GradeSemanal'
 
 function gerarIdTurma(turma: Turma) {
   return [
@@ -222,6 +223,10 @@ function App() {
             </p>
           </div>
         </div>
+
+        {selecionadas.length > 0 && (
+          <GradeSemanal turmas={selecionadas} />
+        )}
 
         {selecionadas.length > 0 && (
           <div className="selecionadas">

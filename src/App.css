@@ -240,3 +240,105 @@ header p {
 .selecionada .botao-remover {
   width: auto;
 }
+
+.grade-wrapper {
+  width: 100%;
+  margin-top: 24px;
+  overflow-x: auto;
+  padding-bottom: 8px;
+}
+
+.grade-semanal {
+  display: grid;
+
+  grid-template-columns:
+    68px
+    repeat(5, minmax(150px, 1fr));
+
+  min-width: 850px;
+
+  position: relative;
+}
+
+.grade-canto,
+.grade-dia {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-right: 1px solid #d1d5db;
+  border-bottom: 1px solid #d1d5db;
+
+  background: #f3f4f6;
+
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+
+.grade-canto {
+  border-left: 1px solid #d1d5db;
+  border-top: 1px solid #d1d5db;
+}
+
+.grade-dia {
+  border-top: 1px solid #d1d5db;
+}
+
+.grade-hora {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+
+  padding-top: 2px;
+  padding-right: 8px;
+
+  border-right: 1px solid #d1d5db;
+
+  color: #6b7280;
+  font-size: 0.72rem;
+}
+
+.grade-celula {
+  border-right: 1px solid #e5e7eb;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.grade-aula {
+  z-index: 2;
+
+  display: flex;
+  flex-direction: column;
+
+  min-width: 0;
+
+  margin: 2px 4px;
+  padding: 7px;
+
+  overflow: hidden;
+
+  border: 1px solid #2563eb;
+  border-radius: 7px;
+
+  background: #dbeafe;
+  color: #1e3a8a;
+
+  font-size: 0.78rem;
+}
+
+.grade-aula strong {
+  font-size: 0.8rem;
+}
+
+.grade-aula span {
+  margin-top: 2px;
+
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  font-weight: 600;
+}
+
+.grade-aula small {
+  margin-top: auto;
+  font-size: 0.7rem;
+}
