@@ -257,23 +257,47 @@ def extrair_turmas(html):
 
 
 def salvar_json(turmas):
-    dados = {
+    arquivo = DATA_DIR / f"{ANO}.{PERIODO}.json"
+
+    novos_dados_base = {
         "curso": {
             "id": CURSO_ID,
             "nome": CURSO_NOME,
         },
         "periodo": f"{ANO}.{PERIODO}",
-        "atualizado_em": datetime.now(
-            timezone.utc
-        ).isoformat(),
         "quantidade_turmas": len(turmas),
         "turmas": turmas,
     }
 
-    arquivo = (
-        DATA_DIR
-        / f"{ANO}.{PERIODO}.json"
-    )
+    # Se já existe um JSON, verifica se os dados reais mudaram.
+    if arquivo.exists():
+        try:
+            dados_atuais = json.loads(
+                arquivo.read_text(encoding="utf-8")
+            )
+
+            dados_atuais_base = {
+                "curso": dados_atuais.get("curso"),
+                "periodo": dados_atuais.get("periodo"),
+                "quantidade_turmas": dados_atuais.get(
+                    "quantidade_turmas"
+                ),
+                "turmas": dados_atuais.get("turmas"),
+            }
+
+            if dados_atuais_base == novos_dados_base:
+                print("Nenhuma alteração nas turmas.")
+                return arquivo
+
+        except (json.JSONDecodeError, OSError):
+            pass
+
+    dados = {
+        **novos_dados_base,
+        "atualizado_em": datetime.now(
+            timezone.utc
+        ).isoformat(),
+    }
 
     arquivo.write_text(
         json.dumps(
@@ -283,6 +307,8 @@ def salvar_json(turmas):
         ),
         encoding="utf-8",
     )
+
+    print("Dados alterados. JSON atualizado.")
 
     return arquivo
 
