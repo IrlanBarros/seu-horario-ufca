@@ -4,7 +4,6 @@
     "nome": "Ciência da Computação"
   },
   "periodo": "2026.2",
-  "atualizado_em": "2026-09-05T18:20:19.271899+00:00",
   "quantidade_turmas": 25,
   "turmas": [
     {
@@ -582,5 +581,6 @@
       ],
       "periodo": "2026.2"
     }
-  ]
+  ],
+  "atualizado_em": "2026-09-05T19:18:28.008261+00:00"
 }

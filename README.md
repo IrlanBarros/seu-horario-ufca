@@ -74,7 +74,7 @@ seu-horario-cc-ufca/
 |
 |-- public/
 |   `-- data/
-|       `-- 2026.2.json
+|       `-- atual.json
 |
 |-- scraper/
 |   |-- __init__.py
@@ -311,7 +311,7 @@ python -m scraper.scraper
 Os dados serão gerados em:
 
 ```text
-public/data/2026.2.json
+public/data/atual.json
 ```
 
 ### Instale as dependências do frontend

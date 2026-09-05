@@ -32,7 +32,14 @@ function normalizarTexto(texto: string) {
     .trim()
 }
 
-const STORAGE_KEY = 'seu-horario-cc-ufca:2026.2:turmas'
+function gerarStorageKey(
+  periodo: string,
+) {
+  return (
+    `seu-horario-cc-ufca:` +
+    `${periodo}:turmas`
+  )
+}
 
 function App() {
   const [dados, setDados] = useState<DadosCurso | null>(null)
@@ -51,7 +58,7 @@ function App() {
   useEffect(() => {
     async function carregarDados() {
       try {
-        const response = await fetch('/data/2026.2.json')
+        const response = await fetch('/data/atual.json')
 
         if (!response.ok) {
           throw new Error(
@@ -64,21 +71,35 @@ function App() {
         setDados(json)
 
         try {
+          const storageKey =
+            gerarStorageKey(json.periodo)
+
           const idsSalvos = JSON.parse(
-            localStorage.getItem(STORAGE_KEY) ?? '[]',
+            localStorage.getItem(
+              storageKey,
+            ) ?? '[]',
           ) as string[]
 
-          const turmasSalvas = json.turmas.filter((turma) =>
-            idsSalvos.includes(gerarIdTurma(turma)),
-          )
+          const turmasSalvas =
+            json.turmas.filter((turma) =>
+              idsSalvos.includes(
+                gerarIdTurma(turma),
+              ),
+            )
 
-          setSelecionadas(turmasSalvas)
+          setSelecionadas(
+            turmasSalvas,
+          )
         } catch {
-          localStorage.removeItem(STORAGE_KEY)
+          localStorage.removeItem(
+            gerarStorageKey(json.periodo),
+          )
         }
       } catch (error) {
         console.error(error)
-        setErro('Não foi possível carregar as turmas.')
+        setErro(
+          'Não foi possível carregar as turmas.',
+        )
       }
     }
 
@@ -92,8 +113,11 @@ function App() {
 
     const ids = selecionadas.map(gerarIdTurma)
 
+    const storageKey =
+      gerarStorageKey(dados.periodo)
+
     localStorage.setItem(
-      STORAGE_KEY,
+      storageKey,
       JSON.stringify(ids),
     )
   }, [selecionadas, dados])

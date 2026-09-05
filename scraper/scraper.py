@@ -1,5 +1,6 @@
 import json
 from datetime import datetime, timezone
+from zoneinfo import ZoneInfo
 from pathlib import Path
 from urllib.parse import urljoin
 from .schedule_parser import decodificar_horario
@@ -16,11 +17,20 @@ URL = (
 CURSO_ID = "32652294"
 CURSO_NOME = "Ciência da Computação"
 
-ANO = "2026"
-PERIODO = "2"
-
 DATA_DIR = Path("public/data")
 DATA_DIR.mkdir(parents=True, exist_ok=True)
+FUSO_LOCAL = ZoneInfo("America/Fortaleza")
+
+def gerar_periodos_candidatos():
+    ano_atual = datetime.now(FUSO_LOCAL).year
+
+    return [
+        (str(ano_atual + 1), "1"),
+        (str(ano_atual), "2"),
+        (str(ano_atual), "1"),
+        (str(ano_atual - 1), "2"),
+        (str(ano_atual - 1), "1"),
+    ]
 
 def criar_sessao():
     session = requests.Session()
@@ -50,7 +60,7 @@ def encontrar_valor_periodo(select, periodo):
     )
 
 
-def montar_payload(form, valor_periodo):
+def montar_payload(form, ano, valor_periodo):
     payload = {}
 
     for field in form.find_all("input"):
@@ -61,14 +71,14 @@ def montar_payload(form, valor_periodo):
 
         payload[name] = field.get("value", "")
 
-    payload["form:inputAno"] = ANO
+    payload["form:inputAno"] = ano
     payload["form:inputPeriodo"] = valor_periodo
     payload["form:buscar"] = "Buscar"
 
     return payload
 
 
-def consultar_sigaa():
+def consultar_sigaa(ano, periodo):
     session = criar_sessao()
 
     # Primeiro GET:
@@ -100,11 +110,12 @@ def consultar_sigaa():
 
     valor_periodo = encontrar_valor_periodo(
         select_periodo,
-        PERIODO,
+        periodo,
     )
 
     payload = montar_payload(
         form,
+	ano,
         valor_periodo,
     )
 
@@ -255,41 +266,95 @@ def extrair_turmas(html):
 
     return turmas
 
+def encontrar_periodo_mais_recente():
+    candidatos = gerar_periodos_candidatos()
 
-def salvar_json(turmas):
-    arquivo = DATA_DIR / f"{ANO}.{PERIODO}.json"
+    print()
+    print("Procurando período acadêmico mais recente...")
+
+    for ano, periodo in candidatos:
+        periodo_completo = f"{ano}.{periodo}"
+
+        print()
+        print(f"Verificando {periodo_completo}...")
+
+        html = consultar_sigaa(
+            ano,
+            periodo,
+        )
+
+        turmas = extrair_turmas(html)
+
+        if turmas:
+            print()
+            print(
+                f"Período encontrado: {periodo_completo}"
+            )
+
+            return ano, periodo, turmas
+
+        print(
+            f"Nenhuma turma encontrada em "
+            f"{periodo_completo}."
+        )
+
+    raise RuntimeError(
+        "Nenhum período acadêmico com turmas "
+        "foi encontrado."
+    )
+
+def salvar_json(turmas, ano, periodo):
+    arquivo = DATA_DIR / "atual.json"
+
+    periodo_completo = f"{ano}.{periodo}"
 
     novos_dados_base = {
         "curso": {
             "id": CURSO_ID,
             "nome": CURSO_NOME,
         },
-        "periodo": f"{ANO}.{PERIODO}",
+        "periodo": periodo_completo,
         "quantidade_turmas": len(turmas),
         "turmas": turmas,
     }
 
-    # Se já existe um JSON, verifica se os dados reais mudaram.
     if arquivo.exists():
         try:
             dados_atuais = json.loads(
-                arquivo.read_text(encoding="utf-8")
+                arquivo.read_text(
+                    encoding="utf-8"
+                )
             )
 
             dados_atuais_base = {
-                "curso": dados_atuais.get("curso"),
-                "periodo": dados_atuais.get("periodo"),
+                "curso": dados_atuais.get(
+                    "curso"
+                ),
+                "periodo": dados_atuais.get(
+                    "periodo"
+                ),
                 "quantidade_turmas": dados_atuais.get(
                     "quantidade_turmas"
                 ),
-                "turmas": dados_atuais.get("turmas"),
+                "turmas": dados_atuais.get(
+                    "turmas"
+                ),
             }
 
-            if dados_atuais_base == novos_dados_base:
-                print("Nenhuma alteração nas turmas.")
+            if (
+                dados_atuais_base
+                == novos_dados_base
+            ):
+                print(
+                    "Nenhuma alteração nas turmas."
+                )
+
                 return arquivo
 
-        except (json.JSONDecodeError, OSError):
+        except (
+            json.JSONDecodeError,
+            OSError,
+        ):
             pass
 
     dados = {
@@ -308,32 +373,39 @@ def salvar_json(turmas):
         encoding="utf-8",
     )
 
-    print("Dados alterados. JSON atualizado.")
+    print(
+        "Dados alterados. JSON atualizado."
+    )
 
     return arquivo
-
 
 def main():
     print(
         f"Consultando turmas de "
-        f"{CURSO_NOME} - {ANO}.{PERIODO}..."
+        f"{CURSO_NOME}..."
     )
 
-    html = consultar_sigaa()
+    ano, periodo, turmas = (
+        encontrar_periodo_mais_recente()
+    )
 
-    turmas = extrair_turmas(html)
-
-    if not turmas:
-        raise RuntimeError(
-            "Nenhuma turma foi encontrada."
-        )
-
-    arquivo = salvar_json(turmas)
+    arquivo = salvar_json(
+        turmas,
+        ano,
+        periodo,
+    )
 
     print()
     print("Consulta concluída com sucesso.")
-    print(f"Turmas encontradas: {len(turmas)}")
-    print(f"Arquivo gerado: {arquivo}")
+    print(
+        f"Período: {ano}.{periodo}"
+    )
+    print(
+        f"Turmas encontradas: {len(turmas)}"
+    )
+    print(
+        f"Arquivo gerado: {arquivo}"
+    )
 
     print()
     print("Primeiras turmas:")
@@ -345,7 +417,6 @@ def main():
             f"Turma {turma['turma']} | "
             f"{turma['horario_sigaa']}"
         )
-
 
 if __name__ == "__main__":
     main()
