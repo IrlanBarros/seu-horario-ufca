@@ -10,7 +10,7 @@ const DIAS = [
 ]
 
 const INICIO_GRADE = 7 * 60
-const FIM_GRADE = 23 * 60
+const FIM_GRADE = 18 * 60
 const INTERVALO = 30
 
 function horaParaMinutos(hora: string) {
