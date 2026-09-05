@@ -7,6 +7,7 @@ import {
 import './App.css'
 import GradeSemanal from './components/GradeSemanal'
 import { exportarHorarioCsv } from './utils/exportarCsv'
+import { exportarHorarioPdf } from './utils/exportarPdf'
 
 type FiltroTurmas =
   | 'todas'
@@ -313,18 +314,33 @@ function App() {
         </div>
 
         {selecionadas.length > 0 && (
-          <button
-            type="button"
-            className="botao-exportar"
-            onClick={() =>
-              exportarHorarioCsv(
-                selecionadas,
-                dados.periodo,
-              )
-            }
-          >
-            Exportar CSV
-          </button>
+          <div className="acoes-exportacao">
+            <button
+              type="button"
+              className="botao-exportar"
+              onClick={() =>
+                exportarHorarioCsv(
+                  selecionadas,
+                  dados.periodo,
+                )
+              }
+            >
+              Exportar CSV
+            </button>
+
+            <button
+              type="button"
+              className="botao-exportar"
+              onClick={() =>
+                exportarHorarioPdf(
+                  selecionadas,
+                  dados.periodo,
+                )
+              }
+            >
+              Exportar PDF
+            </button>
+          </div>
         )}
 
         {selecionadas.length > 0 && (

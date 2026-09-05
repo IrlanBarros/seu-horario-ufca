@@ -463,6 +463,12 @@ header p {
   background: #1d4ed8;
 }
 
+.acoes-exportacao {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
 @media (max-width: 600px) {
   .meu-horario-cabecalho {
     align-items: stretch;
@@ -472,4 +478,13 @@ header p {
   .botao-exportar {
     width: 100%;
   }
+
+  .acoes-exportacao {
+    width: 100%;
+  }
+
+  .acoes-exportacao .botao-exportar {
+    flex: 1;
+  }
 }
+
