@@ -1,0 +1,70 @@
+#root {
+  min-height: 100vh;
+}
+
+.container {
+  width: min(1100px, 92%);
+  margin: 0 auto;
+  padding: 40px 0;
+}
+
+header {
+  margin-bottom: 32px;
+}
+
+header h1 {
+  margin-bottom: 8px;
+}
+
+header p {
+  margin-bottom: 8px;
+}
+
+.lista-turmas {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(300px, 1fr)
+  );
+  gap: 16px;
+}
+
+.turma-card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.turma-cabecalho {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.codigo {
+  font-weight: 700;
+}
+
+.turma-card h2 {
+  font-size: 1.15rem;
+  margin: 12px 0 16px;
+}
+
+.turma-card p {
+  margin: 8px 0;
+}
+
+.horarios {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-top: 14px;
+}
+
+.horario {
+  font-size: 0.9rem;
+}
+
+.erro {
+  color: #c00;
+}
