@@ -6,6 +6,12 @@ O sistema utiliza as turmas disponibilizadas publicamente pelo SIGAA da UFCA e p
 
 O projeto foi desenvolvido com uma arquitetura sem backend permanente, mantendo a aplicação simples, rápida e de baixo custo.
 
+## Acesso
+
+A aplicação está disponível em:
+
+https://horarioccufca.pages.dev/
+
 ## Funcionalidades
 
 - Consulta automática das turmas de Ciência da Computação disponíveis no SIGAA da UFCA
