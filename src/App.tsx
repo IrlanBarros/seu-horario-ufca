@@ -6,6 +6,7 @@ import {
 } from './utils/conflitos'
 import './App.css'
 import GradeSemanal from './components/GradeSemanal'
+import { exportarHorarioCsv } from './utils/exportarCsv'
 
 type FiltroTurmas =
   | 'todas'
@@ -310,6 +311,21 @@ function App() {
             </p>
           </div>
         </div>
+
+        {selecionadas.length > 0 && (
+          <button
+            type="button"
+            className="botao-exportar"
+            onClick={() =>
+              exportarHorarioCsv(
+                selecionadas,
+                dados.periodo,
+              )
+            }
+          >
+            Exportar CSV
+          </button>
+        )}
 
         {selecionadas.length > 0 && (
           <GradeSemanal turmas={selecionadas} />
