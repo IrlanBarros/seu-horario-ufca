@@ -488,3 +488,36 @@ header p {
   }
 }
 
+.curso-selector {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  margin-top: 1rem;
+  max-width: 520px;
+}
+
+.curso-selector label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #475569;
+}
+
+.curso-selector select {
+  width: 100%;
+  padding: 0.75rem 0.9rem;
+  border: 1px solid #cbd5e1;
+  border-radius: 0.6rem;
+  background: #ffffff;
+  font: inherit;
+  color: #0f172a;
+  cursor: pointer;
+}
+
+.curso-selector select:hover {
+  border-color: #94a3b8;
+}
+
+.curso-selector select:focus {
+  outline: 2px solid #2563eb;
+  outline-offset: 2px;
+}

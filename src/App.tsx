@@ -375,14 +375,13 @@ function App() {
           Seu Horário - UFCA
         </h1>
 
-          <div className="seletor-curso-container">
+          <div className="curso-selector">
             <label htmlFor="curso">
               Curso
             </label>
 
             <select
               id="curso"
-              className="seletor-curso"
               value={cursoSelecionadoId ?? ''}
               onChange={(event) =>
                 trocarCurso(event.target.value)
@@ -393,10 +392,10 @@ function App() {
                   key={curso.id}
                   value={curso.id}
                 >
-                      {gerarRotuloCurso(
-                        curso,
-                        dados.cursos,
-                      )}
+                  {gerarRotuloCurso(
+                    curso,
+                    dados.cursos,
+                  )}
                 </option>
               ))}
             </select>
