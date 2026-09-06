@@ -41,7 +41,7 @@ function gerarStorageKey(
   cursoId: string,
 ) {
   return (
-    `seu-horario-cc-ufca:` +
+    `seu-horario-ufca:` +
     `${periodo}:${cursoId}:turmas`
   )
 }

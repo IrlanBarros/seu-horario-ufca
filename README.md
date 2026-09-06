@@ -1,6 +1,6 @@
-# Seu Horário CC - UFCA
+# Seu Horário - UFCA
 
-Aplicação web para auxiliar estudantes de Ciência da Computação da Universidade Federal do Cariri na montagem do horário acadêmico.
+Aplicação web para auxiliar estudantes da Universidade Federal do Cariri (campus Juazeiro do Norte) na montagem do horário acadêmico.
 
 O sistema utiliza as turmas disponibilizadas publicamente pelo SIGAA da UFCA e permite selecionar disciplinas, visualizar a grade semanal, identificar conflitos de horário e exportar o planejamento em CSV ou PDF.
 
@@ -10,11 +10,11 @@ O projeto foi desenvolvido com uma arquitetura sem backend permanente, mantendo 
 
 A aplicação está disponível em:
 
-https://horarioccufca.pages.dev/
+https://seuhorarioufca.pages.dev/
 
 ## Funcionalidades
 
-- Consulta automática das turmas de Ciência da Computação disponíveis no SIGAA da UFCA
+- Consulta automática das turmas no SIGAA da UFCA (todos os cursos do campus Juazeiro do Norte)
 - Conversão dos códigos de horário do SIGAA para dias e horários reais
 - Seleção e remoção de turmas
 - Detecção automática de conflitos de horário
@@ -71,7 +71,7 @@ Isso permite que o frontend permaneça completamente estático.
 ## Arquitetura
 
 ```text
-seu-horario-cc-ufca/
+seu-horario-ufca/
 |
 |-- .github/
 |   `-- workflows/
@@ -286,7 +286,7 @@ Git
 
 ```bash
 git clone <URL_DO_REPOSITORIO>
-cd seu-horario-cc-ufca
+cd seu-horario-ufca
 ```
 
 ### Configure o ambiente Python
