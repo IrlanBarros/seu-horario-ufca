@@ -1,0 +1,3619 @@
+{
+  "2137": {
+    "codigo": "CAR0008",
+    "nome": "CÁLCULO I",
+    "pre_requisitos_expressao": null,
+    "pre_requisitos_codigos": [],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": "( CAR0001 OU CC0002 OU MC0001 )",
+    "equivalencias_codigos": [
+      "CAR0001",
+      "CC0002",
+      "MC0001"
+    ],
+    "pre_requisitos_regra": null
+  },
+  "3959": {
+    "codigo": "CAR0033",
+    "nome": "ÁLGEBRA VETORIAL E GEOMETRIA ANALÍTICA",
+    "pre_requisitos_expressao": null,
+    "pre_requisitos_codigos": [],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": "( CAR0009 OU EM0004 OU CC0004 OU MC0002 )",
+    "equivalencias_codigos": [
+      "CAR0009",
+      "EM0004",
+      "CC0004",
+      "MC0002"
+    ],
+    "pre_requisitos_regra": null
+  },
+  "1534": {
+    "codigo": "ECI0079",
+    "nome": "INTRODUÇÃO À ENGENHARIA CIVIL",
+    "pre_requisitos_expressao": null,
+    "pre_requisitos_codigos": [],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": null,
+    "equivalencias_codigos": [],
+    "pre_requisitos_regra": null
+  },
+  "2140": {
+    "codigo": "ECI0088",
+    "nome": "QUÍMICA GERAL PARA ENGENHARIAS",
+    "pre_requisitos_expressao": null,
+    "pre_requisitos_codigos": [],
+    "co_requisitos_expressao": "( ECI0089 )",
+    "co_requisitos_codigos": [
+      "ECI0089"
+    ],
+    "equivalencias_expressao": "( EM0076 )",
+    "equivalencias_codigos": [
+      "EM0076"
+    ],
+    "pre_requisitos_regra": null
+  },
+  "2141": {
+    "codigo": "ECI0089",
+    "nome": "LABORATÓRIO DE QUÍMICA GERAL PARA ENGENHARIAS",
+    "pre_requisitos_expressao": null,
+    "pre_requisitos_codigos": [],
+    "co_requisitos_expressao": "( ECI0088 )",
+    "co_requisitos_codigos": [
+      "ECI0088"
+    ],
+    "equivalencias_expressao": "( EM0077 )",
+    "equivalencias_codigos": [
+      "EM0077"
+    ],
+    "pre_requisitos_regra": null
+  },
+  "1306": {
+    "codigo": "CAR0002",
+    "nome": "FISICA FUNDAMENTAL I",
+    "pre_requisitos_expressao": "( CAR0008 E CAR0009 ) OU ( CAR0008 E CAR0033 )",
+    "pre_requisitos_codigos": [
+      "CAR0008",
+      "CAR0009",
+      "CAR0008",
+      "CAR0033"
+    ],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": "( EM0008 OU CC0008 OU MC0009 OU EM0078 )",
+    "equivalencias_codigos": [
+      "EM0008",
+      "CC0008",
+      "MC0009",
+      "EM0078"
+    ],
+    "pre_requisitos_regra": {
+      "operador": "OU",
+      "esquerda": {
+        "operador": "E",
+        "esquerda": {
+          "codigo": "CAR0008"
+        },
+        "direita": {
+          "codigo": "CAR0009"
+        }
+      },
+      "direita": {
+        "operador": "E",
+        "esquerda": {
+          "codigo": "CAR0008"
+        },
+        "direita": {
+          "codigo": "CAR0033"
+        }
+      }
+    }
+  },
+  "1307": {
+    "codigo": "CAR0003",
+    "nome": "PROBABILIDADE E ESTATÍSTICA",
+    "pre_requisitos_expressao": "( CAR0001 OU CAR0008 )",
+    "pre_requisitos_codigos": [
+      "CAR0001",
+      "CAR0008"
+    ],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": "( EM0012 OU CC0010 OU MC0007 )",
+    "equivalencias_codigos": [
+      "EM0012",
+      "CC0010",
+      "MC0007"
+    ],
+    "pre_requisitos_regra": {
+      "operador": "OU",
+      "esquerda": {
+        "codigo": "CAR0001"
+      },
+      "direita": {
+        "codigo": "CAR0008"
+      }
+    }
+  },
+  "2142": {
+    "codigo": "CAR0011",
+    "nome": "CÁLCULO II",
+    "pre_requisitos_expressao": "( CAR0008 )",
+    "pre_requisitos_codigos": [
+      "CAR0008"
+    ],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": "( CC0007 OU MC0005 OU CAR0004 )",
+    "equivalencias_codigos": [
+      "CC0007",
+      "MC0005",
+      "CAR0004"
+    ],
+    "pre_requisitos_regra": {
+      "codigo": "CAR0008"
+    }
+  },
+  "939": {
+    "codigo": "ECI0002",
+    "nome": "ALGEBRA LINEAR",
+    "pre_requisitos_expressao": "( CAR0009 OU CAR0033 )",
+    "pre_requisitos_codigos": [
+      "CAR0009",
+      "CAR0033"
+    ],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": "( EM0010 OU CC0009 OU CC0063 OU MC0006 )",
+    "equivalencias_codigos": [
+      "EM0010",
+      "CC0009",
+      "CC0063",
+      "MC0006"
+    ],
+    "pre_requisitos_regra": {
+      "operador": "OU",
+      "esquerda": {
+        "codigo": "CAR0009"
+      },
+      "direita": {
+        "codigo": "CAR0033"
+      }
+    }
+  },
+  "628": {
+    "codigo": "ECI0009",
+    "nome": "DESENHO PARA A ENGENHARIA",
+    "pre_requisitos_expressao": null,
+    "pre_requisitos_codigos": [],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": "( EM0002 )",
+    "equivalencias_codigos": [
+      "EM0002"
+    ],
+    "pre_requisitos_regra": null
+  },
+  "1478": {
+    "codigo": "ECI0078",
+    "nome": "FÍSICA EXPERIMENTAL PARA ENGENHARIA",
+    "pre_requisitos_expressao": "( CAR0008 )",
+    "pre_requisitos_codigos": [
+      "CAR0008"
+    ],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": "( EM0048 OU EM0083 )",
+    "equivalencias_codigos": [
+      "EM0048",
+      "EM0083"
+    ],
+    "pre_requisitos_regra": {
+      "codigo": "CAR0008"
+    }
+  },
+  "2143": {
+    "codigo": "CAR0012",
+    "nome": "CÁLCULO III",
+    "pre_requisitos_expressao": "( CAR0011 )",
+    "pre_requisitos_codigos": [
+      "CAR0011"
+    ],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": "( CC0013 OU MC0011 OU CAR0005 )",
+    "equivalencias_codigos": [
+      "CC0013",
+      "MC0011",
+      "CAR0005"
+    ],
+    "pre_requisitos_regra": {
+      "codigo": "CAR0011"
+    }
+  },
+  "4031": {
+    "codigo": "CAR0034",
+    "nome": "EQUAÇÕES DIFERENCIAIS ORDINÁRIAS",
+    "pre_requisitos_expressao": "( CAR0011 )",
+    "pre_requisitos_codigos": [
+      "CAR0011"
+    ],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": "( ECI0015 OU EM0019 OU MC0017 OU CAR0017 )",
+    "equivalencias_codigos": [
+      "ECI0015",
+      "EM0019",
+      "MC0017",
+      "CAR0017"
+    ],
+    "pre_requisitos_regra": {
+      "codigo": "CAR0011"
+    }
+  },
+  "618": {
+    "codigo": "ECI0025",
+    "nome": "FISICA FUNDAMENTAL II",
+    "pre_requisitos_expressao": "( CAR0002 E CAR0011 )",
+    "pre_requisitos_codigos": [
+      "CAR0002",
+      "CAR0011"
+    ],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": "( ECI0097 OU EM0015 )",
+    "equivalencias_codigos": [
+      "ECI0097",
+      "EM0015"
+    ],
+    "pre_requisitos_regra": {
+      "operador": "E",
+      "esquerda": {
+        "codigo": "CAR0002"
+      },
+      "direita": {
+        "codigo": "CAR0011"
+      }
+    }
+  },
+  "2161": {
+    "codigo": "ECI0098",
+    "nome": "MECÂNICA PARA ENGENHARIA CIVIL I",
+    "pre_requisitos_expressao": "CAR0002",
+    "pre_requisitos_codigos": [
+      "CAR0002"
+    ],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": "( ECI0013 OU EM0017 )",
+    "equivalencias_codigos": [
+      "ECI0013",
+      "EM0017"
+    ],
+    "pre_requisitos_regra": {
+      "codigo": "CAR0002"
+    }
+  },
+  "2162": {
+    "codigo": "ECI0099",
+    "nome": "INTRODUÇÃO À PROGRAMAÇÃO",
+    "pre_requisitos_expressao": null,
+    "pre_requisitos_codigos": [],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": "( ECI0007 OU EM0006 OU CC0001 OU MC0004 OU EM0084 )",
+    "equivalencias_codigos": [
+      "ECI0007",
+      "EM0006",
+      "CC0001",
+      "MC0004",
+      "EM0084"
+    ],
+    "pre_requisitos_regra": null
+  },
+  "2164": {
+    "codigo": "ECI0100",
+    "nome": "TOPOGRAFIA",
+    "pre_requisitos_expressao": "ECI0009",
+    "pre_requisitos_codigos": [
+      "ECI0009"
+    ],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": "ECI0012",
+    "equivalencias_codigos": [
+      "ECI0012"
+    ],
+    "pre_requisitos_regra": {
+      "codigo": "ECI0009"
+    }
+  },
+  "626": {
+    "codigo": "ECI0011",
+    "nome": "ELETROMAGNETISMO",
+    "pre_requisitos_expressao": "( CAR0012 ) E ( ECI0025 OU ECI0097 )",
+    "pre_requisitos_codigos": [
+      "CAR0012",
+      "ECI0025",
+      "ECI0097"
+    ],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": "( ECI0101 OU EM0020 OU CC0014 OU MC0010 OU MC0041 )",
+    "equivalencias_codigos": [
+      "ECI0101",
+      "EM0020",
+      "CC0014",
+      "MC0010",
+      "MC0041"
+    ],
+    "pre_requisitos_regra": {
+      "operador": "E",
+      "esquerda": {
+        "codigo": "CAR0012"
+      },
+      "direita": {
+        "operador": "OU",
+        "esquerda": {
+          "codigo": "ECI0025"
+        },
+        "direita": {
+          "codigo": "ECI0097"
+        }
+      }
+    }
+  },
+  "784": {
+    "codigo": "ECI0016",
+    "nome": "FUNDAMENTOS DA ECONOMIA",
+    "pre_requisitos_expressao": null,
+    "pre_requisitos_codigos": [],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": "( EM0031 OU EM0101 OU ECI0102 )",
+    "equivalencias_codigos": [
+      "EM0031",
+      "EM0101",
+      "ECI0102"
+    ],
+    "pre_requisitos_regra": null
+  },
+  "620": {
+    "codigo": "ECI0023",
+    "nome": "MECANICA DOS FLUIDOS",
+    "pre_requisitos_expressao": "( CAR0012 E ECI0098 ) OU ( ECI0013 E CAR0005 )",
+    "pre_requisitos_codigos": [
+      "CAR0012",
+      "ECI0098",
+      "ECI0013",
+      "CAR0005"
+    ],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": null,
+    "equivalencias_codigos": [],
+    "pre_requisitos_regra": {
+      "operador": "OU",
+      "esquerda": {
+        "operador": "E",
+        "esquerda": {
+          "codigo": "CAR0012"
+        },
+        "direita": {
+          "codigo": "ECI0098"
+        }
+      },
+      "direita": {
+        "operador": "E",
+        "esquerda": {
+          "codigo": "ECI0013"
+        },
+        "direita": {
+          "codigo": "CAR0005"
+        }
+      }
+    }
+  },
+  "1535": {
+    "codigo": "ECI0080",
+    "nome": "CÁLCULO NUMÉRICO",
+    "pre_requisitos_expressao": "( ( CAR0017 OU CAR0034 ) E ( ECI0099 ) ) OU ( ECI0007 E ECI0015 )",
+    "pre_requisitos_codigos": [
+      "CAR0017",
+      "CAR0034",
+      "ECI0099",
+      "ECI0007",
+      "ECI0015"
+    ],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": "( EM0014 OU CC0018 OU MC0014 )",
+    "equivalencias_codigos": [
+      "EM0014",
+      "CC0018",
+      "MC0014"
+    ],
+    "pre_requisitos_regra": {
+      "operador": "OU",
+      "esquerda": {
+        "operador": "E",
+        "esquerda": {
+          "operador": "OU",
+          "esquerda": {
+            "codigo": "CAR0017"
+          },
+          "direita": {
+            "codigo": "CAR0034"
+          }
+        },
+        "direita": {
+          "codigo": "ECI0099"
+        }
+      },
+      "direita": {
+        "operador": "E",
+        "esquerda": {
+          "codigo": "ECI0007"
+        },
+        "direita": {
+          "codigo": "ECI0015"
+        }
+      }
+    }
+  },
+  "2167": {
+    "codigo": "ECI0103",
+    "nome": "MECÂNICA DAS ESTRUTURAS",
+    "pre_requisitos_expressao": "( ECI0013 OU ECI0098 )",
+    "pre_requisitos_codigos": [
+      "ECI0013",
+      "ECI0098"
+    ],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": "( ECI0017 OU EM0023 OU EM0089 )",
+    "equivalencias_codigos": [
+      "ECI0017",
+      "EM0023",
+      "EM0089"
+    ],
+    "pre_requisitos_regra": {
+      "operador": "OU",
+      "esquerda": {
+        "codigo": "ECI0013"
+      },
+      "direita": {
+        "codigo": "ECI0098"
+      }
+    }
+  },
+  "2168": {
+    "codigo": "ECI0104",
+    "nome": "MATERIAIS DE CONSTRUÇÃO CIVIL I",
+    "pre_requisitos_expressao": "( ECI0079 ) E ( ECI0088 ) E ( ECI0089 ) E ( CAR0003 )",
+    "pre_requisitos_codigos": [
+      "ECI0079",
+      "ECI0088",
+      "ECI0089",
+      "CAR0003"
+    ],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": "( ECI0014 )",
+    "equivalencias_codigos": [
+      "ECI0014"
+    ],
+    "pre_requisitos_regra": {
+      "operador": "E",
+      "esquerda": {
+        "operador": "E",
+        "esquerda": {
+          "operador": "E",
+          "esquerda": {
+            "codigo": "ECI0079"
+          },
+          "direita": {
+            "codigo": "ECI0088"
+          }
+        },
+        "direita": {
+          "codigo": "ECI0089"
+        }
+      },
+      "direita": {
+        "codigo": "CAR0003"
+      }
+    }
+  },
+  "622": {
+    "codigo": "ECI0021",
+    "nome": "FUNDAMENTOS DE ADMINISTRACAO",
+    "pre_requisitos_expressao": null,
+    "pre_requisitos_codigos": [],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": "( EM0029 OU EM0099 )",
+    "equivalencias_codigos": [
+      "EM0029",
+      "EM0099"
+    ],
+    "pre_requisitos_regra": null
+  },
+  "775": {
+    "codigo": "ECI0028",
+    "nome": "RESISTENCIA DOS MATERIAIS I",
+    "pre_requisitos_expressao": "( ECI0017 OU ECI0103 )",
+    "pre_requisitos_codigos": [
+      "ECI0017",
+      "ECI0103"
+    ],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": null,
+    "equivalencias_codigos": [],
+    "pre_requisitos_regra": {
+      "operador": "OU",
+      "esquerda": {
+        "codigo": "ECI0017"
+      },
+      "direita": {
+        "codigo": "ECI0103"
+      }
+    }
+  },
+  "851": {
+    "codigo": "ECI0031",
+    "nome": "MECANICA DOS SOLOS I",
+    "pre_requisitos_expressao": "( ECI0013 OU ECI0098 )",
+    "pre_requisitos_codigos": [
+      "ECI0013",
+      "ECI0098"
+    ],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": null,
+    "equivalencias_codigos": [],
+    "pre_requisitos_regra": {
+      "operador": "OU",
+      "esquerda": {
+        "codigo": "ECI0013"
+      },
+      "direita": {
+        "codigo": "ECI0098"
+      }
+    }
+  },
+  "2169": {
+    "codigo": "ECI0105",
+    "nome": "MATERIAIS DE CONSTRUÇÃO CIVIL II",
+    "pre_requisitos_expressao": "( ECI0014 OU ECI0104 )",
+    "pre_requisitos_codigos": [
+      "ECI0014",
+      "ECI0104"
+    ],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": "ECI0018",
+    "equivalencias_codigos": [
+      "ECI0018"
+    ],
+    "pre_requisitos_regra": {
+      "operador": "OU",
+      "esquerda": {
+        "codigo": "ECI0014"
+      },
+      "direita": {
+        "codigo": "ECI0104"
+      }
+    }
+  },
+  "2170": {
+    "codigo": "ECI0106",
+    "nome": "ANÁLISE E PLANEJAMENTO DE SISTEMA DE TRANSPORTES",
+    "pre_requisitos_expressao": "( ECI0020 E ECI0021 ) OU ( CAR0003 E ECI0102 ) OU ( CAR0003 E ECI0016 )",
+    "pre_requisitos_codigos": [
+      "ECI0020",
+      "ECI0021",
+      "CAR0003",
+      "ECI0102",
+      "CAR0003",
+      "ECI0016"
+    ],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": "ECI0030",
+    "equivalencias_codigos": [
+      "ECI0030"
+    ],
+    "pre_requisitos_regra": {
+      "operador": "OU",
+      "esquerda": {
+        "operador": "OU",
+        "esquerda": {
+          "operador": "E",
+          "esquerda": {
+            "codigo": "ECI0020"
+          },
+          "direita": {
+            "codigo": "ECI0021"
+          }
+        },
+        "direita": {
+          "operador": "E",
+          "esquerda": {
+            "codigo": "CAR0003"
+          },
+          "direita": {
+            "codigo": "ECI0102"
+          }
+        }
+      },
+      "direita": {
+        "operador": "E",
+        "esquerda": {
+          "codigo": "CAR0003"
+        },
+        "direita": {
+          "codigo": "ECI0016"
+        }
+      }
+    }
+  },
+  "4032": {
+    "codigo": "ECI0135",
+    "nome": "HIDRÁULICA APLICADA",
+    "pre_requisitos_expressao": "( ECI0023 )",
+    "pre_requisitos_codigos": [
+      "ECI0023"
+    ],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": "( ECI0032 )",
+    "equivalencias_codigos": [
+      "ECI0032"
+    ],
+    "pre_requisitos_regra": {
+      "codigo": "ECI0023"
+    }
+  },
+  "785": {
+    "codigo": "ECI0034",
+    "nome": "RESISTENCIA DOS MATERIAIS II",
+    "pre_requisitos_expressao": "( ECI0028 )",
+    "pre_requisitos_codigos": [
+      "ECI0028"
+    ],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": null,
+    "equivalencias_codigos": [],
+    "pre_requisitos_regra": {
+      "codigo": "ECI0028"
+    }
+  },
+  "855": {
+    "codigo": "ECI0036",
+    "nome": "PROJETO E CONSTRUCAO DA INFRA ESTRUTURA VIARIA",
+    "pre_requisitos_expressao": "( ECI0012 OU ECI0100 ) E ( ECI0030 OU ECI0106 )",
+    "pre_requisitos_codigos": [
+      "ECI0012",
+      "ECI0100",
+      "ECI0030",
+      "ECI0106"
+    ],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": null,
+    "equivalencias_codigos": [],
+    "pre_requisitos_regra": {
+      "operador": "E",
+      "esquerda": {
+        "operador": "OU",
+        "esquerda": {
+          "codigo": "ECI0012"
+        },
+        "direita": {
+          "codigo": "ECI0100"
+        }
+      },
+      "direita": {
+        "operador": "OU",
+        "esquerda": {
+          "codigo": "ECI0030"
+        },
+        "direita": {
+          "codigo": "ECI0106"
+        }
+      }
+    }
+  },
+  "801": {
+    "codigo": "ECI0037",
+    "nome": "MECANICA DOS SOLOS II",
+    "pre_requisitos_expressao": "( ECI0031 )",
+    "pre_requisitos_codigos": [
+      "ECI0031"
+    ],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": null,
+    "equivalencias_codigos": [],
+    "pre_requisitos_regra": {
+      "codigo": "ECI0031"
+    }
+  },
+  "764": {
+    "codigo": "ECI0044",
+    "nome": "HIDROLOGIA",
+    "pre_requisitos_expressao": "( CAR0003 ) E ( ECI0032 OU ECI0135 )",
+    "pre_requisitos_codigos": [
+      "CAR0003",
+      "ECI0032",
+      "ECI0135"
+    ],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": null,
+    "equivalencias_codigos": [],
+    "pre_requisitos_regra": {
+      "operador": "E",
+      "esquerda": {
+        "codigo": "CAR0003"
+      },
+      "direita": {
+        "operador": "OU",
+        "esquerda": {
+          "codigo": "ECI0032"
+        },
+        "direita": {
+          "codigo": "ECI0135"
+        }
+      }
+    }
+  },
+  "607": {
+    "codigo": "ECI0045",
+    "nome": "HIGIENE IND E SEGURANCA DO TRABALHO",
+    "pre_requisitos_expressao": "( ECI0105 )",
+    "pre_requisitos_codigos": [
+      "ECI0105"
+    ],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": "( EM0013 )",
+    "equivalencias_codigos": [
+      "EM0013"
+    ],
+    "pre_requisitos_regra": {
+      "codigo": "ECI0105"
+    }
+  },
+  "2171": {
+    "codigo": "ECI0107",
+    "nome": "PROJETO E CONSTRUÇÃO DE EDIFÍCIOS I",
+    "pre_requisitos_expressao": "( ECI0012 E ECI0018 E ECI0022 ) OU ( ECI0100 E ECI0105 )",
+    "pre_requisitos_codigos": [
+      "ECI0012",
+      "ECI0018",
+      "ECI0022",
+      "ECI0100",
+      "ECI0105"
+    ],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": "ECI0029",
+    "equivalencias_codigos": [
+      "ECI0029"
+    ],
+    "pre_requisitos_regra": {
+      "operador": "OU",
+      "esquerda": {
+        "operador": "E",
+        "esquerda": {
+          "operador": "E",
+          "esquerda": {
+            "codigo": "ECI0012"
+          },
+          "direita": {
+            "codigo": "ECI0018"
+          }
+        },
+        "direita": {
+          "codigo": "ECI0022"
+        }
+      },
+      "direita": {
+        "operador": "E",
+        "esquerda": {
+          "codigo": "ECI0100"
+        },
+        "direita": {
+          "codigo": "ECI0105"
+        }
+      }
+    }
+  },
+  "2144": {
+    "codigo": "ECI0090",
+    "nome": "SANEAMENTO I",
+    "pre_requisitos_expressao": "( ( ECI0020 ) E ( ECI0032 OU ECI0135 ) ) OU ( ( ECI0032 OU ECI0135 ) E ( ECI0088 E ECI0089 ) )",
+    "pre_requisitos_codigos": [
+      "ECI0020",
+      "ECI0032",
+      "ECI0135",
+      "ECI0032",
+      "ECI0135",
+      "ECI0088",
+      "ECI0089"
+    ],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": "( ECI0043 )",
+    "equivalencias_codigos": [
+      "ECI0043"
+    ],
+    "pre_requisitos_regra": {
+      "operador": "OU",
+      "esquerda": {
+        "operador": "E",
+        "esquerda": {
+          "codigo": "ECI0020"
+        },
+        "direita": {
+          "operador": "OU",
+          "esquerda": {
+            "codigo": "ECI0032"
+          },
+          "direita": {
+            "codigo": "ECI0135"
+          }
+        }
+      },
+      "direita": {
+        "operador": "E",
+        "esquerda": {
+          "operador": "OU",
+          "esquerda": {
+            "codigo": "ECI0032"
+          },
+          "direita": {
+            "codigo": "ECI0135"
+          }
+        },
+        "direita": {
+          "operador": "E",
+          "esquerda": {
+            "codigo": "ECI0088"
+          },
+          "direita": {
+            "codigo": "ECI0089"
+          }
+        }
+      }
+    }
+  },
+  "2173": {
+    "codigo": "ECI0109",
+    "nome": "PROJETO E CONSTRUÇÃO DE EDIFÍCIOS II",
+    "pre_requisitos_expressao": "( ECI0029 OU ECI0107 )",
+    "pre_requisitos_codigos": [
+      "ECI0029",
+      "ECI0107"
+    ],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": "ECI0035",
+    "equivalencias_codigos": [
+      "ECI0035"
+    ],
+    "pre_requisitos_regra": {
+      "operador": "OU",
+      "esquerda": {
+        "codigo": "ECI0029"
+      },
+      "direita": {
+        "codigo": "ECI0107"
+      }
+    }
+  },
+  "2177": {
+    "codigo": "ECI0113",
+    "nome": "ESTRUTURAS DE CONCRETO I",
+    "pre_requisitos_expressao": "ECI0034",
+    "pre_requisitos_codigos": [
+      "ECI0034"
+    ],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": "ECI0040",
+    "equivalencias_codigos": [
+      "ECI0040"
+    ],
+    "pre_requisitos_regra": {
+      "codigo": "ECI0034"
+    }
+  },
+  "4033": {
+    "codigo": "ECI0136",
+    "nome": "PROJETO E CONSTRUÇÃO DA SUPERESTRUTURA VIÁRIA",
+    "pre_requisitos_expressao": "( ECI0036 )",
+    "pre_requisitos_codigos": [
+      "ECI0036"
+    ],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": "( ECI0042 OU ECI0110 )",
+    "equivalencias_codigos": [
+      "ECI0042",
+      "ECI0110"
+    ],
+    "pre_requisitos_regra": {
+      "codigo": "ECI0036"
+    }
+  },
+  "4034": {
+    "codigo": "ECI0137",
+    "nome": "FUNDAÇÕES",
+    "pre_requisitos_expressao": "( ECI0037 )",
+    "pre_requisitos_codigos": [
+      "ECI0037"
+    ],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": "( ECI0060 OU ECI0111 )",
+    "equivalencias_codigos": [
+      "ECI0060",
+      "ECI0111"
+    ],
+    "pre_requisitos_regra": {
+      "codigo": "ECI0037"
+    }
+  },
+  "4035": {
+    "codigo": "ECI0138",
+    "nome": "ANÁLISE DE ESTRUTURAS",
+    "pre_requisitos_expressao": "( ECI0034 )",
+    "pre_requisitos_codigos": [
+      "ECI0034"
+    ],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": "( ECI0039 E ECI0046 ) OU ( ECI0112 E ECI0114 )",
+    "equivalencias_codigos": [
+      "ECI0039",
+      "ECI0046",
+      "ECI0112",
+      "ECI0114"
+    ],
+    "pre_requisitos_regra": {
+      "codigo": "ECI0034"
+    }
+  },
+  "866": {
+    "codigo": "ECI0050",
+    "nome": "OPERACAO DE SISTEMAS DE TRANSPORTES",
+    "pre_requisitos_expressao": "( ECI0042 OU ECI0110 OU ECI0136 )",
+    "pre_requisitos_codigos": [
+      "ECI0042",
+      "ECI0110",
+      "ECI0136"
+    ],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": "( ECI0119 )",
+    "equivalencias_codigos": [
+      "ECI0119"
+    ],
+    "pre_requisitos_regra": {
+      "operador": "OU",
+      "esquerda": {
+        "operador": "OU",
+        "esquerda": {
+          "codigo": "ECI0042"
+        },
+        "direita": {
+          "codigo": "ECI0110"
+        }
+      },
+      "direita": {
+        "codigo": "ECI0136"
+      }
+    }
+  },
+  "2145": {
+    "codigo": "ECI0091",
+    "nome": "SANEAMENTO II",
+    "pre_requisitos_expressao": "( ECI0043 OU ECI0090 )",
+    "pre_requisitos_codigos": [
+      "ECI0043",
+      "ECI0090"
+    ],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": "( ECI0051 )",
+    "equivalencias_codigos": [
+      "ECI0051"
+    ],
+    "pre_requisitos_regra": {
+      "operador": "OU",
+      "esquerda": {
+        "codigo": "ECI0043"
+      },
+      "direita": {
+        "codigo": "ECI0090"
+      }
+    }
+  },
+  "2181": {
+    "codigo": "ECI0117",
+    "nome": "ESTRUTURAS DE CONCRETO II",
+    "pre_requisitos_expressao": "( ECI0039 E ECI0040 ) OU ( ECI0112 E ECI0113 ) OU ( ECI0113 E ECI0138 )",
+    "pre_requisitos_codigos": [
+      "ECI0039",
+      "ECI0040",
+      "ECI0112",
+      "ECI0113",
+      "ECI0113",
+      "ECI0138"
+    ],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": "( ECI0047 )",
+    "equivalencias_codigos": [
+      "ECI0047"
+    ],
+    "pre_requisitos_regra": {
+      "operador": "OU",
+      "esquerda": {
+        "operador": "OU",
+        "esquerda": {
+          "operador": "E",
+          "esquerda": {
+            "codigo": "ECI0039"
+          },
+          "direita": {
+            "codigo": "ECI0040"
+          }
+        },
+        "direita": {
+          "operador": "E",
+          "esquerda": {
+            "codigo": "ECI0112"
+          },
+          "direita": {
+            "codigo": "ECI0113"
+          }
+        }
+      },
+      "direita": {
+        "operador": "E",
+        "esquerda": {
+          "codigo": "ECI0113"
+        },
+        "direita": {
+          "codigo": "ECI0138"
+        }
+      }
+    }
+  },
+  "2182": {
+    "codigo": "ECI0118",
+    "nome": "ESTRUTURAS DE AÇO I",
+    "pre_requisitos_expressao": "( ECI0039 OU ECI0112 OU ECI0138 )",
+    "pre_requisitos_codigos": [
+      "ECI0039",
+      "ECI0112",
+      "ECI0138"
+    ],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": "ECI0048",
+    "equivalencias_codigos": [
+      "ECI0048"
+    ],
+    "pre_requisitos_regra": {
+      "operador": "OU",
+      "esquerda": {
+        "operador": "OU",
+        "esquerda": {
+          "codigo": "ECI0039"
+        },
+        "direita": {
+          "codigo": "ECI0112"
+        }
+      },
+      "direita": {
+        "codigo": "ECI0138"
+      }
+    }
+  },
+  "4036": {
+    "codigo": "ECI0139",
+    "nome": "INTRODUÇÃO À METODOLOGIA CIENTÍFICA",
+    "pre_requisitos_expressao": "( ECI0109 )",
+    "pre_requisitos_codigos": [
+      "ECI0109"
+    ],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": "( ECI0061 OU ECI0087 )",
+    "equivalencias_codigos": [
+      "ECI0061",
+      "ECI0087"
+    ],
+    "pre_requisitos_regra": {
+      "codigo": "ECI0109"
+    }
+  },
+  "4037": {
+    "codigo": "ECI0140",
+    "nome": "INSTALAÇÕES ELÉTRICAS",
+    "pre_requisitos_expressao": "( ECI0011 OU ECI0101 ) E ( ECI0109 )",
+    "pre_requisitos_codigos": [
+      "ECI0011",
+      "ECI0101",
+      "ECI0109"
+    ],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": "( ECI0022 OU EM0028 OU EM0100 OU ECI0115 )",
+    "equivalencias_codigos": [
+      "ECI0022",
+      "EM0028",
+      "EM0100",
+      "ECI0115"
+    ],
+    "pre_requisitos_regra": {
+      "operador": "E",
+      "esquerda": {
+        "operador": "OU",
+        "esquerda": {
+          "codigo": "ECI0011"
+        },
+        "direita": {
+          "codigo": "ECI0101"
+        }
+      },
+      "direita": {
+        "codigo": "ECI0109"
+      }
+    }
+  },
+  "4038": {
+    "codigo": "ECI0141",
+    "nome": "INSTALAÇÕES HIDROSSANITÁRIAS",
+    "pre_requisitos_expressao": "( ECI0032 OU ECI0135 ) E ( ECI0109 )",
+    "pre_requisitos_codigos": [
+      "ECI0032",
+      "ECI0135",
+      "ECI0109"
+    ],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": "( ECI0038 OU ECI0116 )",
+    "equivalencias_codigos": [
+      "ECI0038",
+      "ECI0116"
+    ],
+    "pre_requisitos_regra": {
+      "operador": "E",
+      "esquerda": {
+        "operador": "OU",
+        "esquerda": {
+          "codigo": "ECI0032"
+        },
+        "direita": {
+          "codigo": "ECI0135"
+        }
+      },
+      "direita": {
+        "codigo": "ECI0109"
+      }
+    }
+  },
+  "610": {
+    "codigo": "ECI0041",
+    "nome": "GERENCIAMENTO NA CONSTRUCAO CIVIL I",
+    "pre_requisitos_expressao": "( ECI0021 E ECI0033 E ECI0035 ) OU ( ECI0109 )",
+    "pre_requisitos_codigos": [
+      "ECI0021",
+      "ECI0033",
+      "ECI0035",
+      "ECI0109"
+    ],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": "( ECI0121 )",
+    "equivalencias_codigos": [
+      "ECI0121"
+    ],
+    "pre_requisitos_regra": {
+      "operador": "OU",
+      "esquerda": {
+        "operador": "E",
+        "esquerda": {
+          "operador": "E",
+          "esquerda": {
+            "codigo": "ECI0021"
+          },
+          "direita": {
+            "codigo": "ECI0033"
+          }
+        },
+        "direita": {
+          "codigo": "ECI0035"
+        }
+      },
+      "direita": {
+        "codigo": "ECI0109"
+      }
+    }
+  },
+  "894": {
+    "codigo": "ECI0053",
+    "nome": "ESTAGIO SUPERV PARA ENG CIVIL",
+    "pre_requisitos_expressao": null,
+    "pre_requisitos_codigos": [],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": null,
+    "equivalencias_codigos": [],
+    "pre_requisitos_regra": null
+  },
+  "927": {
+    "codigo": "ECI0054",
+    "nome": "PROJETO DE GRADUACAO I",
+    "pre_requisitos_expressao": null,
+    "pre_requisitos_codigos": [],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": null,
+    "equivalencias_codigos": [],
+    "pre_requisitos_regra": null
+  },
+  "2146": {
+    "codigo": "ECI0092",
+    "nome": "SISTEMA E ADEQUAÇÃO AMBIENTAL",
+    "pre_requisitos_expressao": "( ECI0091 )",
+    "pre_requisitos_codigos": [
+      "ECI0091"
+    ],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": null,
+    "equivalencias_codigos": [],
+    "pre_requisitos_regra": {
+      "codigo": "ECI0091"
+    }
+  },
+  "2184": {
+    "codigo": "ECI0120",
+    "nome": "PONTES I",
+    "pre_requisitos_expressao": "( ECI0039 E ECI0040 ) OU ( ECI0117 )",
+    "pre_requisitos_codigos": [
+      "ECI0039",
+      "ECI0040",
+      "ECI0117"
+    ],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": "ECI0049",
+    "equivalencias_codigos": [
+      "ECI0049"
+    ],
+    "pre_requisitos_regra": {
+      "operador": "OU",
+      "esquerda": {
+        "operador": "E",
+        "esquerda": {
+          "codigo": "ECI0039"
+        },
+        "direita": {
+          "codigo": "ECI0040"
+        }
+      },
+      "direita": {
+        "codigo": "ECI0117"
+      }
+    }
+  },
+  "2186": {
+    "codigo": "ECI0122",
+    "nome": "BARRAGENS DE TERRA",
+    "pre_requisitos_expressao": "( ECI0020 E ECI0037 E ECI0044 ) OU ( ECI0037 E ECI0044 E ECI0100 )",
+    "pre_requisitos_codigos": [
+      "ECI0020",
+      "ECI0037",
+      "ECI0044",
+      "ECI0037",
+      "ECI0044",
+      "ECI0100"
+    ],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": "( ECI0052 )",
+    "equivalencias_codigos": [
+      "ECI0052"
+    ],
+    "pre_requisitos_regra": {
+      "operador": "OU",
+      "esquerda": {
+        "operador": "E",
+        "esquerda": {
+          "operador": "E",
+          "esquerda": {
+            "codigo": "ECI0020"
+          },
+          "direita": {
+            "codigo": "ECI0037"
+          }
+        },
+        "direita": {
+          "codigo": "ECI0044"
+        }
+      },
+      "direita": {
+        "operador": "E",
+        "esquerda": {
+          "operador": "E",
+          "esquerda": {
+            "codigo": "ECI0037"
+          },
+          "direita": {
+            "codigo": "ECI0044"
+          }
+        },
+        "direita": {
+          "codigo": "ECI0100"
+        }
+      }
+    }
+  },
+  "940": {
+    "codigo": "ECI0055",
+    "nome": "PROJETO DE GRADUACAO II",
+    "pre_requisitos_expressao": "ECI0054",
+    "pre_requisitos_codigos": [
+      "ECI0054"
+    ],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": "( ECI0132 )",
+    "equivalencias_codigos": [
+      "ECI0132"
+    ],
+    "pre_requisitos_regra": {
+      "codigo": "ECI0054"
+    }
+  },
+  "1357": {
+    "codigo": "CAR0010",
+    "nome": "LÍNGUA BRASILEIRA DE SINAIS: LIBRAS",
+    "pre_requisitos_expressao": null,
+    "pre_requisitos_codigos": [],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": null,
+    "equivalencias_codigos": [],
+    "pre_requisitos_regra": null
+  },
+  "4455": {
+    "codigo": "CCT0001",
+    "nome": "GESTÃO DA PRODUÇÃO NA CONSTRUÇÃO CIVIL",
+    "pre_requisitos_expressao": "( ECI0041 OU ECI0121 )",
+    "pre_requisitos_codigos": [
+      "ECI0041",
+      "ECI0121"
+    ],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": null,
+    "equivalencias_codigos": [],
+    "pre_requisitos_regra": {
+      "operador": "OU",
+      "esquerda": {
+        "codigo": "ECI0041"
+      },
+      "direita": {
+        "codigo": "ECI0121"
+      }
+    }
+  },
+  "996": {
+    "codigo": "ECI0058",
+    "nome": "TRANSPORTE PUBLICO URBANO",
+    "pre_requisitos_expressao": "( ECI0106 OU ECI0030 ) E ( ECI0119 OU ECI0050 )",
+    "pre_requisitos_codigos": [
+      "ECI0106",
+      "ECI0030",
+      "ECI0119",
+      "ECI0050"
+    ],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": null,
+    "equivalencias_codigos": [],
+    "pre_requisitos_regra": {
+      "operador": "E",
+      "esquerda": {
+        "operador": "OU",
+        "esquerda": {
+          "codigo": "ECI0106"
+        },
+        "direita": {
+          "codigo": "ECI0030"
+        }
+      },
+      "direita": {
+        "operador": "OU",
+        "esquerda": {
+          "codigo": "ECI0119"
+        },
+        "direita": {
+          "codigo": "ECI0050"
+        }
+      }
+    }
+  },
+  "1735": {
+    "codigo": "ECI0081",
+    "nome": "ÁGUA SUBTERRÂNEA",
+    "pre_requisitos_expressao": "( ECI0044 )",
+    "pre_requisitos_codigos": [
+      "ECI0044"
+    ],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": null,
+    "equivalencias_codigos": [],
+    "pre_requisitos_regra": {
+      "codigo": "ECI0044"
+    }
+  },
+  "1886": {
+    "codigo": "ECI0082",
+    "nome": "TRANSFERÊNCIA DE CALOR",
+    "pre_requisitos_expressao": "( ECI0023 )",
+    "pre_requisitos_codigos": [
+      "ECI0023"
+    ],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": null,
+    "equivalencias_codigos": [],
+    "pre_requisitos_regra": {
+      "codigo": "ECI0023"
+    }
+  },
+  "2147": {
+    "codigo": "ECI0093",
+    "nome": "MÉTODOS NUMÉRICOS PARA EQUAÇÕES DIFERENCIAIS",
+    "pre_requisitos_expressao": "( ECI0080 )",
+    "pre_requisitos_codigos": [
+      "ECI0080"
+    ],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": "( MC0022 )",
+    "equivalencias_codigos": [
+      "MC0022"
+    ],
+    "pre_requisitos_regra": {
+      "codigo": "ECI0080"
+    }
+  },
+  "2154": {
+    "codigo": "ECI0094",
+    "nome": "ENSAIOS DE SOLOS E INSTRUMENTAÇÃO",
+    "pre_requisitos_expressao": "( ECI0031 )",
+    "pre_requisitos_codigos": [
+      "ECI0031"
+    ],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": null,
+    "equivalencias_codigos": [],
+    "pre_requisitos_regra": {
+      "codigo": "ECI0031"
+    }
+  },
+  "2149": {
+    "codigo": "ECI0096",
+    "nome": "TRATAMENTO E DISPOSIÇÃO FINAL DE LODOS DE ESTAÇÕES DE TRATAMENTO DE ÁGUA E DE ESGOTOS",
+    "pre_requisitos_expressao": "( ECI0091 E ECI0092 )",
+    "pre_requisitos_codigos": [
+      "ECI0091",
+      "ECI0092"
+    ],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": null,
+    "equivalencias_codigos": [],
+    "pre_requisitos_regra": {
+      "operador": "E",
+      "esquerda": {
+        "codigo": "ECI0091"
+      },
+      "direita": {
+        "codigo": "ECI0092"
+      }
+    }
+  },
+  "2772": {
+    "codigo": "ECI0125",
+    "nome": "HIDRÁULICA DE CANAIS",
+    "pre_requisitos_expressao": "ECI0023",
+    "pre_requisitos_codigos": [
+      "ECI0023"
+    ],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": null,
+    "equivalencias_codigos": [],
+    "pre_requisitos_regra": {
+      "codigo": "ECI0023"
+    }
+  },
+  "2840": {
+    "codigo": "ECI0127",
+    "nome": "DRENAGEM URBANA",
+    "pre_requisitos_expressao": "ECI0044",
+    "pre_requisitos_codigos": [
+      "ECI0044"
+    ],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": null,
+    "equivalencias_codigos": [],
+    "pre_requisitos_regra": {
+      "codigo": "ECI0044"
+    }
+  },
+  "3088": {
+    "codigo": "ECI0128",
+    "nome": "RISCOS AMBIENTAIS URBANOS",
+    "pre_requisitos_expressao": "( ECI0037 )",
+    "pre_requisitos_codigos": [
+      "ECI0037"
+    ],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": null,
+    "equivalencias_codigos": [],
+    "pre_requisitos_regra": {
+      "codigo": "ECI0037"
+    }
+  },
+  "3114": {
+    "codigo": "ECI0129",
+    "nome": "ESTRUTURAS DE CONCRETO PROTENDIDO",
+    "pre_requisitos_expressao": "( ECI0040 ) OU ( ECI0113 )",
+    "pre_requisitos_codigos": [
+      "ECI0040",
+      "ECI0113"
+    ],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": null,
+    "equivalencias_codigos": [],
+    "pre_requisitos_regra": {
+      "operador": "OU",
+      "esquerda": {
+        "codigo": "ECI0040"
+      },
+      "direita": {
+        "codigo": "ECI0113"
+      }
+    }
+  },
+  "3143": {
+    "codigo": "ECI0133",
+    "nome": "INTRODUÇÃO À GEOLOGIA",
+    "pre_requisitos_expressao": "( ECI0100 OU ECI0012 )",
+    "pre_requisitos_codigos": [
+      "ECI0100",
+      "ECI0012"
+    ],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": null,
+    "equivalencias_codigos": [],
+    "pre_requisitos_regra": {
+      "operador": "OU",
+      "esquerda": {
+        "codigo": "ECI0100"
+      },
+      "direita": {
+        "codigo": "ECI0012"
+      }
+    }
+  },
+  "4039": {
+    "codigo": "ECI0142",
+    "nome": "ALVENARIA ESTRUTURAL",
+    "pre_requisitos_expressao": "( ECI0117 OU ECI0047 )",
+    "pre_requisitos_codigos": [
+      "ECI0117",
+      "ECI0047"
+    ],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": null,
+    "equivalencias_codigos": [],
+    "pre_requisitos_regra": {
+      "operador": "OU",
+      "esquerda": {
+        "codigo": "ECI0117"
+      },
+      "direita": {
+        "codigo": "ECI0047"
+      }
+    }
+  },
+  "4040": {
+    "codigo": "ECI0143",
+    "nome": "PROJETO ESTRUTURAL DE EDIFÍCIOS DE CONCRETO",
+    "pre_requisitos_expressao": "( ECI0117 OU ECI0047 )",
+    "pre_requisitos_codigos": [
+      "ECI0117",
+      "ECI0047"
+    ],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": null,
+    "equivalencias_codigos": [],
+    "pre_requisitos_regra": {
+      "operador": "OU",
+      "esquerda": {
+        "codigo": "ECI0117"
+      },
+      "direita": {
+        "codigo": "ECI0047"
+      }
+    }
+  },
+  "4041": {
+    "codigo": "ECI0144",
+    "nome": "ESTRUTURAS DE MADEIRA",
+    "pre_requisitos_expressao": "( ECI0034 )",
+    "pre_requisitos_codigos": [
+      "ECI0034"
+    ],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": null,
+    "equivalencias_codigos": [],
+    "pre_requisitos_regra": {
+      "codigo": "ECI0034"
+    }
+  },
+  "4042": {
+    "codigo": "ECI0145",
+    "nome": "ESTRUTURA DE FUNDAÇÃO",
+    "pre_requisitos_expressao": "( ECI0117 OU ECI0047 )",
+    "pre_requisitos_codigos": [
+      "ECI0117",
+      "ECI0047"
+    ],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": null,
+    "equivalencias_codigos": [],
+    "pre_requisitos_regra": {
+      "operador": "OU",
+      "esquerda": {
+        "codigo": "ECI0117"
+      },
+      "direita": {
+        "codigo": "ECI0047"
+      }
+    }
+  },
+  "4043": {
+    "codigo": "ECI0146",
+    "nome": "GESTÃO DE RESÍDUOS SÓLIDOS URBANOS",
+    "pre_requisitos_expressao": "( ECI0037 ) E ( ECI0043 OU ECI0090 )",
+    "pre_requisitos_codigos": [
+      "ECI0037",
+      "ECI0043",
+      "ECI0090"
+    ],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": "( ECI0126 )",
+    "equivalencias_codigos": [
+      "ECI0126"
+    ],
+    "pre_requisitos_regra": {
+      "operador": "E",
+      "esquerda": {
+        "codigo": "ECI0037"
+      },
+      "direita": {
+        "operador": "OU",
+        "esquerda": {
+          "codigo": "ECI0043"
+        },
+        "direita": {
+          "codigo": "ECI0090"
+        }
+      }
+    }
+  },
+  "4048": {
+    "codigo": "ECI0147",
+    "nome": "DESENHO ASSISTIDO POR COMPUTADOR",
+    "pre_requisitos_expressao": "( ECI0009 )",
+    "pre_requisitos_codigos": [
+      "ECI0009"
+    ],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": null,
+    "equivalencias_codigos": [],
+    "pre_requisitos_regra": {
+      "codigo": "ECI0009"
+    }
+  },
+  "4049": {
+    "codigo": "ECI0148",
+    "nome": "ENGENHARIA DE TRÁFEGO",
+    "pre_requisitos_expressao": "( CAR0003 E ECI0106 ) OU ( CAR0003 E ECI0030 )",
+    "pre_requisitos_codigos": [
+      "CAR0003",
+      "ECI0106",
+      "CAR0003",
+      "ECI0030"
+    ],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": null,
+    "equivalencias_codigos": [],
+    "pre_requisitos_regra": {
+      "operador": "OU",
+      "esquerda": {
+        "operador": "E",
+        "esquerda": {
+          "codigo": "CAR0003"
+        },
+        "direita": {
+          "codigo": "ECI0106"
+        }
+      },
+      "direita": {
+        "operador": "E",
+        "esquerda": {
+          "codigo": "CAR0003"
+        },
+        "direita": {
+          "codigo": "ECI0030"
+        }
+      }
+    }
+  },
+  "4050": {
+    "codigo": "ECI0149",
+    "nome": "GERÊNCIA DE PAVIMENTOS",
+    "pre_requisitos_expressao": null,
+    "pre_requisitos_codigos": [],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": null,
+    "equivalencias_codigos": [],
+    "pre_requisitos_regra": null
+  },
+  "4051": {
+    "codigo": "ECI0150",
+    "nome": "MATERIAIS BETUMINOSOS E PROCESSOS",
+    "pre_requisitos_expressao": "( ECI0088 E ECI0089 ) OU ( ECI0006 )",
+    "pre_requisitos_codigos": [
+      "ECI0088",
+      "ECI0089",
+      "ECI0006"
+    ],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": null,
+    "equivalencias_codigos": [],
+    "pre_requisitos_regra": {
+      "operador": "OU",
+      "esquerda": {
+        "operador": "E",
+        "esquerda": {
+          "codigo": "ECI0088"
+        },
+        "direita": {
+          "codigo": "ECI0089"
+        }
+      },
+      "direita": {
+        "codigo": "ECI0006"
+      }
+    }
+  },
+  "4052": {
+    "codigo": "ECI0151",
+    "nome": "MECÂNICA DOS PAVIMENTOS",
+    "pre_requisitos_expressao": null,
+    "pre_requisitos_codigos": [],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": null,
+    "equivalencias_codigos": [],
+    "pre_requisitos_regra": null
+  },
+  "4509": {
+    "codigo": "ECI0152",
+    "nome": "GESTÃO DE RECURSOS HÍDRICOS",
+    "pre_requisitos_expressao": "( ECI0092 )",
+    "pre_requisitos_codigos": [
+      "ECI0092"
+    ],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": "( ECI0084 )",
+    "equivalencias_codigos": [
+      "ECI0084"
+    ],
+    "pre_requisitos_regra": {
+      "codigo": "ECI0092"
+    }
+  },
+  "4527": {
+    "codigo": "ECI0153",
+    "nome": "PROJETO E CONSTRUÇÃO DA INFRAESTRUTURA AEROPORTUÁRIA",
+    "pre_requisitos_expressao": "( ECI0042 OU ECI0110 OU ECI0136 )",
+    "pre_requisitos_codigos": [
+      "ECI0042",
+      "ECI0110",
+      "ECI0136"
+    ],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": null,
+    "equivalencias_codigos": [],
+    "pre_requisitos_regra": {
+      "operador": "OU",
+      "esquerda": {
+        "operador": "OU",
+        "esquerda": {
+          "codigo": "ECI0042"
+        },
+        "direita": {
+          "codigo": "ECI0110"
+        }
+      },
+      "direita": {
+        "codigo": "ECI0136"
+      }
+    }
+  },
+  "4845": {
+    "codigo": "ECI0154",
+    "nome": "GEOLOGIA APLICADA À ENGENHARIA",
+    "pre_requisitos_expressao": "( ECI0012 OU ECI0100 )",
+    "pre_requisitos_codigos": [
+      "ECI0012",
+      "ECI0100"
+    ],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": null,
+    "equivalencias_codigos": [],
+    "pre_requisitos_regra": {
+      "operador": "OU",
+      "esquerda": {
+        "codigo": "ECI0012"
+      },
+      "direita": {
+        "codigo": "ECI0100"
+      }
+    }
+  },
+  "4846": {
+    "codigo": "ECI0155",
+    "nome": "INTRODUÇÃO À MODELAGEM BIM",
+    "pre_requisitos_expressao": "( ECI0012 OU ECI0100 )",
+    "pre_requisitos_codigos": [
+      "ECI0012",
+      "ECI0100"
+    ],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": null,
+    "equivalencias_codigos": [],
+    "pre_requisitos_regra": {
+      "operador": "OU",
+      "esquerda": {
+        "codigo": "ECI0012"
+      },
+      "direita": {
+        "codigo": "ECI0100"
+      }
+    }
+  },
+  "5001": {
+    "codigo": "ECI0156",
+    "nome": "ENGENHARIA E SOCIEDADE",
+    "pre_requisitos_expressao": null,
+    "pre_requisitos_codigos": [],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": null,
+    "equivalencias_codigos": [],
+    "pre_requisitos_regra": null
+  },
+  "5002": {
+    "codigo": "ECI0157",
+    "nome": "GERENCIAMENTO DE EMPRESAS DE ENGENHARIA CIVIL",
+    "pre_requisitos_expressao": "( ECI0016 E ECI0021 ) OU ( ECI0102 )",
+    "pre_requisitos_codigos": [
+      "ECI0016",
+      "ECI0021",
+      "ECI0102"
+    ],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": null,
+    "equivalencias_codigos": [],
+    "pre_requisitos_regra": {
+      "operador": "OU",
+      "esquerda": {
+        "operador": "E",
+        "esquerda": {
+          "codigo": "ECI0016"
+        },
+        "direita": {
+          "codigo": "ECI0021"
+        }
+      },
+      "direita": {
+        "codigo": "ECI0102"
+      }
+    }
+  },
+  "5005": {
+    "codigo": "ECI0158",
+    "nome": "AVALIAÇÕES E PERÍCIAS NA CONSTRUÇÃO CIVIL",
+    "pre_requisitos_expressao": "( ECI0035 OU ECI0109 )",
+    "pre_requisitos_codigos": [
+      "ECI0035",
+      "ECI0109"
+    ],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": null,
+    "equivalencias_codigos": [],
+    "pre_requisitos_regra": {
+      "operador": "OU",
+      "esquerda": {
+        "codigo": "ECI0035"
+      },
+      "direita": {
+        "codigo": "ECI0109"
+      }
+    }
+  },
+  "5006": {
+    "codigo": "ECI0159",
+    "nome": "GESTÃO DE RECURSOS HÍDRICOS",
+    "pre_requisitos_expressao": "( ECI0092 )",
+    "pre_requisitos_codigos": [
+      "ECI0092"
+    ],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": null,
+    "equivalencias_codigos": [],
+    "pre_requisitos_regra": {
+      "codigo": "ECI0092"
+    }
+  },
+  "5013": {
+    "codigo": "ECI0160",
+    "nome": "ELEMENTOS FINITOS PARA ANÁLISE DE ESTRUTURAS",
+    "pre_requisitos_expressao": "( ECI0138 OU ECI0114 OU ECI0046 )",
+    "pre_requisitos_codigos": [
+      "ECI0138",
+      "ECI0114",
+      "ECI0046"
+    ],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": null,
+    "equivalencias_codigos": [],
+    "pre_requisitos_regra": {
+      "operador": "OU",
+      "esquerda": {
+        "operador": "OU",
+        "esquerda": {
+          "codigo": "ECI0138"
+        },
+        "direita": {
+          "codigo": "ECI0114"
+        }
+      },
+      "direita": {
+        "codigo": "ECI0046"
+      }
+    }
+  },
+  "2138": {
+    "codigo": "CAR0009",
+    "nome": "ÁLGEBRA VETORIAL E GEOMETRIA ANALÍTICA",
+    "pre_requisitos_expressao": null,
+    "pre_requisitos_codigos": [],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": "( CAR0033 OU EM0004 OU CC0004 OU MC0002 )",
+    "equivalencias_codigos": [
+      "CAR0033",
+      "EM0004",
+      "CC0004",
+      "MC0002"
+    ],
+    "pre_requisitos_regra": null
+  },
+  "2139": {
+    "codigo": "ECI0087",
+    "nome": "INTRODUÇÃO À METODOLOGIA CIENTÍFICA",
+    "pre_requisitos_expressao": null,
+    "pre_requisitos_codigos": [],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": "( ECI0061 OU ECI0139 OU EM0011 OU ADM0311 )",
+    "equivalencias_codigos": [
+      "ECI0061",
+      "ECI0139",
+      "EM0011",
+      "ADM0311"
+    ],
+    "pre_requisitos_regra": null
+  },
+  "2163": {
+    "codigo": "CAR0017",
+    "nome": "EQUAÇÕES DIFERENCIAIS ORDINÁRIAS",
+    "pre_requisitos_expressao": "( CAR0011 ) OU ( ECI0002 E CAR0004 )",
+    "pre_requisitos_codigos": [
+      "CAR0011",
+      "ECI0002",
+      "CAR0004"
+    ],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": "( ECI0015 OU EM0019 OU MC0017 OU CAR0034 )",
+    "equivalencias_codigos": [
+      "ECI0015",
+      "EM0019",
+      "MC0017",
+      "CAR0034"
+    ],
+    "pre_requisitos_regra": {
+      "operador": "OU",
+      "esquerda": {
+        "codigo": "CAR0011"
+      },
+      "direita": {
+        "operador": "E",
+        "esquerda": {
+          "codigo": "ECI0002"
+        },
+        "direita": {
+          "codigo": "CAR0004"
+        }
+      }
+    }
+  },
+  "2160": {
+    "codigo": "ECI0097",
+    "nome": "FÍSICA FUNDAMENTAL II",
+    "pre_requisitos_expressao": "CAR0002 E CAR0011",
+    "pre_requisitos_codigos": [
+      "CAR0002",
+      "CAR0011"
+    ],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": "ECI0025",
+    "equivalencias_codigos": [
+      "ECI0025"
+    ],
+    "pre_requisitos_regra": {
+      "operador": "E",
+      "esquerda": {
+        "codigo": "CAR0002"
+      },
+      "direita": {
+        "codigo": "CAR0011"
+      }
+    }
+  },
+  "2165": {
+    "codigo": "ECI0101",
+    "nome": "ELETROMAGNETISMO",
+    "pre_requisitos_expressao": "CAR0012 E ECI0097",
+    "pre_requisitos_codigos": [
+      "CAR0012",
+      "ECI0097"
+    ],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": "( ECI0011 OU EM0020 OU CC0014 OU MC0010 OU MC0041 )",
+    "equivalencias_codigos": [
+      "ECI0011",
+      "EM0020",
+      "CC0014",
+      "MC0010",
+      "MC0041"
+    ],
+    "pre_requisitos_regra": {
+      "operador": "E",
+      "esquerda": {
+        "codigo": "CAR0012"
+      },
+      "direita": {
+        "codigo": "ECI0097"
+      }
+    }
+  },
+  "2166": {
+    "codigo": "ECI0102",
+    "nome": "ECONOMIA PARA ENGENHARIA",
+    "pre_requisitos_expressao": null,
+    "pre_requisitos_codigos": [],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": "( EM0031 OU EM0101 OU ECI0016 )",
+    "equivalencias_codigos": [
+      "EM0031",
+      "EM0101",
+      "ECI0016"
+    ],
+    "pre_requisitos_regra": null
+  },
+  "614": {
+    "codigo": "ECI0032",
+    "nome": "HIDRAULICA APLICADA",
+    "pre_requisitos_expressao": "( ECI0023 )",
+    "pre_requisitos_codigos": [
+      "ECI0023"
+    ],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": "( ECI0135 )",
+    "equivalencias_codigos": [
+      "ECI0135"
+    ],
+    "pre_requisitos_regra": {
+      "codigo": "ECI0023"
+    }
+  },
+  "2174": {
+    "codigo": "ECI0110",
+    "nome": "PROJETO E CONSTRUÇÃO DA SUPERESTRUTURA VIÁRIA",
+    "pre_requisitos_expressao": "( ECI0036 )",
+    "pre_requisitos_codigos": [
+      "ECI0036"
+    ],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": "( ECI0042 OU ECI0136 )",
+    "equivalencias_codigos": [
+      "ECI0042",
+      "ECI0136"
+    ],
+    "pre_requisitos_regra": {
+      "codigo": "ECI0036"
+    }
+  },
+  "2175": {
+    "codigo": "ECI0111",
+    "nome": "FUNDAÇÕES",
+    "pre_requisitos_expressao": "( ECI0037 )",
+    "pre_requisitos_codigos": [
+      "ECI0037"
+    ],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": "( ECI0060 )",
+    "equivalencias_codigos": [
+      "ECI0060"
+    ],
+    "pre_requisitos_regra": {
+      "codigo": "ECI0037"
+    }
+  },
+  "2176": {
+    "codigo": "ECI0112",
+    "nome": "ANÁLISE DE ESTRUTURAS I",
+    "pre_requisitos_expressao": "( ECI0034 )",
+    "pre_requisitos_codigos": [
+      "ECI0034"
+    ],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": "( ECI0039 OU ECI0138 )",
+    "equivalencias_codigos": [
+      "ECI0039",
+      "ECI0138"
+    ],
+    "pre_requisitos_regra": {
+      "codigo": "ECI0034"
+    }
+  },
+  "2178": {
+    "codigo": "ECI0114",
+    "nome": "ANÁLISE DE ESTRUTURAS II",
+    "pre_requisitos_expressao": "( ECI0039 OU ECI0112 )",
+    "pre_requisitos_codigos": [
+      "ECI0039",
+      "ECI0112"
+    ],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": "( ECI0046 OU ECI0138 )",
+    "equivalencias_codigos": [
+      "ECI0046",
+      "ECI0138"
+    ],
+    "pre_requisitos_regra": {
+      "operador": "OU",
+      "esquerda": {
+        "codigo": "ECI0039"
+      },
+      "direita": {
+        "codigo": "ECI0112"
+      }
+    }
+  },
+  "2179": {
+    "codigo": "ECI0115",
+    "nome": "INSTALAÇÕES ELÉTRICAS",
+    "pre_requisitos_expressao": "( ECI0011 ) OU ( ECI0101 E ECI0109 )",
+    "pre_requisitos_codigos": [
+      "ECI0011",
+      "ECI0101",
+      "ECI0109"
+    ],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": "( ECI0022 OU ECI0140 OU EM0028 OU EM0100 )",
+    "equivalencias_codigos": [
+      "ECI0022",
+      "ECI0140",
+      "EM0028",
+      "EM0100"
+    ],
+    "pre_requisitos_regra": {
+      "operador": "OU",
+      "esquerda": {
+        "codigo": "ECI0011"
+      },
+      "direita": {
+        "operador": "E",
+        "esquerda": {
+          "codigo": "ECI0101"
+        },
+        "direita": {
+          "codigo": "ECI0109"
+        }
+      }
+    }
+  },
+  "2180": {
+    "codigo": "ECI0116",
+    "nome": "INSTALAÇÕES HIDROSSANITÁRIAS",
+    "pre_requisitos_expressao": "( ECI0032 )",
+    "pre_requisitos_codigos": [
+      "ECI0032"
+    ],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": "( ECI0038 OU ECI0141 )",
+    "equivalencias_codigos": [
+      "ECI0038",
+      "ECI0141"
+    ],
+    "pre_requisitos_regra": {
+      "codigo": "ECI0032"
+    }
+  },
+  "2183": {
+    "codigo": "ECI0119",
+    "nome": "OPERAÇÃO DE SISTEMAS DE TRANSPORTES",
+    "pre_requisitos_expressao": "( ECI0042 OU ECI0110 )",
+    "pre_requisitos_codigos": [
+      "ECI0042",
+      "ECI0110"
+    ],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": "( ECI0050 )",
+    "equivalencias_codigos": [
+      "ECI0050"
+    ],
+    "pre_requisitos_regra": {
+      "operador": "OU",
+      "esquerda": {
+        "codigo": "ECI0042"
+      },
+      "direita": {
+        "codigo": "ECI0110"
+      }
+    }
+  },
+  "2185": {
+    "codigo": "ECI0121",
+    "nome": "GERENCIAMENTO NA CONSTRUÇÃO CIVIL I",
+    "pre_requisitos_expressao": "( ECI0021 E ECI0033 E ECI0035 ) OU ( ECI0109 )",
+    "pre_requisitos_codigos": [
+      "ECI0021",
+      "ECI0033",
+      "ECI0035",
+      "ECI0109"
+    ],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": "ECI0041",
+    "equivalencias_codigos": [
+      "ECI0041"
+    ],
+    "pre_requisitos_regra": {
+      "operador": "OU",
+      "esquerda": {
+        "operador": "E",
+        "esquerda": {
+          "operador": "E",
+          "esquerda": {
+            "codigo": "ECI0021"
+          },
+          "direita": {
+            "codigo": "ECI0033"
+          }
+        },
+        "direita": {
+          "codigo": "ECI0035"
+        }
+      },
+      "direita": {
+        "codigo": "ECI0109"
+      }
+    }
+  },
+  "3126": {
+    "codigo": "ECI0132",
+    "nome": "PROJETO DE GRADUAÇÃO II",
+    "pre_requisitos_expressao": "( ECI0054 )",
+    "pre_requisitos_codigos": [
+      "ECI0054"
+    ],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": "( ECI0055 )",
+    "equivalencias_codigos": [
+      "ECI0055"
+    ],
+    "pre_requisitos_regra": {
+      "codigo": "ECI0054"
+    }
+  },
+  "761": {
+    "codigo": "ECI0062",
+    "nome": "GERENCIAMENTO DA CONSTRUCAO CIVIL II",
+    "pre_requisitos_expressao": "( ECI0041 OU ECI0121 )",
+    "pre_requisitos_codigos": [
+      "ECI0041",
+      "ECI0121"
+    ],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": null,
+    "equivalencias_codigos": [],
+    "pre_requisitos_regra": {
+      "operador": "OU",
+      "esquerda": {
+        "codigo": "ECI0041"
+      },
+      "direita": {
+        "codigo": "ECI0121"
+      }
+    }
+  },
+  "632": {
+    "codigo": "ECI0065",
+    "nome": "HIDRAULICA DE CANAIS",
+    "pre_requisitos_expressao": null,
+    "pre_requisitos_codigos": [],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": null,
+    "equivalencias_codigos": [],
+    "pre_requisitos_regra": null
+  },
+  "766": {
+    "codigo": "ECI0067",
+    "nome": "PROJETO ESTRUTURAL DE EDIFICIOS DE CONCRETO",
+    "pre_requisitos_expressao": null,
+    "pre_requisitos_codigos": [],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": null,
+    "equivalencias_codigos": [],
+    "pre_requisitos_regra": null
+  },
+  "770": {
+    "codigo": "ECI0070",
+    "nome": "DRENAGEM URBANA",
+    "pre_requisitos_expressao": null,
+    "pre_requisitos_codigos": [],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": null,
+    "equivalencias_codigos": [],
+    "pre_requisitos_regra": null
+  },
+  "896": {
+    "codigo": "ECI0074",
+    "nome": "ESTRUTURAS DE MADEIRA",
+    "pre_requisitos_expressao": null,
+    "pre_requisitos_codigos": [],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": null,
+    "equivalencias_codigos": [],
+    "pre_requisitos_regra": null
+  },
+  "2148": {
+    "codigo": "ECI0095",
+    "nome": "GERENCIAMENTO DE RESÍDUOS SÓLIDOS URBANOS",
+    "pre_requisitos_expressao": null,
+    "pre_requisitos_codigos": [],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": null,
+    "equivalencias_codigos": [],
+    "pre_requisitos_regra": null
+  },
+  "2771": {
+    "codigo": "ECI0124",
+    "nome": "GESTÃO DE ÁGUA SUBTERRÂNEA",
+    "pre_requisitos_expressao": "ECI0044",
+    "pre_requisitos_codigos": [
+      "ECI0044"
+    ],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": null,
+    "equivalencias_codigos": [],
+    "pre_requisitos_regra": {
+      "codigo": "ECI0044"
+    }
+  },
+  "2773": {
+    "codigo": "ECI0126",
+    "nome": "GERENCIAMENTO DE RESÍDUOS SÓLIDOS URBANOS",
+    "pre_requisitos_expressao": "( ECI0037 ) E ( ECI0043 OU ECI0090 )",
+    "pre_requisitos_codigos": [
+      "ECI0037",
+      "ECI0043",
+      "ECI0090"
+    ],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": null,
+    "equivalencias_codigos": [],
+    "pre_requisitos_regra": {
+      "operador": "E",
+      "esquerda": {
+        "codigo": "ECI0037"
+      },
+      "direita": {
+        "operador": "OU",
+        "esquerda": {
+          "codigo": "ECI0043"
+        },
+        "direita": {
+          "codigo": "ECI0090"
+        }
+      }
+    }
+  },
+  "3144": {
+    "codigo": "ECI0134",
+    "nome": "GERENCIAMENTO DA PRODUÇÃO NA CONSTRUÇÃO CIVIL",
+    "pre_requisitos_expressao": "( ECI0041 OU ECI0121 )",
+    "pre_requisitos_codigos": [
+      "ECI0041",
+      "ECI0121"
+    ],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": "( ECI0063 )",
+    "equivalencias_codigos": [
+      "ECI0063"
+    ],
+    "pre_requisitos_regra": {
+      "operador": "OU",
+      "esquerda": {
+        "codigo": "ECI0041"
+      },
+      "direita": {
+        "codigo": "ECI0121"
+      }
+    }
+  },
+  "1305": {
+    "codigo": "CAR0001",
+    "nome": "CALCULO FUNDAMENTAL I",
+    "pre_requisitos_expressao": null,
+    "pre_requisitos_codigos": [],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": "( CAR0008 OU CC0002 OU MC0001 OU EM0001 )",
+    "equivalencias_codigos": [
+      "CAR0008",
+      "CC0002",
+      "MC0001",
+      "EM0001"
+    ],
+    "pre_requisitos_regra": null
+  },
+  "947": {
+    "codigo": "ECI0006",
+    "nome": "QUIMICA GERAL PARA ENGENHARIA",
+    "pre_requisitos_expressao": null,
+    "pre_requisitos_codigos": [],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": "( ( ECI0088 E ECI0089 ) OU ( EM0003 E EM0009 ) )",
+    "equivalencias_codigos": [
+      "ECI0088",
+      "ECI0089",
+      "EM0003",
+      "EM0009"
+    ],
+    "pre_requisitos_regra": null
+  },
+  "1308": {
+    "codigo": "CAR0004",
+    "nome": "CALCULO FUNDAMENTAL II",
+    "pre_requisitos_expressao": "( CAR0001 OU CAR0008 OU CC0002 OU MC0001 OU EM0001 )",
+    "pre_requisitos_codigos": [
+      "CAR0001",
+      "CAR0008",
+      "CC0002",
+      "MC0001",
+      "EM0001"
+    ],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": "( CAR0011 OU CC0007 OU MC0005 OU EM0007 OU IFE0035 )",
+    "equivalencias_codigos": [
+      "CAR0011",
+      "CC0007",
+      "MC0005",
+      "EM0007",
+      "IFE0035"
+    ],
+    "pre_requisitos_regra": {
+      "operador": "OU",
+      "esquerda": {
+        "operador": "OU",
+        "esquerda": {
+          "operador": "OU",
+          "esquerda": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "CAR0001"
+            },
+            "direita": {
+              "codigo": "CAR0008"
+            }
+          },
+          "direita": {
+            "codigo": "CC0002"
+          }
+        },
+        "direita": {
+          "codigo": "MC0001"
+        }
+      },
+      "direita": {
+        "codigo": "EM0001"
+      }
+    }
+  },
+  "953": {
+    "codigo": "ECI0007",
+    "nome": "PROGRAMACAO COMPUTACIONAL PARA ENGENHARIA",
+    "pre_requisitos_expressao": null,
+    "pre_requisitos_codigos": [],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": "( ECI0099 ) OU ( EM0006 )",
+    "equivalencias_codigos": [
+      "ECI0099",
+      "EM0006"
+    ],
+    "pre_requisitos_regra": null
+  },
+  "1309": {
+    "codigo": "CAR0005",
+    "nome": "CALCULO VETORIAL APLICADO",
+    "pre_requisitos_expressao": "( CAR0004 OU CAR0011 OU CC0007 OU MC0005 ) E ( CAR0009 OU MC0002 OU CC0004 OU EM0004 )",
+    "pre_requisitos_codigos": [
+      "CAR0004",
+      "CAR0011",
+      "CC0007",
+      "MC0005",
+      "CAR0009",
+      "MC0002",
+      "CC0004",
+      "EM0004"
+    ],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": "( CAR0012 OU CC0013 OU MC0011 )",
+    "equivalencias_codigos": [
+      "CAR0012",
+      "CC0013",
+      "MC0011"
+    ],
+    "pre_requisitos_regra": {
+      "operador": "E",
+      "esquerda": {
+        "operador": "OU",
+        "esquerda": {
+          "operador": "OU",
+          "esquerda": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "CAR0004"
+            },
+            "direita": {
+              "codigo": "CAR0011"
+            }
+          },
+          "direita": {
+            "codigo": "CC0007"
+          }
+        },
+        "direita": {
+          "codigo": "MC0005"
+        }
+      },
+      "direita": {
+        "operador": "OU",
+        "esquerda": {
+          "operador": "OU",
+          "esquerda": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "CAR0009"
+            },
+            "direita": {
+              "codigo": "MC0002"
+            }
+          },
+          "direita": {
+            "codigo": "CC0004"
+          }
+        },
+        "direita": {
+          "codigo": "EM0004"
+        }
+      }
+    }
+  },
+  "780": {
+    "codigo": "ECI0012",
+    "nome": "TOPOGRAFIA",
+    "pre_requisitos_expressao": null,
+    "pre_requisitos_codigos": [],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": "( ECI0100 )",
+    "equivalencias_codigos": [
+      "ECI0100"
+    ],
+    "pre_requisitos_regra": null
+  },
+  "844": {
+    "codigo": "ECI0013",
+    "nome": "MECANICA PARA ENGENHARIA CIVIL I",
+    "pre_requisitos_expressao": null,
+    "pre_requisitos_codigos": [],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": "( ECI0098 ) OU ( EM0017 )",
+    "equivalencias_codigos": [
+      "ECI0098",
+      "EM0017"
+    ],
+    "pre_requisitos_regra": null
+  },
+  "845": {
+    "codigo": "ECI0014",
+    "nome": "MATERIAIS DE CONSTRUCAO CIVIL I",
+    "pre_requisitos_expressao": null,
+    "pre_requisitos_codigos": [],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": "( ECI0104 )",
+    "equivalencias_codigos": [
+      "ECI0104"
+    ],
+    "pre_requisitos_regra": null
+  },
+  "782": {
+    "codigo": "ECI0015",
+    "nome": "MATEMATICA APLICADA A ENGENHARIA CIVIL",
+    "pre_requisitos_expressao": null,
+    "pre_requisitos_codigos": [],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": "( CAR0017 ) OU ( EM0019 ) OU ( MC0017 )",
+    "equivalencias_codigos": [
+      "CAR0017",
+      "EM0019",
+      "MC0017"
+    ],
+    "pre_requisitos_regra": null
+  },
+  "625": {
+    "codigo": "ECI0017",
+    "nome": "MECANICA PARA ENGENHARIA CIVIL II",
+    "pre_requisitos_expressao": null,
+    "pre_requisitos_codigos": [],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": "( ECI0103 )",
+    "equivalencias_codigos": [
+      "ECI0103"
+    ],
+    "pre_requisitos_regra": null
+  },
+  "624": {
+    "codigo": "ECI0018",
+    "nome": "MATERIAIS DE CONSTRUCAO CIVIL II",
+    "pre_requisitos_expressao": null,
+    "pre_requisitos_codigos": [],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": "( ECI0105 )",
+    "equivalencias_codigos": [
+      "ECI0105"
+    ],
+    "pre_requisitos_regra": null
+  },
+  "849": {
+    "codigo": "ECI0020",
+    "nome": "ENGENHARIA AMBIENTAL",
+    "pre_requisitos_expressao": null,
+    "pre_requisitos_codigos": [],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": "( EM0027 )",
+    "equivalencias_codigos": [
+      "EM0027"
+    ],
+    "pre_requisitos_regra": null
+  },
+  "621": {
+    "codigo": "ECI0022",
+    "nome": "ELETROTECNICA",
+    "pre_requisitos_expressao": "( ECI0011 ) OU ( ECI0101 E ECI0109 )",
+    "pre_requisitos_codigos": [
+      "ECI0011",
+      "ECI0101",
+      "ECI0109"
+    ],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": "( ECI0115 ) OU ( EM0028 )",
+    "equivalencias_codigos": [
+      "ECI0115",
+      "EM0028"
+    ],
+    "pre_requisitos_regra": {
+      "operador": "OU",
+      "esquerda": {
+        "codigo": "ECI0011"
+      },
+      "direita": {
+        "operador": "E",
+        "esquerda": {
+          "codigo": "ECI0101"
+        },
+        "direita": {
+          "codigo": "ECI0109"
+        }
+      }
+    }
+  },
+  "776": {
+    "codigo": "ECI0029",
+    "nome": "PROJETO E CONSTRUCAO DE EDIFICIOS I",
+    "pre_requisitos_expressao": "( ECI0012 E ECI0018 E ECI0022 ) OU ( ECI0100 E ECI0105 )",
+    "pre_requisitos_codigos": [
+      "ECI0012",
+      "ECI0018",
+      "ECI0022",
+      "ECI0100",
+      "ECI0105"
+    ],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": "( ECI0107 )",
+    "equivalencias_codigos": [
+      "ECI0107"
+    ],
+    "pre_requisitos_regra": {
+      "operador": "OU",
+      "esquerda": {
+        "operador": "E",
+        "esquerda": {
+          "operador": "E",
+          "esquerda": {
+            "codigo": "ECI0012"
+          },
+          "direita": {
+            "codigo": "ECI0018"
+          }
+        },
+        "direita": {
+          "codigo": "ECI0022"
+        }
+      },
+      "direita": {
+        "operador": "E",
+        "esquerda": {
+          "codigo": "ECI0100"
+        },
+        "direita": {
+          "codigo": "ECI0105"
+        }
+      }
+    }
+  },
+  "615": {
+    "codigo": "ECI0030",
+    "nome": "ANALISE E PLANEJ DE SIST DE TRANSPORTES",
+    "pre_requisitos_expressao": "( ECI0020 E ECI0021 ) OU ( CAR0003 E ECI0102 )",
+    "pre_requisitos_codigos": [
+      "ECI0020",
+      "ECI0021",
+      "CAR0003",
+      "ECI0102"
+    ],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": "( ECI0106 )",
+    "equivalencias_codigos": [
+      "ECI0106"
+    ],
+    "pre_requisitos_regra": {
+      "operador": "OU",
+      "esquerda": {
+        "operador": "E",
+        "esquerda": {
+          "codigo": "ECI0020"
+        },
+        "direita": {
+          "codigo": "ECI0021"
+        }
+      },
+      "direita": {
+        "operador": "E",
+        "esquerda": {
+          "codigo": "CAR0003"
+        },
+        "direita": {
+          "codigo": "ECI0102"
+        }
+      }
+    }
+  },
+  "854": {
+    "codigo": "ECI0033",
+    "nome": "ENGENHARIA ECONOMICA",
+    "pre_requisitos_expressao": null,
+    "pre_requisitos_codigos": [],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": "( ADM0313 )",
+    "equivalencias_codigos": [
+      "ADM0313"
+    ],
+    "pre_requisitos_regra": null
+  },
+  "786": {
+    "codigo": "ECI0035",
+    "nome": "PROJETO E CONSTRUCAO DE EDIFICIOS II",
+    "pre_requisitos_expressao": "( ECI0029 OU ECI0107 )",
+    "pre_requisitos_codigos": [
+      "ECI0029",
+      "ECI0107"
+    ],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": "( ECI0109 )",
+    "equivalencias_codigos": [
+      "ECI0109"
+    ],
+    "pre_requisitos_regra": {
+      "operador": "OU",
+      "esquerda": {
+        "codigo": "ECI0029"
+      },
+      "direita": {
+        "codigo": "ECI0107"
+      }
+    }
+  },
+  "613": {
+    "codigo": "ECI0038",
+    "nome": "INSTALACOES HIDRAULICAS E SANITARIAS",
+    "pre_requisitos_expressao": "( ECI0032 )",
+    "pre_requisitos_codigos": [
+      "ECI0032"
+    ],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": "( ECI0116 OU ECI0141 )",
+    "equivalencias_codigos": [
+      "ECI0116",
+      "ECI0141"
+    ],
+    "pre_requisitos_regra": {
+      "codigo": "ECI0032"
+    }
+  },
+  "612": {
+    "codigo": "ECI0039",
+    "nome": "ANALISE DE ESTRUTURAS I",
+    "pre_requisitos_expressao": "( ECI0034 )",
+    "pre_requisitos_codigos": [
+      "ECI0034"
+    ],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": "( ECI0112 )",
+    "equivalencias_codigos": [
+      "ECI0112"
+    ],
+    "pre_requisitos_regra": {
+      "codigo": "ECI0034"
+    }
+  },
+  "611": {
+    "codigo": "ECI0040",
+    "nome": "ESTRUTURAS DE CONCRETO I",
+    "pre_requisitos_expressao": "( ECI0034 )",
+    "pre_requisitos_codigos": [
+      "ECI0034"
+    ],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": "( ECI0113 )",
+    "equivalencias_codigos": [
+      "ECI0113"
+    ],
+    "pre_requisitos_regra": {
+      "codigo": "ECI0034"
+    }
+  },
+  "609": {
+    "codigo": "ECI0042",
+    "nome": "PROJETO E CONSTR DA SUPER ESTR VIARIA",
+    "pre_requisitos_expressao": "( ECI0036 )",
+    "pre_requisitos_codigos": [
+      "ECI0036"
+    ],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": "( ECI0110 )",
+    "equivalencias_codigos": [
+      "ECI0110"
+    ],
+    "pre_requisitos_regra": {
+      "codigo": "ECI0036"
+    }
+  },
+  "608": {
+    "codigo": "ECI0043",
+    "nome": "SANEAMENTO I",
+    "pre_requisitos_expressao": "( ECI0020 E ECI0032 ) OU ( ECI0032 E ECI0088 E ECI0089 )",
+    "pre_requisitos_codigos": [
+      "ECI0020",
+      "ECI0032",
+      "ECI0032",
+      "ECI0088",
+      "ECI0089"
+    ],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": "( ECI0090 )",
+    "equivalencias_codigos": [
+      "ECI0090"
+    ],
+    "pre_requisitos_regra": {
+      "operador": "OU",
+      "esquerda": {
+        "operador": "E",
+        "esquerda": {
+          "codigo": "ECI0020"
+        },
+        "direita": {
+          "codigo": "ECI0032"
+        }
+      },
+      "direita": {
+        "operador": "E",
+        "esquerda": {
+          "operador": "E",
+          "esquerda": {
+            "codigo": "ECI0032"
+          },
+          "direita": {
+            "codigo": "ECI0088"
+          }
+        },
+        "direita": {
+          "codigo": "ECI0089"
+        }
+      }
+    }
+  },
+  "606": {
+    "codigo": "ECI0046",
+    "nome": "ANALISE DE ESTRUTURAS II",
+    "pre_requisitos_expressao": "( ECI0039 OU ECI0112 )",
+    "pre_requisitos_codigos": [
+      "ECI0039",
+      "ECI0112"
+    ],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": "( ECI0114 )",
+    "equivalencias_codigos": [
+      "ECI0114"
+    ],
+    "pre_requisitos_regra": {
+      "operador": "OU",
+      "esquerda": {
+        "codigo": "ECI0039"
+      },
+      "direita": {
+        "codigo": "ECI0112"
+      }
+    }
+  },
+  "605": {
+    "codigo": "ECI0047",
+    "nome": "ESTRUTURAS DE CONCRETO II",
+    "pre_requisitos_expressao": "( ECI0039 E ECI0040 ) OU ( ECI0112 E ECI0113 )",
+    "pre_requisitos_codigos": [
+      "ECI0039",
+      "ECI0040",
+      "ECI0112",
+      "ECI0113"
+    ],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": "( ECI0117 )",
+    "equivalencias_codigos": [
+      "ECI0117"
+    ],
+    "pre_requisitos_regra": {
+      "operador": "OU",
+      "esquerda": {
+        "operador": "E",
+        "esquerda": {
+          "codigo": "ECI0039"
+        },
+        "direita": {
+          "codigo": "ECI0040"
+        }
+      },
+      "direita": {
+        "operador": "E",
+        "esquerda": {
+          "codigo": "ECI0112"
+        },
+        "direita": {
+          "codigo": "ECI0113"
+        }
+      }
+    }
+  },
+  "604": {
+    "codigo": "ECI0048",
+    "nome": "ESTRUTURAS DE ACO I",
+    "pre_requisitos_expressao": "( ECI0039 OU ECI0112 )",
+    "pre_requisitos_codigos": [
+      "ECI0039",
+      "ECI0112"
+    ],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": "( ECI0118 )",
+    "equivalencias_codigos": [
+      "ECI0118"
+    ],
+    "pre_requisitos_regra": {
+      "operador": "OU",
+      "esquerda": {
+        "codigo": "ECI0039"
+      },
+      "direita": {
+        "codigo": "ECI0112"
+      }
+    }
+  },
+  "603": {
+    "codigo": "ECI0049",
+    "nome": "PONTES I",
+    "pre_requisitos_expressao": "( ECI0039 E ECI0040 ) OU ( ECI0117 )",
+    "pre_requisitos_codigos": [
+      "ECI0039",
+      "ECI0040",
+      "ECI0117"
+    ],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": "( ECI0120 )",
+    "equivalencias_codigos": [
+      "ECI0120"
+    ],
+    "pre_requisitos_regra": {
+      "operador": "OU",
+      "esquerda": {
+        "operador": "E",
+        "esquerda": {
+          "codigo": "ECI0039"
+        },
+        "direita": {
+          "codigo": "ECI0040"
+        }
+      },
+      "direita": {
+        "codigo": "ECI0117"
+      }
+    }
+  },
+  "872": {
+    "codigo": "ECI0051",
+    "nome": "SANEAMENTO II",
+    "pre_requisitos_expressao": "( ECI0043 OU ECI0090 )",
+    "pre_requisitos_codigos": [
+      "ECI0043",
+      "ECI0090"
+    ],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": "( ECI0091 )",
+    "equivalencias_codigos": [
+      "ECI0091"
+    ],
+    "pre_requisitos_regra": {
+      "operador": "OU",
+      "esquerda": {
+        "codigo": "ECI0043"
+      },
+      "direita": {
+        "codigo": "ECI0090"
+      }
+    }
+  },
+  "602": {
+    "codigo": "ECI0052",
+    "nome": "BARRAGENS",
+    "pre_requisitos_expressao": "( ECI0020 E ECI0037 E ECI0044 ) OU ( ECI0037 E ECI0044 E ECI0100 )",
+    "pre_requisitos_codigos": [
+      "ECI0020",
+      "ECI0037",
+      "ECI0044",
+      "ECI0037",
+      "ECI0044",
+      "ECI0100"
+    ],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": "( ECI0122 )",
+    "equivalencias_codigos": [
+      "ECI0122"
+    ],
+    "pre_requisitos_regra": {
+      "operador": "OU",
+      "esquerda": {
+        "operador": "E",
+        "esquerda": {
+          "operador": "E",
+          "esquerda": {
+            "codigo": "ECI0020"
+          },
+          "direita": {
+            "codigo": "ECI0037"
+          }
+        },
+        "direita": {
+          "codigo": "ECI0044"
+        }
+      },
+      "direita": {
+        "operador": "E",
+        "esquerda": {
+          "operador": "E",
+          "esquerda": {
+            "codigo": "ECI0037"
+          },
+          "direita": {
+            "codigo": "ECI0044"
+          }
+        },
+        "direita": {
+          "codigo": "ECI0100"
+        }
+      }
+    }
+  },
+  "631": {
+    "codigo": "ECI0001",
+    "nome": "CALCULO FUNDAMENTAL",
+    "pre_requisitos_expressao": null,
+    "pre_requisitos_codigos": [],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": null,
+    "equivalencias_codigos": [],
+    "pre_requisitos_regra": null
+  },
+  "629": {
+    "codigo": "ECI0004",
+    "nome": "FISICA FUNDAMENTAL",
+    "pre_requisitos_expressao": null,
+    "pre_requisitos_codigos": [],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": null,
+    "equivalencias_codigos": [],
+    "pre_requisitos_regra": null
+  },
+  "988": {
+    "codigo": "ECI0056",
+    "nome": "QUIMICA AMBIENTAL",
+    "pre_requisitos_expressao": null,
+    "pre_requisitos_codigos": [],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": null,
+    "equivalencias_codigos": [],
+    "pre_requisitos_regra": null
+  },
+  "993": {
+    "codigo": "ECI0057",
+    "nome": "CORROSAO",
+    "pre_requisitos_expressao": null,
+    "pre_requisitos_codigos": [],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": null,
+    "equivalencias_codigos": [],
+    "pre_requisitos_regra": null
+  },
+  "997": {
+    "codigo": "ECI0059",
+    "nome": "ENGENHARIA DE TRAFEGO",
+    "pre_requisitos_expressao": null,
+    "pre_requisitos_codigos": [],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": null,
+    "equivalencias_codigos": [],
+    "pre_requisitos_regra": null
+  },
+  "1020": {
+    "codigo": "ECI0060",
+    "nome": "FUNDACOES E OBRAS DE CONTENCAO",
+    "pre_requisitos_expressao": "( ECI0037 )",
+    "pre_requisitos_codigos": [
+      "ECI0037"
+    ],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": null,
+    "equivalencias_codigos": [],
+    "pre_requisitos_regra": {
+      "codigo": "ECI0037"
+    }
+  },
+  "1045": {
+    "codigo": "ECI0061",
+    "nome": "METODOLOGIA DO TRABALHO CIENTIFICO",
+    "pre_requisitos_expressao": null,
+    "pre_requisitos_codigos": [],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": "( ECI0087 ) OU ( EM0011 )",
+    "equivalencias_codigos": [
+      "ECI0087",
+      "EM0011"
+    ],
+    "pre_requisitos_regra": null
+  },
+  "762": {
+    "codigo": "ECI0063",
+    "nome": "GERENCIAMENTO DA PRODUCAO NA CONSTRUCAO CIVIL",
+    "pre_requisitos_expressao": "( ECI0041 OU ECI0121 )",
+    "pre_requisitos_codigos": [
+      "ECI0041",
+      "ECI0121"
+    ],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": "( ECI0134 )",
+    "equivalencias_codigos": [
+      "ECI0134"
+    ],
+    "pre_requisitos_regra": {
+      "operador": "OU",
+      "esquerda": {
+        "codigo": "ECI0041"
+      },
+      "direita": {
+        "codigo": "ECI0121"
+      }
+    }
+  },
+  "763": {
+    "codigo": "ECI0064",
+    "nome": "GESTAO DE PAVIMENTOS",
+    "pre_requisitos_expressao": "( ECI0042 OU ECI0110 )",
+    "pre_requisitos_codigos": [
+      "ECI0042",
+      "ECI0110"
+    ],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": null,
+    "equivalencias_codigos": [],
+    "pre_requisitos_regra": {
+      "operador": "OU",
+      "esquerda": {
+        "codigo": "ECI0042"
+      },
+      "direita": {
+        "codigo": "ECI0110"
+      }
+    }
+  },
+  "706": {
+    "codigo": "ECI0066",
+    "nome": "ALVENARIA ESTRUTURAL",
+    "pre_requisitos_expressao": null,
+    "pre_requisitos_codigos": [],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": null,
+    "equivalencias_codigos": [],
+    "pre_requisitos_regra": null
+  },
+  "767": {
+    "codigo": "ECI0068",
+    "nome": "ESTRUTURAS DE CONCRETO PROTENDIDO",
+    "pre_requisitos_expressao": null,
+    "pre_requisitos_codigos": [],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": null,
+    "equivalencias_codigos": [],
+    "pre_requisitos_regra": null
+  },
+  "765": {
+    "codigo": "ECI0069",
+    "nome": "ESTRUTURAS DE FUNDACAO",
+    "pre_requisitos_expressao": null,
+    "pre_requisitos_codigos": [],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": null,
+    "equivalencias_codigos": [],
+    "pre_requisitos_regra": null
+  },
+  "771": {
+    "codigo": "ECI0071",
+    "nome": "PATOLOGIA E RECUPERACAO DE ESTRUTURAS DE CONCRETO",
+    "pre_requisitos_expressao": null,
+    "pre_requisitos_codigos": [],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": null,
+    "equivalencias_codigos": [],
+    "pre_requisitos_regra": null
+  },
+  "900": {
+    "codigo": "ECI0072",
+    "nome": "LOGISTICA GLOBAL",
+    "pre_requisitos_expressao": null,
+    "pre_requisitos_codigos": [],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": null,
+    "equivalencias_codigos": [],
+    "pre_requisitos_regra": null
+  },
+  "895": {
+    "codigo": "ECI0073",
+    "nome": "DESENHO ASSISTIDO POR COMPUTADOR",
+    "pre_requisitos_expressao": null,
+    "pre_requisitos_codigos": [],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": null,
+    "equivalencias_codigos": [],
+    "pre_requisitos_regra": null
+  },
+  "888": {
+    "codigo": "ECI0075",
+    "nome": "TRATAMENTO DE AGUA E ESGOTO",
+    "pre_requisitos_expressao": null,
+    "pre_requisitos_codigos": [],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": null,
+    "equivalencias_codigos": [],
+    "pre_requisitos_regra": null
+  },
+  "1439": {
+    "codigo": "ECI0076",
+    "nome": "ENGENHARIA DE AVALIAÇÕES E PERÍCIAS",
+    "pre_requisitos_expressao": null,
+    "pre_requisitos_codigos": [],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": null,
+    "equivalencias_codigos": [],
+    "pre_requisitos_regra": null
+  },
+  "1438": {
+    "codigo": "ECI0077",
+    "nome": "PLANEJAMENTO E GESTÃO DE CARREIRAS",
+    "pre_requisitos_expressao": null,
+    "pre_requisitos_codigos": [],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": null,
+    "equivalencias_codigos": [],
+    "pre_requisitos_regra": null
+  },
+  "1887": {
+    "codigo": "ECI0083",
+    "nome": "HIDRÁULICA DE MEIOS POROSOS",
+    "pre_requisitos_expressao": null,
+    "pre_requisitos_codigos": [],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": null,
+    "equivalencias_codigos": [],
+    "pre_requisitos_regra": null
+  },
+  "1891": {
+    "codigo": "ECI0084",
+    "nome": "GESTÃO DE RECURSOS HÍDRICOS",
+    "pre_requisitos_expressao": null,
+    "pre_requisitos_codigos": [],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": null,
+    "equivalencias_codigos": [],
+    "pre_requisitos_regra": null
+  },
+  "1962": {
+    "codigo": "ECI0085",
+    "nome": "TRANSPORTE AÉREO",
+    "pre_requisitos_expressao": null,
+    "pre_requisitos_codigos": [],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": null,
+    "equivalencias_codigos": [],
+    "pre_requisitos_regra": null
+  },
+  "2100": {
+    "codigo": "ECI0086",
+    "nome": "DINÂMICA DAS ESTRUTURAS",
+    "pre_requisitos_expressao": "( ECI0017 )",
+    "pre_requisitos_codigos": [
+      "ECI0017"
+    ],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": null,
+    "equivalencias_codigos": [],
+    "pre_requisitos_regra": {
+      "codigo": "ECI0017"
+    }
+  },
+  "2615": {
+    "codigo": "ECI0123",
+    "nome": "MATERIAIS BETUMINOSOS",
+    "pre_requisitos_expressao": "( ECI0042 )",
+    "pre_requisitos_codigos": [
+      "ECI0042"
+    ],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": null,
+    "equivalencias_codigos": [],
+    "pre_requisitos_regra": {
+      "codigo": "ECI0042"
+    }
+  },
+  "3089": {
+    "codigo": "ECI0130",
+    "nome": "TOPOGRAFIA TEÓRICA",
+    "pre_requisitos_expressao": "( ECI0009 )",
+    "pre_requisitos_codigos": [
+      "ECI0009"
+    ],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": null,
+    "equivalencias_codigos": [],
+    "pre_requisitos_regra": {
+      "codigo": "ECI0009"
+    }
+  },
+  "3090": {
+    "codigo": "ECI0131",
+    "nome": "TOPOGRAFIA PRÁTICA",
+    "pre_requisitos_expressao": "( ECI0130 )",
+    "pre_requisitos_codigos": [
+      "ECI0130"
+    ],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": null,
+    "equivalencias_codigos": [],
+    "pre_requisitos_regra": {
+      "codigo": "ECI0130"
+    }
+  },
+  "1367": {
+    "codigo": "PRG0002",
+    "nome": "RELAÇOES ETNICO RACIAIS E AFRICANIDADES",
+    "pre_requisitos_expressao": null,
+    "pre_requisitos_codigos": [],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": null,
+    "equivalencias_codigos": [],
+    "pre_requisitos_regra": null
+  },
+  "1368": {
+    "codigo": "PRG0003",
+    "nome": "EDUCAÇAO AMBIENTAL",
+    "pre_requisitos_expressao": null,
+    "pre_requisitos_codigos": [],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": null,
+    "equivalencias_codigos": [],
+    "pre_requisitos_regra": null
+  },
+  "1369": {
+    "codigo": "PRG0004",
+    "nome": "EDUCAÇAO EM DIREITOS HUMANOS",
+    "pre_requisitos_expressao": null,
+    "pre_requisitos_codigos": [],
+    "co_requisitos_expressao": null,
+    "co_requisitos_codigos": [],
+    "equivalencias_expressao": null,
+    "equivalencias_codigos": [],
+    "pre_requisitos_regra": null
+  }
+}
