@@ -1,5 +1,9 @@
 import { useEffect, useState } from 'react'
-import type { DadosCurso, Turma } from './types'
+import type {
+  Curso,
+  DadosCursos,
+  Turma,
+} from './types'
 import {
   encontrarConflitos,
   type ConflitoHorario,
@@ -34,20 +38,41 @@ function normalizarTexto(texto: string) {
 
 function gerarStorageKey(
   periodo: string,
+  cursoId: string,
 ) {
   return (
     `seu-horario-cc-ufca:` +
-    `${periodo}:turmas`
+    `${periodo}:${cursoId}:turmas`
   )
 }
 
+function gerarRotuloCurso(
+  curso: Curso,
+  cursos: Curso[],
+) {
+  const quantidadeMesmoNome =
+    cursos.filter(
+      (item) =>
+        normalizarTexto(item.nome) ===
+        normalizarTexto(curso.nome),
+    ).length
+
+  if (quantidadeMesmoNome > 1) {
+    return `${curso.nome} (${curso.id})`
+  }
+
+  return curso.nome
+}
+
 function App() {
-  const [dados, setDados] = useState<DadosCurso | null>(null)
+  const [dados, setDados] = useState<DadosCursos | null>(null)
+  const [cursoSelecionadoId, setCursoSelecionadoId] =
+  useState<string | null>(null)
   const [erro, setErro] = useState<string | null>(null)
   const [selecionadas, setSelecionadas] = useState<Turma[]>([])
   const [busca, setBusca] = useState('')
   const [conflitos, setConflitos] =
-    useState<ConflitoHorario[]>([])
+  useState<ConflitoHorario[]>([])
 
   const [turmaComConflito, setTurmaComConflito] =
     useState<Turma | null>(null)
@@ -58,7 +83,7 @@ function App() {
   useEffect(() => {
     async function carregarDados() {
       try {
-        const response = await fetch('/data/atual.json')
+        const response = await fetch('/data/cursos-atual.json')
 
         if (!response.ok) {
           throw new Error(
@@ -66,13 +91,30 @@ function App() {
           )
         }
 
-        const json: DadosCurso = await response.json()
+        const json: DadosCursos = await response.json()
 
         setDados(json)
 
+        const cursoPadrao =
+          json.cursos.find(
+            (curso) =>
+              curso.nome
+                .normalize('NFD')
+                .replace(/[\u0300-\u036f]/g, '')
+                .toLowerCase() ===
+              'ciencia da computacao',
+          ) ?? json.cursos[0]
+
+        setCursoSelecionadoId(
+          cursoPadrao?.id ?? null,
+        )
+
         try {
           const storageKey =
-            gerarStorageKey(json.periodo)
+            gerarStorageKey(
+              json.periodo,
+              cursoPadrao.id,
+            )
 
           const idsSalvos = JSON.parse(
             localStorage.getItem(
@@ -81,7 +123,7 @@ function App() {
           ) as string[]
 
           const turmasSalvas =
-            json.turmas.filter((turma) =>
+            cursoPadrao.turmas.filter((turma) =>
               idsSalvos.includes(
                 gerarIdTurma(turma),
               ),
@@ -92,7 +134,10 @@ function App() {
           )
         } catch {
           localStorage.removeItem(
-            gerarStorageKey(json.periodo),
+            gerarStorageKey(
+            json.periodo,
+            cursoPadrao.id,
+          ),
           )
         }
       } catch (error) {
@@ -107,20 +152,30 @@ function App() {
   }, [])
 
   useEffect(() => {
-    if (!dados) {
+    if (!dados || !cursoSelecionadoId) {
       return
     }
 
-    const ids = selecionadas.map(gerarIdTurma)
+    const ids =
+      selecionadas.map(
+        gerarIdTurma,
+      )
 
     const storageKey =
-      gerarStorageKey(dados.periodo)
+      gerarStorageKey(
+        dados.periodo,
+        cursoSelecionadoId,
+      )
 
     localStorage.setItem(
       storageKey,
       JSON.stringify(ids),
     )
-  }, [selecionadas, dados])
+  }, [
+    selecionadas,
+    dados,
+    cursoSelecionadoId,
+  ])
 
   function turmaEstaSelecionada(turma: Turma) {
     const id = gerarIdTurma(turma)
@@ -189,10 +244,54 @@ function App() {
     setTurmaComConflito(null)
   }
 
+  function trocarCurso(novoCursoId: string) {
+    if (!dados) {
+      return
+    }
+
+    const novoCurso = dados.cursos.find(
+      (curso) => curso.id === novoCursoId,
+    )
+
+    if (!novoCurso) {
+      return
+    }
+
+    const storageKey = gerarStorageKey(
+      dados.periodo,
+      novoCurso.id,
+    )
+
+    try {
+      const idsSalvos = JSON.parse(
+        localStorage.getItem(storageKey) ?? '[]',
+      ) as string[]
+
+      const turmasSalvas =
+        novoCurso.turmas.filter((turma) =>
+          idsSalvos.includes(
+            gerarIdTurma(turma),
+          ),
+        )
+
+      setSelecionadas(turmasSalvas)
+    } catch {
+      localStorage.removeItem(storageKey)
+      setSelecionadas([])
+    }
+
+    setCursoSelecionadoId(novoCursoId)
+
+    setConflitos([])
+    setTurmaComConflito(null)
+    setBusca('')
+    setFiltro('todas')
+  }
+
   if (erro) {
     return (
       <main className="container">
-        <h1>Seu Horário CC - UFCA</h1>
+        <h1>Seu Horário - UFCA</h1>
 
         <p className="erro">
           {erro}
@@ -204,7 +303,7 @@ function App() {
   if (!dados) {
     return (
       <main className="container">
-        <h1>Seu Horário CC - UFCA</h1>
+        <h1>Seu Horário - UFCA</h1>
 
         <p>
           Carregando turmas...
@@ -213,9 +312,23 @@ function App() {
     )
   }
 
+  const cursoSelecionado: Curso | undefined =
+  dados.cursos.find(
+    (curso) =>
+      curso.id === cursoSelecionadoId,
+  )
+  
+  if (!cursoSelecionado) {
+    return (
+      <main className="container">
+        <p>Nenhum curso selecionado.</p>
+      </main>
+    )
+  }
+
   const termoBusca = normalizarTexto(busca)
 
-  const turmasFiltradas = dados.turmas.filter((turma) => {
+  const turmasFiltradas = cursoSelecionado.turmas.filter((turma) => {
     const selecionada =
       turmaEstaSelecionada(turma)
 
@@ -259,15 +372,42 @@ function App() {
     <main className="container">
       <header>
         <h1>
-          Seu Horário CC - UFCA
+          Seu Horário - UFCA
         </h1>
 
+          <div className="seletor-curso-container">
+            <label htmlFor="curso">
+              Curso
+            </label>
+
+            <select
+              id="curso"
+              className="seletor-curso"
+              value={cursoSelecionadoId ?? ''}
+              onChange={(event) =>
+                trocarCurso(event.target.value)
+              }
+            >
+              {dados.cursos.map((curso) => (
+                <option
+                  key={curso.id}
+                  value={curso.id}
+                >
+                    {gerarRotuloCurso(
+                      curso,
+                      dados.cursos,
+                    )}
+                </option>
+              ))}
+            </select>
+          </div>
+
         <p>
-          {dados.curso.nome} • {dados.periodo}
+          {cursoSelecionado.nome} • {dados.periodo}
         </p>
 
         <strong>
-          {dados.quantidade_turmas} turmas disponíveis
+          {cursoSelecionado.quantidade_turmas} turmas disponíveis
         </strong>
       </header>
 
@@ -346,6 +486,7 @@ function App() {
                 exportarHorarioCsv(
                   selecionadas,
                   dados.periodo,
+                  cursoSelecionado.nome,
                 )
               }
             >
@@ -359,6 +500,7 @@ function App() {
                 exportarHorarioPdf(
                   selecionadas,
                   dados.periodo,
+                  cursoSelecionado.nome,
                 )
               }
             >
@@ -411,7 +553,7 @@ function App() {
 
             <p>
               {turmasFiltradas.length} de{' '}
-              {dados.turmas.length} turma(s)
+              {cursoSelecionado.turmas.length} turma(s)
             </p>
           </div>
         </div>

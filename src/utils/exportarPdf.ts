@@ -13,6 +13,15 @@ const INICIO_GRADE = 7 * 60
 const FIM_GRADE = 18 * 60
 const INTERVALO = 30
 
+function normalizarNomeArquivo(texto: string) {
+  return texto
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '')
+}
+
 function horaParaMinutos(hora: string) {
   const [horas, minutos] = hora.split(':').map(Number)
 
@@ -68,12 +77,13 @@ function gerarCorTurma(codigo: string) {
 function desenharCabecalho(
   pdf: jsPDF,
   periodo: string,
+  cursoNome: string,
 ) {
   pdf.setFont('helvetica', 'bold')
   pdf.setFontSize(20)
 
   pdf.text(
-    'Seu Horario CC - UFCA',
+    'Seu Horario - UFCA',
     15,
     15,
   )
@@ -82,7 +92,7 @@ function desenharCabecalho(
   pdf.setFontSize(10)
 
   pdf.text(
-    `Ciencia da Computacao - Periodo ${periodo}`,
+    `${cursoNome} - Periodo ${periodo}`,
     15,
     22,
   )
@@ -324,12 +334,14 @@ function adicionarPaginaDisciplinas(
   pdf: jsPDF,
   turmas: Turma[],
   periodo: string,
+  cursoNome: string,
 ) {
   pdf.addPage('a4', 'landscape')
 
   desenharCabecalho(
     pdf,
     periodo,
+    cursoNome,
   )
 
   pdf.setFont('helvetica', 'bold')
@@ -355,6 +367,7 @@ function adicionarPaginaDisciplinas(
       desenharCabecalho(
         pdf,
         periodo,
+	cursoNome,
       )
 
       y = 40
@@ -429,6 +442,7 @@ function adicionarPaginaDisciplinas(
 export function exportarHorarioPdf(
   turmas: Turma[],
   periodo: string,
+  cursoNome: string,
 ) {
   if (turmas.length === 0) {
     return
@@ -443,6 +457,7 @@ export function exportarHorarioPdf(
   desenharCabecalho(
     pdf,
     periodo,
+    cursoNome,
   )
 
   pdf.setFont('helvetica', 'bold')
@@ -463,9 +478,12 @@ export function exportarHorarioPdf(
     pdf,
     turmas,
     periodo,
+    cursoNome,
   )
 
+  const cursoSlug = normalizarNomeArquivo(cursoNome)
+
   pdf.save(
-    `meu-horario-cc-ufca-${periodo}.pdf`,
+      `meu-horario-${cursoSlug}-${periodo}.pdf`,
   )
 }

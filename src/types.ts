@@ -16,13 +16,18 @@ export interface Turma {
   periodo: string
 }
 
-export interface DadosCurso {
-  curso: {
-    id: string
-    nome: string
-  }
-  periodo: string
-  atualizado_em: string
+export interface Curso {
+  id: string
+  nome: string
+  sede: string
+  modalidade: string
   quantidade_turmas: number
   turmas: Turma[]
+}
+
+export interface DadosCursos {
+  periodo: string
+  quantidade_cursos: number
+  quantidade_turmas: number
+  cursos: Curso[]
 }
