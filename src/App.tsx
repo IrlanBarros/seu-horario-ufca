@@ -393,10 +393,10 @@ function App() {
                   key={curso.id}
                   value={curso.id}
                 >
-                    {gerarRotuloCurso(
-                      curso,
-                      dados.cursos,
-                    )}
+                      {gerarRotuloCurso(
+                        curso,
+                        dados.cursos,
+                      )}
                 </option>
               ))}
             </select>
