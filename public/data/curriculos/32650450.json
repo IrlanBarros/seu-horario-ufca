@@ -1,0 +1,2005 @@
+{
+  "curso_id": "32650450",
+  "quantidade_estruturas": 2,
+  "estruturas": [
+    {
+      "id": "34231193",
+      "codigo": "MC002",
+      "ano_criacao": 2023,
+      "status": "Ativa",
+      "quantidade_componentes": 51,
+      "quantidade_obrigatorias": 25,
+      "quantidade_optativas": 26,
+      "componentes": [
+        {
+          "codigo": "MC0001",
+          "nome": "CÁLCULO I",
+          "carga_horaria": 96,
+          "tipo": "obrigatoria",
+          "nivel": 1,
+          "id": "2241",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( CAR0001 OU CAR0008 OU CC0002 )",
+          "equivalencias_codigos": [
+            "CAR0001",
+            "CAR0008",
+            "CC0002"
+          ]
+        },
+        {
+          "codigo": "MC0002",
+          "nome": "ÁLGEBRA VETORIAL E GEOMETRIA ANALÍTICA",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 1,
+          "id": "2270",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( EM0004 ) OU ( CAR0009 ) OU ( CC0004 )",
+          "equivalencias_codigos": [
+            "EM0004",
+            "CAR0009",
+            "CC0004"
+          ]
+        },
+        {
+          "codigo": "MC0003",
+          "nome": "FUNDAMENTOS DE MATEMÁTICA DISCRETA",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 1,
+          "id": "2271",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( CC0005 OU ES0002 )",
+          "equivalencias_codigos": [
+            "CC0005",
+            "ES0002"
+          ]
+        },
+        {
+          "codigo": "MC0004",
+          "nome": "INTRODUÇÃO À PROGRAMAÇÃO",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 1,
+          "id": "2272",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( ECI0099 OU CC0001 OU EM0006 OU EM0084 )",
+          "equivalencias_codigos": [
+            "ECI0099",
+            "CC0001",
+            "EM0006",
+            "EM0084"
+          ]
+        },
+        {
+          "codigo": "MC0005",
+          "nome": "CÁLCULO II",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 2,
+          "id": "2273",
+          "pre_requisitos_expressao": "MC0001",
+          "pre_requisitos_codigos": [
+            "MC0001"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "MC0001"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( CAR0011 OU CC0007 OU CAR0004 )",
+          "equivalencias_codigos": [
+            "CAR0011",
+            "CC0007",
+            "CAR0004"
+          ]
+        },
+        {
+          "codigo": "MC0006",
+          "nome": "ÁLGEBRA LINEAR I",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 2,
+          "id": "2274",
+          "pre_requisitos_expressao": "MC0002",
+          "pre_requisitos_codigos": [
+            "MC0002"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "MC0002"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( EM0010 OU ECI0002 OU CC0009 )",
+          "equivalencias_codigos": [
+            "EM0010",
+            "ECI0002",
+            "CC0009"
+          ]
+        },
+        {
+          "codigo": "MC0007",
+          "nome": "PROBABILIDADE E ESTATÍSTICA",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 2,
+          "id": "2275",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( CAR0003 ) OU ( CC0010 )",
+          "equivalencias_codigos": [
+            "CAR0003",
+            "CC0010"
+          ]
+        },
+        {
+          "codigo": "MC0009",
+          "nome": "FUNDAMENTOS DE MECÂNICA",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 2,
+          "id": "2277",
+          "pre_requisitos_expressao": "( MC0001 )",
+          "pre_requisitos_codigos": [
+            "MC0001"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "MC0001"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( EM0078 )",
+          "equivalencias_codigos": [
+            "EM0078"
+          ]
+        },
+        {
+          "codigo": "MC0018",
+          "nome": "PROGRAMAÇÃO ORIENTADA A OBJETOS",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 2,
+          "id": "2286",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( CC0019 OU ES0008 )",
+          "equivalencias_codigos": [
+            "CC0019",
+            "ES0008"
+          ]
+        },
+        {
+          "codigo": "MC0011",
+          "nome": "CÁLCULO VETORIAL",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 3,
+          "id": "2279",
+          "pre_requisitos_expressao": "MC0005",
+          "pre_requisitos_codigos": [
+            "MC0005"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "MC0005"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( CAR0012 OU CC0013 OU CAR0005 )",
+          "equivalencias_codigos": [
+            "CAR0012",
+            "CC0013",
+            "CAR0005"
+          ]
+        },
+        {
+          "codigo": "MC0041",
+          "nome": "FUNDAMENTOS DE ELETROMAGNETISMO",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 3,
+          "id": "3998",
+          "pre_requisitos_expressao": "( MC0009 )",
+          "pre_requisitos_codigos": [
+            "MC0009"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "MC0009"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( MC0010 OU CC0014 OU EM0020 )",
+          "equivalencias_codigos": [
+            "MC0010",
+            "CC0014",
+            "EM0020"
+          ]
+        },
+        {
+          "codigo": "MC0042",
+          "nome": "LABORATÓRIO DE ALGORITMOS E ESTRUTURA DE DADOS",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 3,
+          "id": "4002",
+          "pre_requisitos_expressao": "( MC0003 E MC0004 )",
+          "pre_requisitos_codigos": [
+            "MC0003",
+            "MC0004"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "E",
+            "esquerda": {
+              "codigo": "MC0003"
+            },
+            "direita": {
+              "codigo": "MC0004"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( CC0006 OU MC0008 ) E ( CC0012 OU MC0013 ) OU ( CC0062 )",
+          "equivalencias_codigos": [
+            "CC0006",
+            "MC0008",
+            "CC0012",
+            "MC0013",
+            "CC0062"
+          ]
+        },
+        {
+          "codigo": "MC0043",
+          "nome": "ALGORITMOS E ESTRUTURA DE DADOS",
+          "carga_horaria": 96,
+          "tipo": "obrigatoria",
+          "nivel": 3,
+          "id": "4005",
+          "pre_requisitos_expressao": "( MC0003 E MC0004 )",
+          "pre_requisitos_codigos": [
+            "MC0003",
+            "MC0004"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "E",
+            "esquerda": {
+              "codigo": "MC0003"
+            },
+            "direita": {
+              "codigo": "MC0004"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( CC0006 OU MC0008 ) E ( CC0012 OU MC0013 ) OU ( CC0061 )",
+          "equivalencias_codigos": [
+            "CC0006",
+            "MC0008",
+            "CC0012",
+            "MC0013",
+            "CC0061"
+          ]
+        },
+        {
+          "codigo": "MC0014",
+          "nome": "CÁLCULO NUMÉRICO",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 4,
+          "id": "2282",
+          "pre_requisitos_expressao": "( MC0005 )",
+          "pre_requisitos_codigos": [
+            "MC0005"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "MC0005"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( ECI0080 ) OU ( EM0014 ) OU ( CC0018 )",
+          "equivalencias_codigos": [
+            "ECI0080",
+            "EM0014",
+            "CC0018"
+          ]
+        },
+        {
+          "codigo": "MC0016",
+          "nome": "ALGORITMOS EM GRAFOS",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 4,
+          "id": "2284",
+          "pre_requisitos_expressao": "( MC0013 OU MC0043 )",
+          "pre_requisitos_codigos": [
+            "MC0013",
+            "MC0043"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "MC0013"
+            },
+            "direita": {
+              "codigo": "MC0043"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( CC0017 )",
+          "equivalencias_codigos": [
+            "CC0017"
+          ]
+        },
+        {
+          "codigo": "MC0017",
+          "nome": "INTRODUÇÃO EQUAÇÕES DIFERENCIAIS ORDINÁRIAS",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 4,
+          "id": "2285",
+          "pre_requisitos_expressao": "( MC0005 ) E ( MC0006 )",
+          "pre_requisitos_codigos": [
+            "MC0005",
+            "MC0006"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "E",
+            "esquerda": {
+              "codigo": "MC0005"
+            },
+            "direita": {
+              "codigo": "MC0006"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( CAR0017 OU EM0019 )",
+          "equivalencias_codigos": [
+            "CAR0017",
+            "EM0019"
+          ]
+        },
+        {
+          "codigo": "MC0044",
+          "nome": "ÁLGEBRA LINEAR II",
+          "carga_horaria": 96,
+          "tipo": "obrigatoria",
+          "nivel": 4,
+          "id": "4007",
+          "pre_requisitos_expressao": "( MC0006 )",
+          "pre_requisitos_codigos": [
+            "MC0006"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "MC0006"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( MC0015 )",
+          "equivalencias_codigos": [
+            "MC0015"
+          ]
+        },
+        {
+          "codigo": "MC0019",
+          "nome": "ANÁLISE I",
+          "carga_horaria": 96,
+          "tipo": "obrigatoria",
+          "nivel": 5,
+          "id": "2287",
+          "pre_requisitos_expressao": "MC0011",
+          "pre_requisitos_codigos": [
+            "MC0011"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "MC0011"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "MC0020",
+          "nome": "ÁLGEBRA LINEAR COMPUTACIONAL",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 5,
+          "id": "2288",
+          "pre_requisitos_expressao": "MC0014",
+          "pre_requisitos_codigos": [
+            "MC0014"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "MC0014"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "MC0021",
+          "nome": "INTRODUÇÃO À TEORIA DOS NÚMEROS",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 5,
+          "id": "2289",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "MC0022",
+          "nome": "MÉTODOS NUMÉRICOS PARA EQUAÇÕES DIFERENCIAIS",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 5,
+          "id": "2290",
+          "pre_requisitos_expressao": "MC0014",
+          "pre_requisitos_codigos": [
+            "MC0014"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "MC0014"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "MC0023",
+          "nome": "ANÁLISE II",
+          "carga_horaria": 96,
+          "tipo": "obrigatoria",
+          "nivel": 6,
+          "id": "2370",
+          "pre_requisitos_expressao": "MC0019",
+          "pre_requisitos_codigos": [
+            "MC0019"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "MC0019"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "MC0026",
+          "nome": "VARIÁVEIS COMPLEXAS",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 6,
+          "id": "2373",
+          "pre_requisitos_expressao": "MC0011",
+          "pre_requisitos_codigos": [
+            "MC0011"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "MC0011"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "MC0036",
+          "nome": "ESTATÍSTICA COMPUTACIONAL",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 6,
+          "id": "2383",
+          "pre_requisitos_expressao": "( MC0007 ) E ( MC0014 )",
+          "pre_requisitos_codigos": [
+            "MC0007",
+            "MC0014"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "E",
+            "esquerda": {
+              "codigo": "MC0007"
+            },
+            "direita": {
+              "codigo": "MC0014"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "MC0045",
+          "nome": "TEORIA DE ANÉIS E CORPOS",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 6,
+          "id": "4009",
+          "pre_requisitos_expressao": "( MC0021 )",
+          "pre_requisitos_codigos": [
+            "MC0021"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "MC0021"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( MC0030 )",
+          "equivalencias_codigos": [
+            "MC0030"
+          ]
+        },
+        {
+          "codigo": "CAR0010",
+          "nome": "LÍNGUA BRASILEIRA DE SINAIS: LIBRAS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1357",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "MC0012",
+          "nome": "LABORATÓRIO DE PROGRAMAÇÃO",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2280",
+          "pre_requisitos_expressao": "MC0004",
+          "pre_requisitos_codigos": [
+            "MC0004"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "MC0004"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( CC0016 )",
+          "equivalencias_codigos": [
+            "CC0016"
+          ]
+        },
+        {
+          "codigo": "MC0024",
+          "nome": "INTRODUÇÃO À TEORIA DE GRUPOS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2371",
+          "pre_requisitos_expressao": "( MC0021 OU MC0045 )",
+          "pre_requisitos_codigos": [
+            "MC0021",
+            "MC0045"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "MC0021"
+            },
+            "direita": {
+              "codigo": "MC0045"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "MC0025",
+          "nome": "INTRODUÇÃO A EQUAÇÕES DIFERENCIAIS PARCIAIS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2372",
+          "pre_requisitos_expressao": "MC0011",
+          "pre_requisitos_codigos": [
+            "MC0011"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "MC0011"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "MC0028",
+          "nome": "INTRODUÇÃO AOS ESPAÇOS MÉTRICOS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2375",
+          "pre_requisitos_expressao": "MC0019",
+          "pre_requisitos_codigos": [
+            "MC0019"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "MC0019"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "MC0029",
+          "nome": "INTRODUÇÃO À GEOMETRIA DIFERENCIAL",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2376",
+          "pre_requisitos_expressao": "MC0011",
+          "pre_requisitos_codigos": [
+            "MC0011"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "MC0011"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "MC0031",
+          "nome": "INTRODUÇÃO À ANÁLISE FUNCIONAL",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2378",
+          "pre_requisitos_expressao": "( MC0006 ) E ( MC0028 )",
+          "pre_requisitos_codigos": [
+            "MC0006",
+            "MC0028"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "E",
+            "esquerda": {
+              "codigo": "MC0006"
+            },
+            "direita": {
+              "codigo": "MC0028"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "MC0032",
+          "nome": "MÉTODO DOS ELEMENTOS FINITOS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2379",
+          "pre_requisitos_expressao": "( MC0014 )",
+          "pre_requisitos_codigos": [
+            "MC0014"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "MC0014"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "MC0033",
+          "nome": "INTRODUÇÃO À VISUALIZAÇÃO CIENTÍFICA",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2380",
+          "pre_requisitos_expressao": "MC0018",
+          "pre_requisitos_codigos": [
+            "MC0018"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "MC0018"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "MC0037",
+          "nome": "MODELAGEM E ANÁLISE MULTIVARIADA",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2384",
+          "pre_requisitos_expressao": "( MC0006 ) E ( MC0036 )",
+          "pre_requisitos_codigos": [
+            "MC0006",
+            "MC0036"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "E",
+            "esquerda": {
+              "codigo": "MC0006"
+            },
+            "direita": {
+              "codigo": "MC0036"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "MC0038",
+          "nome": "PESQUISA OPERACIONAL 1",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2385",
+          "pre_requisitos_expressao": "( MC0006 ) E ( MC0036 )",
+          "pre_requisitos_codigos": [
+            "MC0006",
+            "MC0036"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "E",
+            "esquerda": {
+              "codigo": "MC0006"
+            },
+            "direita": {
+              "codigo": "MC0036"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "MC0039",
+          "nome": "SÉRIES TEMPORAIS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2386",
+          "pre_requisitos_expressao": "MC0036",
+          "pre_requisitos_codigos": [
+            "MC0036"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "MC0036"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "MC0046",
+          "nome": "EQUAÇÕES DIFERENCIAIS ORDINÁRIAS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "4010",
+          "pre_requisitos_expressao": "( MC0019 )",
+          "pre_requisitos_codigos": [
+            "MC0019"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "MC0019"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "MC0047",
+          "nome": "INTRODUÇÃO À TEORIA DA MEDIDA",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "4011",
+          "pre_requisitos_expressao": "( MC0019 )",
+          "pre_requisitos_codigos": [
+            "MC0019"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "MC0019"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "MC0048",
+          "nome": "INTRODUÇÃO À TOPOLOGIA GERAL",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "4012",
+          "pre_requisitos_expressao": "( MC0019 )",
+          "pre_requisitos_codigos": [
+            "MC0019"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "MC0019"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "MC0049",
+          "nome": "COMPUTAÇÃO DE ALTO DESEMPENHO",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "4013",
+          "pre_requisitos_expressao": "( MC0014 E MC0042 )",
+          "pre_requisitos_codigos": [
+            "MC0014",
+            "MC0042"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "E",
+            "esquerda": {
+              "codigo": "MC0014"
+            },
+            "direita": {
+              "codigo": "MC0042"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "MC0050",
+          "nome": "COMPUTAÇÃO GRÁFICA",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "4014",
+          "pre_requisitos_expressao": "( MC0006 E MC0043 )",
+          "pre_requisitos_codigos": [
+            "MC0006",
+            "MC0043"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "E",
+            "esquerda": {
+              "codigo": "MC0006"
+            },
+            "direita": {
+              "codigo": "MC0043"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "MC0051",
+          "nome": "INTRODUÇÃO À DINÂMICA DOS FLUIDOS COMPUTACIONAL",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "4015",
+          "pre_requisitos_expressao": "( MC0018 )",
+          "pre_requisitos_codigos": [
+            "MC0018"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "MC0018"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "MC0052",
+          "nome": "INTRODUÇÃO AO CÁLCULO VARIACIONAL",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "4016",
+          "pre_requisitos_expressao": "( MC0019 )",
+          "pre_requisitos_codigos": [
+            "MC0019"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "MC0019"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "MC0053",
+          "nome": "ANÁLISE DE DECISÃO",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "4017",
+          "pre_requisitos_expressao": "( MC0036 )",
+          "pre_requisitos_codigos": [
+            "MC0036"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "MC0036"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "MC0054",
+          "nome": "INTRODUÇÃO A INFERÊNCIA BAYESIANA",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "4018",
+          "pre_requisitos_expressao": "( MC0014 E MC0036 )",
+          "pre_requisitos_codigos": [
+            "MC0014",
+            "MC0036"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "E",
+            "esquerda": {
+              "codigo": "MC0014"
+            },
+            "direita": {
+              "codigo": "MC0036"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "MC0055",
+          "nome": "PESQUISA OPERACIONAL 2",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "4019",
+          "pre_requisitos_expressao": "( MC0038 )",
+          "pre_requisitos_codigos": [
+            "MC0038"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "MC0038"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "MC0056",
+          "nome": "PROCESSOS ESTOCÁSTICOS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "4020",
+          "pre_requisitos_expressao": "( MC0017 E MC0036 )",
+          "pre_requisitos_codigos": [
+            "MC0017",
+            "MC0036"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "E",
+            "esquerda": {
+              "codigo": "MC0017"
+            },
+            "direita": {
+              "codigo": "MC0036"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "MC0057",
+          "nome": "PROGRAMAÇÃO MATEMÁTICA",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "4022",
+          "pre_requisitos_expressao": "( MC0006 E MC0014 E MC0036 )",
+          "pre_requisitos_codigos": [
+            "MC0006",
+            "MC0014",
+            "MC0036"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "E",
+            "esquerda": {
+              "operador": "E",
+              "esquerda": {
+                "codigo": "MC0006"
+              },
+              "direita": {
+                "codigo": "MC0014"
+              }
+            },
+            "direita": {
+              "codigo": "MC0036"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "MC0058",
+          "nome": "TÉCNICAS DE SIMULAÇÃO DA PRODUÇÃO",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "4023",
+          "pre_requisitos_expressao": "( MC0014 E MC0036 )",
+          "pre_requisitos_codigos": [
+            "MC0014",
+            "MC0036"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "E",
+            "esquerda": {
+              "codigo": "MC0014"
+            },
+            "direita": {
+              "codigo": "MC0036"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "MC0059",
+          "nome": "TRABALHO DE CONCLUSÃO DE CURSO TCC",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "4026",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( CAR0008 OU CC0002 )",
+          "equivalencias_codigos": [
+            "CAR0008",
+            "CC0002"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "32652232",
+      "codigo": "MC001",
+      "ano_criacao": 2019,
+      "status": "Ativa",
+      "quantidade_componentes": 42,
+      "quantidade_obrigatorias": 27,
+      "quantidade_optativas": 15,
+      "componentes": [
+        {
+          "codigo": "MC0001",
+          "nome": "CÁLCULO I",
+          "carga_horaria": 96,
+          "tipo": "obrigatoria",
+          "nivel": 1,
+          "id": "2241",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( CAR0001 OU CAR0008 OU CC0002 )",
+          "equivalencias_codigos": [
+            "CAR0001",
+            "CAR0008",
+            "CC0002"
+          ]
+        },
+        {
+          "codigo": "MC0002",
+          "nome": "ÁLGEBRA VETORIAL E GEOMETRIA ANALÍTICA",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 1,
+          "id": "2270",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( EM0004 ) OU ( CAR0009 ) OU ( CC0004 )",
+          "equivalencias_codigos": [
+            "EM0004",
+            "CAR0009",
+            "CC0004"
+          ]
+        },
+        {
+          "codigo": "MC0003",
+          "nome": "FUNDAMENTOS DE MATEMÁTICA DISCRETA",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 1,
+          "id": "2271",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( CC0005 OU ES0002 )",
+          "equivalencias_codigos": [
+            "CC0005",
+            "ES0002"
+          ]
+        },
+        {
+          "codigo": "MC0004",
+          "nome": "INTRODUÇÃO À PROGRAMAÇÃO",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 1,
+          "id": "2272",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( ECI0099 OU CC0001 OU EM0006 OU EM0084 )",
+          "equivalencias_codigos": [
+            "ECI0099",
+            "CC0001",
+            "EM0006",
+            "EM0084"
+          ]
+        },
+        {
+          "codigo": "MC0005",
+          "nome": "CÁLCULO II",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 2,
+          "id": "2273",
+          "pre_requisitos_expressao": "MC0001",
+          "pre_requisitos_codigos": [
+            "MC0001"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "MC0001"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( CAR0011 OU CC0007 OU CAR0004 )",
+          "equivalencias_codigos": [
+            "CAR0011",
+            "CC0007",
+            "CAR0004"
+          ]
+        },
+        {
+          "codigo": "MC0006",
+          "nome": "ÁLGEBRA LINEAR I",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 2,
+          "id": "2274",
+          "pre_requisitos_expressao": "MC0002",
+          "pre_requisitos_codigos": [
+            "MC0002"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "MC0002"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( EM0010 OU ECI0002 OU CC0009 )",
+          "equivalencias_codigos": [
+            "EM0010",
+            "ECI0002",
+            "CC0009"
+          ]
+        },
+        {
+          "codigo": "MC0007",
+          "nome": "PROBABILIDADE E ESTATÍSTICA",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 2,
+          "id": "2275",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( CAR0003 ) OU ( CC0010 )",
+          "equivalencias_codigos": [
+            "CAR0003",
+            "CC0010"
+          ]
+        },
+        {
+          "codigo": "MC0008",
+          "nome": "ALGORITMOS E ESTRUTURA DE DADOS I",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 2,
+          "id": "2276",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( CC0006 )",
+          "equivalencias_codigos": [
+            "CC0006"
+          ]
+        },
+        {
+          "codigo": "MC0009",
+          "nome": "FUNDAMENTOS DE MECÂNICA",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 2,
+          "id": "2277",
+          "pre_requisitos_expressao": "( MC0001 )",
+          "pre_requisitos_codigos": [
+            "MC0001"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "MC0001"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( EM0078 )",
+          "equivalencias_codigos": [
+            "EM0078"
+          ]
+        },
+        {
+          "codigo": "MC0010",
+          "nome": "FUNDAMENTOS DE ELETROMAGNETISMO",
+          "carga_horaria": 96,
+          "tipo": "obrigatoria",
+          "nivel": 3,
+          "id": "2278",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "MC0011",
+          "nome": "CÁLCULO VETORIAL",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 3,
+          "id": "2279",
+          "pre_requisitos_expressao": "MC0005",
+          "pre_requisitos_codigos": [
+            "MC0005"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "MC0005"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( CAR0012 OU CC0013 OU CAR0005 )",
+          "equivalencias_codigos": [
+            "CAR0012",
+            "CC0013",
+            "CAR0005"
+          ]
+        },
+        {
+          "codigo": "MC0012",
+          "nome": "LABORATÓRIO DE PROGRAMAÇÃO",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 3,
+          "id": "2280",
+          "pre_requisitos_expressao": "MC0004",
+          "pre_requisitos_codigos": [
+            "MC0004"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "MC0004"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( CC0016 )",
+          "equivalencias_codigos": [
+            "CC0016"
+          ]
+        },
+        {
+          "codigo": "MC0013",
+          "nome": "ALGORITMO E ESTRUTURA DE DADOS II",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 3,
+          "id": "2281",
+          "pre_requisitos_expressao": "MC0008",
+          "pre_requisitos_codigos": [
+            "MC0008"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "MC0008"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( CC0012 )",
+          "equivalencias_codigos": [
+            "CC0012"
+          ]
+        },
+        {
+          "codigo": "MC0014",
+          "nome": "CÁLCULO NUMÉRICO",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 4,
+          "id": "2282",
+          "pre_requisitos_expressao": "( MC0005 )",
+          "pre_requisitos_codigos": [
+            "MC0005"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "MC0005"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( ECI0080 ) OU ( EM0014 ) OU ( CC0018 )",
+          "equivalencias_codigos": [
+            "ECI0080",
+            "EM0014",
+            "CC0018"
+          ]
+        },
+        {
+          "codigo": "MC0015",
+          "nome": "ÁLGEBRA LINEAR II",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 4,
+          "id": "2283",
+          "pre_requisitos_expressao": "MC0006",
+          "pre_requisitos_codigos": [
+            "MC0006"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "MC0006"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "MC0016",
+          "nome": "ALGORITMOS EM GRAFOS",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 4,
+          "id": "2284",
+          "pre_requisitos_expressao": "( MC0013 OU MC0043 )",
+          "pre_requisitos_codigos": [
+            "MC0013",
+            "MC0043"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "MC0013"
+            },
+            "direita": {
+              "codigo": "MC0043"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( CC0017 )",
+          "equivalencias_codigos": [
+            "CC0017"
+          ]
+        },
+        {
+          "codigo": "MC0017",
+          "nome": "INTRODUÇÃO EQUAÇÕES DIFERENCIAIS ORDINÁRIAS",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 4,
+          "id": "2285",
+          "pre_requisitos_expressao": "( MC0005 ) E ( MC0006 )",
+          "pre_requisitos_codigos": [
+            "MC0005",
+            "MC0006"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "E",
+            "esquerda": {
+              "codigo": "MC0005"
+            },
+            "direita": {
+              "codigo": "MC0006"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( CAR0017 OU EM0019 )",
+          "equivalencias_codigos": [
+            "CAR0017",
+            "EM0019"
+          ]
+        },
+        {
+          "codigo": "MC0018",
+          "nome": "PROGRAMAÇÃO ORIENTADA A OBJETOS",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 4,
+          "id": "2286",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( CC0019 OU ES0008 )",
+          "equivalencias_codigos": [
+            "CC0019",
+            "ES0008"
+          ]
+        },
+        {
+          "codigo": "MC0019",
+          "nome": "ANÁLISE I",
+          "carga_horaria": 96,
+          "tipo": "obrigatoria",
+          "nivel": 5,
+          "id": "2287",
+          "pre_requisitos_expressao": "MC0011",
+          "pre_requisitos_codigos": [
+            "MC0011"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "MC0011"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "MC0020",
+          "nome": "ÁLGEBRA LINEAR COMPUTACIONAL",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 5,
+          "id": "2288",
+          "pre_requisitos_expressao": "MC0014",
+          "pre_requisitos_codigos": [
+            "MC0014"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "MC0014"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "MC0021",
+          "nome": "INTRODUÇÃO À TEORIA DOS NÚMEROS",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 5,
+          "id": "2289",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "MC0022",
+          "nome": "MÉTODOS NUMÉRICOS PARA EQUAÇÕES DIFERENCIAIS",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 5,
+          "id": "2290",
+          "pre_requisitos_expressao": "MC0014",
+          "pre_requisitos_codigos": [
+            "MC0014"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "MC0014"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "MC0023",
+          "nome": "ANÁLISE II",
+          "carga_horaria": 96,
+          "tipo": "obrigatoria",
+          "nivel": 6,
+          "id": "2370",
+          "pre_requisitos_expressao": "MC0019",
+          "pre_requisitos_codigos": [
+            "MC0019"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "MC0019"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "MC0024",
+          "nome": "INTRODUÇÃO À TEORIA DE GRUPOS",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 6,
+          "id": "2371",
+          "pre_requisitos_expressao": "( MC0021 OU MC0045 )",
+          "pre_requisitos_codigos": [
+            "MC0021",
+            "MC0045"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "MC0021"
+            },
+            "direita": {
+              "codigo": "MC0045"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "MC0025",
+          "nome": "INTRODUÇÃO A EQUAÇÕES DIFERENCIAIS PARCIAIS",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 6,
+          "id": "2372",
+          "pre_requisitos_expressao": "MC0011",
+          "pre_requisitos_codigos": [
+            "MC0011"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "MC0011"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "MC0026",
+          "nome": "VARIÁVEIS COMPLEXAS",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 6,
+          "id": "2373",
+          "pre_requisitos_expressao": "MC0011",
+          "pre_requisitos_codigos": [
+            "MC0011"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "MC0011"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "MC0027",
+          "nome": "PROJETO DE GRADUAÇÃO TCC",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 7,
+          "id": "2374",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CAR0010",
+          "nome": "LÍNGUA BRASILEIRA DE SINAIS: LIBRAS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1357",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "MC0028",
+          "nome": "INTRODUÇÃO AOS ESPAÇOS MÉTRICOS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2375",
+          "pre_requisitos_expressao": "MC0019",
+          "pre_requisitos_codigos": [
+            "MC0019"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "MC0019"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "MC0029",
+          "nome": "INTRODUÇÃO À GEOMETRIA DIFERENCIAL",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2376",
+          "pre_requisitos_expressao": "MC0011",
+          "pre_requisitos_codigos": [
+            "MC0011"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "MC0011"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "MC0030",
+          "nome": "INTRODUÇÃO ÀS ESTRUTURAS ALGÉBRICAS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2377",
+          "pre_requisitos_expressao": "MC0024",
+          "pre_requisitos_codigos": [
+            "MC0024"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "MC0024"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "MC0031",
+          "nome": "INTRODUÇÃO À ANÁLISE FUNCIONAL",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2378",
+          "pre_requisitos_expressao": "( MC0006 ) E ( MC0028 )",
+          "pre_requisitos_codigos": [
+            "MC0006",
+            "MC0028"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "E",
+            "esquerda": {
+              "codigo": "MC0006"
+            },
+            "direita": {
+              "codigo": "MC0028"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "MC0032",
+          "nome": "MÉTODO DOS ELEMENTOS FINITOS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2379",
+          "pre_requisitos_expressao": "( MC0014 )",
+          "pre_requisitos_codigos": [
+            "MC0014"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "MC0014"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "MC0033",
+          "nome": "INTRODUÇÃO À VISUALIZAÇÃO CIENTÍFICA",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2380",
+          "pre_requisitos_expressao": "MC0018",
+          "pre_requisitos_codigos": [
+            "MC0018"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "MC0018"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "MC0034",
+          "nome": "DINÂMICA DE FLUIDOS COMPUTACIONAL",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2381",
+          "pre_requisitos_expressao": "MC0018",
+          "pre_requisitos_codigos": [
+            "MC0018"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "MC0018"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "MC0035",
+          "nome": "COMPUTAÇÃO DE ALTO DESEMPENHO",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2382",
+          "pre_requisitos_expressao": "( MC0012 ) E ( MC0014 )",
+          "pre_requisitos_codigos": [
+            "MC0012",
+            "MC0014"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "E",
+            "esquerda": {
+              "codigo": "MC0012"
+            },
+            "direita": {
+              "codigo": "MC0014"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "MC0036",
+          "nome": "ESTATÍSTICA COMPUTACIONAL",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2383",
+          "pre_requisitos_expressao": "( MC0007 ) E ( MC0014 )",
+          "pre_requisitos_codigos": [
+            "MC0007",
+            "MC0014"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "E",
+            "esquerda": {
+              "codigo": "MC0007"
+            },
+            "direita": {
+              "codigo": "MC0014"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "MC0037",
+          "nome": "MODELAGEM E ANÁLISE MULTIVARIADA",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2384",
+          "pre_requisitos_expressao": "( MC0006 ) E ( MC0036 )",
+          "pre_requisitos_codigos": [
+            "MC0006",
+            "MC0036"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "E",
+            "esquerda": {
+              "codigo": "MC0006"
+            },
+            "direita": {
+              "codigo": "MC0036"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "MC0038",
+          "nome": "PESQUISA OPERACIONAL 1",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2385",
+          "pre_requisitos_expressao": "( MC0006 ) E ( MC0036 )",
+          "pre_requisitos_codigos": [
+            "MC0006",
+            "MC0036"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "E",
+            "esquerda": {
+              "codigo": "MC0006"
+            },
+            "direita": {
+              "codigo": "MC0036"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "MC0039",
+          "nome": "SÉRIES TEMPORAIS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2386",
+          "pre_requisitos_expressao": "MC0036",
+          "pre_requisitos_codigos": [
+            "MC0036"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "MC0036"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "MC0040",
+          "nome": "INTRODUÇÃO À TOPOLOGIA GERAL",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3769",
+          "pre_requisitos_expressao": "( MC0019 )",
+          "pre_requisitos_codigos": [
+            "MC0019"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "MC0019"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "MC0052",
+          "nome": "INTRODUÇÃO AO CÁLCULO VARIACIONAL",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "4016",
+          "pre_requisitos_expressao": "( MC0019 )",
+          "pre_requisitos_codigos": [
+            "MC0019"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "MC0019"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        }
+      ]
+    }
+  ],
+  "atualizado_em": "2026-09-06T22:35:25.469124+00:00"
+}

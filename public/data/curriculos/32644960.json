@@ -1,0 +1,2608 @@
+{
+  "curso_id": "32644960",
+  "quantidade_estruturas": 2,
+  "estruturas": [
+    {
+      "id": "34231432",
+      "codigo": "LIB02",
+      "ano_criacao": 2023,
+      "status": "Ativa",
+      "quantidade_componentes": 67,
+      "quantidade_obrigatorias": 43,
+      "quantidade_optativas": 24,
+      "componentes": [
+        {
+          "codigo": "LIB0002",
+          "nome": "INTRODUÇÃO À EDUCAÇÃO DE SURDOS",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 1,
+          "id": "2211",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "LIB0003",
+          "nome": "TEORIA DA LITERATURA",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 1,
+          "id": "2212",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "LIB0058",
+          "nome": "FUNDAMENTOS DA LIBRAS",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 1,
+          "id": "3956",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "LIB0059",
+          "nome": "METODOLOGIA DO TRABALHO CIENTÍFICO",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 1,
+          "id": "3957",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( LIB0010 )",
+          "equivalencias_codigos": [
+            "LIB0010"
+          ]
+        },
+        {
+          "codigo": "LIB0060",
+          "nome": "ESTUDOS DAS TEORIAS LINGUÍSTICAS",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 1,
+          "id": "3958",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( LIB0005 )",
+          "equivalencias_codigos": [
+            "LIB0005"
+          ]
+        },
+        {
+          "codigo": "LIB0007",
+          "nome": "ESTUDOS SURDOS I",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 2,
+          "id": "2215",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "LIB0013",
+          "nome": "AQUISIÇÃO DA LINGUAGEM",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 2,
+          "id": "2220",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "LIB0061",
+          "nome": "LIBRAS I: LÍNGUA E CULTURA",
+          "carga_horaria": 96,
+          "tipo": "obrigatoria",
+          "nivel": 2,
+          "id": "3963",
+          "pre_requisitos_expressao": "( LIB0058 )",
+          "pre_requisitos_codigos": [
+            "LIB0058"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "LIB0058"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( LIB0001 )",
+          "equivalencias_codigos": [
+            "LIB0001"
+          ]
+        },
+        {
+          "codigo": "LIB0062",
+          "nome": "TEORIAS CURRICULARES E EDUCAÇÃO DE SURDOS",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 2,
+          "id": "3969",
+          "pre_requisitos_expressao": "( LIB0002 )",
+          "pre_requisitos_codigos": [
+            "LIB0002"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "LIB0002"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( LIB0009 )",
+          "equivalencias_codigos": [
+            "LIB0009"
+          ]
+        },
+        {
+          "codigo": "LIB0063",
+          "nome": "EDUCAÇÃO, INCLUSÃO E ACESSIBILIDADE",
+          "carga_horaria": 32,
+          "tipo": "obrigatoria",
+          "nivel": 2,
+          "id": "3970",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "LIB0008",
+          "nome": "LIBRAS: FONÉTICA E FONOLOGIA",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 3,
+          "id": "2216",
+          "pre_requisitos_expressao": "( LIB0060 OU LIB0005 )",
+          "pre_requisitos_codigos": [
+            "LIB0060",
+            "LIB0005"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "LIB0060"
+            },
+            "direita": {
+              "codigo": "LIB0005"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "LIB0015",
+          "nome": "PSICOLOGIA E EDUCAÇÃO DE SURDOS",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 3,
+          "id": "2222",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "LIB0064",
+          "nome": "LIBRAS II: LÍNGUA E CULTURA",
+          "carga_horaria": 96,
+          "tipo": "obrigatoria",
+          "nivel": 3,
+          "id": "3971",
+          "pre_requisitos_expressao": "( LIB0061 )",
+          "pre_requisitos_codigos": [
+            "LIB0061"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "LIB0061"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( LIB0006 )",
+          "equivalencias_codigos": [
+            "LIB0006"
+          ]
+        },
+        {
+          "codigo": "LIB0065",
+          "nome": "ESTUDOS SURDOS II",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 3,
+          "id": "3972",
+          "pre_requisitos_expressao": "( LIB0007 )",
+          "pre_requisitos_codigos": [
+            "LIB0007"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "LIB0007"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( LIB0012 )",
+          "equivalencias_codigos": [
+            "LIB0012"
+          ]
+        },
+        {
+          "codigo": "LIB0066",
+          "nome": "PSICOLINGUÍSTICA",
+          "carga_horaria": 32,
+          "tipo": "obrigatoria",
+          "nivel": 3,
+          "id": "3974",
+          "pre_requisitos_expressao": "( LIB0013 )",
+          "pre_requisitos_codigos": [
+            "LIB0013"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "LIB0013"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( LIB0053 )",
+          "equivalencias_codigos": [
+            "LIB0053"
+          ]
+        },
+        {
+          "codigo": "LIB0017",
+          "nome": "ESCRITA DE SINAIS I",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 4,
+          "id": "2245",
+          "pre_requisitos_expressao": "( LIB0064 OU LIB0011 )",
+          "pre_requisitos_codigos": [
+            "LIB0064",
+            "LIB0011"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "LIB0064"
+            },
+            "direita": {
+              "codigo": "LIB0011"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "LIB0022",
+          "nome": "DIDÁTICA E EDUCAÇÃO DE SURDOS",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 4,
+          "id": "2225",
+          "pre_requisitos_expressao": "( LIB0009 OU LIB0062 )",
+          "pre_requisitos_codigos": [
+            "LIB0009",
+            "LIB0062"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "LIB0009"
+            },
+            "direita": {
+              "codigo": "LIB0062"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "LIB0067",
+          "nome": "LIBRAS III: LÍNGUA E CULTURA",
+          "carga_horaria": 96,
+          "tipo": "obrigatoria",
+          "nivel": 4,
+          "id": "3975",
+          "pre_requisitos_expressao": "( LIB0064 )",
+          "pre_requisitos_codigos": [
+            "LIB0064"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "LIB0064"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( LIB0011 )",
+          "equivalencias_codigos": [
+            "LIB0011"
+          ]
+        },
+        {
+          "codigo": "LIB0068",
+          "nome": "LIBRAS: MORFOLOGIA E SINTAXE",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 4,
+          "id": "3976",
+          "pre_requisitos_expressao": "( LIB0008 )",
+          "pre_requisitos_codigos": [
+            "LIB0008"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "LIB0008"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( LIB0019 )",
+          "equivalencias_codigos": [
+            "LIB0019"
+          ]
+        },
+        {
+          "codigo": "LIB0069",
+          "nome": "FUNDAMENTOS DE LINGUÍSTICA APLICADA AO ENSINO DE LIBRAS",
+          "carga_horaria": 32,
+          "tipo": "obrigatoria",
+          "nivel": 4,
+          "id": "3977",
+          "pre_requisitos_expressao": "( LIB0060 )",
+          "pre_requisitos_codigos": [
+            "LIB0060"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "LIB0060"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( LIB0018 )",
+          "equivalencias_codigos": [
+            "LIB0018"
+          ]
+        },
+        {
+          "codigo": "LIB0070",
+          "nome": "LIBRAS IV: LÍNGUA E CULTURA",
+          "carga_horaria": 96,
+          "tipo": "obrigatoria",
+          "nivel": 5,
+          "id": "3978",
+          "pre_requisitos_expressao": "( LIB0067 )",
+          "pre_requisitos_codigos": [
+            "LIB0067"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "LIB0067"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( LIB0016 )",
+          "equivalencias_codigos": [
+            "LIB0016"
+          ]
+        },
+        {
+          "codigo": "LIB0071",
+          "nome": "ENSINO DE LIBRAS COMO L1 E L2",
+          "carga_horaria": 96,
+          "tipo": "obrigatoria",
+          "nivel": 5,
+          "id": "3979",
+          "pre_requisitos_expressao": "( LIB0022 )",
+          "pre_requisitos_codigos": [
+            "LIB0022"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "LIB0022"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "LIB0072",
+          "nome": "ESCRITA DE SINAIS II",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 5,
+          "id": "3980",
+          "pre_requisitos_expressao": "( LIB0017 )",
+          "pre_requisitos_codigos": [
+            "LIB0017"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "LIB0017"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( LIB0021 )",
+          "equivalencias_codigos": [
+            "LIB0021"
+          ]
+        },
+        {
+          "codigo": "LIB0073",
+          "nome": "LIBRAS: SEMÂNTICA E PRAGMÁTICA",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 5,
+          "id": "3981",
+          "pre_requisitos_expressao": "( LIB0068 )",
+          "pre_requisitos_codigos": [
+            "LIB0068"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "LIB0068"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( LIB0023 )",
+          "equivalencias_codigos": [
+            "LIB0023"
+          ]
+        },
+        {
+          "codigo": "LIB0014",
+          "nome": "EDUCAÇÃO BILÍNGUE E BICULTURAL",
+          "carga_horaria": 32,
+          "tipo": "obrigatoria",
+          "nivel": 6,
+          "id": "2221",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "LIB0025",
+          "nome": "LITERATURA SURDA I",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 6,
+          "id": "2227",
+          "pre_requisitos_expressao": "LIB0003",
+          "pre_requisitos_codigos": [
+            "LIB0003"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "LIB0003"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "LIB0074",
+          "nome": "LIBRAS V: LÍNGUA E CULTURA",
+          "carga_horaria": 96,
+          "tipo": "obrigatoria",
+          "nivel": 6,
+          "id": "3982",
+          "pre_requisitos_expressao": "( LIB0070 )",
+          "pre_requisitos_codigos": [
+            "LIB0070"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "LIB0070"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( LIB0020 )",
+          "equivalencias_codigos": [
+            "LIB0020"
+          ]
+        },
+        {
+          "codigo": "LIB0075",
+          "nome": "SOCIOLINGUÍSTICA",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 6,
+          "id": "3983",
+          "pre_requisitos_expressao": "( LIB0073 )",
+          "pre_requisitos_codigos": [
+            "LIB0073"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "LIB0073"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( LIB0027 )",
+          "equivalencias_codigos": [
+            "LIB0027"
+          ]
+        },
+        {
+          "codigo": "LIB0103",
+          "nome": "ESTÁGIO EM LIBRAS COMO L1 I",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 6,
+          "id": "4186",
+          "pre_requisitos_expressao": "( LIB0022 ) OU ( LIB0022 E LIB0071 )",
+          "pre_requisitos_codigos": [
+            "LIB0022",
+            "LIB0022",
+            "LIB0071"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "LIB0022"
+            },
+            "direita": {
+              "operador": "E",
+              "esquerda": {
+                "codigo": "LIB0022"
+              },
+              "direita": {
+                "codigo": "LIB0071"
+              }
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( LIB0031 )",
+          "equivalencias_codigos": [
+            "LIB0031"
+          ]
+        },
+        {
+          "codigo": "LIB0076",
+          "nome": "COMPREENSÃO E PRODUÇÃO TEXTUAL EM LIBRAS",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 7,
+          "id": "3984",
+          "pre_requisitos_expressao": "( LIB0074 E LIB0072 )",
+          "pre_requisitos_codigos": [
+            "LIB0074",
+            "LIB0072"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "E",
+            "esquerda": {
+              "codigo": "LIB0074"
+            },
+            "direita": {
+              "codigo": "LIB0072"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( LIB0028 )",
+          "equivalencias_codigos": [
+            "LIB0028"
+          ]
+        },
+        {
+          "codigo": "LIB0077",
+          "nome": "LITERATURA SURDA II",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 7,
+          "id": "3985",
+          "pre_requisitos_expressao": "( LIB0025 )",
+          "pre_requisitos_codigos": [
+            "LIB0025"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "LIB0025"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( LIB0029 )",
+          "equivalencias_codigos": [
+            "LIB0029"
+          ]
+        },
+        {
+          "codigo": "LIB0078",
+          "nome": "PRODUÇÃO DE LIBRAS ACADÊMICA",
+          "carga_horaria": 32,
+          "tipo": "obrigatoria",
+          "nivel": 7,
+          "id": "3986",
+          "pre_requisitos_expressao": "( LIB0059 E LIB0074 )",
+          "pre_requisitos_codigos": [
+            "LIB0059",
+            "LIB0074"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "E",
+            "esquerda": {
+              "codigo": "LIB0059"
+            },
+            "direita": {
+              "codigo": "LIB0074"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "LIB0079",
+          "nome": "ESTRUTURA E FUNCIONAMENTO DA EDUCAÇÃO BÁSICA",
+          "carga_horaria": 32,
+          "tipo": "obrigatoria",
+          "nivel": 7,
+          "id": "3987",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( LIB0030 )",
+          "equivalencias_codigos": [
+            "LIB0030"
+          ]
+        },
+        {
+          "codigo": "LIB0080",
+          "nome": "EDUCAÇÃO EM DIREITOS HUMANOS",
+          "carga_horaria": 32,
+          "tipo": "obrigatoria",
+          "nivel": 7,
+          "id": "3988",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( LIB0004 )",
+          "equivalencias_codigos": [
+            "LIB0004"
+          ]
+        },
+        {
+          "codigo": "LIB0102",
+          "nome": "ESTÁGIO EM LIBRAS COMO L2 I",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 7,
+          "id": "4185",
+          "pre_requisitos_expressao": "( LIB0022 ) OU ( LIB0022 E LIB0071 )",
+          "pre_requisitos_codigos": [
+            "LIB0022",
+            "LIB0022",
+            "LIB0071"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "LIB0022"
+            },
+            "direita": {
+              "operador": "E",
+              "esquerda": {
+                "codigo": "LIB0022"
+              },
+              "direita": {
+                "codigo": "LIB0071"
+              }
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( LIB0026 )",
+          "equivalencias_codigos": [
+            "LIB0026"
+          ]
+        },
+        {
+          "codigo": "LIB0081",
+          "nome": "PROJETO DE TRABALHO DE CONCLUSÃO DE CURSO TCC",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 8,
+          "id": "3989",
+          "pre_requisitos_expressao": "( LIB0059 E LIB0078 )",
+          "pre_requisitos_codigos": [
+            "LIB0059",
+            "LIB0078"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "E",
+            "esquerda": {
+              "codigo": "LIB0059"
+            },
+            "direita": {
+              "codigo": "LIB0078"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "LIB0082",
+          "nome": "POLÍTICAS LINGUÍSTICAS",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 8,
+          "id": "3990",
+          "pre_requisitos_expressao": "( LIB0075 )",
+          "pre_requisitos_codigos": [
+            "LIB0075"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "LIB0075"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( LIB0038 )",
+          "equivalencias_codigos": [
+            "LIB0038"
+          ]
+        },
+        {
+          "codigo": "LIB0083",
+          "nome": "TÓPICOS EM ATIVIDADES DE EXTENSÃO",
+          "carga_horaria": 32,
+          "tipo": "obrigatoria",
+          "nivel": 8,
+          "id": "3991",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "LIB0104",
+          "nome": "ESTÁGIO EM LIBRAS COMO L1 II",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 8,
+          "id": "4187",
+          "pre_requisitos_expressao": "( LIB0103 )",
+          "pre_requisitos_codigos": [
+            "LIB0103"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "LIB0103"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( LIB0032 )",
+          "equivalencias_codigos": [
+            "LIB0032"
+          ]
+        },
+        {
+          "codigo": "LIB0105",
+          "nome": "ESTÁGIO EM LIBRAS COMO L2 II",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 8,
+          "id": "4188",
+          "pre_requisitos_expressao": "( LIB0102 )",
+          "pre_requisitos_codigos": [
+            "LIB0102"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "LIB0102"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( LIB0033 )",
+          "equivalencias_codigos": [
+            "LIB0033"
+          ]
+        },
+        {
+          "codigo": "LIB0084",
+          "nome": "ESTÁGIO EM LIBRAS COMO L1 III",
+          "carga_horaria": 80,
+          "tipo": "obrigatoria",
+          "nivel": 9,
+          "id": "3992",
+          "pre_requisitos_expressao": "( LIB0104 )",
+          "pre_requisitos_codigos": [
+            "LIB0104"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "LIB0104"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( LIB0035 OU LIB0106 )",
+          "equivalencias_codigos": [
+            "LIB0035",
+            "LIB0106"
+          ]
+        },
+        {
+          "codigo": "LIB0085",
+          "nome": "ESTÁGIO EM LIBRAS COMO L2 III",
+          "carga_horaria": 80,
+          "tipo": "obrigatoria",
+          "nivel": 9,
+          "id": "3993",
+          "pre_requisitos_expressao": "( LIB0105 )",
+          "pre_requisitos_codigos": [
+            "LIB0105"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "LIB0105"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( LIB0036 OU LIB0107 )",
+          "equivalencias_codigos": [
+            "LIB0036",
+            "LIB0107"
+          ]
+        },
+        {
+          "codigo": "LIB0086",
+          "nome": "TRABALHO DE CONCLUSÃO DE CURSO TCC",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 9,
+          "id": "3994",
+          "pre_requisitos_expressao": "( LIB0059 ) E ( LIB0078 ) E ( LIB0081 )",
+          "pre_requisitos_codigos": [
+            "LIB0059",
+            "LIB0078",
+            "LIB0081"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "E",
+            "esquerda": {
+              "operador": "E",
+              "esquerda": {
+                "codigo": "LIB0059"
+              },
+              "direita": {
+                "codigo": "LIB0078"
+              }
+            },
+            "direita": {
+              "codigo": "LIB0081"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( LIB0037 OU LIB0108 )",
+          "equivalencias_codigos": [
+            "LIB0037",
+            "LIB0108"
+          ]
+        },
+        {
+          "codigo": "LIB0041",
+          "nome": "AVALIAÇÃO DE APRENDIZAGEM NA EDUCAÇÃO DE SURDOS",
+          "carga_horaria": 32,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2252",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "LIB0042",
+          "nome": "CONVERSAÇÃO EM LIBRAS",
+          "carga_horaria": 32,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2253",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "LIB0046",
+          "nome": "ESCRITA DE SINAIS III",
+          "carga_horaria": 32,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2257",
+          "pre_requisitos_expressao": "( LIB0017 E LIB0021 ) OU ( LIB0017 E LIB0072 )",
+          "pre_requisitos_codigos": [
+            "LIB0017",
+            "LIB0021",
+            "LIB0017",
+            "LIB0072"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "operador": "E",
+              "esquerda": {
+                "codigo": "LIB0017"
+              },
+              "direita": {
+                "codigo": "LIB0021"
+              }
+            },
+            "direita": {
+              "operador": "E",
+              "esquerda": {
+                "codigo": "LIB0017"
+              },
+              "direita": {
+                "codigo": "LIB0072"
+              }
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "LIB0047",
+          "nome": "INTRODUÇÃO AOS ESTUDOS DA TRADUÇÃO",
+          "carga_horaria": 32,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2258",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "LIB0048",
+          "nome": "NOÇÕES DE LÍNGUA DE SINAIS INTERNACIONAL",
+          "carga_horaria": 32,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2259",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "LIB0049",
+          "nome": "OFICINA DE TEXTOS EM LIBRAS",
+          "carga_horaria": 32,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2260",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "LIB0052",
+          "nome": "PRODUÇÃO DE TEXTOS ACADÊMICOS",
+          "carga_horaria": 32,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2263",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "LIB0056",
+          "nome": "TRADUÇÃO E INTERPRETAÇÃO DE LIBRAS",
+          "carga_horaria": 32,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2267",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "LIB0057",
+          "nome": "POLÍTICA E GESTÃO DA EDUCAÇÃO BÁSICA",
+          "carga_horaria": 32,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2269",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "LIB0087",
+          "nome": "DIFERENÇAS CULTURAIS E DESIGUALDADES",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3995",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( LIB0043 )",
+          "equivalencias_codigos": [
+            "LIB0043"
+          ]
+        },
+        {
+          "codigo": "LIB0088",
+          "nome": "EDUCAÇÃO AMBIENTAL: TEMAS TRANSVERSAIS",
+          "carga_horaria": 32,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3996",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( LIB0044 )",
+          "equivalencias_codigos": [
+            "LIB0044"
+          ]
+        },
+        {
+          "codigo": "LIB0089",
+          "nome": "PESQUISA EM ESTUDOS SURDOS",
+          "carga_horaria": 32,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3997",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "LIB0090",
+          "nome": "ÉTICA PROFISSIONAL",
+          "carga_horaria": 32,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3999",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "LIB0091",
+          "nome": "HISTÓRIA E CULTURA AFRO BRASILEIRA E AFRICANA",
+          "carga_horaria": 32,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "4000",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "LIB0092",
+          "nome": "GÊNERO E DIVERSIDADE NA ESCOLA",
+          "carga_horaria": 32,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "4001",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "LIB0093",
+          "nome": "ENSINO E APRENDIZAGEM DE LIBRAS POR MEIO DE NOVAS TECNOLOGIAS",
+          "carga_horaria": 32,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "4003",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "LIB0094",
+          "nome": "AQUISIÇÃO DA LÍNGUA DE SINAIS",
+          "carga_horaria": 32,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "4004",
+          "pre_requisitos_expressao": "( LIB0013 )",
+          "pre_requisitos_codigos": [
+            "LIB0013"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "LIB0013"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( LIB0039 E LIB0040 )",
+          "equivalencias_codigos": [
+            "LIB0039",
+            "LIB0040"
+          ]
+        },
+        {
+          "codigo": "LIB0095",
+          "nome": "TÓPICOS EM LÍNGUA PORTUGUESA I",
+          "carga_horaria": 32,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "4006",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( LIB0050 )",
+          "equivalencias_codigos": [
+            "LIB0050"
+          ]
+        },
+        {
+          "codigo": "LIB0096",
+          "nome": "TÓPICOS EM LÍNGUA PORTUGUESA II",
+          "carga_horaria": 32,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "4021",
+          "pre_requisitos_expressao": "( LIB0095 )",
+          "pre_requisitos_codigos": [
+            "LIB0095"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "LIB0095"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( LIB0051 E LIB0054 )",
+          "equivalencias_codigos": [
+            "LIB0051",
+            "LIB0054"
+          ]
+        },
+        {
+          "codigo": "LIB0097",
+          "nome": "TÓPICOS EM LÍNGUAS DE SINAIS",
+          "carga_horaria": 32,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "4024",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "LIB0098",
+          "nome": "ESTUDOS DE GRAMÁTICA DA LIBRAS",
+          "carga_horaria": 32,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "4025",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "LIB0099",
+          "nome": "ENSINO DE LIBRAS POR MEIO DE TECNOLOGIAS",
+          "carga_horaria": 32,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "4027",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "LIB0100",
+          "nome": "TÓPICOS EM TERMINOLOGIA DA LIBRAS",
+          "carga_horaria": 32,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "4028",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( LIB0055 )",
+          "equivalencias_codigos": [
+            "LIB0055"
+          ]
+        },
+        {
+          "codigo": "LIB0101",
+          "nome": "PRODUÇÃO DE MATERIAIS DIDÁTICOS PARA O ENSINO DE LIBRAS",
+          "carga_horaria": 32,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "4029",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        }
+      ]
+    },
+    {
+      "id": "32649155",
+      "codigo": "1457122",
+      "ano_criacao": 2019,
+      "status": "Ativa",
+      "quantidade_componentes": 66,
+      "quantidade_obrigatorias": 38,
+      "quantidade_optativas": 28,
+      "componentes": [
+        {
+          "codigo": "LIB0001",
+          "nome": "LIBRAS I: LÍNGUA E CULTURA",
+          "carga_horaria": 96,
+          "tipo": "obrigatoria",
+          "nivel": 1,
+          "id": "2240",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( LIB0061 )",
+          "equivalencias_codigos": [
+            "LIB0061"
+          ]
+        },
+        {
+          "codigo": "LIB0002",
+          "nome": "INTRODUÇÃO À EDUCAÇÃO DE SURDOS",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 1,
+          "id": "2211",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "LIB0003",
+          "nome": "TEORIA DA LITERATURA",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 1,
+          "id": "2212",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "LIB0004",
+          "nome": "EDUCAÇÃO EM DIREITOS HUMANOS",
+          "carga_horaria": 32,
+          "tipo": "obrigatoria",
+          "nivel": 1,
+          "id": "2213",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( LIB0080 )",
+          "equivalencias_codigos": [
+            "LIB0080"
+          ]
+        },
+        {
+          "codigo": "LIB0005",
+          "nome": "TEORIAS LINGUÍSTICAS",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 1,
+          "id": "2214",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( LIB0060 )",
+          "equivalencias_codigos": [
+            "LIB0060"
+          ]
+        },
+        {
+          "codigo": "LIB0006",
+          "nome": "LIBRAS II: LÍNGUA E CULTURA",
+          "carga_horaria": 96,
+          "tipo": "obrigatoria",
+          "nivel": 2,
+          "id": "2242",
+          "pre_requisitos_expressao": "( LIB0001 )",
+          "pre_requisitos_codigos": [
+            "LIB0001"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "LIB0001"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( LIB0064 )",
+          "equivalencias_codigos": [
+            "LIB0064"
+          ]
+        },
+        {
+          "codigo": "LIB0007",
+          "nome": "ESTUDOS SURDOS I",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 2,
+          "id": "2215",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "LIB0008",
+          "nome": "LIBRAS: FONÉTICA E FONOLOGIA",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 2,
+          "id": "2216",
+          "pre_requisitos_expressao": "( LIB0060 OU LIB0005 )",
+          "pre_requisitos_codigos": [
+            "LIB0060",
+            "LIB0005"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "LIB0060"
+            },
+            "direita": {
+              "codigo": "LIB0005"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "LIB0009",
+          "nome": "TEORIA DA EDUCAÇÃO DE SURDOS",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 2,
+          "id": "2217",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( LIB0062 )",
+          "equivalencias_codigos": [
+            "LIB0062"
+          ]
+        },
+        {
+          "codigo": "LIB0010",
+          "nome": "METODOLOGIA DO TRABALHO CIENTÍFICO",
+          "carga_horaria": 32,
+          "tipo": "obrigatoria",
+          "nivel": 2,
+          "id": "2218",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( LIB0059 )",
+          "equivalencias_codigos": [
+            "LIB0059"
+          ]
+        },
+        {
+          "codigo": "LIB0011",
+          "nome": "LIBRAS III: LÍNGUA E CULTURA",
+          "carga_horaria": 96,
+          "tipo": "obrigatoria",
+          "nivel": 3,
+          "id": "2243",
+          "pre_requisitos_expressao": "( LIB0006 )",
+          "pre_requisitos_codigos": [
+            "LIB0006"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "LIB0006"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( LIB0067 )",
+          "equivalencias_codigos": [
+            "LIB0067"
+          ]
+        },
+        {
+          "codigo": "LIB0012",
+          "nome": "ESTUDOS SURDOS II",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 3,
+          "id": "2219",
+          "pre_requisitos_expressao": "( LIB0007 )",
+          "pre_requisitos_codigos": [
+            "LIB0007"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "LIB0007"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( LIB0065 )",
+          "equivalencias_codigos": [
+            "LIB0065"
+          ]
+        },
+        {
+          "codigo": "LIB0013",
+          "nome": "AQUISIÇÃO DA LINGUAGEM",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 3,
+          "id": "2220",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "LIB0014",
+          "nome": "EDUCAÇÃO BILÍNGUE E BICULTURAL",
+          "carga_horaria": 32,
+          "tipo": "obrigatoria",
+          "nivel": 3,
+          "id": "2221",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "LIB0015",
+          "nome": "PSICOLOGIA E EDUCAÇÃO DE SURDOS",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 3,
+          "id": "2222",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "LIB0016",
+          "nome": "LIBRAS IV: LÍNGUA E CULTURA",
+          "carga_horaria": 96,
+          "tipo": "obrigatoria",
+          "nivel": 4,
+          "id": "2244",
+          "pre_requisitos_expressao": "( LIB0011 )",
+          "pre_requisitos_codigos": [
+            "LIB0011"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "LIB0011"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( LIB0070 )",
+          "equivalencias_codigos": [
+            "LIB0070"
+          ]
+        },
+        {
+          "codigo": "LIB0017",
+          "nome": "ESCRITA DE SINAIS I",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 4,
+          "id": "2245",
+          "pre_requisitos_expressao": "( LIB0064 OU LIB0011 )",
+          "pre_requisitos_codigos": [
+            "LIB0064",
+            "LIB0011"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "LIB0064"
+            },
+            "direita": {
+              "codigo": "LIB0011"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "LIB0018",
+          "nome": "FUNDAMENTOS DE LINGUÍSTICA APLICADA PARA O ENSINO DE LIBRAS",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 4,
+          "id": "2223",
+          "pre_requisitos_expressao": "( LIB0005 )",
+          "pre_requisitos_codigos": [
+            "LIB0005"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "LIB0005"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( LIB0069 )",
+          "equivalencias_codigos": [
+            "LIB0069"
+          ]
+        },
+        {
+          "codigo": "LIB0019",
+          "nome": "LIBRAS: MORFOSSINTAXE",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 4,
+          "id": "2224",
+          "pre_requisitos_expressao": "( LIB0005 )",
+          "pre_requisitos_codigos": [
+            "LIB0005"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "LIB0005"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( LIB0068 )",
+          "equivalencias_codigos": [
+            "LIB0068"
+          ]
+        },
+        {
+          "codigo": "LIB0020",
+          "nome": "LIBRAS V: LÍNGUA E CULTURA",
+          "carga_horaria": 96,
+          "tipo": "obrigatoria",
+          "nivel": 5,
+          "id": "2246",
+          "pre_requisitos_expressao": "( LIB0016 )",
+          "pre_requisitos_codigos": [
+            "LIB0016"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "LIB0016"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( LIB0074 )",
+          "equivalencias_codigos": [
+            "LIB0074"
+          ]
+        },
+        {
+          "codigo": "LIB0021",
+          "nome": "ESCRITA DE SINAIS II",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 5,
+          "id": "2247",
+          "pre_requisitos_expressao": "( LIB0017 )",
+          "pre_requisitos_codigos": [
+            "LIB0017"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "LIB0017"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( LIB0072 )",
+          "equivalencias_codigos": [
+            "LIB0072"
+          ]
+        },
+        {
+          "codigo": "LIB0022",
+          "nome": "DIDÁTICA E EDUCAÇÃO DE SURDOS",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 5,
+          "id": "2225",
+          "pre_requisitos_expressao": "( LIB0009 OU LIB0062 )",
+          "pre_requisitos_codigos": [
+            "LIB0009",
+            "LIB0062"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "LIB0009"
+            },
+            "direita": {
+              "codigo": "LIB0062"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "LIB0023",
+          "nome": "LIBRAS: SEMÂNTICA, PRAGMÁTICA E ANÁLISE DO DISCURSO",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 5,
+          "id": "2226",
+          "pre_requisitos_expressao": "( LIB0005 )",
+          "pre_requisitos_codigos": [
+            "LIB0005"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "LIB0005"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( LIB0073 )",
+          "equivalencias_codigos": [
+            "LIB0073"
+          ]
+        },
+        {
+          "codigo": "LIB0024",
+          "nome": "LIBRAS VI: LÍNGUA E CULTURA",
+          "carga_horaria": 96,
+          "tipo": "obrigatoria",
+          "nivel": 6,
+          "id": "2248",
+          "pre_requisitos_expressao": "LIB0020",
+          "pre_requisitos_codigos": [
+            "LIB0020"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "LIB0020"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "LIB0025",
+          "nome": "LITERATURA SURDA I",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 6,
+          "id": "2227",
+          "pre_requisitos_expressao": "LIB0003",
+          "pre_requisitos_codigos": [
+            "LIB0003"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "LIB0003"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "LIB0027",
+          "nome": "SOCIOLINGUÍSTICA (LIBRAS)",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 6,
+          "id": "2229",
+          "pre_requisitos_expressao": "( LIB0005 )",
+          "pre_requisitos_codigos": [
+            "LIB0005"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "LIB0005"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( LIB0075 )",
+          "equivalencias_codigos": [
+            "LIB0075"
+          ]
+        },
+        {
+          "codigo": "LIB0102",
+          "nome": "ESTÁGIO EM LIBRAS COMO L2 I",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 6,
+          "id": "4185",
+          "pre_requisitos_expressao": "( LIB0022 ) OU ( LIB0022 E LIB0071 )",
+          "pre_requisitos_codigos": [
+            "LIB0022",
+            "LIB0022",
+            "LIB0071"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "LIB0022"
+            },
+            "direita": {
+              "operador": "E",
+              "esquerda": {
+                "codigo": "LIB0022"
+              },
+              "direita": {
+                "codigo": "LIB0071"
+              }
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( LIB0026 )",
+          "equivalencias_codigos": [
+            "LIB0026"
+          ]
+        },
+        {
+          "codigo": "LIB0028",
+          "nome": "COMPREENSÃO E PRODUÇÃO DE TEXTOS EM LIBRAS",
+          "carga_horaria": 96,
+          "tipo": "obrigatoria",
+          "nivel": 7,
+          "id": "2249",
+          "pre_requisitos_expressao": "( LIB0021 ) E ( LIB0024 )",
+          "pre_requisitos_codigos": [
+            "LIB0021",
+            "LIB0024"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "E",
+            "esquerda": {
+              "codigo": "LIB0021"
+            },
+            "direita": {
+              "codigo": "LIB0024"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( LIB0076 )",
+          "equivalencias_codigos": [
+            "LIB0076"
+          ]
+        },
+        {
+          "codigo": "LIB0029",
+          "nome": "LITERATURA SURDA II",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 7,
+          "id": "2230",
+          "pre_requisitos_expressao": "( LIB0025 )",
+          "pre_requisitos_codigos": [
+            "LIB0025"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "LIB0025"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( LIB0077 )",
+          "equivalencias_codigos": [
+            "LIB0077"
+          ]
+        },
+        {
+          "codigo": "LIB0030",
+          "nome": "ESTRUTURA E FUNCIONAMENTO DA EDUCAÇÃO BÁSICA",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 7,
+          "id": "2231",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( LIB0079 )",
+          "equivalencias_codigos": [
+            "LIB0079"
+          ]
+        },
+        {
+          "codigo": "LIB0103",
+          "nome": "ESTÁGIO EM LIBRAS COMO L1 I",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 7,
+          "id": "4186",
+          "pre_requisitos_expressao": "( LIB0022 ) OU ( LIB0022 E LIB0071 )",
+          "pre_requisitos_codigos": [
+            "LIB0022",
+            "LIB0022",
+            "LIB0071"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "LIB0022"
+            },
+            "direita": {
+              "operador": "E",
+              "esquerda": {
+                "codigo": "LIB0022"
+              },
+              "direita": {
+                "codigo": "LIB0071"
+              }
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( LIB0031 )",
+          "equivalencias_codigos": [
+            "LIB0031"
+          ]
+        },
+        {
+          "codigo": "LIB0034",
+          "nome": "LITERATURA E CULTURA POPULAR",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 8,
+          "id": "2235",
+          "pre_requisitos_expressao": "LIB0003",
+          "pre_requisitos_codigos": [
+            "LIB0003"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "LIB0003"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "LIB0104",
+          "nome": "ESTÁGIO EM LIBRAS COMO L1 II",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 8,
+          "id": "4187",
+          "pre_requisitos_expressao": "( LIB0103 )",
+          "pre_requisitos_codigos": [
+            "LIB0103"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "LIB0103"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( LIB0032 )",
+          "equivalencias_codigos": [
+            "LIB0032"
+          ]
+        },
+        {
+          "codigo": "LIB0105",
+          "nome": "ESTÁGIO EM LIBRAS COMO L2 II",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 8,
+          "id": "4188",
+          "pre_requisitos_expressao": "( LIB0102 )",
+          "pre_requisitos_codigos": [
+            "LIB0102"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "LIB0102"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( LIB0033 )",
+          "equivalencias_codigos": [
+            "LIB0033"
+          ]
+        },
+        {
+          "codigo": "LIB0038",
+          "nome": "POLÍTICAS LINGUÍSTICAS",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 9,
+          "id": "2239",
+          "pre_requisitos_expressao": "( LIB0005 ) E ( LIB0023 )",
+          "pre_requisitos_codigos": [
+            "LIB0005",
+            "LIB0023"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "E",
+            "esquerda": {
+              "codigo": "LIB0005"
+            },
+            "direita": {
+              "codigo": "LIB0023"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( LIB0082 )",
+          "equivalencias_codigos": [
+            "LIB0082"
+          ]
+        },
+        {
+          "codigo": "LIB0106",
+          "nome": "ESTÁGIO EM LIBRAS COMO L1 III",
+          "carga_horaria": 80,
+          "tipo": "obrigatoria",
+          "nivel": 9,
+          "id": "4190",
+          "pre_requisitos_expressao": "( LIB0104 )",
+          "pre_requisitos_codigos": [
+            "LIB0104"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "LIB0104"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( LIB0035 OU LIB0084 )",
+          "equivalencias_codigos": [
+            "LIB0035",
+            "LIB0084"
+          ]
+        },
+        {
+          "codigo": "LIB0107",
+          "nome": "ESTÁGIO EM LIBRAS COMO L2 III",
+          "carga_horaria": 80,
+          "tipo": "obrigatoria",
+          "nivel": 9,
+          "id": "4191",
+          "pre_requisitos_expressao": "( LIB0105 )",
+          "pre_requisitos_codigos": [
+            "LIB0105"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "LIB0105"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( LIB0036 OU LIB0085 )",
+          "equivalencias_codigos": [
+            "LIB0036",
+            "LIB0085"
+          ]
+        },
+        {
+          "codigo": "LIB0108",
+          "nome": "TRABALHO DE CONCLUSÃO DE CURSO TCC",
+          "carga_horaria": 32,
+          "tipo": "obrigatoria",
+          "nivel": 9,
+          "id": "4289",
+          "pre_requisitos_expressao": "( LIB0010 ) E ( LIB0022 )",
+          "pre_requisitos_codigos": [
+            "LIB0010",
+            "LIB0022"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "E",
+            "esquerda": {
+              "codigo": "LIB0010"
+            },
+            "direita": {
+              "codigo": "LIB0022"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( LIB0037 OU LIB0086 )",
+          "equivalencias_codigos": [
+            "LIB0037",
+            "LIB0086"
+          ]
+        },
+        {
+          "codigo": "LIB0039",
+          "nome": "AQUISIÇÃO DA LÍNGUA DE SINAIS",
+          "carga_horaria": 32,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2250",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( LIB0094 )",
+          "equivalencias_codigos": [
+            "LIB0094"
+          ]
+        },
+        {
+          "codigo": "LIB0040",
+          "nome": "AQUISIÇÃO DE SEGUNDA LÍNGUA",
+          "carga_horaria": 32,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2251",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( LIB0094 )",
+          "equivalencias_codigos": [
+            "LIB0094"
+          ]
+        },
+        {
+          "codigo": "LIB0041",
+          "nome": "AVALIAÇÃO DE APRENDIZAGEM NA EDUCAÇÃO DE SURDOS",
+          "carga_horaria": 32,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2252",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "LIB0042",
+          "nome": "CONVERSAÇÃO EM LIBRAS",
+          "carga_horaria": 32,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2253",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "LIB0043",
+          "nome": "DIFERENÇAS E ENFRENTAMENTO PROFISSIONAL NAS DESIGUALDADES SOCIAIS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2254",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( LIB0087 )",
+          "equivalencias_codigos": [
+            "LIB0087"
+          ]
+        },
+        {
+          "codigo": "LIB0044",
+          "nome": "EDUCAÇÃO AMBIENTAL: TEMAS TRANSVERSAIS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2255",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( LIB0088 )",
+          "equivalencias_codigos": [
+            "LIB0088"
+          ]
+        },
+        {
+          "codigo": "LIB0045",
+          "nome": "ENSINO E APRENDIZAGEM DE LIBRAS POR MEIOS DE NOVAS TECNOLOGIAS",
+          "carga_horaria": 32,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2256",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "LIB0046",
+          "nome": "ESCRITA DE SINAIS III",
+          "carga_horaria": 32,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2257",
+          "pre_requisitos_expressao": "( LIB0017 E LIB0021 ) OU ( LIB0017 E LIB0072 )",
+          "pre_requisitos_codigos": [
+            "LIB0017",
+            "LIB0021",
+            "LIB0017",
+            "LIB0072"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "operador": "E",
+              "esquerda": {
+                "codigo": "LIB0017"
+              },
+              "direita": {
+                "codigo": "LIB0021"
+              }
+            },
+            "direita": {
+              "operador": "E",
+              "esquerda": {
+                "codigo": "LIB0017"
+              },
+              "direita": {
+                "codigo": "LIB0072"
+              }
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "LIB0047",
+          "nome": "INTRODUÇÃO AOS ESTUDOS DA TRADUÇÃO",
+          "carga_horaria": 32,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2258",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "LIB0048",
+          "nome": "NOÇÕES DE LÍNGUA DE SINAIS INTERNACIONAL",
+          "carga_horaria": 32,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2259",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "LIB0049",
+          "nome": "OFICINA DE TEXTOS EM LIBRAS",
+          "carga_horaria": 32,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2260",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "LIB0050",
+          "nome": "PORTUGUÊS COMO SEGUNDA LÍNGUA I",
+          "carga_horaria": 32,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2261",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( LIB0095 )",
+          "equivalencias_codigos": [
+            "LIB0095"
+          ]
+        },
+        {
+          "codigo": "LIB0051",
+          "nome": "PORTUGUÊS COMO SEGUNDA LÍNGUA II",
+          "carga_horaria": 32,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2262",
+          "pre_requisitos_expressao": "( LIB0050 )",
+          "pre_requisitos_codigos": [
+            "LIB0050"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "LIB0050"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( LIB0096 )",
+          "equivalencias_codigos": [
+            "LIB0096"
+          ]
+        },
+        {
+          "codigo": "LIB0052",
+          "nome": "PRODUÇÃO DE TEXTOS ACADÊMICOS",
+          "carga_horaria": 32,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2263",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "LIB0053",
+          "nome": "PSICOLINGUÍSTICA",
+          "carga_horaria": 32,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2264",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( LIB0066 )",
+          "equivalencias_codigos": [
+            "LIB0066"
+          ]
+        },
+        {
+          "codigo": "LIB0054",
+          "nome": "TÓPICOS EM LÍNGUA PORTUGUESA",
+          "carga_horaria": 32,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2265",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( LIB0096 )",
+          "equivalencias_codigos": [
+            "LIB0096"
+          ]
+        },
+        {
+          "codigo": "LIB0055",
+          "nome": "TÓPICOS EM TERMINOLOGIA",
+          "carga_horaria": 32,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2266",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( LIB0100 )",
+          "equivalencias_codigos": [
+            "LIB0100"
+          ]
+        },
+        {
+          "codigo": "LIB0056",
+          "nome": "TRADUÇÃO E INTERPRETAÇÃO DE LIBRAS",
+          "carga_horaria": 32,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2267",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "LIB0057",
+          "nome": "POLÍTICA E GESTÃO DA EDUCAÇÃO BÁSICA",
+          "carga_horaria": 32,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2269",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "LIB0089",
+          "nome": "PESQUISA EM ESTUDOS SURDOS",
+          "carga_horaria": 32,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3997",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "LIB0090",
+          "nome": "ÉTICA PROFISSIONAL",
+          "carga_horaria": 32,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3999",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "LIB0091",
+          "nome": "HISTÓRIA E CULTURA AFRO BRASILEIRA E AFRICANA",
+          "carga_horaria": 32,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "4000",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "LIB0092",
+          "nome": "GÊNERO E DIVERSIDADE NA ESCOLA",
+          "carga_horaria": 32,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "4001",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "LIB0093",
+          "nome": "ENSINO E APRENDIZAGEM DE LIBRAS POR MEIO DE NOVAS TECNOLOGIAS",
+          "carga_horaria": 32,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "4003",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "LIB0097",
+          "nome": "TÓPICOS EM LÍNGUAS DE SINAIS",
+          "carga_horaria": 32,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "4024",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "LIB0098",
+          "nome": "ESTUDOS DE GRAMÁTICA DA LIBRAS",
+          "carga_horaria": 32,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "4025",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "LIB0099",
+          "nome": "ENSINO DE LIBRAS POR MEIO DE TECNOLOGIAS",
+          "carga_horaria": 32,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "4027",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "LIB0101",
+          "nome": "PRODUÇÃO DE MATERIAIS DIDÁTICOS PARA O ENSINO DE LIBRAS",
+          "carga_horaria": 32,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "4029",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        }
+      ]
+    }
+  ],
+  "atualizado_em": "2026-09-06T22:42:09.049298+00:00"
+}

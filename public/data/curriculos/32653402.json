@@ -1,0 +1,2970 @@
+{
+  "curso_id": "32653402",
+  "quantidade_estruturas": 2,
+  "estruturas": [
+    {
+      "id": "33895839",
+      "codigo": "CCB002",
+      "ano_criacao": 2022,
+      "status": "Ativa",
+      "quantidade_componentes": 58,
+      "quantidade_obrigatorias": 37,
+      "quantidade_optativas": 21,
+      "componentes": [
+        {
+          "codigo": "CCB0001",
+          "nome": "CONTABILIDADE INTRODUTÓRIA I",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 1,
+          "id": "2532",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( GPS0077 ) OU ( ADM0408 )",
+          "equivalencias_codigos": [
+            "GPS0077",
+            "ADM0408"
+          ]
+        },
+        {
+          "codigo": "CCB0002",
+          "nome": "ESTUDOS SOCIOLÓGICOS E ANTROPOLÓGICOS",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 1,
+          "id": "2533",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( GPS0100 ) OU ( ADM0308 ) OU ( GPS0060 ) OU ( BIB0002 )",
+          "equivalencias_codigos": [
+            "GPS0100",
+            "ADM0308",
+            "GPS0060",
+            "BIB0002"
+          ]
+        },
+        {
+          "codigo": "CCB0003",
+          "nome": "MATEMÁTICA PARA ADMINISTRAÇÃO E CONTABILIDADE",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 1,
+          "id": "2534",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( ADM0402 )",
+          "equivalencias_codigos": [
+            "ADM0402"
+          ]
+        },
+        {
+          "codigo": "CCB0004",
+          "nome": "INTRODUÇÃO AO ESTUDO DO DIREITO",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 1,
+          "id": "2535",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( ADM0352 OU GPS0071 )",
+          "equivalencias_codigos": [
+            "ADM0352",
+            "GPS0071"
+          ]
+        },
+        {
+          "codigo": "CCB0005",
+          "nome": "TEORIAS DA ADMINISTRAÇÃO I",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 1,
+          "id": "2536",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( ADM0401 )",
+          "equivalencias_codigos": [
+            "ADM0401"
+          ]
+        },
+        {
+          "codigo": "CCB0006",
+          "nome": "CONTABILIDADE INTRODUTÓRIA II",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 2,
+          "id": "2537",
+          "pre_requisitos_expressao": "CCB0001",
+          "pre_requisitos_codigos": [
+            "CCB0001"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CCB0001"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CCB0007",
+          "nome": "DIREITO EMPRESARIAL",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 2,
+          "id": "2538",
+          "pre_requisitos_expressao": "( CCB0004 ) OU ( ADM0352 ) OU ( GPS0071 )",
+          "pre_requisitos_codigos": [
+            "CCB0004",
+            "ADM0352",
+            "GPS0071"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "operador": "OU",
+              "esquerda": {
+                "codigo": "CCB0004"
+              },
+              "direita": {
+                "codigo": "ADM0352"
+              }
+            },
+            "direita": {
+              "codigo": "GPS0071"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( ADM0421 )",
+          "equivalencias_codigos": [
+            "ADM0421"
+          ]
+        },
+        {
+          "codigo": "CCB0009",
+          "nome": "MATEMÁTICA FINANCEIRA",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 2,
+          "id": "2540",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "ADM0313",
+          "equivalencias_codigos": [
+            "ADM0313"
+          ]
+        },
+        {
+          "codigo": "CCB0010",
+          "nome": "METODOLOGIA DO TRABALHO CIENTÍFICO",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 2,
+          "id": "2541",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( ADM0311 ) OU ( GPS0066 ) OU ( BIB0017 )",
+          "equivalencias_codigos": [
+            "ADM0311",
+            "GPS0066",
+            "BIB0017"
+          ]
+        },
+        {
+          "codigo": "CCB0064",
+          "nome": "INTRODUÇÃO À ECONOMIA",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 2,
+          "id": "3202",
+          "pre_requisitos_expressao": "( CCB0003 OU ADM0402 )",
+          "pre_requisitos_codigos": [
+            "CCB0003",
+            "ADM0402"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "CCB0003"
+            },
+            "direita": {
+              "codigo": "ADM0402"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( GPS0003 )",
+          "equivalencias_codigos": [
+            "GPS0003"
+          ]
+        },
+        {
+          "codigo": "CCB0011",
+          "nome": "CONTABILIDADE INTERMEDIÁRIA",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 3,
+          "id": "2542",
+          "pre_requisitos_expressao": "CCB0006",
+          "pre_requisitos_codigos": [
+            "CCB0006"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CCB0006"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CCB0012",
+          "nome": "ESTATÍSTICA APLICADA A NEGÓCIOS I",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 3,
+          "id": "2543",
+          "pre_requisitos_expressao": "( CCB0003 OU ADM0402 )",
+          "pre_requisitos_codigos": [
+            "CCB0003",
+            "ADM0402"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "CCB0003"
+            },
+            "direita": {
+              "codigo": "ADM0402"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( ADM0312 OU GPS0076 )",
+          "equivalencias_codigos": [
+            "ADM0312",
+            "GPS0076"
+          ]
+        },
+        {
+          "codigo": "CCB0013",
+          "nome": "LEGISLAÇÃO SOCIAL E TRABALHISTA",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 3,
+          "id": "2544",
+          "pre_requisitos_expressao": "( CCB0004 ) OU ( ADM0352 ) OU ( GPS0071 )",
+          "pre_requisitos_codigos": [
+            "CCB0004",
+            "ADM0352",
+            "GPS0071"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "operador": "OU",
+              "esquerda": {
+                "codigo": "CCB0004"
+              },
+              "direita": {
+                "codigo": "ADM0352"
+              }
+            },
+            "direita": {
+              "codigo": "GPS0071"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( ADM0318 )",
+          "equivalencias_codigos": [
+            "ADM0318"
+          ]
+        },
+        {
+          "codigo": "CCB0015",
+          "nome": "TEORIA DA CONTABILIDADE",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 3,
+          "id": "2546",
+          "pre_requisitos_expressao": "CCB0006",
+          "pre_requisitos_codigos": [
+            "CCB0006"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CCB0006"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CCB0024",
+          "nome": "CONTABILIDADE DE CUSTOS",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 3,
+          "id": "2555",
+          "pre_requisitos_expressao": "CCB0006",
+          "pre_requisitos_codigos": [
+            "CCB0006"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CCB0006"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "ADM0322",
+          "equivalencias_codigos": [
+            "ADM0322"
+          ]
+        },
+        {
+          "codigo": "CCB0018",
+          "nome": "ESTATÍSTICA APLICADA A NEGÓCIOS II",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 4,
+          "id": "2549",
+          "pre_requisitos_expressao": "( CCB0012 ) OU ( ADM0312 ) OU ( GPS0076 )",
+          "pre_requisitos_codigos": [
+            "CCB0012",
+            "ADM0312",
+            "GPS0076"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "operador": "OU",
+              "esquerda": {
+                "codigo": "CCB0012"
+              },
+              "direita": {
+                "codigo": "ADM0312"
+              }
+            },
+            "direita": {
+              "codigo": "GPS0076"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "ADM0316",
+          "equivalencias_codigos": [
+            "ADM0316"
+          ]
+        },
+        {
+          "codigo": "CCB0020",
+          "nome": "ORÇAMENTO PÚBLICO",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 4,
+          "id": "2551",
+          "pre_requisitos_expressao": "CCB0006",
+          "pre_requisitos_codigos": [
+            "CCB0006"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CCB0006"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "GPS0039",
+          "equivalencias_codigos": [
+            "GPS0039"
+          ]
+        },
+        {
+          "codigo": "CCB0027",
+          "nome": "ANÁLISE DE CUSTOS",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 4,
+          "id": "2558",
+          "pre_requisitos_expressao": "( CCB0024 ) OU ( ADM0322 )",
+          "pre_requisitos_codigos": [
+            "CCB0024",
+            "ADM0322"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "CCB0024"
+            },
+            "direita": {
+              "codigo": "ADM0322"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CCB0065",
+          "nome": "CONTABILIDADE AVANÇADA",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 4,
+          "id": "3203",
+          "pre_requisitos_expressao": "( CCB0011 )",
+          "pre_requisitos_codigos": [
+            "CCB0011"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CCB0011"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CCB0066",
+          "nome": "PRÁTICA CONTÁBIL I",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 4,
+          "id": "3204",
+          "pre_requisitos_expressao": "( ( CCB0011 ) E ( CCB0007 OU ADM0421 ) )",
+          "pre_requisitos_codigos": [
+            "CCB0011",
+            "CCB0007",
+            "ADM0421"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "E",
+            "esquerda": {
+              "codigo": "CCB0011"
+            },
+            "direita": {
+              "operador": "OU",
+              "esquerda": {
+                "codigo": "CCB0007"
+              },
+              "direita": {
+                "codigo": "ADM0421"
+              }
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( CCB0035 )",
+          "equivalencias_codigos": [
+            "CCB0035"
+          ]
+        },
+        {
+          "codigo": "CCB0017",
+          "nome": "DIREITO TRIBUTÁRIO",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 5,
+          "id": "2548",
+          "pre_requisitos_expressao": "( CCB0004 ) OU ( ADM0352 ) OU ( GPS0071 )",
+          "pre_requisitos_codigos": [
+            "CCB0004",
+            "ADM0352",
+            "GPS0071"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "operador": "OU",
+              "esquerda": {
+                "codigo": "CCB0004"
+              },
+              "direita": {
+                "codigo": "ADM0352"
+              }
+            },
+            "direita": {
+              "codigo": "GPS0071"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CCB0022",
+          "nome": "CONTABILIDADE APLICADA AO SETOR PÚBLICO I",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 5,
+          "id": "2553",
+          "pre_requisitos_expressao": "( CCB0020 ) OU ( GPS0039 )",
+          "pre_requisitos_codigos": [
+            "CCB0020",
+            "GPS0039"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "CCB0020"
+            },
+            "direita": {
+              "codigo": "GPS0039"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( GPS0019 ) OU ( ADM0479 )",
+          "equivalencias_codigos": [
+            "GPS0019",
+            "ADM0479"
+          ]
+        },
+        {
+          "codigo": "CCB0032",
+          "nome": "ANÁLISE DAS DEMONSTRAÇÕES CONTÁBEIS",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 5,
+          "id": "2563",
+          "pre_requisitos_expressao": "CCB0011",
+          "pre_requisitos_codigos": [
+            "CCB0011"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CCB0011"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "ADM0359",
+          "equivalencias_codigos": [
+            "ADM0359"
+          ]
+        },
+        {
+          "codigo": "CCB0061",
+          "nome": "TÓPICOS AVANÇADOS EM CONTABILIDADE I",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 5,
+          "id": "2592",
+          "pre_requisitos_expressao": "( CCB0023 ) OU ( CCB0065 )",
+          "pre_requisitos_codigos": [
+            "CCB0023",
+            "CCB0065"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "CCB0023"
+            },
+            "direita": {
+              "codigo": "CCB0065"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CCB0067",
+          "nome": "PRÁTICA CONTÁBIL II",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 5,
+          "id": "3205",
+          "pre_requisitos_expressao": "( CCB0066 ) OU ( CCB0013 ) OU ( ADM0318 )",
+          "pre_requisitos_codigos": [
+            "CCB0066",
+            "CCB0013",
+            "ADM0318"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "operador": "OU",
+              "esquerda": {
+                "codigo": "CCB0066"
+              },
+              "direita": {
+                "codigo": "CCB0013"
+              }
+            },
+            "direita": {
+              "codigo": "ADM0318"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( CCB0038 )",
+          "equivalencias_codigos": [
+            "CCB0038"
+          ]
+        },
+        {
+          "codigo": "CCB0026",
+          "nome": "FINANÇAS I",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 6,
+          "id": "2557",
+          "pre_requisitos_expressao": "( CCB0006 ) OU ( CCB0001 ) OU ( ADM0408 ) OU ( GPS0077 )",
+          "pre_requisitos_codigos": [
+            "CCB0006",
+            "CCB0001",
+            "ADM0408",
+            "GPS0077"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "operador": "OU",
+              "esquerda": {
+                "operador": "OU",
+                "esquerda": {
+                  "codigo": "CCB0006"
+                },
+                "direita": {
+                  "codigo": "CCB0001"
+                }
+              },
+              "direita": {
+                "codigo": "ADM0408"
+              }
+            },
+            "direita": {
+              "codigo": "GPS0077"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( ADM0414 )",
+          "equivalencias_codigos": [
+            "ADM0414"
+          ]
+        },
+        {
+          "codigo": "CCB0028",
+          "nome": "AUDITORIA I",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 6,
+          "id": "2559",
+          "pre_requisitos_expressao": "( CCB0011 ) OU ( CCB0065 )",
+          "pre_requisitos_codigos": [
+            "CCB0011",
+            "CCB0065"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "CCB0011"
+            },
+            "direita": {
+              "codigo": "CCB0065"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CCB0029",
+          "nome": "CONTABILIDADE APLICADA AO SETOR PÚBLICO II",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 6,
+          "id": "2560",
+          "pre_requisitos_expressao": "( CCB0022 ) OU ( ADM0479 ) OU ( GPS0019 )",
+          "pre_requisitos_codigos": [
+            "CCB0022",
+            "ADM0479",
+            "GPS0019"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "operador": "OU",
+              "esquerda": {
+                "codigo": "CCB0022"
+              },
+              "direita": {
+                "codigo": "ADM0479"
+              }
+            },
+            "direita": {
+              "codigo": "GPS0019"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CCB0068",
+          "nome": "CONTABILIDADE TRIBUTÁRIA",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 6,
+          "id": "3206",
+          "pre_requisitos_expressao": "( CCB0011 ) E ( CCB0017 )",
+          "pre_requisitos_codigos": [
+            "CCB0011",
+            "CCB0017"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "E",
+            "esquerda": {
+              "codigo": "CCB0011"
+            },
+            "direita": {
+              "codigo": "CCB0017"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( CCB0025 ) OU ( ADM0477 ) OU ( GPS0081 )",
+          "equivalencias_codigos": [
+            "CCB0025",
+            "ADM0477",
+            "GPS0081"
+          ]
+        },
+        {
+          "codigo": "CCB0069",
+          "nome": "MODELAGEM DE DADOS ORGANIZACIONAIS",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 6,
+          "id": "3207",
+          "pre_requisitos_expressao": "( CCB0018 ) OU ( ADM0316 )",
+          "pre_requisitos_codigos": [
+            "CCB0018",
+            "ADM0316"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "CCB0018"
+            },
+            "direita": {
+              "codigo": "ADM0316"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CCB0070",
+          "nome": "ESTÁGIO CURRICULAR I",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 6,
+          "id": "3208",
+          "pre_requisitos_expressao": "( CCB0011 )",
+          "pre_requisitos_codigos": [
+            "CCB0011"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CCB0011"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( CCB0031 )",
+          "equivalencias_codigos": [
+            "CCB0031"
+          ]
+        },
+        {
+          "codigo": "CCB0019",
+          "nome": "ÉTICA CONTÁBIL",
+          "carga_horaria": 32,
+          "tipo": "obrigatoria",
+          "nivel": 7,
+          "id": "2550",
+          "pre_requisitos_expressao": "CCB0011",
+          "pre_requisitos_codigos": [
+            "CCB0011"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CCB0011"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CCB0021",
+          "nome": "PERÍCIA CONTÁBIL",
+          "carga_horaria": 32,
+          "tipo": "obrigatoria",
+          "nivel": 7,
+          "id": "2552",
+          "pre_requisitos_expressao": "( CCB0011 ) OU ( CCB0032 ) OU ( ADM0359 )",
+          "pre_requisitos_codigos": [
+            "CCB0011",
+            "CCB0032",
+            "ADM0359"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "operador": "OU",
+              "esquerda": {
+                "codigo": "CCB0011"
+              },
+              "direita": {
+                "codigo": "CCB0032"
+              }
+            },
+            "direita": {
+              "codigo": "ADM0359"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CCB0033",
+          "nome": "CONTROLADORIA E CONTABILIDADE GERENCIAL",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 7,
+          "id": "2564",
+          "pre_requisitos_expressao": "( CCB0023 ) OU ( CCB0032 ) OU ( ADM0359 )",
+          "pre_requisitos_codigos": [
+            "CCB0023",
+            "CCB0032",
+            "ADM0359"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "operador": "OU",
+              "esquerda": {
+                "codigo": "CCB0023"
+              },
+              "direita": {
+                "codigo": "CCB0032"
+              }
+            },
+            "direita": {
+              "codigo": "ADM0359"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CCB0034",
+          "nome": "MÉTODOS E TÉCNICAS DE PESQUISA APLICADA À CONTABILIDADE",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 7,
+          "id": "2565",
+          "pre_requisitos_expressao": "( CCB0010 ) E ( CCB0023 ) OU ( ADM0311 ) OU ( GPS0066 ) OU ( BIB0017 )",
+          "pre_requisitos_codigos": [
+            "CCB0010",
+            "CCB0023",
+            "ADM0311",
+            "GPS0066",
+            "BIB0017"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "operador": "OU",
+              "esquerda": {
+                "operador": "OU",
+                "esquerda": {
+                  "operador": "E",
+                  "esquerda": {
+                    "codigo": "CCB0010"
+                  },
+                  "direita": {
+                    "codigo": "CCB0023"
+                  }
+                },
+                "direita": {
+                  "codigo": "ADM0311"
+                }
+              },
+              "direita": {
+                "codigo": "GPS0066"
+              }
+            },
+            "direita": {
+              "codigo": "BIB0017"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( ADM0474 )",
+          "equivalencias_codigos": [
+            "ADM0474"
+          ]
+        },
+        {
+          "codigo": "CCB0039",
+          "nome": "TRABALHO DE CONCLUSÃO DE CURSO (TCC)",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 8,
+          "id": "2570",
+          "pre_requisitos_expressao": "( CCB0034 ) OU ( ADM0474 )",
+          "pre_requisitos_codigos": [
+            "CCB0034",
+            "ADM0474"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "CCB0034"
+            },
+            "direita": {
+              "codigo": "ADM0474"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CCB0071",
+          "nome": "ESTÁGIO CURRICULAR II",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 8,
+          "id": "3209",
+          "pre_requisitos_expressao": "( CCB0032 ) OU ( ADM0359 )",
+          "pre_requisitos_codigos": [
+            "CCB0032",
+            "ADM0359"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "CCB0032"
+            },
+            "direita": {
+              "codigo": "ADM0359"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( CCB0036 )",
+          "equivalencias_codigos": [
+            "CCB0036"
+          ]
+        },
+        {
+          "codigo": "CCB0030",
+          "nome": "FINANÇAS II",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2561",
+          "pre_requisitos_expressao": "( CCB0026 ) OU ( ADM0414 )",
+          "pre_requisitos_codigos": [
+            "CCB0026",
+            "ADM0414"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "CCB0026"
+            },
+            "direita": {
+              "codigo": "ADM0414"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( ADM0416 ) OU ( ADM0334 )",
+          "equivalencias_codigos": [
+            "ADM0416",
+            "ADM0334"
+          ]
+        },
+        {
+          "codigo": "CCB0041",
+          "nome": "ADMINISTRAÇÃO DE RECURSOS HUMANOS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2572",
+          "pre_requisitos_expressao": "( CCB0005 ) OU ( ADM0401 )",
+          "pre_requisitos_codigos": [
+            "CCB0005",
+            "ADM0401"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "CCB0005"
+            },
+            "direita": {
+              "codigo": "ADM0401"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( ADM0410 ) OU ( ADM0328 )",
+          "equivalencias_codigos": [
+            "ADM0410",
+            "ADM0328"
+          ]
+        },
+        {
+          "codigo": "CCB0042",
+          "nome": "ADMINISTRAÇÃO DE SISTEMA DE INFORMAÇÕES",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2573",
+          "pre_requisitos_expressao": "( CCB0005 ) OU ( ADM0401 )",
+          "pre_requisitos_codigos": [
+            "CCB0005",
+            "ADM0401"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "CCB0005"
+            },
+            "direita": {
+              "codigo": "ADM0401"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( ADM0413 ) OU ( ADM0325 ) OU ( GPS0083 )",
+          "equivalencias_codigos": [
+            "ADM0413",
+            "ADM0325",
+            "GPS0083"
+          ]
+        },
+        {
+          "codigo": "CCB0044",
+          "nome": "AUDITORIA GOVERNAMENTAL",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2575",
+          "pre_requisitos_expressao": "( CCB0028 ) OU ( CCB0029 )",
+          "pre_requisitos_codigos": [
+            "CCB0028",
+            "CCB0029"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "CCB0028"
+            },
+            "direita": {
+              "codigo": "CCB0029"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CCB0045",
+          "nome": "AUDITORIA II",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2576",
+          "pre_requisitos_expressao": "CCB0028",
+          "pre_requisitos_codigos": [
+            "CCB0028"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CCB0028"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CCB0046",
+          "nome": "CONTABILIDADE APLICADA À CONSTRUÇÃO CIVIL",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2577",
+          "pre_requisitos_expressao": "( CCB0016 ) OU ( CCB0001 ) OU ( ADM0408 ) OU ( GPS0077 )",
+          "pre_requisitos_codigos": [
+            "CCB0016",
+            "CCB0001",
+            "ADM0408",
+            "GPS0077"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "operador": "OU",
+              "esquerda": {
+                "operador": "OU",
+                "esquerda": {
+                  "codigo": "CCB0016"
+                },
+                "direita": {
+                  "codigo": "CCB0001"
+                }
+              },
+              "direita": {
+                "codigo": "ADM0408"
+              }
+            },
+            "direita": {
+              "codigo": "GPS0077"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CCB0047",
+          "nome": "CONTABILIDADE APLICADA AO AGRONEGÓCIO",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2578",
+          "pre_requisitos_expressao": "( CCB0016 ) OU ( CCB0001 ) OU ( ADM0408 ) OU ( GPS0077 )",
+          "pre_requisitos_codigos": [
+            "CCB0016",
+            "CCB0001",
+            "ADM0408",
+            "GPS0077"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "operador": "OU",
+              "esquerda": {
+                "operador": "OU",
+                "esquerda": {
+                  "codigo": "CCB0016"
+                },
+                "direita": {
+                  "codigo": "CCB0001"
+                }
+              },
+              "direita": {
+                "codigo": "ADM0408"
+              }
+            },
+            "direita": {
+              "codigo": "GPS0077"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CCB0048",
+          "nome": "CONTABILIDADE APLICADA ÀS ENTIDADES DE INTERESSE SOCIAL",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2579",
+          "pre_requisitos_expressao": "( CCB0016 ) OU ( CCB0001 ) OU ( ADM0408 ) OU ( GPS0077 )",
+          "pre_requisitos_codigos": [
+            "CCB0016",
+            "CCB0001",
+            "ADM0408",
+            "GPS0077"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "operador": "OU",
+              "esquerda": {
+                "operador": "OU",
+                "esquerda": {
+                  "codigo": "CCB0016"
+                },
+                "direita": {
+                  "codigo": "CCB0001"
+                }
+              },
+              "direita": {
+                "codigo": "ADM0408"
+              }
+            },
+            "direita": {
+              "codigo": "GPS0077"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CCB0049",
+          "nome": "CONTABILIDADE APLICADA ÀS INSTITUIÇÕES FINANCEIRAS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2580",
+          "pre_requisitos_expressao": "( CCB0016 ) OU ( CCB0001 ) OU ( ADM0408 ) OU ( GPS0077 )",
+          "pre_requisitos_codigos": [
+            "CCB0016",
+            "CCB0001",
+            "ADM0408",
+            "GPS0077"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "operador": "OU",
+              "esquerda": {
+                "operador": "OU",
+                "esquerda": {
+                  "codigo": "CCB0016"
+                },
+                "direita": {
+                  "codigo": "CCB0001"
+                }
+              },
+              "direita": {
+                "codigo": "ADM0408"
+              }
+            },
+            "direita": {
+              "codigo": "GPS0077"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CCB0050",
+          "nome": "CONTABILIDADE SOCIOAMBIENTAL",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2581",
+          "pre_requisitos_expressao": "( CCB0016 ) OU ( CCB0001 ) OU ( ADM0408 ) OU ( GPS0077 )",
+          "pre_requisitos_codigos": [
+            "CCB0016",
+            "CCB0001",
+            "ADM0408",
+            "GPS0077"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "operador": "OU",
+              "esquerda": {
+                "operador": "OU",
+                "esquerda": {
+                  "codigo": "CCB0016"
+                },
+                "direita": {
+                  "codigo": "CCB0001"
+                }
+              },
+              "direita": {
+                "codigo": "ADM0408"
+              }
+            },
+            "direita": {
+              "codigo": "GPS0077"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CCB0052",
+          "nome": "ECONOMETRIA",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2583",
+          "pre_requisitos_expressao": "( CCB0018 ) OU ( ADM0316 )",
+          "pre_requisitos_codigos": [
+            "CCB0018",
+            "ADM0316"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "CCB0018"
+            },
+            "direita": {
+              "codigo": "ADM0316"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( ADM0482 )",
+          "equivalencias_codigos": [
+            "ADM0482"
+          ]
+        },
+        {
+          "codigo": "CCB0055",
+          "nome": "FINANÇAS PÚBLICAS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2586",
+          "pre_requisitos_expressao": "( CCB0020 ) OU ( GPS0039 )",
+          "pre_requisitos_codigos": [
+            "CCB0020",
+            "GPS0039"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "CCB0020"
+            },
+            "direita": {
+              "codigo": "GPS0039"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( ADM0346 ) E ( ADM0463 )",
+          "equivalencias_codigos": [
+            "ADM0346",
+            "ADM0463"
+          ]
+        },
+        {
+          "codigo": "CCB0057",
+          "nome": "LÍNGUA BRASILEIRA DE SINAIS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2588",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "CAR0010",
+          "equivalencias_codigos": [
+            "CAR0010"
+          ]
+        },
+        {
+          "codigo": "CCB0058",
+          "nome": "NOÇÕES DE CONTABILIDADE ATUARIAL",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2589",
+          "pre_requisitos_expressao": "( CCB0023 ) OU ( CCB0001 ) OU ( ADM0408 ) OU ( GPS0077 )",
+          "pre_requisitos_codigos": [
+            "CCB0023",
+            "CCB0001",
+            "ADM0408",
+            "GPS0077"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "operador": "OU",
+              "esquerda": {
+                "operador": "OU",
+                "esquerda": {
+                  "codigo": "CCB0023"
+                },
+                "direita": {
+                  "codigo": "CCB0001"
+                }
+              },
+              "direita": {
+                "codigo": "ADM0408"
+              }
+            },
+            "direita": {
+              "codigo": "GPS0077"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CCB0062",
+          "nome": "TÓPICOS AVANÇADOS EM CONTABILIDADE II",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2593",
+          "pre_requisitos_expressao": "CCB0061",
+          "pre_requisitos_codigos": [
+            "CCB0061"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CCB0061"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CCB0072",
+          "nome": "DIREITO ADMINISTRATIVO",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3210",
+          "pre_requisitos_expressao": "( CCB0004 ) OU ( ADM0352 ) OU ( GPS0071 )",
+          "pre_requisitos_codigos": [
+            "CCB0004",
+            "ADM0352",
+            "GPS0071"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "operador": "OU",
+              "esquerda": {
+                "codigo": "CCB0004"
+              },
+              "direita": {
+                "codigo": "ADM0352"
+              }
+            },
+            "direita": {
+              "codigo": "GPS0071"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( GPS0031 )",
+          "equivalencias_codigos": [
+            "GPS0031"
+          ]
+        },
+        {
+          "codigo": "CCB0073",
+          "nome": "EMPREENDEDORISMO I",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3211",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( ADM0343 )",
+          "equivalencias_codigos": [
+            "ADM0343"
+          ]
+        },
+        {
+          "codigo": "CCB0074",
+          "nome": "FILOSOFIA E ÉTICA ORGANIZACIONAL",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3212",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CCB0075",
+          "nome": "GESTÃO AMBIENTAL E ORGANIZAÇÕES",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3213",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( GPS0101 )",
+          "equivalencias_codigos": [
+            "GPS0101"
+          ]
+        },
+        {
+          "codigo": "CCB0076",
+          "nome": "PSICOLOGIA ORGANIZACIONAL",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3214",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( ADM0407 ) OU ( ADM0306 ) OU ( GPS0103 )",
+          "equivalencias_codigos": [
+            "ADM0407",
+            "ADM0306",
+            "GPS0103"
+          ]
+        },
+        {
+          "codigo": "CCB0077",
+          "nome": "TEORIAS DA ADMINISTRAÇÃO II",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3215",
+          "pre_requisitos_expressao": "( CCB0005 ) OU ( ADM0401 )",
+          "pre_requisitos_codigos": [
+            "CCB0005",
+            "ADM0401"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "CCB0005"
+            },
+            "direita": {
+              "codigo": "ADM0401"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( ADM0406 ) OU ( ADM0310 )",
+          "equivalencias_codigos": [
+            "ADM0406",
+            "ADM0310"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "32653550",
+      "codigo": "CCB001",
+      "ano_criacao": 2019,
+      "status": "Ativa",
+      "quantidade_componentes": 52,
+      "quantidade_obrigatorias": 39,
+      "quantidade_optativas": 13,
+      "componentes": [
+        {
+          "codigo": "CCB0001",
+          "nome": "CONTABILIDADE INTRODUTÓRIA I",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 1,
+          "id": "2532",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( GPS0077 ) OU ( ADM0408 )",
+          "equivalencias_codigos": [
+            "GPS0077",
+            "ADM0408"
+          ]
+        },
+        {
+          "codigo": "CCB0002",
+          "nome": "ESTUDOS SOCIOLÓGICOS E ANTROPOLÓGICOS",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 1,
+          "id": "2533",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( GPS0100 ) OU ( ADM0308 ) OU ( GPS0060 ) OU ( BIB0002 )",
+          "equivalencias_codigos": [
+            "GPS0100",
+            "ADM0308",
+            "GPS0060",
+            "BIB0002"
+          ]
+        },
+        {
+          "codigo": "CCB0003",
+          "nome": "MATEMÁTICA PARA ADMINISTRAÇÃO E CONTABILIDADE",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 1,
+          "id": "2534",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( ADM0402 )",
+          "equivalencias_codigos": [
+            "ADM0402"
+          ]
+        },
+        {
+          "codigo": "CCB0004",
+          "nome": "INTRODUÇÃO AO ESTUDO DO DIREITO",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 1,
+          "id": "2535",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( ADM0352 OU GPS0071 )",
+          "equivalencias_codigos": [
+            "ADM0352",
+            "GPS0071"
+          ]
+        },
+        {
+          "codigo": "CCB0005",
+          "nome": "TEORIAS DA ADMINISTRAÇÃO I",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 1,
+          "id": "2536",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( ADM0401 )",
+          "equivalencias_codigos": [
+            "ADM0401"
+          ]
+        },
+        {
+          "codigo": "CCB0006",
+          "nome": "CONTABILIDADE INTRODUTÓRIA II",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 2,
+          "id": "2537",
+          "pre_requisitos_expressao": "CCB0001",
+          "pre_requisitos_codigos": [
+            "CCB0001"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CCB0001"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CCB0007",
+          "nome": "DIREITO EMPRESARIAL",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 2,
+          "id": "2538",
+          "pre_requisitos_expressao": "( CCB0004 ) OU ( ADM0352 ) OU ( GPS0071 )",
+          "pre_requisitos_codigos": [
+            "CCB0004",
+            "ADM0352",
+            "GPS0071"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "operador": "OU",
+              "esquerda": {
+                "codigo": "CCB0004"
+              },
+              "direita": {
+                "codigo": "ADM0352"
+              }
+            },
+            "direita": {
+              "codigo": "GPS0071"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( ADM0421 )",
+          "equivalencias_codigos": [
+            "ADM0421"
+          ]
+        },
+        {
+          "codigo": "CCB0008",
+          "nome": "FUNDAMENTOS DE MICROECONOMIA",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 2,
+          "id": "2539",
+          "pre_requisitos_expressao": "CCB0003",
+          "pre_requisitos_codigos": [
+            "CCB0003"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CCB0003"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( ADM0409 )",
+          "equivalencias_codigos": [
+            "ADM0409"
+          ]
+        },
+        {
+          "codigo": "CCB0009",
+          "nome": "MATEMÁTICA FINANCEIRA",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 2,
+          "id": "2540",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "ADM0313",
+          "equivalencias_codigos": [
+            "ADM0313"
+          ]
+        },
+        {
+          "codigo": "CCB0010",
+          "nome": "METODOLOGIA DO TRABALHO CIENTÍFICO",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 2,
+          "id": "2541",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( ADM0311 ) OU ( GPS0066 ) OU ( BIB0017 )",
+          "equivalencias_codigos": [
+            "ADM0311",
+            "GPS0066",
+            "BIB0017"
+          ]
+        },
+        {
+          "codigo": "CCB0011",
+          "nome": "CONTABILIDADE INTERMEDIÁRIA",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 3,
+          "id": "2542",
+          "pre_requisitos_expressao": "CCB0006",
+          "pre_requisitos_codigos": [
+            "CCB0006"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CCB0006"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CCB0012",
+          "nome": "ESTATÍSTICA APLICADA A NEGÓCIOS I",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 3,
+          "id": "2543",
+          "pre_requisitos_expressao": "( CCB0003 OU ADM0402 )",
+          "pre_requisitos_codigos": [
+            "CCB0003",
+            "ADM0402"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "CCB0003"
+            },
+            "direita": {
+              "codigo": "ADM0402"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( ADM0312 OU GPS0076 )",
+          "equivalencias_codigos": [
+            "ADM0312",
+            "GPS0076"
+          ]
+        },
+        {
+          "codigo": "CCB0013",
+          "nome": "LEGISLAÇÃO SOCIAL E TRABALHISTA",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 3,
+          "id": "2544",
+          "pre_requisitos_expressao": "( CCB0004 ) OU ( ADM0352 ) OU ( GPS0071 )",
+          "pre_requisitos_codigos": [
+            "CCB0004",
+            "ADM0352",
+            "GPS0071"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "operador": "OU",
+              "esquerda": {
+                "codigo": "CCB0004"
+              },
+              "direita": {
+                "codigo": "ADM0352"
+              }
+            },
+            "direita": {
+              "codigo": "GPS0071"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( ADM0318 )",
+          "equivalencias_codigos": [
+            "ADM0318"
+          ]
+        },
+        {
+          "codigo": "CCB0014",
+          "nome": "FUNDAMENTOS DE MACROECONOMIA",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 3,
+          "id": "2545",
+          "pre_requisitos_expressao": "CCB0008",
+          "pre_requisitos_codigos": [
+            "CCB0008"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CCB0008"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( ADM0412 )",
+          "equivalencias_codigos": [
+            "ADM0412"
+          ]
+        },
+        {
+          "codigo": "CCB0015",
+          "nome": "TEORIA DA CONTABILIDADE",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 3,
+          "id": "2546",
+          "pre_requisitos_expressao": "CCB0006",
+          "pre_requisitos_codigos": [
+            "CCB0006"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CCB0006"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CCB0016",
+          "nome": "CONTABILIDADE AVANÇADA I",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 4,
+          "id": "2547",
+          "pre_requisitos_expressao": "CCB0011",
+          "pre_requisitos_codigos": [
+            "CCB0011"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CCB0011"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CCB0017",
+          "nome": "DIREITO TRIBUTÁRIO",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 4,
+          "id": "2548",
+          "pre_requisitos_expressao": "( CCB0004 ) OU ( ADM0352 ) OU ( GPS0071 )",
+          "pre_requisitos_codigos": [
+            "CCB0004",
+            "ADM0352",
+            "GPS0071"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "operador": "OU",
+              "esquerda": {
+                "codigo": "CCB0004"
+              },
+              "direita": {
+                "codigo": "ADM0352"
+              }
+            },
+            "direita": {
+              "codigo": "GPS0071"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CCB0018",
+          "nome": "ESTATÍSTICA APLICADA A NEGÓCIOS II",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 4,
+          "id": "2549",
+          "pre_requisitos_expressao": "( CCB0012 ) OU ( ADM0312 ) OU ( GPS0076 )",
+          "pre_requisitos_codigos": [
+            "CCB0012",
+            "ADM0312",
+            "GPS0076"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "operador": "OU",
+              "esquerda": {
+                "codigo": "CCB0012"
+              },
+              "direita": {
+                "codigo": "ADM0312"
+              }
+            },
+            "direita": {
+              "codigo": "GPS0076"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "ADM0316",
+          "equivalencias_codigos": [
+            "ADM0316"
+          ]
+        },
+        {
+          "codigo": "CCB0019",
+          "nome": "ÉTICA CONTÁBIL",
+          "carga_horaria": 32,
+          "tipo": "obrigatoria",
+          "nivel": 4,
+          "id": "2550",
+          "pre_requisitos_expressao": "CCB0011",
+          "pre_requisitos_codigos": [
+            "CCB0011"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CCB0011"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CCB0020",
+          "nome": "ORÇAMENTO PÚBLICO",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 4,
+          "id": "2551",
+          "pre_requisitos_expressao": "CCB0006",
+          "pre_requisitos_codigos": [
+            "CCB0006"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CCB0006"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "GPS0039",
+          "equivalencias_codigos": [
+            "GPS0039"
+          ]
+        },
+        {
+          "codigo": "CCB0021",
+          "nome": "PERÍCIA CONTÁBIL",
+          "carga_horaria": 32,
+          "tipo": "obrigatoria",
+          "nivel": 4,
+          "id": "2552",
+          "pre_requisitos_expressao": "( CCB0011 ) OU ( CCB0032 ) OU ( ADM0359 )",
+          "pre_requisitos_codigos": [
+            "CCB0011",
+            "CCB0032",
+            "ADM0359"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "operador": "OU",
+              "esquerda": {
+                "codigo": "CCB0011"
+              },
+              "direita": {
+                "codigo": "CCB0032"
+              }
+            },
+            "direita": {
+              "codigo": "ADM0359"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CCB0022",
+          "nome": "CONTABILIDADE APLICADA AO SETOR PÚBLICO I",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 5,
+          "id": "2553",
+          "pre_requisitos_expressao": "( CCB0020 ) OU ( GPS0039 )",
+          "pre_requisitos_codigos": [
+            "CCB0020",
+            "GPS0039"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "CCB0020"
+            },
+            "direita": {
+              "codigo": "GPS0039"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( GPS0019 ) OU ( ADM0479 )",
+          "equivalencias_codigos": [
+            "GPS0019",
+            "ADM0479"
+          ]
+        },
+        {
+          "codigo": "CCB0023",
+          "nome": "CONTABILIDADE AVANÇADA II",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 5,
+          "id": "2554",
+          "pre_requisitos_expressao": "CCB0016",
+          "pre_requisitos_codigos": [
+            "CCB0016"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CCB0016"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CCB0024",
+          "nome": "CONTABILIDADE DE CUSTOS",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 5,
+          "id": "2555",
+          "pre_requisitos_expressao": "CCB0006",
+          "pre_requisitos_codigos": [
+            "CCB0006"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CCB0006"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "ADM0322",
+          "equivalencias_codigos": [
+            "ADM0322"
+          ]
+        },
+        {
+          "codigo": "CCB0025",
+          "nome": "CONTABILIDADE TRIBUTÁRIA",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 5,
+          "id": "2556",
+          "pre_requisitos_expressao": "CCB0011",
+          "pre_requisitos_codigos": [
+            "CCB0011"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CCB0011"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( ADM0477 ) OU ( GPS0081 )",
+          "equivalencias_codigos": [
+            "ADM0477",
+            "GPS0081"
+          ]
+        },
+        {
+          "codigo": "CCB0026",
+          "nome": "FINANÇAS I",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 5,
+          "id": "2557",
+          "pre_requisitos_expressao": "( CCB0006 ) OU ( CCB0001 ) OU ( ADM0408 ) OU ( GPS0077 )",
+          "pre_requisitos_codigos": [
+            "CCB0006",
+            "CCB0001",
+            "ADM0408",
+            "GPS0077"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "operador": "OU",
+              "esquerda": {
+                "operador": "OU",
+                "esquerda": {
+                  "codigo": "CCB0006"
+                },
+                "direita": {
+                  "codigo": "CCB0001"
+                }
+              },
+              "direita": {
+                "codigo": "ADM0408"
+              }
+            },
+            "direita": {
+              "codigo": "GPS0077"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( ADM0414 )",
+          "equivalencias_codigos": [
+            "ADM0414"
+          ]
+        },
+        {
+          "codigo": "CCB0027",
+          "nome": "ANÁLISE DE CUSTOS",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 6,
+          "id": "2558",
+          "pre_requisitos_expressao": "( CCB0024 ) OU ( ADM0322 )",
+          "pre_requisitos_codigos": [
+            "CCB0024",
+            "ADM0322"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "CCB0024"
+            },
+            "direita": {
+              "codigo": "ADM0322"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CCB0028",
+          "nome": "AUDITORIA I",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 6,
+          "id": "2559",
+          "pre_requisitos_expressao": "( CCB0011 ) OU ( CCB0065 )",
+          "pre_requisitos_codigos": [
+            "CCB0011",
+            "CCB0065"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "CCB0011"
+            },
+            "direita": {
+              "codigo": "CCB0065"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CCB0029",
+          "nome": "CONTABILIDADE APLICADA AO SETOR PÚBLICO II",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 6,
+          "id": "2560",
+          "pre_requisitos_expressao": "( CCB0022 ) OU ( ADM0479 ) OU ( GPS0019 )",
+          "pre_requisitos_codigos": [
+            "CCB0022",
+            "ADM0479",
+            "GPS0019"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "operador": "OU",
+              "esquerda": {
+                "codigo": "CCB0022"
+              },
+              "direita": {
+                "codigo": "ADM0479"
+              }
+            },
+            "direita": {
+              "codigo": "GPS0019"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CCB0030",
+          "nome": "FINANÇAS II",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 6,
+          "id": "2561",
+          "pre_requisitos_expressao": "( CCB0026 ) OU ( ADM0414 )",
+          "pre_requisitos_codigos": [
+            "CCB0026",
+            "ADM0414"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "CCB0026"
+            },
+            "direita": {
+              "codigo": "ADM0414"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( ADM0416 ) OU ( ADM0334 )",
+          "equivalencias_codigos": [
+            "ADM0416",
+            "ADM0334"
+          ]
+        },
+        {
+          "codigo": "CCB0031",
+          "nome": "ESTÁGIO CURRICULAR I",
+          "carga_horaria": 80,
+          "tipo": "obrigatoria",
+          "nivel": 6,
+          "id": "2562",
+          "pre_requisitos_expressao": "CCB0011",
+          "pre_requisitos_codigos": [
+            "CCB0011"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CCB0011"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CCB0032",
+          "nome": "ANÁLISE DAS DEMONSTRAÇÕES CONTÁBEIS",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 7,
+          "id": "2563",
+          "pre_requisitos_expressao": "CCB0011",
+          "pre_requisitos_codigos": [
+            "CCB0011"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CCB0011"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "ADM0359",
+          "equivalencias_codigos": [
+            "ADM0359"
+          ]
+        },
+        {
+          "codigo": "CCB0033",
+          "nome": "CONTROLADORIA E CONTABILIDADE GERENCIAL",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 7,
+          "id": "2564",
+          "pre_requisitos_expressao": "( CCB0023 ) OU ( CCB0032 ) OU ( ADM0359 )",
+          "pre_requisitos_codigos": [
+            "CCB0023",
+            "CCB0032",
+            "ADM0359"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "operador": "OU",
+              "esquerda": {
+                "codigo": "CCB0023"
+              },
+              "direita": {
+                "codigo": "CCB0032"
+              }
+            },
+            "direita": {
+              "codigo": "ADM0359"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CCB0034",
+          "nome": "MÉTODOS E TÉCNICAS DE PESQUISA APLICADA À CONTABILIDADE",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 7,
+          "id": "2565",
+          "pre_requisitos_expressao": "( CCB0010 ) E ( CCB0023 ) OU ( ADM0311 ) OU ( GPS0066 ) OU ( BIB0017 )",
+          "pre_requisitos_codigos": [
+            "CCB0010",
+            "CCB0023",
+            "ADM0311",
+            "GPS0066",
+            "BIB0017"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "operador": "OU",
+              "esquerda": {
+                "operador": "OU",
+                "esquerda": {
+                  "operador": "E",
+                  "esquerda": {
+                    "codigo": "CCB0010"
+                  },
+                  "direita": {
+                    "codigo": "CCB0023"
+                  }
+                },
+                "direita": {
+                  "codigo": "ADM0311"
+                }
+              },
+              "direita": {
+                "codigo": "GPS0066"
+              }
+            },
+            "direita": {
+              "codigo": "BIB0017"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( ADM0474 )",
+          "equivalencias_codigos": [
+            "ADM0474"
+          ]
+        },
+        {
+          "codigo": "CCB0035",
+          "nome": "PRÁTICA CONTÁBIL I",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 7,
+          "id": "2566",
+          "pre_requisitos_expressao": "( CCB0023 ) E ( CCB0027 )",
+          "pre_requisitos_codigos": [
+            "CCB0023",
+            "CCB0027"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "E",
+            "esquerda": {
+              "codigo": "CCB0023"
+            },
+            "direita": {
+              "codigo": "CCB0027"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CCB0036",
+          "nome": "ESTÁGIO CURRICULAR II",
+          "carga_horaria": 80,
+          "tipo": "obrigatoria",
+          "nivel": 7,
+          "id": "2567",
+          "pre_requisitos_expressao": "CCB0031",
+          "pre_requisitos_codigos": [
+            "CCB0031"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CCB0031"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CCB0037",
+          "nome": "CONTABILIDADE INTERNACIONAL",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 8,
+          "id": "2568",
+          "pre_requisitos_expressao": "CCB0023",
+          "pre_requisitos_codigos": [
+            "CCB0023"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CCB0023"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CCB0038",
+          "nome": "PRÁTICA CONTÁBIL II",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 8,
+          "id": "2569",
+          "pre_requisitos_expressao": "CCB0035",
+          "pre_requisitos_codigos": [
+            "CCB0035"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CCB0035"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CCB0039",
+          "nome": "TRABALHO DE CONCLUSÃO DE CURSO (TCC)",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 8,
+          "id": "2570",
+          "pre_requisitos_expressao": "( CCB0034 ) OU ( ADM0474 )",
+          "pre_requisitos_codigos": [
+            "CCB0034",
+            "ADM0474"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "CCB0034"
+            },
+            "direita": {
+              "codigo": "ADM0474"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CCB0044",
+          "nome": "AUDITORIA GOVERNAMENTAL",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2575",
+          "pre_requisitos_expressao": "( CCB0028 ) OU ( CCB0029 )",
+          "pre_requisitos_codigos": [
+            "CCB0028",
+            "CCB0029"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "CCB0028"
+            },
+            "direita": {
+              "codigo": "CCB0029"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CCB0045",
+          "nome": "AUDITORIA II",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2576",
+          "pre_requisitos_expressao": "CCB0028",
+          "pre_requisitos_codigos": [
+            "CCB0028"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CCB0028"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CCB0046",
+          "nome": "CONTABILIDADE APLICADA À CONSTRUÇÃO CIVIL",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2577",
+          "pre_requisitos_expressao": "( CCB0016 ) OU ( CCB0001 ) OU ( ADM0408 ) OU ( GPS0077 )",
+          "pre_requisitos_codigos": [
+            "CCB0016",
+            "CCB0001",
+            "ADM0408",
+            "GPS0077"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "operador": "OU",
+              "esquerda": {
+                "operador": "OU",
+                "esquerda": {
+                  "codigo": "CCB0016"
+                },
+                "direita": {
+                  "codigo": "CCB0001"
+                }
+              },
+              "direita": {
+                "codigo": "ADM0408"
+              }
+            },
+            "direita": {
+              "codigo": "GPS0077"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CCB0047",
+          "nome": "CONTABILIDADE APLICADA AO AGRONEGÓCIO",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2578",
+          "pre_requisitos_expressao": "( CCB0016 ) OU ( CCB0001 ) OU ( ADM0408 ) OU ( GPS0077 )",
+          "pre_requisitos_codigos": [
+            "CCB0016",
+            "CCB0001",
+            "ADM0408",
+            "GPS0077"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "operador": "OU",
+              "esquerda": {
+                "operador": "OU",
+                "esquerda": {
+                  "codigo": "CCB0016"
+                },
+                "direita": {
+                  "codigo": "CCB0001"
+                }
+              },
+              "direita": {
+                "codigo": "ADM0408"
+              }
+            },
+            "direita": {
+              "codigo": "GPS0077"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CCB0048",
+          "nome": "CONTABILIDADE APLICADA ÀS ENTIDADES DE INTERESSE SOCIAL",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2579",
+          "pre_requisitos_expressao": "( CCB0016 ) OU ( CCB0001 ) OU ( ADM0408 ) OU ( GPS0077 )",
+          "pre_requisitos_codigos": [
+            "CCB0016",
+            "CCB0001",
+            "ADM0408",
+            "GPS0077"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "operador": "OU",
+              "esquerda": {
+                "operador": "OU",
+                "esquerda": {
+                  "codigo": "CCB0016"
+                },
+                "direita": {
+                  "codigo": "CCB0001"
+                }
+              },
+              "direita": {
+                "codigo": "ADM0408"
+              }
+            },
+            "direita": {
+              "codigo": "GPS0077"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CCB0049",
+          "nome": "CONTABILIDADE APLICADA ÀS INSTITUIÇÕES FINANCEIRAS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2580",
+          "pre_requisitos_expressao": "( CCB0016 ) OU ( CCB0001 ) OU ( ADM0408 ) OU ( GPS0077 )",
+          "pre_requisitos_codigos": [
+            "CCB0016",
+            "CCB0001",
+            "ADM0408",
+            "GPS0077"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "operador": "OU",
+              "esquerda": {
+                "operador": "OU",
+                "esquerda": {
+                  "codigo": "CCB0016"
+                },
+                "direita": {
+                  "codigo": "CCB0001"
+                }
+              },
+              "direita": {
+                "codigo": "ADM0408"
+              }
+            },
+            "direita": {
+              "codigo": "GPS0077"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CCB0050",
+          "nome": "CONTABILIDADE SOCIOAMBIENTAL",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2581",
+          "pre_requisitos_expressao": "( CCB0016 ) OU ( CCB0001 ) OU ( ADM0408 ) OU ( GPS0077 )",
+          "pre_requisitos_codigos": [
+            "CCB0016",
+            "CCB0001",
+            "ADM0408",
+            "GPS0077"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "operador": "OU",
+              "esquerda": {
+                "operador": "OU",
+                "esquerda": {
+                  "codigo": "CCB0016"
+                },
+                "direita": {
+                  "codigo": "CCB0001"
+                }
+              },
+              "direita": {
+                "codigo": "ADM0408"
+              }
+            },
+            "direita": {
+              "codigo": "GPS0077"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CCB0052",
+          "nome": "ECONOMETRIA",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2583",
+          "pre_requisitos_expressao": "( CCB0018 ) OU ( ADM0316 )",
+          "pre_requisitos_codigos": [
+            "CCB0018",
+            "ADM0316"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "CCB0018"
+            },
+            "direita": {
+              "codigo": "ADM0316"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( ADM0482 )",
+          "equivalencias_codigos": [
+            "ADM0482"
+          ]
+        },
+        {
+          "codigo": "CCB0055",
+          "nome": "FINANÇAS PÚBLICAS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2586",
+          "pre_requisitos_expressao": "( CCB0020 ) OU ( GPS0039 )",
+          "pre_requisitos_codigos": [
+            "CCB0020",
+            "GPS0039"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "CCB0020"
+            },
+            "direita": {
+              "codigo": "GPS0039"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( ADM0346 ) E ( ADM0463 )",
+          "equivalencias_codigos": [
+            "ADM0346",
+            "ADM0463"
+          ]
+        },
+        {
+          "codigo": "CCB0057",
+          "nome": "LÍNGUA BRASILEIRA DE SINAIS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2588",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "CAR0010",
+          "equivalencias_codigos": [
+            "CAR0010"
+          ]
+        },
+        {
+          "codigo": "CCB0058",
+          "nome": "NOÇÕES DE CONTABILIDADE ATUARIAL",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2589",
+          "pre_requisitos_expressao": "( CCB0023 ) OU ( CCB0001 ) OU ( ADM0408 ) OU ( GPS0077 )",
+          "pre_requisitos_codigos": [
+            "CCB0023",
+            "CCB0001",
+            "ADM0408",
+            "GPS0077"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "operador": "OU",
+              "esquerda": {
+                "operador": "OU",
+                "esquerda": {
+                  "codigo": "CCB0023"
+                },
+                "direita": {
+                  "codigo": "CCB0001"
+                }
+              },
+              "direita": {
+                "codigo": "ADM0408"
+              }
+            },
+            "direita": {
+              "codigo": "GPS0077"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CCB0061",
+          "nome": "TÓPICOS AVANÇADOS EM CONTABILIDADE I",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2592",
+          "pre_requisitos_expressao": "( CCB0023 ) OU ( CCB0065 )",
+          "pre_requisitos_codigos": [
+            "CCB0023",
+            "CCB0065"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "CCB0023"
+            },
+            "direita": {
+              "codigo": "CCB0065"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CCB0062",
+          "nome": "TÓPICOS AVANÇADOS EM CONTABILIDADE II",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2593",
+          "pre_requisitos_expressao": "CCB0061",
+          "pre_requisitos_codigos": [
+            "CCB0061"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CCB0061"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        }
+      ]
+    }
+  ],
+  "atualizado_em": "2026-09-06T22:32:24.990254+00:00"
+}

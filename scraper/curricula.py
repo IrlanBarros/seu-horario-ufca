@@ -8,7 +8,6 @@ from .courses import (
 from urllib.parse import urljoin
 from .requisite_parser import (
     parsear_expressao_requisito,
-    requisito_satisfeito,
 )
 import json
 from pathlib import Path
@@ -53,16 +52,106 @@ CACHE_REGRAS_ARQUIVO = (
     / "cache-componentes.json"
 )
 
-PADRAO_CURRICULO = re.compile(
-    r"Detalhes da Estrutura Curricular\s+"
-    r"(.+?),\s*"
-    r"Criado em\s+(\d{4})"
-    r"\s*\|\s*(.+?)(?:\s*\||$)"
-)
-
 PADRAO_CODIGO_COMPONENTE = re.compile(
     r"\b[A-Z]{2,}\d+\b"
 )
+
+def salvar_indice_curriculos(
+    cursos,
+    sucessos,
+    falhas,
+):
+    ids_sucesso = {
+        item["id"]
+        for item in sucessos
+    }
+
+    ids_falha = {
+        item["id"]
+        for item in falhas
+    }
+
+    cursos_indice = []
+
+    for curso in cursos:
+        curso_id = curso["id"]
+
+        arquivo_curriculo = (
+            CURRICULOS_DIR
+            / f"{curso_id}.json"
+        )
+
+        disponivel = (
+            arquivo_curriculo.exists()
+        )
+
+        item = {
+            "id": curso_id,
+            "nome": curso["nome"],
+            "modalidade": curso["modalidade"],
+            "disponivel": disponivel,
+            "arquivo": (
+                f"{curso_id}.json"
+                if disponivel
+                else None
+            ),
+        }
+
+        if curso_id in ids_falha:
+            if disponivel:
+                item["aviso"] = (
+                    "Falha na atualização. "
+                    "Utilizando os últimos "
+                    "dados disponíveis."
+                )
+            else:
+                item["erro"] = (
+                    "Estrutura curricular "
+                    "indisponível."
+                )
+
+        cursos_indice.append(item)
+        
+        quantidade_disponiveis = sum(
+            1
+            for curso in cursos_indice
+            if curso["disponivel"]
+        )
+
+        quantidade_indisponiveis = (
+            len(cursos_indice)
+            - quantidade_disponiveis
+        )
+
+    dados = {
+        "quantidade_cursos":
+            len(cursos_indice),
+        "quantidade_disponiveis":
+            quantidade_disponiveis,
+        "quantidade_indisponiveis":
+            quantidade_indisponiveis,
+        "cursos":
+            cursos_indice,
+    }
+
+    arquivo = (
+        CURRICULOS_DIR
+        / "index.json"
+    )
+
+    arquivo.write_text(
+        json.dumps(
+            dados,
+            ensure_ascii=False,
+            indent=2,
+        ),
+        encoding="utf-8",
+    )
+
+    print(
+        f"Índice salvo em: "
+        f"{arquivo}"
+    )
 
 def salvar_estruturas_curso(
     curso_id,
@@ -442,115 +531,6 @@ def enriquecer_componentes_com_regras(
         )
 
     return resultados
-
-def enriquecer_componente_com_regras(
-    session,
-    pagina_estrutura,
-    componente,
-):
-    pagina_detalhes = (
-        consultar_detalhes_componente(
-            session,
-            pagina_estrutura,
-            componente,
-        )
-    )
-
-    regras = extrair_regras_componente(
-        pagina_detalhes.text
-    )
-
-    resultado = {
-        **componente,
-        "pre_requisitos_expressao":
-            regras[
-                "pre_requisitos_expressao"
-            ],
-        "pre_requisitos_codigos":
-            regras[
-                "pre_requisitos_codigos"
-            ],
-        "pre_requisitos_regra":
-            regras[
-                "pre_requisitos_regra"
-            ],
-        "co_requisitos_expressao":
-            regras[
-                "co_requisitos_expressao"
-            ],
-        "co_requisitos_codigos":
-            regras[
-                "co_requisitos_codigos"
-            ],
-        "equivalencias_expressao":
-            regras[
-                "equivalencias_expressao"
-            ],
-        "equivalencias_codigos":
-            regras[
-                "equivalencias_codigos"
-            ],
-    }
-
-    # Ação JSF é temporária da sessão.
-    resultado.pop(
-        "acao_jsf",
-        None,
-    )
-
-    return resultado
-
-def encontrar_pre_requisito_complexo(
-    session,
-    pagina_estrutura,
-    componentes,
-):
-    for componente in componentes:
-        if not componente.get("id"):
-            continue
-
-        if not componente.get("acao_jsf"):
-            continue
-
-        print(
-            f"Verificando "
-            f"{componente['codigo']}..."
-        )
-
-        pagina_detalhes = (
-            consultar_detalhes_componente(
-                session,
-                pagina_estrutura,
-                componente,
-            )
-        )
-
-        regras = extrair_regras_componente(
-            pagina_detalhes.text
-        )
-
-        expressao = regras[
-            "pre_requisitos_expressao"
-        ]
-
-        if not expressao:
-            continue
-
-        print(
-            f"  Pré-requisito: "
-            f"{expressao}"
-        )
-
-        if (
-            " E " in expressao
-            or " OU " in expressao
-        ):
-            return {
-                "componente": componente,
-                "regras": regras,
-            }
-
-    return None
 
 def extrair_codigos_expressao(expressao):
     if not expressao:
@@ -935,49 +915,6 @@ def extrair_componentes_curriculo(html):
         *optativas,
     ]
 
-def montar_estrutura_curricular(
-    curriculo,
-    html,
-):
-    componentes = (
-        extrair_componentes_curriculo(
-            html
-        )
-    )
-
-    quantidade_obrigatorias = sum(
-        1
-        for componente in componentes
-        if componente["tipo"]
-        == "obrigatoria"
-    )
-
-    quantidade_optativas = sum(
-        1
-        for componente in componentes
-        if componente["tipo"]
-        == "optativa"
-    )
-
-    return {
-        "id": curriculo["id"],
-        "codigo": curriculo["codigo"],
-        "ano_criacao": (
-            curriculo["ano_criacao"]
-        ),
-        "status": curriculo["status"],
-        "quantidade_componentes": (
-            len(componentes)
-        ),
-        "quantidade_obrigatorias": (
-            quantidade_obrigatorias
-        ),
-        "quantidade_optativas": (
-            quantidade_optativas
-        ),
-        "componentes": componentes,
-    }
-
 def montar_payload_formulario(form):
     payload = {}
 
@@ -1094,65 +1031,6 @@ def consultar_detalhes_componente(
 
             time.sleep(espera)
 
-def inspecionar_detalhes_componente(
-    html,
-):
-    soup = BeautifulSoup(
-        html,
-        "html.parser",
-    )
-
-    print()
-    print("=" * 80)
-    print("DETALHES DO COMPONENTE")
-    print("=" * 80)
-
-    texto = soup.get_text(
-        " ",
-        strip=True,
-    )
-
-    termos = [
-        "Código",
-        "Nome",
-        "Pré-Requisitos",
-        "Co-Requisitos",
-        "Equivalências",
-        "Ementa",
-    ]
-
-    for termo in termos:
-        print(
-            f"{termo}: "
-            f"{termo in texto}"
-        )
-
-    print()
-    print("Tabelas relevantes:")
-
-    for indice, tabela in enumerate(
-        soup.find_all("table"),
-        start=1,
-    ):
-        texto_tabela = tabela.get_text(
-            " | ",
-            strip=True,
-        )
-
-        if not any(
-            termo in texto_tabela
-            for termo in termos
-        ):
-            continue
-
-        print()
-        print(
-            f"TABELA {indice}"
-        )
-        print(
-            texto_tabela[:3000]
-        )
-
 def consultar_estrutura_curricular(
     session,
     pagina_curriculos,
@@ -1198,215 +1076,6 @@ def consultar_estrutura_curricular(
     response.raise_for_status()
 
     return response
-
-def inspecionar_componente(
-    html,
-    codigo_alvo,
-):
-    soup = BeautifulSoup(
-        html,
-        "html.parser",
-    )
-
-    for celula in soup.find_all("td"):
-        texto = celula.get_text(
-            " ",
-            strip=True,
-        )
-
-        componente = extrair_componente(
-            texto
-        )
-
-        if not componente:
-            continue
-
-        if (
-            componente["codigo"]
-            != codigo_alvo
-        ):
-            continue
-
-        linha = celula.find_parent("tr")
-
-        print()
-        print("=" * 80)
-        print(
-            f"COMPONENTE {codigo_alvo}"
-        )
-        print("=" * 80)
-
-        print(
-            f"Célula: {texto}"
-        )
-
-        if not linha:
-            print(
-                "Linha correspondente "
-                "não encontrada."
-            )
-            return
-
-        print()
-        print(
-            "Texto da linha:",
-            linha.get_text(
-                " | ",
-                strip=True,
-            ),
-        )
-
-        print()
-        print("Links encontrados:")
-
-        links = linha.find_all("a")
-
-        if not links:
-            print(
-                "Nenhum link encontrado."
-            )
-
-        for link in links:
-            print()
-            print(
-                f"texto="
-                f"{link.get_text(' ', strip=True)}"
-            )
-            print(
-                f"href={link.get('href')}"
-            )
-            print(
-                f"title={link.get('title')}"
-            )
-            print(
-                f"onclick={link.get('onclick')}"
-            )
-
-        print()
-        print("HTML da célula:")
-
-        print(
-            celula.prettify()[:2000]
-        )
-
-        return
-
-    print(
-        f"Componente {codigo_alvo} "
-        f"não encontrado."
-    )
-
-def inspecionar_estrutura(html):
-    soup = BeautifulSoup(
-        html,
-        "html.parser",
-    )
-
-    tabelas = soup.find_all("table")
-
-    print(
-        f"Tabelas encontradas: "
-        f"{len(tabelas)}"
-    )
-
-    for indice_tabela, tabela in enumerate(
-        tabelas,
-        start=1,
-    ):
-        texto = tabela.get_text(
-            " ",
-            strip=True,
-        )
-
-        termos_relevantes = (
-            "Nível",
-            "Optativas",
-            "Complementares",
-            "Matriz Curricular",
-        )
-
-        if not any(
-            termo in texto
-            for termo in termos_relevantes
-        ):
-            continue
-
-        print()
-        print("=" * 80)
-        print(
-            f"TABELA {indice_tabela}"
-        )
-
-        print(
-            f"id={tabela.get('id')}"
-        )
-
-        print(
-            f"class={tabela.get('class')}"
-        )
-
-        print("=" * 80)
-
-        linhas = tabela.find_all(
-            "tr",
-            recursive=False,
-        )
-
-        # Algumas tabelas possuem tbody.
-        if not linhas:
-            tbody = tabela.find("tbody")
-
-            if tbody:
-                linhas = tbody.find_all(
-                    "tr",
-                    recursive=False,
-                )
-
-        for indice_linha, linha in enumerate(
-            linhas,
-            start=1,
-        ):
-            print()
-            print(
-                f"LINHA {indice_linha}"
-            )
-
-            celulas = linha.find_all(
-                ["td", "th"],
-                recursive=False,
-            )
-
-            for indice_celula, celula in enumerate(
-                celulas,
-                start=1,
-            ):
-                texto_celula = celula.get_text(
-                    " ",
-                    strip=True,
-                )
-
-                print(
-                    f"  CÉLULA {indice_celula}:"
-                )
-
-                print(
-                    f"    tag={celula.name}"
-                )
-
-                print(
-                    f"    class="
-                    f"{celula.get('class')}"
-                )
-
-                print(
-                    f"    colspan="
-                    f"{celula.get('colspan')}"
-                )
-
-                print(
-                    f"    texto="
-                    f"{texto_celula[:300]}"
-                )
 
 def extrair_parametros_jsf(onclick):
     pares = re.findall(
@@ -1555,95 +1224,6 @@ def consultar_curriculos(
 
     return response
 
-
-def inspecionar_curriculos(html):
-    soup = BeautifulSoup(
-        html,
-        "html.parser",
-    )
-
-    encontrados = 0
-
-    for linha in soup.find_all("tr"):
-        texto = linha.get_text(
-            " | ",
-            strip=True,
-        )
-
-        imagens = linha.find_all("img")
-
-        textos_imagens = " ".join(
-            imagem.get("alt", "")
-            for imagem in imagens
-        )
-
-        parece_curriculo = (
-            "Criado em" in texto
-            or "Estrutura Curricular"
-            in textos_imagens
-        )
-
-        if not parece_curriculo:
-            continue
-
-        encontrados += 1
-
-        print()
-        print("=" * 70)
-        print(f"LINHA {encontrados}")
-        print("=" * 70)
-
-        print(
-            f"Texto: {texto}"
-        )
-
-        print()
-        print("Elementos interativos:")
-
-        elementos = linha.find_all(
-            [
-                "a",
-                "input",
-                "button",
-                "img",
-            ]
-        )
-
-        for elemento in elementos:
-            atributos = {}
-
-            for atributo in [
-                "id",
-                "name",
-                "type",
-                "value",
-                "href",
-                "onclick",
-                "src",
-                "alt",
-                "title",
-            ]:
-                valor = elemento.get(
-                    atributo
-                )
-
-                if valor:
-                    atributos[atributo] = (
-                        valor
-                    )
-
-            print(
-                f"{elemento.name}: "
-                f"{atributos}"
-            )
-
-    print()
-    print(
-        f"Currículos encontrados: "
-        f"{encontrados}"
-    )
-
-
 def main():
     session = criar_sessao()
 
@@ -1667,21 +1247,17 @@ def main():
         f"{len(cursos)}"
     )
 
-    # Temporariamente processamos apenas
-    # dois cursos para validar o fluxo.
-    cursos_teste = cursos[:2]
-
     sucessos = []
     falhas = []
 
     for indice, curso in enumerate(
-        cursos_teste,
+        cursos,
         start=1,
     ):
         print()
         print("=" * 70)
         print(
-            f"[{indice}/{len(cursos_teste)}] "
+            f"[{indice}/{len(cursos)}] "
             f"{curso['nome']}"
         )
         print(
@@ -1778,6 +1354,12 @@ def main():
                 f"(ID {falha['id']}): "
                 f"{falha['erro']}"
             )
+            
+    salvar_indice_curriculos(
+        cursos,
+        sucessos,
+        falhas,
+    )
 
 if __name__ == "__main__":
     main()

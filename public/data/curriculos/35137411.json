@@ -1,0 +1,865 @@
+{
+  "curso_id": "35137411",
+  "quantidade_estruturas": 1,
+  "estruturas": [
+    {
+      "id": "35137420",
+      "codigo": "ES01",
+      "ano_criacao": 2025,
+      "status": "Ativa",
+      "quantidade_componentes": 46,
+      "quantidade_obrigatorias": 36,
+      "quantidade_optativas": 10,
+      "componentes": [
+        {
+          "codigo": "ES0001",
+          "nome": "FUNDAMENTOS DE COMPUTAÇÃO",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 1,
+          "id": "4737",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ES0002",
+          "nome": "MATEMÁTICA PARA COMPUTAÇÃO",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 1,
+          "id": "4738",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( CC0005 )",
+          "equivalencias_codigos": [
+            "CC0005"
+          ]
+        },
+        {
+          "codigo": "ES0003",
+          "nome": "FUNDAMENTOS DE PROGRAMAÇÃO",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 1,
+          "id": "4739",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( CC0001 )",
+          "equivalencias_codigos": [
+            "CC0001"
+          ]
+        },
+        {
+          "codigo": "ES0004",
+          "nome": "INTRODUÇÃO À ENGENHARIA DE SOFTWARE",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 1,
+          "id": "4740",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ES0005",
+          "nome": "INOVAÇÃO, EMPREENDEDORISMO E TRANSFORMAÇÃO DIGITAL",
+          "carga_horaria": 96,
+          "tipo": "obrigatoria",
+          "nivel": 1,
+          "id": "4741",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ES0006",
+          "nome": "ARQUITETURA DE COMPUTADORES",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 2,
+          "id": "4742",
+          "pre_requisitos_expressao": "( ES0001 )",
+          "pre_requisitos_codigos": [
+            "ES0001"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "ES0001"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( CC0020 )",
+          "equivalencias_codigos": [
+            "CC0020"
+          ]
+        },
+        {
+          "codigo": "ES0007",
+          "nome": "ESTRUTURA DE DADOS",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 2,
+          "id": "4743",
+          "pre_requisitos_expressao": "( ES0003 )",
+          "pre_requisitos_codigos": [
+            "ES0003"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "ES0003"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( CC0062 )",
+          "equivalencias_codigos": [
+            "CC0062"
+          ]
+        },
+        {
+          "codigo": "ES0008",
+          "nome": "PROGRAMAÇÃO ORIENTADA A OBJETOS",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 2,
+          "id": "4744",
+          "pre_requisitos_expressao": "( ES0003 )",
+          "pre_requisitos_codigos": [
+            "ES0003"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "ES0003"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( CC0019 )",
+          "equivalencias_codigos": [
+            "CC0019"
+          ]
+        },
+        {
+          "codigo": "ES0009",
+          "nome": "BANCO DE DADOS",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 2,
+          "id": "4745",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( CC0025 )",
+          "equivalencias_codigos": [
+            "CC0025"
+          ]
+        },
+        {
+          "codigo": "ES0010",
+          "nome": "PROCESSOS DE SOFTWARE E GESTÃO ÁGIL",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 2,
+          "id": "4746",
+          "pre_requisitos_expressao": "( ES0004 )",
+          "pre_requisitos_codigos": [
+            "ES0004"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "ES0004"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ES0011",
+          "nome": "SISTEMAS OPERACIONAIS",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 3,
+          "id": "4747",
+          "pre_requisitos_expressao": "( ES0006 )",
+          "pre_requisitos_codigos": [
+            "ES0006"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "ES0006"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( CC0026 )",
+          "equivalencias_codigos": [
+            "CC0026"
+          ]
+        },
+        {
+          "codigo": "ES0012",
+          "nome": "PARADIGMAS DE PROGRAMAÇÃO",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 3,
+          "id": "4748",
+          "pre_requisitos_expressao": "( ES0003 )",
+          "pre_requisitos_codigos": [
+            "ES0003"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "ES0003"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( CC0022 )",
+          "equivalencias_codigos": [
+            "CC0022"
+          ]
+        },
+        {
+          "codigo": "ES0013",
+          "nome": "INTERAÇÃO HUMANO COMPUTADOR",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 3,
+          "id": "4749",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( CC0037 )",
+          "equivalencias_codigos": [
+            "CC0037"
+          ]
+        },
+        {
+          "codigo": "ES0014",
+          "nome": "ENGENHARIA DE REQUISITOS",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 3,
+          "id": "4750",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ES0015",
+          "nome": "GERÊNCIA DE CONFIGURAÇÃO",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 3,
+          "id": "4751",
+          "pre_requisitos_expressao": "( ES0010 )",
+          "pre_requisitos_codigos": [
+            "ES0010"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "ES0010"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ES0016",
+          "nome": "REDES DE COMPUTADORES",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 4,
+          "id": "4752",
+          "pre_requisitos_expressao": "( ES0006 )",
+          "pre_requisitos_codigos": [
+            "ES0006"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "ES0006"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( CC0024 )",
+          "equivalencias_codigos": [
+            "CC0024"
+          ]
+        },
+        {
+          "codigo": "ES0017",
+          "nome": "DESENVOLVIMENTO BACK-END",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 4,
+          "id": "4753",
+          "pre_requisitos_expressao": "( ES0007 E ES0008 )",
+          "pre_requisitos_codigos": [
+            "ES0007",
+            "ES0008"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "E",
+            "esquerda": {
+              "codigo": "ES0007"
+            },
+            "direita": {
+              "codigo": "ES0008"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ES0018",
+          "nome": "MODELAGEM E DESIGN DE SOFTWARE",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 4,
+          "id": "4754",
+          "pre_requisitos_expressao": "( ES0008 )",
+          "pre_requisitos_codigos": [
+            "ES0008"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "ES0008"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ES0019",
+          "nome": "SEGURANÇA DA INFORMAÇÃO",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 4,
+          "id": "4755",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ES0020",
+          "nome": "TESTE DE SOFTWARE",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 4,
+          "id": "4756",
+          "pre_requisitos_expressao": "( ES0014 )",
+          "pre_requisitos_codigos": [
+            "ES0014"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "ES0014"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ES0021",
+          "nome": "ALGORITMOS E COMPLEXIDADE COMPUTACIONAL",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 5,
+          "id": "4789",
+          "pre_requisitos_expressao": "( ES0007 )",
+          "pre_requisitos_codigos": [
+            "ES0007"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "ES0007"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ES0022",
+          "nome": "DESENVOLVIMENTO FRONT END",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 5,
+          "id": "4791",
+          "pre_requisitos_expressao": "( ES0007 )",
+          "pre_requisitos_codigos": [
+            "ES0007"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "ES0007"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ES0023",
+          "nome": "EXPERIMENTAÇÃO EM ENGENHARIA DE SOFTWARE",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 5,
+          "id": "4793",
+          "pre_requisitos_expressao": "( ES0010 )",
+          "pre_requisitos_codigos": [
+            "ES0010"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "ES0010"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ES0024",
+          "nome": "ARQUITETURA DE SOFTWARE",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 5,
+          "id": "4794",
+          "pre_requisitos_expressao": "( ES0018 )",
+          "pre_requisitos_codigos": [
+            "ES0018"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "ES0018"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ES0025",
+          "nome": "SISTEMAS DISTRIBUÍDOS",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 5,
+          "id": "4795",
+          "pre_requisitos_expressao": "( ES0016 )",
+          "pre_requisitos_codigos": [
+            "ES0016"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "ES0016"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( CC0042 )",
+          "equivalencias_codigos": [
+            "CC0042"
+          ]
+        },
+        {
+          "codigo": "ES0026",
+          "nome": "QUALIDADE E MANUTENÇÃO DE SOFTWARE",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 6,
+          "id": "4797",
+          "pre_requisitos_expressao": "( ES0020 )",
+          "pre_requisitos_codigos": [
+            "ES0020"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "ES0020"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ES0027",
+          "nome": "ENGENHARIA DE SOFTWARE PARA DISPOSITIVOS MÓVEIS",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 6,
+          "id": "4802",
+          "pre_requisitos_expressao": "( ES0017 )",
+          "pre_requisitos_codigos": [
+            "ES0017"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "ES0017"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( CC0043 )",
+          "equivalencias_codigos": [
+            "CC0043"
+          ]
+        },
+        {
+          "codigo": "ES0028",
+          "nome": "ENGENHARIA DE SOFTWARE PARA WEB",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 6,
+          "id": "4807",
+          "pre_requisitos_expressao": "( ES0017 E ES0022 )",
+          "pre_requisitos_codigos": [
+            "ES0017",
+            "ES0022"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "E",
+            "esquerda": {
+              "codigo": "ES0017"
+            },
+            "direita": {
+              "codigo": "ES0022"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ES0029",
+          "nome": "CARREIRA, NEGÓCIOS E SOFT SKILLS",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 6,
+          "id": "4809",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ES0030",
+          "nome": "COMPUTAÇÃO, ÉTICA E SOCIEDADE",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 6,
+          "id": "4810",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( CC0031 )",
+          "equivalencias_codigos": [
+            "CC0031"
+          ]
+        },
+        {
+          "codigo": "ES0031",
+          "nome": "METODOLOGIA CIENTÍFICA",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 7,
+          "id": "4811",
+          "pre_requisitos_expressao": "( ES0023 )",
+          "pre_requisitos_codigos": [
+            "ES0023"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "ES0023"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( CC0099 )",
+          "equivalencias_codigos": [
+            "CC0099"
+          ]
+        },
+        {
+          "codigo": "ES0032",
+          "nome": "INTELIGÊNCIA ARTIFICIAL",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 7,
+          "id": "4812",
+          "pre_requisitos_expressao": "( ES0002 E ES0007 )",
+          "pre_requisitos_codigos": [
+            "ES0002",
+            "ES0007"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "E",
+            "esquerda": {
+              "codigo": "ES0002"
+            },
+            "direita": {
+              "codigo": "ES0007"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( CC0027 )",
+          "equivalencias_codigos": [
+            "CC0027"
+          ]
+        },
+        {
+          "codigo": "ES0033",
+          "nome": "TRABALHO DE CONCLUSÃO DE CURSO I",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 7,
+          "id": "4813",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ES0034",
+          "nome": "ESTÁGIO SUPERVISIONADO I",
+          "carga_horaria": 160,
+          "tipo": "obrigatoria",
+          "nivel": 7,
+          "id": "4814",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ES0035",
+          "nome": "TRABALHO DE CONCLUSÃO DE CURSO II",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 8,
+          "id": "4815",
+          "pre_requisitos_expressao": "( ES0033 )",
+          "pre_requisitos_codigos": [
+            "ES0033"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "ES0033"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ES0036",
+          "nome": "ESTÁGIO SUPERVISIONADO II",
+          "carga_horaria": 160,
+          "tipo": "obrigatoria",
+          "nivel": 8,
+          "id": "4816",
+          "pre_requisitos_expressao": "( ES0034 )",
+          "pre_requisitos_codigos": [
+            "ES0034"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "ES0034"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CAR0010",
+          "nome": "LÍNGUA BRASILEIRA DE SINAIS: LIBRAS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1357",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ES0037",
+          "nome": "SISTEMAS DE INFORMAÇÃO",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "4847",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ES0038",
+          "nome": "GOVERNANÇA DE TI E GESTÃO DO CONHECIMENTO",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "4848",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ES0039",
+          "nome": "SISTEMAS COLABORATIVOS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "4849",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ES0040",
+          "nome": "CIÊNCIA DE DADOS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "4850",
+          "pre_requisitos_expressao": "( ES0002 )",
+          "pre_requisitos_codigos": [
+            "ES0002"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "ES0002"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ES0041",
+          "nome": "TÓPICOS AVANÇADOS EM ENGENHARIA DE SOFTWARE",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "4851",
+          "pre_requisitos_expressao": "( ES0004 )",
+          "pre_requisitos_codigos": [
+            "ES0004"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "ES0004"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( CC0059 )",
+          "equivalencias_codigos": [
+            "CC0059"
+          ]
+        },
+        {
+          "codigo": "ES0042",
+          "nome": "INGLÊS TÉCNICO CIENTÍFICO",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "4852",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( CC0094 )",
+          "equivalencias_codigos": [
+            "CC0094"
+          ]
+        },
+        {
+          "codigo": "ES0043",
+          "nome": "LÓGICA PARA COMPUTAÇÃO",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "4853",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( CC0064 )",
+          "equivalencias_codigos": [
+            "CC0064"
+          ]
+        },
+        {
+          "codigo": "PRG0002",
+          "nome": "RELAÇOES ETNICO RACIAIS E AFRICANIDADES",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1367",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "PRG0003",
+          "nome": "EDUCAÇAO AMBIENTAL",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1368",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        }
+      ]
+    }
+  ],
+  "atualizado_em": "2026-09-06T22:34:46.930699+00:00"
+}

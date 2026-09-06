@@ -1,0 +1,828 @@
+{
+  "curso_id": "35132811",
+  "quantidade_estruturas": 1,
+  "estruturas": [
+    {
+      "id": "35133152",
+      "codigo": "ARQ01",
+      "ano_criacao": 2025,
+      "status": "Ativa",
+      "quantidade_componentes": 50,
+      "quantidade_obrigatorias": 28,
+      "quantidade_optativas": 22,
+      "componentes": [
+        {
+          "codigo": "ARQ0004",
+          "nome": "INTRODUÇÃO À ARQUIVOLOGIA",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 1,
+          "id": "4654",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CIN0001",
+          "nome": "FUNDAMENTOS FILOSÓFICOS E SOCIOLÓGICOS DA INFORMAÇÃO",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 1,
+          "id": "4985",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( BIB0001 E BIB0002 )",
+          "equivalencias_codigos": [
+            "BIB0001",
+            "BIB0002"
+          ]
+        },
+        {
+          "codigo": "CIN0002",
+          "nome": "FUNDAMENTOS DA CIÊNCIA DA INFORMAÇÃO",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 1,
+          "id": "4986",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( BIB0008 )",
+          "equivalencias_codigos": [
+            "BIB0008"
+          ]
+        },
+        {
+          "codigo": "CIN0003",
+          "nome": "INTRODUÇÃO À COMPUTAÇÃO PARA CIÊNCIA DA INFORMAÇÃO",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 1,
+          "id": "4987",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( BIB0007 )",
+          "equivalencias_codigos": [
+            "BIB0007"
+          ]
+        },
+        {
+          "codigo": "CIN0004",
+          "nome": "FUNDAMENTOS DA PESQUISA EM CIÊNCIA DA INFORMAÇÃO",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 1,
+          "id": "4989",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( BIB0023 )",
+          "equivalencias_codigos": [
+            "BIB0023"
+          ]
+        },
+        {
+          "codigo": "ARQ0006",
+          "nome": "ARQUIVO CORRENTE",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 2,
+          "id": "4656",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ARQ0007",
+          "nome": "ARQUIVO, MEMÓRIA E SOCIEDADE",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 2,
+          "id": "4657",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ARQ0009",
+          "nome": "REDAÇÃO DE DOCUMENTOS OFICIAIS E TIPOLOGIA DOCUMENTAL",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 2,
+          "id": "4659",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CIN0005",
+          "nome": "PALEOGRAFIA E DIPLOMÁTICA",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 2,
+          "id": "4990",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CIN0006",
+          "nome": "METODOLOGIA DA PESQUISA EM CIÊNCIA DA INFORMAÇÃO",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 2,
+          "id": "4991",
+          "pre_requisitos_expressao": "( CIN0004 )",
+          "pre_requisitos_codigos": [
+            "CIN0004"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CIN0004"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( BIB0017 )",
+          "equivalencias_codigos": [
+            "BIB0017"
+          ]
+        },
+        {
+          "codigo": "ARQ0012",
+          "nome": "ARQUIVOS COMUNITÁRIOS",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 3,
+          "id": "4662",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ARQ0013",
+          "nome": "ARQUIVO INTERMEDIÁRIO",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 3,
+          "id": "4674",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ARQ0014",
+          "nome": "REPRESENTAÇÃO DESCRITIVA DA INFORMAÇÃO ARQUIVÍSTICA",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 3,
+          "id": "4675",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CIN0007",
+          "nome": "ESTUDO DE PÚBLICOS E USUÁRIOS",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 3,
+          "id": "4992",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( BIB0030 )",
+          "equivalencias_codigos": [
+            "BIB0030"
+          ]
+        },
+        {
+          "codigo": "ARQ0015",
+          "nome": "ARQUIVO PERMANENTE",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 4,
+          "id": "4678",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ARQ0016",
+          "nome": "REPRESENTAÇÃO TEMÁTICA DA INFORMAÇÃO ARQUIVÍSTICA",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 4,
+          "id": "4679",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ARQ0018",
+          "nome": "CONSERVAÇÃO E PRESERVAÇÃO DE BENS CULTURAIS I",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 4,
+          "id": "4687",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CIN0008",
+          "nome": "MÉTODOS QUANTITATIVOS EM CIÊNCIA DA INFORMAÇÃO",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 4,
+          "id": "4993",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( BIB0016 )",
+          "equivalencias_codigos": [
+            "BIB0016"
+          ]
+        },
+        {
+          "codigo": "CIN0009",
+          "nome": "PLANEJAMENTO E GESTÃO DE UNIDADES DE INFORMAÇÃO",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 5,
+          "id": "4994",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( BIB0037 )",
+          "equivalencias_codigos": [
+            "BIB0037"
+          ]
+        },
+        {
+          "codigo": "CIN0010",
+          "nome": "RECUPERAÇÃO DA INFORMAÇÃO",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 5,
+          "id": "4995",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( BIB0033 )",
+          "equivalencias_codigos": [
+            "BIB0033"
+          ]
+        },
+        {
+          "codigo": "CIN0011",
+          "nome": "EDUCAÇÃO PATRIMONIAL, ESCOLAR E COMUNITÁRIA",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 5,
+          "id": "4996",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CIN0012",
+          "nome": "DIREITOS HUMANOS E ESTUDOS ÉTNICO RACIAIS",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 5,
+          "id": "4997",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( GPS0030 OU PRG0002 OU PRG0004 )",
+          "equivalencias_codigos": [
+            "GPS0030",
+            "PRG0002",
+            "PRG0004"
+          ]
+        },
+        {
+          "codigo": "ARQ0023",
+          "nome": "PROJETO E IMPLANTAÇÃO DE SISTEMAS ARQUIVÍSTICOS",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 6,
+          "id": "4696",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ARQ0025",
+          "nome": "GESTÃO ELETRÔNICA DE DOCUMENTOS",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 6,
+          "id": "4699",
+          "pre_requisitos_expressao": "( CIN0003 )",
+          "pre_requisitos_codigos": [
+            "CIN0003"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CIN0003"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ARQ0026",
+          "nome": "LEGISLAÇÃO ARQUIVÍSTICA BRASILEIRA",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 6,
+          "id": "4700",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CIN0013",
+          "nome": "PATRIMÔNIO AMBIENTAL E SUSTENTABILIDADE",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 6,
+          "id": "4998",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ARQ0027",
+          "nome": "ESTÁGIO SUPERVISIONADO",
+          "carga_horaria": 192,
+          "tipo": "obrigatoria",
+          "nivel": 7,
+          "id": "4701",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ARQ0028",
+          "nome": "TRABALHO DE CONCLUSÃO DE CURSO",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 7,
+          "id": "4703",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ARQ0029",
+          "nome": "COMPETÊNCIA EM INFORMAÇÃO",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "4712",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ARQ0030",
+          "nome": "CONSERVAÇÃO E PRESERVAÇÃO DE BENS CULTURAIS II",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "4713",
+          "pre_requisitos_expressao": "( ARQ0018 )",
+          "pre_requisitos_codigos": [
+            "ARQ0018"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "ARQ0018"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ARQ0031",
+          "nome": "CULTURA AFRO BRASILEIRA",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "4714",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( PRG0002 )",
+          "equivalencias_codigos": [
+            "PRG0002"
+          ]
+        },
+        {
+          "codigo": "ARQ0032",
+          "nome": "CULTURA BRASILEIRA",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "4715",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( BIB0045 )",
+          "equivalencias_codigos": [
+            "BIB0045"
+          ]
+        },
+        {
+          "codigo": "ARQ0033",
+          "nome": "CULTURA POPULAR",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "4716",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( BIB0059 )",
+          "equivalencias_codigos": [
+            "BIB0059"
+          ]
+        },
+        {
+          "codigo": "ARQ0034",
+          "nome": "ÉTICA PROFISSIONAL",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "4954",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ARQ0035",
+          "nome": "FOTOGRAFIA E MEMÓRIA",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "4718",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( BIB0061 )",
+          "equivalencias_codigos": [
+            "BIB0061"
+          ]
+        },
+        {
+          "codigo": "ARQ0036",
+          "nome": "GERAÇÃO E USO DE BASE DE DADOS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "4719",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( BIB0032 )",
+          "equivalencias_codigos": [
+            "BIB0032"
+          ]
+        },
+        {
+          "codigo": "ARQ0037",
+          "nome": "HISTÓRIA DA ARTE",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "4720",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ARQ0038",
+          "nome": "HISTÓRIA DO BRASIL",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "4721",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ARQ0039",
+          "nome": "HISTÓRIA E IMAGEM",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "4722",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ARQ0040",
+          "nome": "HISTÓRIA, MEMÓRIA E ORALIDADE",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "4723",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ARQ0041",
+          "nome": "INFORMAÇÃO E SOCIEDADE",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "4724",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( BIB0026 )",
+          "equivalencias_codigos": [
+            "BIB0026"
+          ]
+        },
+        {
+          "codigo": "ARQ0042",
+          "nome": "INTRODUÇÃO AOS ESTUDOS DE HISTÓRIA",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "4725",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ARQ0043",
+          "nome": "LEITURA DOCUMENTÁRIA",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "4726",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ARQ0044",
+          "nome": "LIBRAS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "4727",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ARQ0045",
+          "nome": "MARKETING EM ARQUIVOS, BIBLIOTECAS E MUSEUS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "4728",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( BIB0049 )",
+          "equivalencias_codigos": [
+            "BIB0049"
+          ]
+        },
+        {
+          "codigo": "ARQ0046",
+          "nome": "MEMÓRIA E PATRIMÔNIO CULTURAL",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "4729",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ARQ0047",
+          "nome": "METODOLOGIA DO TRABALHO CIENTÍFICO",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "4730",
+          "pre_requisitos_expressao": "( CIN0004 )",
+          "pre_requisitos_codigos": [
+            "CIN0004"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CIN0004"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( BIB0017 )",
+          "equivalencias_codigos": [
+            "BIB0017"
+          ]
+        },
+        {
+          "codigo": "ARQ0048",
+          "nome": "PATRIMÔNIO CULTURAL CEARENSE",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "4731",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ARQ0050",
+          "nome": "REPRESENTAÇÃO DA INFORMAÇÃO PARA AMBIENTES INFORMACIONAIS DIGITAIS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "4732",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( BIB0062 E BIB0067 )",
+          "equivalencias_codigos": [
+            "BIB0062",
+            "BIB0067"
+          ]
+        },
+        {
+          "codigo": "ARQ0051",
+          "nome": "TEORIA DO CONHECIMENTO E PENSAMENTO CIENTÍFICO",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "4733",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( BIB0047 )",
+          "equivalencias_codigos": [
+            "BIB0047"
+          ]
+        }
+      ]
+    }
+  ],
+  "atualizado_em": "2026-09-06T22:31:03.173959+00:00"
+}

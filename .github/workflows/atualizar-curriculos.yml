@@ -1,0 +1,71 @@
+name: Atualizar curriculos do SIGAA
+
+on:
+  # Permite executar manualmente pelo GitHub
+  workflow_dispatch:
+
+  # Executa uma vez por semana
+  # Dia 1, 07:17 no horario de Brasilia
+  schedule:
+    - cron: "17 10 1 * *"
+
+permissions:
+  contents: write
+
+jobs:
+  atualizar:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Baixar repositorio
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+          cache-dependency-path: scraper/requirements.txt
+
+      - name: Instalar dependencias
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r scraper/requirements.txt
+
+      - name: Restaurar cache de componentes
+        uses: actions/cache@v4
+        with:
+          path: data/cache/cache-componentes.json
+          key: curriculos-componentes-${{ runner.os }}-${{ github.run_id }}
+          restore-keys: |
+            curriculos-componentes-${{ runner.os }}-
+
+      - name: Executar testes
+        run: |
+          python -m pytest -v
+
+      - name: Atualizar curriculos
+        run: |
+          python -m scraper.curricula
+
+      - name: Verificar alteracoes
+        id: changes
+        run: |
+          git add public/data/curriculos/
+
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "Nenhuma alteracao nos curriculos."
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            echo "Alteracoes encontradas nos curriculos."
+          fi
+
+      - name: Salvar curriculos atualizados
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git commit -m "data: atualiza curriculos do SIGAA"
+          git push

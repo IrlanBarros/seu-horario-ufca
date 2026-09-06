@@ -1,0 +1,2185 @@
+{
+  "curso_id": "628406",
+  "quantidade_estruturas": 2,
+  "estruturas": [
+    {
+      "id": "631171",
+      "codigo": "2016.2",
+      "ano_criacao": 2016,
+      "status": "Ativa",
+      "quantidade_componentes": 64,
+      "quantidade_obrigatorias": 34,
+      "quantidade_optativas": 30,
+      "componentes": [
+        {
+          "codigo": "CSJ0002",
+          "nome": "METODOLOGIA DO TRABALHO CIENTIFICO",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 1,
+          "id": "1014",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CSJ0003",
+          "nome": "INTRODUCAO AO JORNALISMO",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 1,
+          "id": "1015",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CSJ0005",
+          "nome": "FILOSOFIA",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 1,
+          "id": "1041",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CSJ0006",
+          "nome": "SOCIOLOGIA",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 1,
+          "id": "1044",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( BIB0002 )",
+          "equivalencias_codigos": [
+            "BIB0002"
+          ]
+        },
+        {
+          "codigo": "CSJ0062",
+          "nome": "OFICINA DE TEXTO",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 1,
+          "id": "1385",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CSJ0009",
+          "nome": "CULTURA BRASILEIRA",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 2,
+          "id": "814",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CSJ0011",
+          "nome": "TEORIAS DA COMUNICACAO I",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 2,
+          "id": "716",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CSJ0076",
+          "nome": "COMUNICAÇÃO E ARTE",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 2,
+          "id": "1736",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( CSJ0010 )",
+          "equivalencias_codigos": [
+            "CSJ0010"
+          ]
+        },
+        {
+          "codigo": "CSJ0077",
+          "nome": "COMUNICAÇÃO VISUAL",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 2,
+          "id": "1737",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CSJ0079",
+          "nome": "INTRODUÇÃO ÀS PRÁTICAS EM JORNALISMO",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 2,
+          "id": "1738",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CSJ0008",
+          "nome": "FOTOGRAFIA",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 3,
+          "id": "813",
+          "pre_requisitos_expressao": "( CSJ0079 )",
+          "pre_requisitos_codigos": [
+            "CSJ0079"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CSJ0079"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CSJ0013",
+          "nome": "COMUNICAÇAO E POLITICA",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 3,
+          "id": "748",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CSJ0014",
+          "nome": "JORNALISMO IMPRESSO I",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 3,
+          "id": "998",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CSJ0017",
+          "nome": "TEORIAS DA COMUNICAÇAO II",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 3,
+          "id": "994",
+          "pre_requisitos_expressao": "( CSJ0011 )",
+          "pre_requisitos_codigos": [
+            "CSJ0011"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CSJ0011"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CSJ0020",
+          "nome": "RADIOJORNALISMO I",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 3,
+          "id": "992",
+          "pre_requisitos_expressao": "( CSJ0079 )",
+          "pre_requisitos_codigos": [
+            "CSJ0079"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CSJ0079"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CSJ0018",
+          "nome": "TELEJORNALISMO I",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 4,
+          "id": "745",
+          "pre_requisitos_expressao": "( CSJ0079 )",
+          "pre_requisitos_codigos": [
+            "CSJ0079"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CSJ0079"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CSJ0019",
+          "nome": "JORNALISMO IMPRESSO II",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 4,
+          "id": "746",
+          "pre_requisitos_expressao": "( CSJ0014 )",
+          "pre_requisitos_codigos": [
+            "CSJ0014"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CSJ0014"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( CSJ0029 )",
+          "equivalencias_codigos": [
+            "CSJ0029"
+          ]
+        },
+        {
+          "codigo": "CSJ0022",
+          "nome": "FOTOJORNALISMO",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 4,
+          "id": "740",
+          "pre_requisitos_expressao": "( CSJ0008 )",
+          "pre_requisitos_codigos": [
+            "CSJ0008"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CSJ0008"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CSJ0041",
+          "nome": "RADIOJORNALISMO II",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 4,
+          "id": "1270",
+          "pre_requisitos_expressao": "( CSJ0020 )",
+          "pre_requisitos_codigos": [
+            "CSJ0020"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CSJ0020"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CSJ0090",
+          "nome": "JORNALISMO DIGITAL I",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 4,
+          "id": "1739",
+          "pre_requisitos_expressao": "( CSJ0079 )",
+          "pre_requisitos_codigos": [
+            "CSJ0079"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CSJ0079"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( CSJ0021 )",
+          "equivalencias_codigos": [
+            "CSJ0021"
+          ]
+        },
+        {
+          "codigo": "CSJ0042",
+          "nome": "TELEJORNALISMO II",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 5,
+          "id": "1271",
+          "pre_requisitos_expressao": "( CSJ0018 )",
+          "pre_requisitos_codigos": [
+            "CSJ0018"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CSJ0018"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CSJ0043",
+          "nome": "DESIGN DE NOTICIA",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 5,
+          "id": "1272",
+          "pre_requisitos_expressao": "( CSJ0077 )",
+          "pre_requisitos_codigos": [
+            "CSJ0077"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CSJ0077"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CSJ0048",
+          "nome": "ASSESSORIA DE IMPRENSA",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 5,
+          "id": "1277",
+          "pre_requisitos_expressao": "( CSJ0013 )",
+          "pre_requisitos_codigos": [
+            "CSJ0013"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CSJ0013"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CSJ0091",
+          "nome": "ANTROPOLOGIA",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 5,
+          "id": "1740",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( CSJ0034 )",
+          "equivalencias_codigos": [
+            "CSJ0034"
+          ]
+        },
+        {
+          "codigo": "CSJ0094",
+          "nome": "JORNALISMO DIGITAL II",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 5,
+          "id": "1741",
+          "pre_requisitos_expressao": "( CSJ0090 )",
+          "pre_requisitos_codigos": [
+            "CSJ0090"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CSJ0090"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( CSJ0044 )",
+          "equivalencias_codigos": [
+            "CSJ0044"
+          ]
+        },
+        {
+          "codigo": "CSJ0016",
+          "nome": "COMUNICAÇAO E CULTURA POPULAR",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 6,
+          "id": "742",
+          "pre_requisitos_expressao": "( CSJ0009 )",
+          "pre_requisitos_codigos": [
+            "CSJ0009"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CSJ0009"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CSJ0049",
+          "nome": "ETICA NA COMUNICAÇÃO",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 6,
+          "id": "1278",
+          "pre_requisitos_expressao": "( CSJ0003 )",
+          "pre_requisitos_codigos": [
+            "CSJ0003"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CSJ0003"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CSJ0052",
+          "nome": "LABORATORIO DE JORNALISMO IMPRESSO",
+          "carga_horaria": 128,
+          "tipo": "obrigatoria",
+          "nivel": 6,
+          "id": "1281",
+          "pre_requisitos_expressao": "( CSJ0019 )",
+          "pre_requisitos_codigos": [
+            "CSJ0019"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CSJ0019"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CSJ0099",
+          "nome": "PESQUISA EM COMUNICAÇÃO",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 6,
+          "id": "1742",
+          "pre_requisitos_expressao": "( CSJ0002 )",
+          "pre_requisitos_codigos": [
+            "CSJ0002"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CSJ0002"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( CSJ0053 )",
+          "equivalencias_codigos": [
+            "CSJ0053"
+          ]
+        },
+        {
+          "codigo": "CSJ0045",
+          "nome": "COMUNICAÇÃO INTEGRADA",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 7,
+          "id": "1274",
+          "pre_requisitos_expressao": "( CSJ0048 )",
+          "pre_requisitos_codigos": [
+            "CSJ0048"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CSJ0048"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CSJ0054",
+          "nome": "COMUNICAÇÃO E CIDADANIA",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 7,
+          "id": "1283",
+          "pre_requisitos_expressao": "( CSJ0049 )",
+          "pre_requisitos_codigos": [
+            "CSJ0049"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CSJ0049"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CSJ0121",
+          "nome": "PROJETO DE TRABALHO DE CONCLUSÃO DE CURSO",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 7,
+          "id": "2718",
+          "pre_requisitos_expressao": "( CSJ0099 )",
+          "pre_requisitos_codigos": [
+            "CSJ0099"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CSJ0099"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( CSJ0102 )",
+          "equivalencias_codigos": [
+            "CSJ0102"
+          ]
+        },
+        {
+          "codigo": "CSJ0103",
+          "nome": "TRABALHO DE CONCLUSÃO DE CURSO",
+          "carga_horaria": 320,
+          "tipo": "obrigatoria",
+          "nivel": 8,
+          "id": "1744",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CSJ0104",
+          "nome": "ESTÁGIO SUPERVISIONADO",
+          "carga_horaria": 200,
+          "tipo": "obrigatoria",
+          "nivel": 8,
+          "id": "1745",
+          "pre_requisitos_expressao": "( CSJ0052 )",
+          "pre_requisitos_codigos": [
+            "CSJ0052"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CSJ0052"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( CSJ0055 )",
+          "equivalencias_codigos": [
+            "CSJ0055"
+          ]
+        },
+        {
+          "codigo": "CAR0010",
+          "nome": "LÍNGUA BRASILEIRA DE SINAIS: LIBRAS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1357",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CSJ0007",
+          "nome": "PSICOLOGIA E COMUNICACAO",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "815",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CSJ0012",
+          "nome": "HISTORIA DO JORNALISMO BRASILEIRO",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "779",
+          "pre_requisitos_expressao": "( CSJ0003 )",
+          "pre_requisitos_codigos": [
+            "CSJ0003"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CSJ0003"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CSJ0015",
+          "nome": "SEMIOTICA",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "747",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CSJ0033",
+          "nome": "JORNALISMO CULTURAL",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1262",
+          "pre_requisitos_expressao": "( CSJ0009 )",
+          "pre_requisitos_codigos": [
+            "CSJ0009"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CSJ0009"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CSJ0035",
+          "nome": "COMUNICAÇÃO E EDUCAÇÃO",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1264",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CSJ0036",
+          "nome": "CINEMA BRASILEIRO",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1265",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CSJ0037",
+          "nome": "COMUNICAÇÃO E CIDADES",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1266",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CSJ0050",
+          "nome": "LABORATORIO DE RADIOJORNALISMO",
+          "carga_horaria": 128,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1279",
+          "pre_requisitos_expressao": "( CSJ0019 )",
+          "pre_requisitos_codigos": [
+            "CSJ0019"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CSJ0019"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CSJ0051",
+          "nome": "LABORATORIO DE TELEJORNALISMO",
+          "carga_horaria": 128,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1280",
+          "pre_requisitos_expressao": "( CSJ0042 )",
+          "pre_requisitos_codigos": [
+            "CSJ0042"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CSJ0042"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CSJ0057",
+          "nome": "JORNALISMO E LITERATURA",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1343",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CSJ0061",
+          "nome": "JORNALISMO ESPORTIVO",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1384",
+          "pre_requisitos_expressao": "( CSJ0079 )",
+          "pre_requisitos_codigos": [
+            "CSJ0079"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CSJ0079"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CSJ0065",
+          "nome": "JORNALISMO ECONÔMICO",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1435",
+          "pre_requisitos_expressao": "( CSJ0079 )",
+          "pre_requisitos_codigos": [
+            "CSJ0079"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CSJ0079"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CSJ0067",
+          "nome": "CRÔNICA, OBSERVAÇÃO E CIDADE",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1472",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CSJ0071",
+          "nome": "OFICINA DE FOTOGRAFIA DOCUMENTAL",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1749",
+          "pre_requisitos_expressao": "( CSJ0008 )",
+          "pre_requisitos_codigos": [
+            "CSJ0008"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CSJ0008"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CSJ0072",
+          "nome": "ANÁLISE DO TEXTO E DO DISCURSO JORNALÍSTICO",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1750",
+          "pre_requisitos_expressao": "( CSJ0079 )",
+          "pre_requisitos_codigos": [
+            "CSJ0079"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CSJ0079"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( CSJ0031 )",
+          "equivalencias_codigos": [
+            "CSJ0031"
+          ]
+        },
+        {
+          "codigo": "CSJ0107",
+          "nome": "LABORATÓRIO DE PROJETOS FOTOGRÁFICOS",
+          "carga_horaria": 128,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1746",
+          "pre_requisitos_expressao": "( CSJ0022 )",
+          "pre_requisitos_codigos": [
+            "CSJ0022"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CSJ0022"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( CSJ0047 )",
+          "equivalencias_codigos": [
+            "CSJ0047"
+          ]
+        },
+        {
+          "codigo": "CSJ0108",
+          "nome": "LABORATÓRIO DE ASSESSORIA DE IMPRENSA",
+          "carga_horaria": 128,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1747",
+          "pre_requisitos_expressao": "( CSJ0048 )",
+          "pre_requisitos_codigos": [
+            "CSJ0048"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CSJ0048"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CSJ0109",
+          "nome": "LABORATÓRIO DE JORNALISMO DIGITAL",
+          "carga_horaria": 128,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1748",
+          "pre_requisitos_expressao": "( CSJ0094 )",
+          "pre_requisitos_codigos": [
+            "CSJ0094"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CSJ0094"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( CSJ0046 )",
+          "equivalencias_codigos": [
+            "CSJ0046"
+          ]
+        },
+        {
+          "codigo": "CSJ0110",
+          "nome": "ECONOMIA POLÍTICA DA COMUNICAÇÃO",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1818",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CSJ0111",
+          "nome": "MOVIMENTOS SOCIAIS E DIVERSIDADE",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1819",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CSJ0112",
+          "nome": "TÓPICOS ESPECIAIS EM COMUNICAÇÃO",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1820",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CSJ0113",
+          "nome": "COMUNICAÇÃO, MODA E CONSUMO",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1821",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CSJ0114",
+          "nome": "HISTÓRIA DA ARTE",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1822",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CSJ0115",
+          "nome": "INFOGRAFIA JORNALÍSTICA",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1823",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CSJ0116",
+          "nome": "COMUNICAÇÃO E DIREITOS HUMANOS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1824",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CSJ0117",
+          "nome": "MÍDIA ALTERNATIVA",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1825",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CSJ0118",
+          "nome": "MÍDIA E FICÇÃO SERIADA",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1826",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CSJ0119",
+          "nome": "EPISTEMOLOGIA DA COMUNICAÇÃO",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1827",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CSJ0120",
+          "nome": "JORNALISMO ESPECIALIZADO",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1828",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        }
+      ]
+    },
+    {
+      "id": "631157",
+      "codigo": "2010.1",
+      "ano_criacao": 2010,
+      "status": "Ativa",
+      "quantidade_componentes": 63,
+      "quantidade_obrigatorias": 32,
+      "quantidade_optativas": 31,
+      "componentes": [
+        {
+          "codigo": "CSJ0001",
+          "nome": "COMUNICACAO EM LINGUA PORTUGUESA",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 1,
+          "id": "1013",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CSJ0002",
+          "nome": "METODOLOGIA DO TRABALHO CIENTIFICO",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 1,
+          "id": "1014",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CSJ0003",
+          "nome": "INTRODUCAO AO JORNALISMO",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 1,
+          "id": "1015",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CSJ0005",
+          "nome": "FILOSOFIA",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 1,
+          "id": "1041",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CSJ0006",
+          "nome": "SOCIOLOGIA",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 1,
+          "id": "1044",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( BIB0002 )",
+          "equivalencias_codigos": [
+            "BIB0002"
+          ]
+        },
+        {
+          "codigo": "CSJ0007",
+          "nome": "PSICOLOGIA E COMUNICACAO",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 2,
+          "id": "815",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CSJ0009",
+          "nome": "CULTURA BRASILEIRA",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 2,
+          "id": "814",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CSJ0010",
+          "nome": "ESTETICA E COMUNICACAO DE MASSA",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 2,
+          "id": "811",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CSJ0011",
+          "nome": "TEORIAS DA COMUNICACAO I",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 2,
+          "id": "716",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CSJ0013",
+          "nome": "COMUNICAÇAO E POLITICA",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 2,
+          "id": "748",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CSJ0008",
+          "nome": "FOTOGRAFIA",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 3,
+          "id": "813",
+          "pre_requisitos_expressao": "( CSJ0079 )",
+          "pre_requisitos_codigos": [
+            "CSJ0079"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CSJ0079"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CSJ0014",
+          "nome": "JORNALISMO IMPRESSO I",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 3,
+          "id": "998",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CSJ0015",
+          "nome": "SEMIOTICA",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 3,
+          "id": "747",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CSJ0016",
+          "nome": "COMUNICAÇAO E CULTURA POPULAR",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 3,
+          "id": "742",
+          "pre_requisitos_expressao": "( CSJ0009 )",
+          "pre_requisitos_codigos": [
+            "CSJ0009"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CSJ0009"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CSJ0017",
+          "nome": "TEORIAS DA COMUNICAÇAO II",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 3,
+          "id": "994",
+          "pre_requisitos_expressao": "( CSJ0011 )",
+          "pre_requisitos_codigos": [
+            "CSJ0011"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CSJ0011"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CSJ0018",
+          "nome": "TELEJORNALISMO I",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 4,
+          "id": "745",
+          "pre_requisitos_expressao": "( CSJ0079 )",
+          "pre_requisitos_codigos": [
+            "CSJ0079"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CSJ0079"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CSJ0019",
+          "nome": "JORNALISMO IMPRESSO II",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 4,
+          "id": "746",
+          "pre_requisitos_expressao": "( CSJ0014 )",
+          "pre_requisitos_codigos": [
+            "CSJ0014"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CSJ0014"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( CSJ0029 )",
+          "equivalencias_codigos": [
+            "CSJ0029"
+          ]
+        },
+        {
+          "codigo": "CSJ0020",
+          "nome": "RADIOJORNALISMO I",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 4,
+          "id": "992",
+          "pre_requisitos_expressao": "( CSJ0079 )",
+          "pre_requisitos_codigos": [
+            "CSJ0079"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CSJ0079"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CSJ0021",
+          "nome": "CIBERCULTURA",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 4,
+          "id": "741",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( CSJ0090 )",
+          "equivalencias_codigos": [
+            "CSJ0090"
+          ]
+        },
+        {
+          "codigo": "CSJ0022",
+          "nome": "FOTOJORNALISMO",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 4,
+          "id": "740",
+          "pre_requisitos_expressao": "( CSJ0008 )",
+          "pre_requisitos_codigos": [
+            "CSJ0008"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CSJ0008"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CSJ0041",
+          "nome": "RADIOJORNALISMO II",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 5,
+          "id": "1270",
+          "pre_requisitos_expressao": "( CSJ0020 )",
+          "pre_requisitos_codigos": [
+            "CSJ0020"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CSJ0020"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CSJ0042",
+          "nome": "TELEJORNALISMO II",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 5,
+          "id": "1271",
+          "pre_requisitos_expressao": "( CSJ0018 )",
+          "pre_requisitos_codigos": [
+            "CSJ0018"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CSJ0018"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CSJ0043",
+          "nome": "DESIGN DE NOTICIA",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 5,
+          "id": "1272",
+          "pre_requisitos_expressao": "( CSJ0077 )",
+          "pre_requisitos_codigos": [
+            "CSJ0077"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CSJ0077"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CSJ0044",
+          "nome": "JORNALISMO NA INTERNET",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 5,
+          "id": "1273",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( CSJ0094 )",
+          "equivalencias_codigos": [
+            "CSJ0094"
+          ]
+        },
+        {
+          "codigo": "CSJ0045",
+          "nome": "COMUNICAÇÃO INTEGRADA",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 5,
+          "id": "1274",
+          "pre_requisitos_expressao": "( CSJ0048 )",
+          "pre_requisitos_codigos": [
+            "CSJ0048"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CSJ0048"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CSJ0048",
+          "nome": "ASSESSORIA DE IMPRENSA",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 6,
+          "id": "1277",
+          "pre_requisitos_expressao": "( CSJ0013 )",
+          "pre_requisitos_codigos": [
+            "CSJ0013"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CSJ0013"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CSJ0049",
+          "nome": "ETICA NA COMUNICAÇÃO",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 6,
+          "id": "1278",
+          "pre_requisitos_expressao": "( CSJ0003 )",
+          "pre_requisitos_codigos": [
+            "CSJ0003"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CSJ0003"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CSJ0052",
+          "nome": "LABORATORIO DE JORNALISMO IMPRESSO",
+          "carga_horaria": 128,
+          "tipo": "obrigatoria",
+          "nivel": 6,
+          "id": "1281",
+          "pre_requisitos_expressao": "( CSJ0019 )",
+          "pre_requisitos_codigos": [
+            "CSJ0019"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CSJ0019"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CSJ0053",
+          "nome": "PESQUISA EM COMUNICAÇÃO",
+          "carga_horaria": 96,
+          "tipo": "obrigatoria",
+          "nivel": 7,
+          "id": "1282",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( CSJ0099 )",
+          "equivalencias_codigos": [
+            "CSJ0099"
+          ]
+        },
+        {
+          "codigo": "CSJ0054",
+          "nome": "COMUNICAÇÃO E CIDADANIA",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 7,
+          "id": "1283",
+          "pre_requisitos_expressao": "( CSJ0049 )",
+          "pre_requisitos_codigos": [
+            "CSJ0049"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CSJ0049"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CSJ0055",
+          "nome": "ESTAGIO SUPERVISIONADO",
+          "carga_horaria": 96,
+          "tipo": "obrigatoria",
+          "nivel": 7,
+          "id": "1284",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( CSJ0104 )",
+          "equivalencias_codigos": [
+            "CSJ0104"
+          ]
+        },
+        {
+          "codigo": "CSJ0056",
+          "nome": "TRABALHO DE CONCLUSÃO DE CURSO TCC",
+          "carga_horaria": 320,
+          "tipo": "obrigatoria",
+          "nivel": 8,
+          "id": "1285",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( CSJ0103 E CSJ0127 )",
+          "equivalencias_codigos": [
+            "CSJ0103",
+            "CSJ0127"
+          ]
+        },
+        {
+          "codigo": "CAR0010",
+          "nome": "LÍNGUA BRASILEIRA DE SINAIS: LIBRAS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1357",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CSJ0012",
+          "nome": "HISTORIA DO JORNALISMO BRASILEIRO",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "779",
+          "pre_requisitos_expressao": "( CSJ0003 )",
+          "pre_requisitos_codigos": [
+            "CSJ0003"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CSJ0003"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CSJ0030",
+          "nome": "HISTORIA DA ARTE",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1254",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CSJ0031",
+          "nome": "ANÁLISE DO TEXTO E DO DISCURSO JORNALISTICO",
+          "carga_horaria": 32,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1260",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CSJ0032",
+          "nome": "JORNALISMO E LTERATURA",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1261",
+          "pre_requisitos_expressao": "( CSJ0079 )",
+          "pre_requisitos_codigos": [
+            "CSJ0079"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CSJ0079"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CSJ0033",
+          "nome": "JORNALISMO CULTURAL",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1262",
+          "pre_requisitos_expressao": "( CSJ0009 )",
+          "pre_requisitos_codigos": [
+            "CSJ0009"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CSJ0009"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CSJ0034",
+          "nome": "ANTROPOLOGIA E COMUNICAÇÃO",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1263",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CSJ0035",
+          "nome": "COMUNICAÇÃO E EDUCAÇÃO",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1264",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CSJ0036",
+          "nome": "CINEMA BRASILEIRO",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1265",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CSJ0037",
+          "nome": "COMUNICAÇÃO E CIDADES",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1266",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CSJ0038",
+          "nome": "NARRRATIVAS MIDIATICAS DIGITAIS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1267",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CSJ0039",
+          "nome": "TOPICOS EM CONVERGENCIA NAS MIDIAS DIGITAIS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1268",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CSJ0040",
+          "nome": "FOTOGRAFIA E MEMORIA",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1269",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CSJ0046",
+          "nome": "LABORATORIO DE JORNALISMO MULTIMIDIA",
+          "carga_horaria": 128,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1275",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CSJ0047",
+          "nome": "LABORATORIO DE FOTOJORNALISMO",
+          "carga_horaria": 128,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1276",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CSJ0050",
+          "nome": "LABORATORIO DE RADIOJORNALISMO",
+          "carga_horaria": 128,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1279",
+          "pre_requisitos_expressao": "( CSJ0019 )",
+          "pre_requisitos_codigos": [
+            "CSJ0019"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CSJ0019"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CSJ0051",
+          "nome": "LABORATORIO DE TELEJORNALISMO",
+          "carga_horaria": 128,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1280",
+          "pre_requisitos_expressao": "( CSJ0042 )",
+          "pre_requisitos_codigos": [
+            "CSJ0042"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CSJ0042"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CSJ0059",
+          "nome": "ARTE CONTEMPORÂNEA E NOVAS MÍDIAS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1382",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CSJ0060",
+          "nome": "COMUNICAÇÃO E DIREITOS HUMANOS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1383",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CSJ0061",
+          "nome": "JORNALISMO ESPORTIVO",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1384",
+          "pre_requisitos_expressao": "( CSJ0079 )",
+          "pre_requisitos_codigos": [
+            "CSJ0079"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CSJ0079"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CSJ0062",
+          "nome": "OFICINA DE TEXTO",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1385",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CSJ0063",
+          "nome": "TÓPICOS ESPECIAIS EM COMUNICAÇÃO I",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1386",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CSJ0064",
+          "nome": "NARRATIVAS FOTOGRÁFICAS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1433",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CSJ0065",
+          "nome": "JORNALISMO ECONÔMICO",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1435",
+          "pre_requisitos_expressao": "( CSJ0079 )",
+          "pre_requisitos_codigos": [
+            "CSJ0079"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CSJ0079"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CSJ0066",
+          "nome": "DESIGN DE NOTÍCIA II",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1436",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CSJ0067",
+          "nome": "CRÔNICA, OBSERVAÇÃO E CIDADE",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1472",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CSJ0068",
+          "nome": "DIVERSIDADE CULTURAL E MOVIMENTOS SOCIAIS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1473",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CSJ0069",
+          "nome": "COMUNICAÇÃO, MODA E CONSUMO",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1474",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CSJ0070",
+          "nome": "CULTURA E ARTE",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1475",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "PRG0002",
+          "nome": "RELAÇOES ETNICO RACIAIS E AFRICANIDADES",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1367",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "PRG0003",
+          "nome": "EDUCAÇAO AMBIENTAL",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1368",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        }
+      ]
+    }
+  ],
+  "atualizado_em": "2026-09-06T22:37:02.472256+00:00"
+}
