@@ -1,6 +1,10 @@
 import re
 from bs4 import BeautifulSoup
-from .courses import criar_sessao
+from .courses import (
+    criar_sessao,
+    consultar_cursos,
+    extrair_cursos,
+)
 from urllib.parse import urljoin
 from .requisite_parser import (
     parsear_expressao_requisito,
@@ -183,9 +187,10 @@ def salvar_cache_regras(cache):
     )
 
 def coletar_estruturas_do_curso(
+    session,
     curso_id,
+    cache_regras,
 ):
-    session = criar_sessao()
 
     pagina_curriculos = consultar_curriculos(
         session,
@@ -194,10 +199,6 @@ def coletar_estruturas_do_curso(
 
     curriculos = extrair_curriculos(
         pagina_curriculos.text
-    )
-
-    cache_regras = (
-        carregar_cache_regras()
     )
 
     print(
@@ -311,7 +312,7 @@ def coletar_estruturas_do_curso(
             f"{len(cache_regras)}"
         )
 
-    return estruturas, cache_regras
+    return estruturas
 
 def enriquecer_componentes_com_regras(
     session,
@@ -1644,45 +1645,139 @@ def inspecionar_curriculos(html):
 
 
 def main():
-    estruturas, cache_regras = (
-        coletar_estruturas_do_curso(
-            "628403"
-        )
-    )
-    
-    arquivo = salvar_estruturas_curso(
-        "628403",
-        estruturas,
-    )
+    session = criar_sessao()
 
-    print()
-    print("=" * 70)
-    print("RESUMO DO CURSO")
-    print("=" * 70)
-    
-    print(
-        f"Arquivo gerado: "
-        f"{arquivo}"
-    )
-
-    for estrutura in estruturas:
-        print(
-            f"{estrutura['codigo']} | "
-            f"{estrutura['status']} | "
-            f"{estrutura['quantidade_componentes']} "
-            f"componentes"
-        )
-
-    print()
-    print(
-        f"Estruturas processadas: "
-        f"{len(estruturas)}"
+    cache_regras = (
+        carregar_cache_regras()
     )
 
     print(
-        f"Componentes únicos consultados: "
+        f"Componentes carregados do cache: "
         f"{len(cache_regras)}"
     )
+
+    html_cursos = consultar_cursos()
+
+    cursos = extrair_cursos(
+        html_cursos
+    )
+
+    print(
+        f"Cursos encontrados: "
+        f"{len(cursos)}"
+    )
+
+    # Temporariamente processamos apenas
+    # dois cursos para validar o fluxo.
+    cursos_teste = cursos[:2]
+
+    sucessos = []
+    falhas = []
+
+    for indice, curso in enumerate(
+        cursos_teste,
+        start=1,
+    ):
+        print()
+        print("=" * 70)
+        print(
+            f"[{indice}/{len(cursos_teste)}] "
+            f"{curso['nome']}"
+        )
+        print(
+            f"ID: {curso['id']}"
+        )
+        print("=" * 70)
+
+        try:
+            estruturas = (
+                coletar_estruturas_do_curso(
+                    session,
+                    curso["id"],
+                    cache_regras,
+                )
+            )
+
+            salvar_estruturas_curso(
+                curso["id"],
+                estruturas,
+            )
+
+            sucessos.append(
+                {
+                    "id": curso["id"],
+                    "nome": curso["nome"],
+                    "estruturas": len(
+                        estruturas
+                    ),
+                }
+            )
+
+            print(
+                f"Estruturas encontradas: "
+                f"{len(estruturas)}"
+            )
+
+            print(
+                f"Cache acumulado: "
+                f"{len(cache_regras)}"
+            )
+
+        except Exception as erro:
+            falhas.append(
+                {
+                    "id": curso["id"],
+                    "nome": curso["nome"],
+                    "erro": str(erro),
+                }
+            )
+
+            print()
+            print(
+                f"ERRO ao processar "
+                f"{curso['nome']}."
+            )
+
+            print(
+                f"{type(erro).__name__}: "
+                f"{erro}"
+            )
+
+            print(
+                "Continuando para o "
+                "próximo curso..."
+            )
+    
+    print()
+    print("=" * 70)
+    print("PROCESSAMENTO CONCLUÍDO")
+    print("=" * 70)
+
+    print(
+        f"Cursos processados com sucesso: "
+        f"{len(sucessos)}"
+    )
+
+    print(
+        f"Cursos com falha: "
+        f"{len(falhas)}"
+    )
+
+    print(
+        f"Componentes únicos no cache: "
+        f"{len(cache_regras)}"
+    )
+
+    if falhas:
+        print()
+        print("FALHAS:")
+
+        for falha in falhas:
+            print(
+                f"- {falha['nome']} "
+                f"(ID {falha['id']}): "
+                f"{falha['erro']}"
+            )
 
 if __name__ == "__main__":
     main()
