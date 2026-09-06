@@ -4,18 +4,18 @@ from zoneinfo import ZoneInfo
 from pathlib import Path
 from urllib.parse import urljoin
 from .schedule_parser import decodificar_horario
+from .courses import (
+    consultar_cursos,
+    extrair_cursos,
+)
 
 import requests
 from bs4 import BeautifulSoup
 
-
-URL = (
+URL_TURMAS = (
     "https://sig.ufca.edu.br/sigaa/public/curso/"
-    "turmas.jsf?id=32652294&lc=pt_BR"
+    "turmas.jsf"
 )
-
-CURSO_ID = "32652294"
-CURSO_NOME = "Ciência da Computação"
 
 DATA_DIR = Path("public/data")
 DATA_DIR.mkdir(parents=True, exist_ok=True)
@@ -77,13 +77,112 @@ def montar_payload(form, ano, valor_periodo):
 
     return payload
 
+def encontrar_periodo_global(cursos):
+    candidatos = gerar_periodos_candidatos()
 
-def consultar_sigaa(ano, periodo):
+    print()
+    print(
+        "Procurando período acadêmico "
+        "mais recente com turmas..."
+    )
+
+    for ano, periodo in candidatos:
+        periodo_completo = f"{ano}.{periodo}"
+
+        print()
+        print(
+            f"Verificando {periodo_completo}..."
+        )
+
+        for curso in cursos:
+            html = consultar_sigaa(
+                curso["id"],
+                ano,
+                periodo,
+            )
+
+            turmas = extrair_turmas(html)
+
+            if turmas:
+                print()
+                print(
+                    f"Período global encontrado: "
+                    f"{periodo_completo}"
+                )
+
+                print(
+                    f"Primeira oferta encontrada em: "
+                    f"{curso['nome']}"
+                )
+
+                return ano, periodo
+
+        print(
+            f"Nenhum dos cursos possui turmas "
+            f"em {periodo_completo}."
+        )
+
+    raise RuntimeError(
+        "Nenhum período acadêmico "
+        "com turmas foi encontrado."
+    )
+
+def coletar_turmas_dos_cursos(
+    cursos,
+    ano,
+    periodo,
+):
+    resultados = []
+
+    total_cursos = len(cursos)
+
+    for indice, curso in enumerate(
+        cursos,
+        start=1,
+    ):
+        print()
+        print(
+            f"[{indice}/{total_cursos}] "
+            f"Consultando {curso['nome']}..."
+        )
+
+        html = consultar_sigaa(
+            curso["id"],
+            ano,
+            periodo,
+        )
+
+        turmas = extrair_turmas(html)
+
+        resultados.append(
+            {
+                "id": curso["id"],
+                "nome": curso["nome"],
+                "sede": curso["sede"],
+                "modalidade": curso["modalidade"],
+                "quantidade_turmas": len(turmas),
+                "turmas": turmas,
+            }
+        )
+
+        print(
+            f"{curso['nome']}: "
+            f"{len(turmas)} turma(s)"
+        )
+
+    return resultados
+
+def consultar_sigaa(curso_id, ano, periodo):
     session = criar_sessao()
+    url = (
+    	f"{URL_TURMAS}"
+    	f"?id={curso_id}"
+    	f"&lc=pt_BR"
+    )
 
     # Primeiro GET:
     # cria a sessão e obtém o javax.faces.ViewState
-    response = session.get(URL, timeout=30)
+    response = session.get(url, timeout=30)
     response.raise_for_status()
 
     soup = BeautifulSoup(
@@ -266,7 +365,7 @@ def extrair_turmas(html):
 
     return turmas
 
-def encontrar_periodo_mais_recente():
+def encontrar_periodo_mais_recente(curso_id):
     candidatos = gerar_periodos_candidatos()
 
     print()
@@ -279,7 +378,8 @@ def encontrar_periodo_mais_recente():
         print(f"Verificando {periodo_completo}...")
 
         html = consultar_sigaa(
-            ano,
+            curso_id,
+	    ano,
             periodo,
         )
 
@@ -379,44 +479,116 @@ def salvar_json(turmas, ano, periodo):
 
     return arquivo
 
+def salvar_dados_cursos(
+    resultados,
+    ano,
+    periodo,
+):
+    arquivo = DATA_DIR / "cursos-atual.json"
+
+    periodo_completo = f"{ano}.{periodo}"
+
+    total_turmas = sum(
+        curso["quantidade_turmas"]
+        for curso in resultados
+    )
+
+    dados = {
+        "periodo": periodo_completo,
+        "quantidade_cursos": len(resultados),
+        "quantidade_turmas": total_turmas,
+        "cursos": resultados,
+    }
+
+    arquivo.write_text(
+        json.dumps(
+            dados,
+            ensure_ascii=False,
+            indent=2,
+        ),
+        encoding="utf-8",
+    )
+
+    print()
+    print(
+        f"Dados salvos em: {arquivo}"
+    )
+
+    return arquivo
+
 def main():
     print(
-        f"Consultando turmas de "
-        f"{CURSO_NOME}..."
+        "Buscando cursos de graduação "
+        "de Juazeiro do Norte..."
     )
 
-    ano, periodo, turmas = (
-        encontrar_periodo_mais_recente()
+    html_cursos = consultar_cursos()
+
+    cursos = extrair_cursos(
+        html_cursos,
     )
 
-    arquivo = salvar_json(
-        turmas,
+    print()
+    print(
+        f"Cursos encontrados: "
+        f"{len(cursos)}"
+    )
+
+    ano, periodo = (
+        encontrar_periodo_global(
+            cursos
+        )
+    )
+
+    resultados = (
+        coletar_turmas_dos_cursos(
+            cursos,
+            ano,
+            periodo,
+        )
+    )
+
+    arquivo = salvar_dados_cursos(
+   	resultados,
         ano,
         periodo,
     )
 
     print()
-    print("Consulta concluída com sucesso.")
+    print("=" * 60)
     print(
-        f"Período: {ano}.{periodo}"
+        f"RESUMO - {ano}.{periodo}"
     )
-    print(
-        f"Turmas encontradas: {len(turmas)}"
-    )
+    print("=" * 60)
+
     print(
         f"Arquivo gerado: {arquivo}"
     )
 
-    print()
-    print("Primeiras turmas:")
+    total_turmas = 0
 
-    for turma in turmas[:5]:
-        print(
-            f"- {turma['codigo']} - "
-            f"{turma['disciplina']} | "
-            f"Turma {turma['turma']} | "
-            f"{turma['horario_sigaa']}"
+    for curso in resultados:
+        quantidade = (
+            curso["quantidade_turmas"]
         )
+
+        total_turmas += quantidade
+
+        print(
+            f"{curso['nome']}: "
+            f"{quantidade}"
+        )
+
+    print()
+    print(
+        f"Cursos processados: "
+        f"{len(resultados)}"
+    )
+
+    print(
+        f"Total de turmas: "
+        f"{total_turmas}"
+    )
 
 if __name__ == "__main__":
     main()

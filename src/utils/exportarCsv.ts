@@ -14,9 +14,19 @@ function escaparCampo(valor: string | number | null) {
   return texto
 }
 
+function normalizarNomeArquivo(texto: string) {
+  return texto
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '')
+}
+
 export function exportarHorarioCsv(
   turmas: Turma[],
   periodo: string,
+  cursoNome: string,
 ) {
   if (turmas.length === 0) {
     return
@@ -85,7 +95,9 @@ export function exportarHorarioCsv(
   const link = document.createElement('a')
 
   link.href = url
-  link.download = `meu-horario-cc-ufca-${periodo}.csv`
+  const cursoSlug = normalizarNomeArquivo(cursoNome)
+
+  link.download = `meu-horario-${cursoSlug}-${periodo}.csv`
 
   document.body.appendChild(link)
 
