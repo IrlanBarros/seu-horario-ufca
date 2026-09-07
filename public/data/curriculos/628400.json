@@ -1,0 +1,3978 @@
+{
+  "curso_id": "628400",
+  "quantidade_estruturas": 2,
+  "estruturas": [
+    {
+      "id": "32653200",
+      "codigo": "ADM02",
+      "ano_criacao": 2019,
+      "status": "Ativa",
+      "quantidade_componentes": 92,
+      "quantidade_obrigatorias": 36,
+      "quantidade_optativas": 56,
+      "componentes": [
+        {
+          "codigo": "ADM0311",
+          "nome": "METODOLOGIA DO TRABALHO CIENTIFICO",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 1,
+          "id": "906",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0343",
+          "nome": "EMPREENDEDORISMO I",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 1,
+          "id": "946",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0401",
+          "nome": "TEORIAS DA ADMINISTRAÇÃO I",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 1,
+          "id": "2446",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "ADM0302",
+          "equivalencias_codigos": [
+            "ADM0302"
+          ]
+        },
+        {
+          "codigo": "ADM0402",
+          "nome": "MATEMÁTICA PARA ADMINISTRAÇÃO E CONTABILIDADE",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 1,
+          "id": "2447",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( ADM0301 ) OU ( CCB0003 )",
+          "equivalencias_codigos": [
+            "ADM0301",
+            "CCB0003"
+          ]
+        },
+        {
+          "codigo": "ADM0403",
+          "nome": "SOCIOLOGIA DAS ORGANIZAÇÕES",
+          "carga_horaria": 32,
+          "tipo": "obrigatoria",
+          "nivel": 1,
+          "id": "2448",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "ADM0308",
+          "equivalencias_codigos": [
+            "ADM0308"
+          ]
+        },
+        {
+          "codigo": "ADM0404",
+          "nome": "FILOSOFIA E ÉTICA ORGANIZACIONAL",
+          "carga_horaria": 32,
+          "tipo": "obrigatoria",
+          "nivel": 1,
+          "id": "2449",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "ADM0304",
+          "equivalencias_codigos": [
+            "ADM0304"
+          ]
+        },
+        {
+          "codigo": "ADM0405",
+          "nome": "FUNDAMENTOS DE ADMINISTRAÇÃO",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 2,
+          "id": "2450",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( ADM0309 ) OU ( EM0029 )",
+          "equivalencias_codigos": [
+            "ADM0309",
+            "EM0029"
+          ]
+        },
+        {
+          "codigo": "ADM0406",
+          "nome": "TEORIAS DA ADMINISTRAÇÃO II",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 2,
+          "id": "2451",
+          "pre_requisitos_expressao": "( ADM0401 OU ADM0302 )",
+          "pre_requisitos_codigos": [
+            "ADM0401",
+            "ADM0302"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "ADM0401"
+            },
+            "direita": {
+              "codigo": "ADM0302"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "ADM0310",
+          "equivalencias_codigos": [
+            "ADM0310"
+          ]
+        },
+        {
+          "codigo": "ADM0407",
+          "nome": "PSICOLOGIA ORGANIZACIONAL",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 2,
+          "id": "2452",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "ADM0306",
+          "equivalencias_codigos": [
+            "ADM0306"
+          ]
+        },
+        {
+          "codigo": "ADM0408",
+          "nome": "FUNDAMENTOS DE CONTABILIDADE",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 2,
+          "id": "2453",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "ADM0317",
+          "equivalencias_codigos": [
+            "ADM0317"
+          ]
+        },
+        {
+          "codigo": "ADM0409",
+          "nome": "FUNDAMENTOS DE MICROECONOMIA",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 2,
+          "id": "2454",
+          "pre_requisitos_expressao": "( ADM0301 OU ADM0402 )",
+          "pre_requisitos_codigos": [
+            "ADM0301",
+            "ADM0402"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "ADM0301"
+            },
+            "direita": {
+              "codigo": "ADM0402"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0313",
+          "nome": "MATEMATICA FINANCEIRA",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 3,
+          "id": "802",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0322",
+          "nome": "CONTABILIDADE DE CUSTOS",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 3,
+          "id": "830",
+          "pre_requisitos_expressao": "( ADM0317 OU ADM0408 )",
+          "pre_requisitos_codigos": [
+            "ADM0317",
+            "ADM0408"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "ADM0317"
+            },
+            "direita": {
+              "codigo": "ADM0408"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( CCB0024 )",
+          "equivalencias_codigos": [
+            "CCB0024"
+          ]
+        },
+        {
+          "codigo": "ADM0410",
+          "nome": "GESTÃO DE PESSOAS I",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 3,
+          "id": "2455",
+          "pre_requisitos_expressao": "( ADM0407 OU ADM0306 )",
+          "pre_requisitos_codigos": [
+            "ADM0407",
+            "ADM0306"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "ADM0407"
+            },
+            "direita": {
+              "codigo": "ADM0306"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "ADM0328",
+          "equivalencias_codigos": [
+            "ADM0328"
+          ]
+        },
+        {
+          "codigo": "ADM0411",
+          "nome": "MARKETING I",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 3,
+          "id": "2456",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "ADM0329",
+          "equivalencias_codigos": [
+            "ADM0329"
+          ]
+        },
+        {
+          "codigo": "ADM0412",
+          "nome": "FUNDAMENTOS DE MACROECONOMIA",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 3,
+          "id": "2479",
+          "pre_requisitos_expressao": "ADM0409",
+          "pre_requisitos_codigos": [
+            "ADM0409"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "ADM0409"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0312",
+          "nome": "ESTATISTICA APLICADA A NEGOCIOS I",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 4,
+          "id": "799",
+          "pre_requisitos_expressao": "( ADM0301 OU ADM0402 )",
+          "pre_requisitos_codigos": [
+            "ADM0301",
+            "ADM0402"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "ADM0301"
+            },
+            "direita": {
+              "codigo": "ADM0402"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0352",
+          "nome": "INTRODUCAO AO ESTUDO DO DIREITO",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 4,
+          "id": "1007",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0413",
+          "nome": "ADMINISTRAÇÃO DE SISTEMAS DE INFORMAÇÃO",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 4,
+          "id": "2480",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( ADM0325 OU GPS0083 OU CCB0042 )",
+          "equivalencias_codigos": [
+            "ADM0325",
+            "GPS0083",
+            "CCB0042"
+          ]
+        },
+        {
+          "codigo": "ADM0414",
+          "nome": "FINANÇAS I",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 4,
+          "id": "2481",
+          "pre_requisitos_expressao": "( ADM0408 OU ADM0317 )",
+          "pre_requisitos_codigos": [
+            "ADM0408",
+            "ADM0317"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "ADM0408"
+            },
+            "direita": {
+              "codigo": "ADM0317"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( ADM0327 ) OU ( CCB0026 )",
+          "equivalencias_codigos": [
+            "ADM0327",
+            "CCB0026"
+          ]
+        },
+        {
+          "codigo": "ADM0415",
+          "nome": "GESTÃO DA QUALIDADE",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 4,
+          "id": "2482",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0316",
+          "nome": "ESTATISTICA APLICADA A NEGOCIOS II",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 5,
+          "id": "788",
+          "pre_requisitos_expressao": "( ADM0312 )",
+          "pre_requisitos_codigos": [
+            "ADM0312"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "ADM0312"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0416",
+          "nome": "FINANÇAS II",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 5,
+          "id": "2483",
+          "pre_requisitos_expressao": "( ADM0414 OU ADM0327 )",
+          "pre_requisitos_codigos": [
+            "ADM0414",
+            "ADM0327"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "ADM0414"
+            },
+            "direita": {
+              "codigo": "ADM0327"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "ADM0334",
+          "equivalencias_codigos": [
+            "ADM0334"
+          ]
+        },
+        {
+          "codigo": "ADM0417",
+          "nome": "ADMINISTRAÇÃO DE PRODUÇÃO E OPERAÇÕES",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 5,
+          "id": "2484",
+          "pre_requisitos_expressao": "ADM0312",
+          "pre_requisitos_codigos": [
+            "ADM0312"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "ADM0312"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "ADM0326",
+          "equivalencias_codigos": [
+            "ADM0326"
+          ]
+        },
+        {
+          "codigo": "ADM0418",
+          "nome": "GESTÃO DE PESSOAS II",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 5,
+          "id": "2485",
+          "pre_requisitos_expressao": "( ADM0328 OU ADM0410 )",
+          "pre_requisitos_codigos": [
+            "ADM0328",
+            "ADM0410"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "ADM0328"
+            },
+            "direita": {
+              "codigo": "ADM0410"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "ADM0336",
+          "equivalencias_codigos": [
+            "ADM0336"
+          ]
+        },
+        {
+          "codigo": "ADM0419",
+          "nome": "MARKETING II",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 5,
+          "id": "2486",
+          "pre_requisitos_expressao": "( ADM0411 OU ADM0329 )",
+          "pre_requisitos_codigos": [
+            "ADM0411",
+            "ADM0329"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "ADM0411"
+            },
+            "direita": {
+              "codigo": "ADM0329"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "ADM0337",
+          "equivalencias_codigos": [
+            "ADM0337"
+          ]
+        },
+        {
+          "codigo": "ADM0420",
+          "nome": "ATIVIDADE PRÁTICA DE EXTENSÃO",
+          "carga_horaria": 80,
+          "tipo": "obrigatoria",
+          "nivel": 6,
+          "id": "2487",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0421",
+          "nome": "DIREITO EMPRESARIAL",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 6,
+          "id": "2488",
+          "pre_requisitos_expressao": "ADM0352",
+          "pre_requisitos_codigos": [
+            "ADM0352"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "ADM0352"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "ADM0314",
+          "equivalencias_codigos": [
+            "ADM0314"
+          ]
+        },
+        {
+          "codigo": "ADM0422",
+          "nome": "GESTÃO DA TECNOLOGIA E INOVAÇÃO",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 6,
+          "id": "2489",
+          "pre_requisitos_expressao": "( ADM0325 OU ADM0413 )",
+          "pre_requisitos_codigos": [
+            "ADM0325",
+            "ADM0413"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "ADM0325"
+            },
+            "direita": {
+              "codigo": "ADM0413"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( ADM0320 )",
+          "equivalencias_codigos": [
+            "ADM0320"
+          ]
+        },
+        {
+          "codigo": "ADM0423",
+          "nome": "LOGÍSTICA E CADEIA DE SUPRIMENTOS",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 6,
+          "id": "2490",
+          "pre_requisitos_expressao": "( ADM0322 E ADM0417 ) OU ( ADM0326 )",
+          "pre_requisitos_codigos": [
+            "ADM0322",
+            "ADM0417",
+            "ADM0326"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "operador": "E",
+              "esquerda": {
+                "codigo": "ADM0322"
+              },
+              "direita": {
+                "codigo": "ADM0417"
+              }
+            },
+            "direita": {
+              "codigo": "ADM0326"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "ADM0333",
+          "equivalencias_codigos": [
+            "ADM0333"
+          ]
+        },
+        {
+          "codigo": "ADM0332",
+          "nome": "ESTAGIO SUPERVISIONADO I",
+          "carga_horaria": 80,
+          "tipo": "obrigatoria",
+          "nivel": 7,
+          "id": "919",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0424",
+          "nome": "EMPREENDEDORISMO II",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 7,
+          "id": "2491",
+          "pre_requisitos_expressao": "ADM0343",
+          "pre_requisitos_codigos": [
+            "ADM0343"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "ADM0343"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "ADM0348",
+          "equivalencias_codigos": [
+            "ADM0348"
+          ]
+        },
+        {
+          "codigo": "ADM0425",
+          "nome": "ADMINISTRAÇÃO ESTRATÉGICA",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 7,
+          "id": "2492",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "ADM0344",
+          "equivalencias_codigos": [
+            "ADM0344"
+          ]
+        },
+        {
+          "codigo": "ADM0338",
+          "nome": "ESTAGIO SUPERVISIONADO II",
+          "carga_horaria": 80,
+          "tipo": "obrigatoria",
+          "nivel": 8,
+          "id": "936",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0426",
+          "nome": "MARKETING DE SERVIÇOS",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 8,
+          "id": "2493",
+          "pre_requisitos_expressao": "( ADM0337 OU ADM0419 )",
+          "pre_requisitos_codigos": [
+            "ADM0337",
+            "ADM0419"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "ADM0337"
+            },
+            "direita": {
+              "codigo": "ADM0419"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "ADM0350",
+          "equivalencias_codigos": [
+            "ADM0350"
+          ]
+        },
+        {
+          "codigo": "ADM0427",
+          "nome": "ADMINISTRAÇÃO E ELABORAÇÃO DE PROJETOS",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 8,
+          "id": "2494",
+          "pre_requisitos_expressao": "( ADM0322 )",
+          "pre_requisitos_codigos": [
+            "ADM0322"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "ADM0322"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( ADM0341 OU GPS0046 )",
+          "equivalencias_codigos": [
+            "ADM0341",
+            "GPS0046"
+          ]
+        },
+        {
+          "codigo": "ADM0303",
+          "nome": "COMPUTACAO APLICADA",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "861",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0315",
+          "nome": "COMPORTAMENTO ORGANIZACIONAL",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "822",
+          "pre_requisitos_expressao": "( ADM0306 E ADM0309 )",
+          "pre_requisitos_codigos": [
+            "ADM0306",
+            "ADM0309"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "E",
+            "esquerda": {
+              "codigo": "ADM0306"
+            },
+            "direita": {
+              "codigo": "ADM0309"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0318",
+          "nome": "DIREITO TRABALHISTA E PREVIDENCIARIO",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1001",
+          "pre_requisitos_expressao": "( ADM0352 )",
+          "pre_requisitos_codigos": [
+            "ADM0352"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "ADM0352"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0319",
+          "nome": "ORGANIZACAO, SISTEMAS E METODOS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "789",
+          "pre_requisitos_expressao": "( ADM0309 OU ADM0405 )",
+          "pre_requisitos_codigos": [
+            "ADM0309",
+            "ADM0405"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "ADM0309"
+            },
+            "direita": {
+              "codigo": "ADM0405"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0323",
+          "nome": "DIREITO ADMINISTRATIVO E DO CONSUMIDOR",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "792",
+          "pre_requisitos_expressao": "( ADM0352 )",
+          "pre_requisitos_codigos": [
+            "ADM0352"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "ADM0352"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0324",
+          "nome": "COMERCIO EXTERIOR",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "836",
+          "pre_requisitos_expressao": "( ADM0321 OU ADM0412 )",
+          "pre_requisitos_codigos": [
+            "ADM0321",
+            "ADM0412"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "ADM0321"
+            },
+            "direita": {
+              "codigo": "ADM0412"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0330",
+          "nome": "PROCESSO DECISORIO",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "999",
+          "pre_requisitos_expressao": "( ADM0312 )",
+          "pre_requisitos_codigos": [
+            "ADM0312"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "ADM0312"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0335",
+          "nome": "GESTAO SOCIAL",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "666",
+          "pre_requisitos_expressao": "( ADM0308 OU ADM0403 )",
+          "pre_requisitos_codigos": [
+            "ADM0308",
+            "ADM0403"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "ADM0308"
+            },
+            "direita": {
+              "codigo": "ADM0403"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0340",
+          "nome": "MERCADO DE CAPITAIS E ANAL DE INVESTIMENTOS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "941",
+          "pre_requisitos_expressao": "( ADM0321 E ADM0327 ) OU ( ADM0412 )",
+          "pre_requisitos_codigos": [
+            "ADM0321",
+            "ADM0327",
+            "ADM0412"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "operador": "E",
+              "esquerda": {
+                "codigo": "ADM0321"
+              },
+              "direita": {
+                "codigo": "ADM0327"
+              }
+            },
+            "direita": {
+              "codigo": "ADM0412"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0345",
+          "nome": "CONTROLE ESTATISTICO DE PROCESSO",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1002",
+          "pre_requisitos_expressao": "( ( ADM0326 OU ADM0417 ) E ( ADM0316 ) )",
+          "pre_requisitos_codigos": [
+            "ADM0326",
+            "ADM0417",
+            "ADM0316"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "E",
+            "esquerda": {
+              "operador": "OU",
+              "esquerda": {
+                "codigo": "ADM0326"
+              },
+              "direita": {
+                "codigo": "ADM0417"
+              }
+            },
+            "direita": {
+              "codigo": "ADM0316"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0347",
+          "nome": "GESTAO BASEADA EM COMPETENCIAS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1011",
+          "pre_requisitos_expressao": "( ADM0328 OU ADM0418 OU CCB0041 OU ADM0410 )",
+          "pre_requisitos_codigos": [
+            "ADM0328",
+            "ADM0418",
+            "CCB0041",
+            "ADM0410"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "operador": "OU",
+              "esquerda": {
+                "operador": "OU",
+                "esquerda": {
+                  "codigo": "ADM0328"
+                },
+                "direita": {
+                  "codigo": "ADM0418"
+                }
+              },
+              "direita": {
+                "codigo": "CCB0041"
+              }
+            },
+            "direita": {
+              "codigo": "ADM0410"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0353",
+          "nome": "TEORIA DAS ORGANIZACOES",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1008",
+          "pre_requisitos_expressao": "( ADM0302 OU ADM0401 )",
+          "pre_requisitos_codigos": [
+            "ADM0302",
+            "ADM0401"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "ADM0302"
+            },
+            "direita": {
+              "codigo": "ADM0401"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0356",
+          "nome": "CULTURA E MUDANCA ORGANIZACIONAL",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "899",
+          "pre_requisitos_expressao": "ADM0336 OU ADM0418",
+          "pre_requisitos_codigos": [
+            "ADM0336",
+            "ADM0418"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "ADM0336"
+            },
+            "direita": {
+              "codigo": "ADM0418"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0358",
+          "nome": "TOPICOS AVANCADOS EM ADMINISTRACAO",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "898",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0359",
+          "nome": "ANALISE DAS DEMONSTRACOES CONTABEIS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "711",
+          "pre_requisitos_expressao": "( ADM0322 )",
+          "pre_requisitos_codigos": [
+            "ADM0322"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "ADM0322"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0451",
+          "nome": "CRIATIVIDADE NOS NEGÓCIOS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2495",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0452",
+          "nome": "GESTÃO DO ESPORTE",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2496",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0453",
+          "nome": "GESTÃO DE NEGÓCIOS DA ECONOMIA DO COMPARTILHAMENTO",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2497",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0454",
+          "nome": "INTELIGÊNCIA COMPUTACIONAL APLICADA AOS NEGÓCIOS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2498",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0455",
+          "nome": "VISUALIZAÇÃO DE DADOS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2499",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0456",
+          "nome": "AUDITORIA E GOVERNANÇA EM TECNOLOGIA DE INFORMAÇÃO",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2500",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0457",
+          "nome": "TÓPICOS AVANÇADOS EM EMPREENDEDORISMO",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2501",
+          "pre_requisitos_expressao": "( ADM0343 OU GPS0096 OU CCB0053 )",
+          "pre_requisitos_codigos": [
+            "ADM0343",
+            "GPS0096",
+            "CCB0053"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "operador": "OU",
+              "esquerda": {
+                "codigo": "ADM0343"
+              },
+              "direita": {
+                "codigo": "GPS0096"
+              }
+            },
+            "direita": {
+              "codigo": "CCB0053"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0458",
+          "nome": "ANÁLISE DE INVESTIMENTOS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2502",
+          "pre_requisitos_expressao": "( ( ADM0313 E ADM0416 ) OU ( ADM0304 OU CCB0030 ) )",
+          "pre_requisitos_codigos": [
+            "ADM0313",
+            "ADM0416",
+            "ADM0304",
+            "CCB0030"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "operador": "E",
+              "esquerda": {
+                "codigo": "ADM0313"
+              },
+              "direita": {
+                "codigo": "ADM0416"
+              }
+            },
+            "direita": {
+              "operador": "OU",
+              "esquerda": {
+                "codigo": "ADM0304"
+              },
+              "direita": {
+                "codigo": "CCB0030"
+              }
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0459",
+          "nome": "MERCADO FINANCEIRO",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2503",
+          "pre_requisitos_expressao": "ADM0412 E ADM0313 E ( ADM0416 OU ADM0334 )",
+          "pre_requisitos_codigos": [
+            "ADM0412",
+            "ADM0313",
+            "ADM0416",
+            "ADM0334"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "E",
+            "esquerda": {
+              "operador": "E",
+              "esquerda": {
+                "codigo": "ADM0412"
+              },
+              "direita": {
+                "codigo": "ADM0313"
+              }
+            },
+            "direita": {
+              "operador": "OU",
+              "esquerda": {
+                "codigo": "ADM0416"
+              },
+              "direita": {
+                "codigo": "ADM0334"
+              }
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0460",
+          "nome": "TÓPICOS AVANÇADOS EM FINANÇAS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2504",
+          "pre_requisitos_expressao": "( ADM0416 OU ADM0334 OU CCB0030 )",
+          "pre_requisitos_codigos": [
+            "ADM0416",
+            "ADM0334",
+            "CCB0030"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "operador": "OU",
+              "esquerda": {
+                "codigo": "ADM0416"
+              },
+              "direita": {
+                "codigo": "ADM0334"
+              }
+            },
+            "direita": {
+              "codigo": "CCB0030"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0461",
+          "nome": "ECONOMIA BRASILEIRA CONTEMPORÂNEA",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2505",
+          "pre_requisitos_expressao": "ADM0412",
+          "pre_requisitos_codigos": [
+            "ADM0412"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "ADM0412"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "ADM0357",
+          "equivalencias_codigos": [
+            "ADM0357"
+          ]
+        },
+        {
+          "codigo": "ADM0462",
+          "nome": "ECONOMIA DE EMPRESA",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2506",
+          "pre_requisitos_expressao": "ADM0412",
+          "pre_requisitos_codigos": [
+            "ADM0412"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "ADM0412"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0463",
+          "nome": "FINANÇAS PÚBLICAS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2507",
+          "pre_requisitos_expressao": "ADM0412",
+          "pre_requisitos_codigos": [
+            "ADM0412"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "ADM0412"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "ADM0346 OU CCB0055",
+          "equivalencias_codigos": [
+            "ADM0346",
+            "CCB0055"
+          ]
+        },
+        {
+          "codigo": "ADM0464",
+          "nome": "PESQUISA DE MERCADO",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2508",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0465",
+          "nome": "ADMINISTRAÇÃO DE VENDAS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2509",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0466",
+          "nome": "COMPORTAMENTO DO CONSUMIDOR",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2510",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0468",
+          "nome": "CULTURA E CONSUMO",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2512",
+          "pre_requisitos_expressao": "( ADM0337 OU ADM0419 )",
+          "pre_requisitos_codigos": [
+            "ADM0337",
+            "ADM0419"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "ADM0337"
+            },
+            "direita": {
+              "codigo": "ADM0419"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0469",
+          "nome": "GESTÃO DE ESTOQUES",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2513",
+          "pre_requisitos_expressao": "( ADM0326 OU ADM0417 ) E ( ADM0333 OU ADM0423 )",
+          "pre_requisitos_codigos": [
+            "ADM0326",
+            "ADM0417",
+            "ADM0333",
+            "ADM0423"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "E",
+            "esquerda": {
+              "operador": "OU",
+              "esquerda": {
+                "codigo": "ADM0326"
+              },
+              "direita": {
+                "codigo": "ADM0417"
+              }
+            },
+            "direita": {
+              "operador": "OU",
+              "esquerda": {
+                "codigo": "ADM0333"
+              },
+              "direita": {
+                "codigo": "ADM0423"
+              }
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0470",
+          "nome": "GESTÃO POR PROCESSOS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2514",
+          "pre_requisitos_expressao": "ADM0344 OU ADM0425",
+          "pre_requisitos_codigos": [
+            "ADM0344",
+            "ADM0425"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "ADM0344"
+            },
+            "direita": {
+              "codigo": "ADM0425"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0471",
+          "nome": "PESQUISA OPERACIONAL 1",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2515",
+          "pre_requisitos_expressao": "ADM0316",
+          "pre_requisitos_codigos": [
+            "ADM0316"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "ADM0316"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0472",
+          "nome": "PESQUISA OPERACIONAL 2",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2516",
+          "pre_requisitos_expressao": "ADM0471",
+          "pre_requisitos_codigos": [
+            "ADM0471"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "ADM0471"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0473",
+          "nome": "GESTÃO AGROINDUSTRIAL",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2517",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0474",
+          "nome": "MÉTODOS E TÉCNICAS DE PESQUISA EM ADMINISTRAÇÃO",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2518",
+          "pre_requisitos_expressao": "ADM0311",
+          "pre_requisitos_codigos": [
+            "ADM0311"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "ADM0311"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "ADM0354 OU ADM0364",
+          "equivalencias_codigos": [
+            "ADM0354",
+            "ADM0364"
+          ]
+        },
+        {
+          "codigo": "ADM0475",
+          "nome": "METODOLOGIA DE CASOS PARA ENSINO EM ADMINISTRAÇÃO",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2519",
+          "pre_requisitos_expressao": "( ADM0311 )",
+          "pre_requisitos_codigos": [
+            "ADM0311"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "ADM0311"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0476",
+          "nome": "TRABALHO DE CONCLUSÃO DE CURSO",
+          "carga_horaria": 128,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2520",
+          "pre_requisitos_expressao": "ADM0474 OU ADM0475",
+          "pre_requisitos_codigos": [
+            "ADM0474",
+            "ADM0475"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "ADM0474"
+            },
+            "direita": {
+              "codigo": "ADM0475"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "ADM0355 OU ADM0365",
+          "equivalencias_codigos": [
+            "ADM0355",
+            "ADM0365"
+          ]
+        },
+        {
+          "codigo": "ADM0477",
+          "nome": "CONTABILIDADE TRIBUTÁRIA",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2521",
+          "pre_requisitos_expressao": "ADM0322",
+          "pre_requisitos_codigos": [
+            "ADM0322"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "ADM0322"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0479",
+          "nome": "CONTABILIDADE APLICADA AO SETOR PÚBLICO I",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2522",
+          "pre_requisitos_expressao": "ADM0322",
+          "pre_requisitos_codigos": [
+            "ADM0322"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "ADM0322"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0480",
+          "nome": "ESTATÍSTICA COMPUTACIONAL",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2523",
+          "pre_requisitos_expressao": "ADM0316",
+          "pre_requisitos_codigos": [
+            "ADM0316"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "ADM0316"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0481",
+          "nome": "ANÁLISE DE DECISÃO",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2524",
+          "pre_requisitos_expressao": "( ADM0316 )",
+          "pre_requisitos_codigos": [
+            "ADM0316"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "ADM0316"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0482",
+          "nome": "ECONOMETRIA",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2525",
+          "pre_requisitos_expressao": "( ADM0316 )",
+          "pre_requisitos_codigos": [
+            "ADM0316"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "ADM0316"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( ADM0366 )",
+          "equivalencias_codigos": [
+            "ADM0366"
+          ]
+        },
+        {
+          "codigo": "ADM0483",
+          "nome": "INTRODUÇÃO À INFERÊNCIA BAYESIANA",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2526",
+          "pre_requisitos_expressao": "( ADM0316 )",
+          "pre_requisitos_codigos": [
+            "ADM0316"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "ADM0316"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0484",
+          "nome": "MODELAGEM E ANÁLISE MULTIVARIADA",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2527",
+          "pre_requisitos_expressao": "( ADM0316 )",
+          "pre_requisitos_codigos": [
+            "ADM0316"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "ADM0316"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0485",
+          "nome": "PROCESSOS ESTOCÁSTICOS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2528",
+          "pre_requisitos_expressao": "( ADM0316 )",
+          "pre_requisitos_codigos": [
+            "ADM0316"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "ADM0316"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0486",
+          "nome": "PROGRAMAÇÃO MATEMÁTICA",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2529",
+          "pre_requisitos_expressao": "ADM0471",
+          "pre_requisitos_codigos": [
+            "ADM0471"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "ADM0471"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0487",
+          "nome": "SÉRIES TEMPORAIS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2530",
+          "pre_requisitos_expressao": "( ADM0316 )",
+          "pre_requisitos_codigos": [
+            "ADM0316"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "ADM0316"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0488",
+          "nome": "TÉCNICAS DE SIMULAÇÃO DA PRODUÇÃO",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2531",
+          "pre_requisitos_expressao": "( ADM0316 )",
+          "pre_requisitos_codigos": [
+            "ADM0316"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "ADM0316"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0489",
+          "nome": "REDAÇÃO DE ARTIGO CIENTÍFICO",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2851",
+          "pre_requisitos_expressao": "ADM0311",
+          "pre_requisitos_codigos": [
+            "ADM0311"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "ADM0311"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0490",
+          "nome": "DIGITAL MARKETING",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3086",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0491",
+          "nome": "TÓPICOS AVANÇADOS EM MARKETING",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "4965",
+          "pre_requisitos_expressao": "( ADM0419 )",
+          "pre_requisitos_codigos": [
+            "ADM0419"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "ADM0419"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0492",
+          "nome": "TÓPICOS AVANÇADOS EM GESTÃO DE PESSOAS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "4966",
+          "pre_requisitos_expressao": "( ADM0418 )",
+          "pre_requisitos_codigos": [
+            "ADM0418"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "ADM0418"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CAR0010",
+          "nome": "LÍNGUA BRASILEIRA DE SINAIS: LIBRAS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1357",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        }
+      ]
+    },
+    {
+      "id": "631151",
+      "codigo": "2006.2",
+      "ano_criacao": 2006,
+      "status": "Ativa",
+      "quantidade_componentes": 92,
+      "quantidade_obrigatorias": 43,
+      "quantidade_optativas": 49,
+      "componentes": [
+        {
+          "codigo": "ADM0301",
+          "nome": "CALCULO E GEOMETRIA ANALITICA I",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 1,
+          "id": "670",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0302",
+          "nome": "TEORIA GERAL DA ADMINISTRACAO",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 1,
+          "id": "1000",
+          "pre_requisitos_expressao": "( ADM0401 OU CCB0005 )",
+          "pre_requisitos_codigos": [
+            "ADM0401",
+            "CCB0005"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "ADM0401"
+            },
+            "direita": {
+              "codigo": "CCB0005"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0303",
+          "nome": "COMPUTACAO APLICADA",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 1,
+          "id": "861",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0304",
+          "nome": "FILOSOFIA APLICADA A ADMINISTRACAO",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 1,
+          "id": "669",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0311",
+          "nome": "METODOLOGIA DO TRABALHO CIENTIFICO",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 1,
+          "id": "906",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0306",
+          "nome": "INTRODUCAO A PSICOLOGIA",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 2,
+          "id": "668",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( ADM0407 OU GPS0103 OU CCB0059 )",
+          "equivalencias_codigos": [
+            "ADM0407",
+            "GPS0103",
+            "CCB0059"
+          ]
+        },
+        {
+          "codigo": "ADM0308",
+          "nome": "INTRODUCAO A SOCIOLOGIA",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 2,
+          "id": "867",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0310",
+          "nome": "TEORIAS CONTEMPORANEAS DA ADMINISTRACAO",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 2,
+          "id": "995",
+          "pre_requisitos_expressao": "( ADM0302 OU ADM0401 )",
+          "pre_requisitos_codigos": [
+            "ADM0302",
+            "ADM0401"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "ADM0302"
+            },
+            "direita": {
+              "codigo": "ADM0401"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0352",
+          "nome": "INTRODUCAO AO ESTUDO DO DIREITO",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 2,
+          "id": "1007",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0353",
+          "nome": "TEORIA DAS ORGANIZACOES",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 2,
+          "id": "1008",
+          "pre_requisitos_expressao": "( ADM0302 OU ADM0401 )",
+          "pre_requisitos_codigos": [
+            "ADM0302",
+            "ADM0401"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "ADM0302"
+            },
+            "direita": {
+              "codigo": "ADM0401"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0309",
+          "nome": "PROCESSO ADMINISTRATIVO",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 3,
+          "id": "869",
+          "pre_requisitos_expressao": "( ADM0302 OU ADM0401 )",
+          "pre_requisitos_codigos": [
+            "ADM0302",
+            "ADM0401"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "ADM0302"
+            },
+            "direita": {
+              "codigo": "ADM0401"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( ADM0405 )",
+          "equivalencias_codigos": [
+            "ADM0405"
+          ]
+        },
+        {
+          "codigo": "ADM0312",
+          "nome": "ESTATISTICA APLICADA A NEGOCIOS I",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 3,
+          "id": "799",
+          "pre_requisitos_expressao": "( ADM0301 OU ADM0402 )",
+          "pre_requisitos_codigos": [
+            "ADM0301",
+            "ADM0402"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "ADM0301"
+            },
+            "direita": {
+              "codigo": "ADM0402"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0313",
+          "nome": "MATEMATICA FINANCEIRA",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 3,
+          "id": "802",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0314",
+          "nome": "DIREITO COMERCIAL E TRIBUTARIO",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 3,
+          "id": "787",
+          "pre_requisitos_expressao": "( ADM0352 )",
+          "pre_requisitos_codigos": [
+            "ADM0352"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "ADM0352"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0320",
+          "nome": "GESTAO DA TECNOLOGIA DA INFORMACAO",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 3,
+          "id": "790",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0315",
+          "nome": "COMPORTAMENTO ORGANIZACIONAL",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 4,
+          "id": "822",
+          "pre_requisitos_expressao": "( ADM0306 E ADM0309 )",
+          "pre_requisitos_codigos": [
+            "ADM0306",
+            "ADM0309"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "E",
+            "esquerda": {
+              "codigo": "ADM0306"
+            },
+            "direita": {
+              "codigo": "ADM0309"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0316",
+          "nome": "ESTATISTICA APLICADA A NEGOCIOS II",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 4,
+          "id": "788",
+          "pre_requisitos_expressao": "( ADM0312 )",
+          "pre_requisitos_codigos": [
+            "ADM0312"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "ADM0312"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0317",
+          "nome": "CONTABILIDADE GERAL",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 4,
+          "id": "823",
+          "pre_requisitos_expressao": "( ADM0313 E ADM0309 )",
+          "pre_requisitos_codigos": [
+            "ADM0313",
+            "ADM0309"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "E",
+            "esquerda": {
+              "codigo": "ADM0313"
+            },
+            "direita": {
+              "codigo": "ADM0309"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0318",
+          "nome": "DIREITO TRABALHISTA E PREVIDENCIARIO",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 4,
+          "id": "1001",
+          "pre_requisitos_expressao": "( ADM0352 )",
+          "pre_requisitos_codigos": [
+            "ADM0352"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "ADM0352"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0321",
+          "nome": "ECONOMIA",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 4,
+          "id": "828",
+          "pre_requisitos_expressao": "( ADM0301 OU ADM0402 )",
+          "pre_requisitos_codigos": [
+            "ADM0301",
+            "ADM0402"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "ADM0301"
+            },
+            "direita": {
+              "codigo": "ADM0402"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0319",
+          "nome": "ORGANIZACAO, SISTEMAS E METODOS",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 5,
+          "id": "789",
+          "pre_requisitos_expressao": "( ADM0309 OU ADM0405 )",
+          "pre_requisitos_codigos": [
+            "ADM0309",
+            "ADM0405"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "ADM0309"
+            },
+            "direita": {
+              "codigo": "ADM0405"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0322",
+          "nome": "CONTABILIDADE DE CUSTOS",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 5,
+          "id": "830",
+          "pre_requisitos_expressao": "( ADM0317 OU ADM0408 )",
+          "pre_requisitos_codigos": [
+            "ADM0317",
+            "ADM0408"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "ADM0317"
+            },
+            "direita": {
+              "codigo": "ADM0408"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( CCB0024 )",
+          "equivalencias_codigos": [
+            "CCB0024"
+          ]
+        },
+        {
+          "codigo": "ADM0323",
+          "nome": "DIREITO ADMINISTRATIVO E DO CONSUMIDOR",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 5,
+          "id": "792",
+          "pre_requisitos_expressao": "( ADM0352 )",
+          "pre_requisitos_codigos": [
+            "ADM0352"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "ADM0352"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0324",
+          "nome": "COMERCIO EXTERIOR",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 5,
+          "id": "836",
+          "pre_requisitos_expressao": "( ADM0321 OU ADM0412 )",
+          "pre_requisitos_codigos": [
+            "ADM0321",
+            "ADM0412"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "ADM0321"
+            },
+            "direita": {
+              "codigo": "ADM0412"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0325",
+          "nome": "ADMINISTRACAO DE SISTEMAS DE INFORMACAO",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 5,
+          "id": "837",
+          "pre_requisitos_expressao": "( ADM0320 )",
+          "pre_requisitos_codigos": [
+            "ADM0320"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "ADM0320"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0326",
+          "nome": "ADMINISTRACAO DA PRODUCAO",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 6,
+          "id": "793",
+          "pre_requisitos_expressao": "( ADM0312 )",
+          "pre_requisitos_codigos": [
+            "ADM0312"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "ADM0312"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0327",
+          "nome": "ADM E ANAL FINANCEIRA E ORCAMENTARIA I",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 6,
+          "id": "667",
+          "pre_requisitos_expressao": "( ADM0317 OU ADM0408 )",
+          "pre_requisitos_codigos": [
+            "ADM0317",
+            "ADM0408"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "ADM0317"
+            },
+            "direita": {
+              "codigo": "ADM0408"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0328",
+          "nome": "ADMINISTRACAO DE RECURSOS HUMANOS I",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 6,
+          "id": "914",
+          "pre_requisitos_expressao": "( ADM0306 OU ADM0407 )",
+          "pre_requisitos_codigos": [
+            "ADM0306",
+            "ADM0407"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "ADM0306"
+            },
+            "direita": {
+              "codigo": "ADM0407"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0329",
+          "nome": "ADMINISTRACAO MERCADOLOGICA I",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 6,
+          "id": "915",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0330",
+          "nome": "PROCESSO DECISORIO",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 6,
+          "id": "999",
+          "pre_requisitos_expressao": "( ADM0312 )",
+          "pre_requisitos_codigos": [
+            "ADM0312"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "ADM0312"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0332",
+          "nome": "ESTAGIO SUPERVISIONADO I",
+          "carga_horaria": 80,
+          "tipo": "obrigatoria",
+          "nivel": 6,
+          "id": "919",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0333",
+          "nome": "LOGISTICA",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 7,
+          "id": "922",
+          "pre_requisitos_expressao": "( ADM0322 E ADM0326 ) OU ( ADM0417 )",
+          "pre_requisitos_codigos": [
+            "ADM0322",
+            "ADM0326",
+            "ADM0417"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "operador": "E",
+              "esquerda": {
+                "codigo": "ADM0322"
+              },
+              "direita": {
+                "codigo": "ADM0326"
+              }
+            },
+            "direita": {
+              "codigo": "ADM0417"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0334",
+          "nome": "ADM E ANAL FINANCEIRA E ORCAMENTARIA II",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 7,
+          "id": "925",
+          "pre_requisitos_expressao": "( ADM0327 OU ADM0414 )",
+          "pre_requisitos_codigos": [
+            "ADM0327",
+            "ADM0414"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "ADM0327"
+            },
+            "direita": {
+              "codigo": "ADM0414"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0335",
+          "nome": "GESTAO SOCIAL",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 7,
+          "id": "666",
+          "pre_requisitos_expressao": "( ADM0308 OU ADM0403 )",
+          "pre_requisitos_codigos": [
+            "ADM0308",
+            "ADM0403"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "ADM0308"
+            },
+            "direita": {
+              "codigo": "ADM0403"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0336",
+          "nome": "ADMINISTRACAO DE RECURSOS HUMANOS II",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 7,
+          "id": "930",
+          "pre_requisitos_expressao": "( ADM0328 OU ADM0410 )",
+          "pre_requisitos_codigos": [
+            "ADM0328",
+            "ADM0410"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "ADM0328"
+            },
+            "direita": {
+              "codigo": "ADM0410"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0337",
+          "nome": "ADMINISTRACAO MERCADOLOGICA II",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 7,
+          "id": "933",
+          "pre_requisitos_expressao": "( ADM0329 OU ADM0411 )",
+          "pre_requisitos_codigos": [
+            "ADM0329",
+            "ADM0411"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "ADM0329"
+            },
+            "direita": {
+              "codigo": "ADM0411"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0338",
+          "nome": "ESTAGIO SUPERVISIONADO II",
+          "carga_horaria": 80,
+          "tipo": "obrigatoria",
+          "nivel": 7,
+          "id": "936",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0340",
+          "nome": "MERCADO DE CAPITAIS E ANAL DE INVESTIMENTOS",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 8,
+          "id": "941",
+          "pre_requisitos_expressao": "( ADM0321 E ADM0327 ) OU ( ADM0412 )",
+          "pre_requisitos_codigos": [
+            "ADM0321",
+            "ADM0327",
+            "ADM0412"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "operador": "E",
+              "esquerda": {
+                "codigo": "ADM0321"
+              },
+              "direita": {
+                "codigo": "ADM0327"
+              }
+            },
+            "direita": {
+              "codigo": "ADM0412"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0341",
+          "nome": "ADM E ELABORACAO DE PROJETOS",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 8,
+          "id": "943",
+          "pre_requisitos_expressao": "ADM0322",
+          "pre_requisitos_codigos": [
+            "ADM0322"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "ADM0322"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0364",
+          "nome": "MÉTODOS E TÉCNICAS DE PESQUISA EM ADMINISTRAÇÃO",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 8,
+          "id": "1756",
+          "pre_requisitos_expressao": "( ADM0311 )",
+          "pre_requisitos_codigos": [
+            "ADM0311"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "ADM0311"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0343",
+          "nome": "EMPREENDEDORISMO I",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 9,
+          "id": "946",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0344",
+          "nome": "ADMINISTRACAO ESTRATEGICA",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 9,
+          "id": "951",
+          "pre_requisitos_expressao": "( ADM0337 )",
+          "pre_requisitos_codigos": [
+            "ADM0337"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "ADM0337"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0365",
+          "nome": "TRABALHO DE CONCLUSÃO DE CURSO",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 9,
+          "id": "1757",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0300",
+          "nome": "PORTUGUES INSTRUMENTAL",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "857",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0305",
+          "nome": "CALCULO E GEOMETRIA ANALITICA II",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "862",
+          "pre_requisitos_expressao": "( ADM0301 OU ADM0402 )",
+          "pre_requisitos_codigos": [
+            "ADM0301",
+            "ADM0402"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "ADM0301"
+            },
+            "direita": {
+              "codigo": "ADM0402"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0307",
+          "nome": "INSTITUICOES DE DIREITO",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "864",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0345",
+          "nome": "CONTROLE ESTATISTICO DE PROCESSO",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1002",
+          "pre_requisitos_expressao": "( ( ADM0326 OU ADM0417 ) E ( ADM0316 ) )",
+          "pre_requisitos_codigos": [
+            "ADM0326",
+            "ADM0417",
+            "ADM0316"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "E",
+            "esquerda": {
+              "operador": "OU",
+              "esquerda": {
+                "codigo": "ADM0326"
+              },
+              "direita": {
+                "codigo": "ADM0417"
+              }
+            },
+            "direita": {
+              "codigo": "ADM0316"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0346",
+          "nome": "FINANCAS PUBLICAS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1005",
+          "pre_requisitos_expressao": "( ADM0321 OU ADM0412 )",
+          "pre_requisitos_codigos": [
+            "ADM0321",
+            "ADM0412"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "ADM0321"
+            },
+            "direita": {
+              "codigo": "ADM0412"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0347",
+          "nome": "GESTAO BASEADA EM COMPETENCIAS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1011",
+          "pre_requisitos_expressao": "( ADM0328 OU ADM0418 OU CCB0041 OU ADM0410 )",
+          "pre_requisitos_codigos": [
+            "ADM0328",
+            "ADM0418",
+            "CCB0041",
+            "ADM0410"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "operador": "OU",
+              "esquerda": {
+                "operador": "OU",
+                "esquerda": {
+                  "codigo": "ADM0328"
+                },
+                "direita": {
+                  "codigo": "ADM0418"
+                }
+              },
+              "direita": {
+                "codigo": "CCB0041"
+              }
+            },
+            "direita": {
+              "codigo": "ADM0410"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0348",
+          "nome": "EMPREENDEDORISMO II",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1016",
+          "pre_requisitos_expressao": "( ADM0343 OU GPS0096 OU CCB0053 )",
+          "pre_requisitos_codigos": [
+            "ADM0343",
+            "GPS0096",
+            "CCB0053"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "operador": "OU",
+              "esquerda": {
+                "codigo": "ADM0343"
+              },
+              "direita": {
+                "codigo": "GPS0096"
+              }
+            },
+            "direita": {
+              "codigo": "CCB0053"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0349",
+          "nome": "GOVERNO ELETRONICO",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1021",
+          "pre_requisitos_expressao": "( ADM0303 E ADM0320 )",
+          "pre_requisitos_codigos": [
+            "ADM0303",
+            "ADM0320"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "E",
+            "esquerda": {
+              "codigo": "ADM0303"
+            },
+            "direita": {
+              "codigo": "ADM0320"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0350",
+          "nome": "GESTAO DE SERVICOS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1025",
+          "pre_requisitos_expressao": "( ADM0337 OU ADM0419 )",
+          "pre_requisitos_codigos": [
+            "ADM0337",
+            "ADM0419"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "ADM0337"
+            },
+            "direita": {
+              "codigo": "ADM0419"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0351",
+          "nome": "COMUNICACAO ORGANIZACIONAL",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1003",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0356",
+          "nome": "CULTURA E MUDANCA ORGANIZACIONAL",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "899",
+          "pre_requisitos_expressao": "ADM0336 OU ADM0418",
+          "pre_requisitos_codigos": [
+            "ADM0336",
+            "ADM0418"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "ADM0336"
+            },
+            "direita": {
+              "codigo": "ADM0418"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0357",
+          "nome": "ECONOMIA BRASILEIRA",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "712",
+          "pre_requisitos_expressao": "( ADM0321 OU ADM0412 )",
+          "pre_requisitos_codigos": [
+            "ADM0321",
+            "ADM0412"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "ADM0321"
+            },
+            "direita": {
+              "codigo": "ADM0412"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0358",
+          "nome": "TOPICOS AVANCADOS EM ADMINISTRACAO",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "898",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0359",
+          "nome": "ANALISE DAS DEMONSTRACOES CONTABEIS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "711",
+          "pre_requisitos_expressao": "( ADM0322 )",
+          "pre_requisitos_codigos": [
+            "ADM0322"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "ADM0322"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0360",
+          "nome": "CONTABILIDADE GOVERNAMENTAL",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "897",
+          "pre_requisitos_expressao": "( ADM0317 OU ADM0408 )",
+          "pre_requisitos_codigos": [
+            "ADM0317",
+            "ADM0408"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "ADM0317"
+            },
+            "direita": {
+              "codigo": "ADM0408"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0361",
+          "nome": "DESENVOLVIMENTO REGIONAL",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "710",
+          "pre_requisitos_expressao": "( ADM0321 OU ADM0412 )",
+          "pre_requisitos_codigos": [
+            "ADM0321",
+            "ADM0412"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "ADM0321"
+            },
+            "direita": {
+              "codigo": "ADM0412"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0362",
+          "nome": "GESTAO AMBIENTAL",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "709",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0363",
+          "nome": "RESPONSABILIDADE E MARKETING SOCIAL",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "708",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0366",
+          "nome": "ECONOMETRIA",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2094",
+          "pre_requisitos_expressao": "( ADM0316 )",
+          "pre_requisitos_codigos": [
+            "ADM0316"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "ADM0316"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0451",
+          "nome": "CRIATIVIDADE NOS NEGÓCIOS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2495",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0452",
+          "nome": "GESTÃO DO ESPORTE",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2496",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0453",
+          "nome": "GESTÃO DE NEGÓCIOS DA ECONOMIA DO COMPARTILHAMENTO",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2497",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0454",
+          "nome": "INTELIGÊNCIA COMPUTACIONAL APLICADA AOS NEGÓCIOS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2498",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0455",
+          "nome": "VISUALIZAÇÃO DE DADOS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2499",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0456",
+          "nome": "AUDITORIA E GOVERNANÇA EM TECNOLOGIA DE INFORMAÇÃO",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2500",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0457",
+          "nome": "TÓPICOS AVANÇADOS EM EMPREENDEDORISMO",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2501",
+          "pre_requisitos_expressao": "( ADM0343 OU GPS0096 OU CCB0053 )",
+          "pre_requisitos_codigos": [
+            "ADM0343",
+            "GPS0096",
+            "CCB0053"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "operador": "OU",
+              "esquerda": {
+                "codigo": "ADM0343"
+              },
+              "direita": {
+                "codigo": "GPS0096"
+              }
+            },
+            "direita": {
+              "codigo": "CCB0053"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0458",
+          "nome": "ANÁLISE DE INVESTIMENTOS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2502",
+          "pre_requisitos_expressao": "( ( ADM0313 E ADM0416 ) OU ( ADM0304 OU CCB0030 ) )",
+          "pre_requisitos_codigos": [
+            "ADM0313",
+            "ADM0416",
+            "ADM0304",
+            "CCB0030"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "operador": "E",
+              "esquerda": {
+                "codigo": "ADM0313"
+              },
+              "direita": {
+                "codigo": "ADM0416"
+              }
+            },
+            "direita": {
+              "operador": "OU",
+              "esquerda": {
+                "codigo": "ADM0304"
+              },
+              "direita": {
+                "codigo": "CCB0030"
+              }
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0460",
+          "nome": "TÓPICOS AVANÇADOS EM FINANÇAS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2504",
+          "pre_requisitos_expressao": "( ADM0416 OU ADM0334 OU CCB0030 )",
+          "pre_requisitos_codigos": [
+            "ADM0416",
+            "ADM0334",
+            "CCB0030"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "operador": "OU",
+              "esquerda": {
+                "codigo": "ADM0416"
+              },
+              "direita": {
+                "codigo": "ADM0334"
+              }
+            },
+            "direita": {
+              "codigo": "CCB0030"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0464",
+          "nome": "PESQUISA DE MERCADO",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2508",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0465",
+          "nome": "ADMINISTRAÇÃO DE VENDAS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2509",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0466",
+          "nome": "COMPORTAMENTO DO CONSUMIDOR",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2510",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0468",
+          "nome": "CULTURA E CONSUMO",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2512",
+          "pre_requisitos_expressao": "( ADM0337 OU ADM0419 )",
+          "pre_requisitos_codigos": [
+            "ADM0337",
+            "ADM0419"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "ADM0337"
+            },
+            "direita": {
+              "codigo": "ADM0419"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0469",
+          "nome": "GESTÃO DE ESTOQUES",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2513",
+          "pre_requisitos_expressao": "( ADM0326 OU ADM0417 ) E ( ADM0333 OU ADM0423 )",
+          "pre_requisitos_codigos": [
+            "ADM0326",
+            "ADM0417",
+            "ADM0333",
+            "ADM0423"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "E",
+            "esquerda": {
+              "operador": "OU",
+              "esquerda": {
+                "codigo": "ADM0326"
+              },
+              "direita": {
+                "codigo": "ADM0417"
+              }
+            },
+            "direita": {
+              "operador": "OU",
+              "esquerda": {
+                "codigo": "ADM0333"
+              },
+              "direita": {
+                "codigo": "ADM0423"
+              }
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0470",
+          "nome": "GESTÃO POR PROCESSOS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2514",
+          "pre_requisitos_expressao": "ADM0344 OU ADM0425",
+          "pre_requisitos_codigos": [
+            "ADM0344",
+            "ADM0425"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "ADM0344"
+            },
+            "direita": {
+              "codigo": "ADM0425"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0471",
+          "nome": "PESQUISA OPERACIONAL 1",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2515",
+          "pre_requisitos_expressao": "ADM0316",
+          "pre_requisitos_codigos": [
+            "ADM0316"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "ADM0316"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0472",
+          "nome": "PESQUISA OPERACIONAL 2",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2516",
+          "pre_requisitos_expressao": "ADM0471",
+          "pre_requisitos_codigos": [
+            "ADM0471"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "ADM0471"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0473",
+          "nome": "GESTÃO AGROINDUSTRIAL",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2517",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0475",
+          "nome": "METODOLOGIA DE CASOS PARA ENSINO EM ADMINISTRAÇÃO",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2519",
+          "pre_requisitos_expressao": "( ADM0311 )",
+          "pre_requisitos_codigos": [
+            "ADM0311"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "ADM0311"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0477",
+          "nome": "CONTABILIDADE TRIBUTÁRIA",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2521",
+          "pre_requisitos_expressao": "ADM0322",
+          "pre_requisitos_codigos": [
+            "ADM0322"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "ADM0322"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0479",
+          "nome": "CONTABILIDADE APLICADA AO SETOR PÚBLICO I",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2522",
+          "pre_requisitos_expressao": "ADM0322",
+          "pre_requisitos_codigos": [
+            "ADM0322"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "ADM0322"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0480",
+          "nome": "ESTATÍSTICA COMPUTACIONAL",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2523",
+          "pre_requisitos_expressao": "ADM0316",
+          "pre_requisitos_codigos": [
+            "ADM0316"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "ADM0316"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0481",
+          "nome": "ANÁLISE DE DECISÃO",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2524",
+          "pre_requisitos_expressao": "( ADM0316 )",
+          "pre_requisitos_codigos": [
+            "ADM0316"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "ADM0316"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0483",
+          "nome": "INTRODUÇÃO À INFERÊNCIA BAYESIANA",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2526",
+          "pre_requisitos_expressao": "( ADM0316 )",
+          "pre_requisitos_codigos": [
+            "ADM0316"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "ADM0316"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0484",
+          "nome": "MODELAGEM E ANÁLISE MULTIVARIADA",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2527",
+          "pre_requisitos_expressao": "( ADM0316 )",
+          "pre_requisitos_codigos": [
+            "ADM0316"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "ADM0316"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0485",
+          "nome": "PROCESSOS ESTOCÁSTICOS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2528",
+          "pre_requisitos_expressao": "( ADM0316 )",
+          "pre_requisitos_codigos": [
+            "ADM0316"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "ADM0316"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0486",
+          "nome": "PROGRAMAÇÃO MATEMÁTICA",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2529",
+          "pre_requisitos_expressao": "ADM0471",
+          "pre_requisitos_codigos": [
+            "ADM0471"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "ADM0471"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0487",
+          "nome": "SÉRIES TEMPORAIS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2530",
+          "pre_requisitos_expressao": "( ADM0316 )",
+          "pre_requisitos_codigos": [
+            "ADM0316"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "ADM0316"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "ADM0488",
+          "nome": "TÉCNICAS DE SIMULAÇÃO DA PRODUÇÃO",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2531",
+          "pre_requisitos_expressao": "( ADM0316 )",
+          "pre_requisitos_codigos": [
+            "ADM0316"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "ADM0316"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CAR0010",
+          "nome": "LÍNGUA BRASILEIRA DE SINAIS: LIBRAS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1357",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        }
+      ]
+    }
+  ],
+  "atualizado_em": "2026-09-06T22:20:36.719304+00:00"
+}

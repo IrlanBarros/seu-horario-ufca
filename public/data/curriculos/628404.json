@@ -1,0 +1,3811 @@
+{
+  "curso_id": "628404",
+  "quantidade_estruturas": 2,
+  "estruturas": [
+    {
+      "id": "33895608",
+      "codigo": "FIL001",
+      "ano_criacao": 2022,
+      "status": "Ativa",
+      "quantidade_componentes": 113,
+      "quantidade_obrigatorias": 21,
+      "quantidade_optativas": 92,
+      "componentes": [
+        {
+          "codigo": "FIL0078",
+          "nome": "COMPREENSAO E PRODUCAO TEXTUAL",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 1,
+          "id": "982",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "FIL0118",
+          "nome": "INTRODUÇÃO À FILOSOFIA",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 1,
+          "id": "3216",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0004 )",
+          "equivalencias_codigos": [
+            "FIL0004"
+          ]
+        },
+        {
+          "codigo": "FIL0119",
+          "nome": "INTRODUÇÃO ÀS CIÊNCIAS HUMANAS",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 1,
+          "id": "3217",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0013 )",
+          "equivalencias_codigos": [
+            "FIL0013"
+          ]
+        },
+        {
+          "codigo": "FIL0120",
+          "nome": "HISTÓRIA DA FILOSOFIA ANTIGA",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 1,
+          "id": "3218",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0005 )",
+          "equivalencias_codigos": [
+            "FIL0005"
+          ]
+        },
+        {
+          "codigo": "FIL0121",
+          "nome": "LÓGICA",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 1,
+          "id": "3219",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0002 )",
+          "equivalencias_codigos": [
+            "FIL0002"
+          ]
+        },
+        {
+          "codigo": "FIL0122",
+          "nome": "LABORATÓRIO DE PESQUISA EM FILOSOFIA I",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 2,
+          "id": "3220",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "FIL0123",
+          "nome": "HISTÓRIA DA FILOSOFIA MEDIEVAL",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 2,
+          "id": "3221",
+          "pre_requisitos_expressao": "( FIL0120 )",
+          "pre_requisitos_codigos": [
+            "FIL0120"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "FIL0120"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0011 )",
+          "equivalencias_codigos": [
+            "FIL0011"
+          ]
+        },
+        {
+          "codigo": "FIL0124",
+          "nome": "ÉTICA",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 2,
+          "id": "3222",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0014 )",
+          "equivalencias_codigos": [
+            "FIL0014"
+          ]
+        },
+        {
+          "codigo": "FIL0125",
+          "nome": "PROBLEMAS METAFÍSICOS",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 2,
+          "id": "3223",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0007 )",
+          "equivalencias_codigos": [
+            "FIL0007"
+          ]
+        },
+        {
+          "codigo": "FIL0126",
+          "nome": "TEORIA DO CONHECIMENTO",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 2,
+          "id": "3224",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0006 )",
+          "equivalencias_codigos": [
+            "FIL0006"
+          ]
+        },
+        {
+          "codigo": "FIL0066",
+          "nome": "ESTETICA",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 3,
+          "id": "1137",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "FIL0127",
+          "nome": "LABORATÓRIO DE PESQUISA EM FILOSOFIA II",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 3,
+          "id": "3225",
+          "pre_requisitos_expressao": "( FIL0122 )",
+          "pre_requisitos_codigos": [
+            "FIL0122"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "FIL0122"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "FIL0128",
+          "nome": "HISTÓRIA DA FILOSOFIA MODERNA",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 3,
+          "id": "3226",
+          "pre_requisitos_expressao": "( FIL0123 )",
+          "pre_requisitos_codigos": [
+            "FIL0123"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "FIL0123"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0017 )",
+          "equivalencias_codigos": [
+            "FIL0017"
+          ]
+        },
+        {
+          "codigo": "FIL0129",
+          "nome": "FILOSOFIA POLÍTICA",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 3,
+          "id": "3227",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "FIL0130",
+          "nome": "FILOSOFIA DA CIÊNCIA",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 3,
+          "id": "3228",
+          "pre_requisitos_expressao": "( FIL0121 )",
+          "pre_requisitos_codigos": [
+            "FIL0121"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "FIL0121"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0037 )",
+          "equivalencias_codigos": [
+            "FIL0037"
+          ]
+        },
+        {
+          "codigo": "FIL0131",
+          "nome": "LABORATÓRIO DE PESQUISA EM FILOSOFIA III",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 4,
+          "id": "3229",
+          "pre_requisitos_expressao": "( FIL0127 )",
+          "pre_requisitos_codigos": [
+            "FIL0127"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "FIL0127"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "FIL0132",
+          "nome": "HISTÓRIA DA FILOSOFIA CONTEMPORÂNEA",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 4,
+          "id": "3230",
+          "pre_requisitos_expressao": "( FIL0128 )",
+          "pre_requisitos_codigos": [
+            "FIL0128"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "FIL0128"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0019 )",
+          "equivalencias_codigos": [
+            "FIL0019"
+          ]
+        },
+        {
+          "codigo": "FIL0133",
+          "nome": "FILOSOFIA DA LINGUAGEM",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 4,
+          "id": "3231",
+          "pre_requisitos_expressao": "( FIL0121 )",
+          "pre_requisitos_codigos": [
+            "FIL0121"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "FIL0121"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "FIL0134",
+          "nome": "PROJETO DE PESQUISA",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 6,
+          "id": "3232",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0021 )",
+          "equivalencias_codigos": [
+            "FIL0021"
+          ]
+        },
+        {
+          "codigo": "FIL0135",
+          "nome": "SEMINÁRIO DE PESQUISA",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 7,
+          "id": "3236",
+          "pre_requisitos_expressao": "( FIL0134 )",
+          "pre_requisitos_codigos": [
+            "FIL0134"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "FIL0134"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "FIL0136",
+          "nome": "MONOGRAFIA",
+          "carga_horaria": 128,
+          "tipo": "obrigatoria",
+          "nivel": 8,
+          "id": "3241",
+          "pre_requisitos_expressao": "( FIL0135 )",
+          "pre_requisitos_codigos": [
+            "FIL0135"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "FIL0135"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0022 )",
+          "equivalencias_codigos": [
+            "FIL0022"
+          ]
+        },
+        {
+          "codigo": "FIL0068",
+          "nome": "FILOSOFIA DA ARTE",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1135",
+          "pre_requisitos_expressao": "( FIL0066 )",
+          "pre_requisitos_codigos": [
+            "FIL0066"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "FIL0066"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "FIL0073",
+          "nome": "MITOLOGIA GRECO ROMANA",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1131",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "FIL0074",
+          "nome": "FILOSOFIA DA RELIGIAO",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "975",
+          "pre_requisitos_expressao": "( FIL0125 )",
+          "pre_requisitos_codigos": [
+            "FIL0125"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "FIL0125"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "FIL0076",
+          "nome": "FILOSOFIA DO DIREITO",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "980",
+          "pre_requisitos_expressao": "( FIL0129 )",
+          "pre_requisitos_codigos": [
+            "FIL0129"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "FIL0129"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "FIL0082",
+          "nome": "CULTURA CLASSICA",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1127",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "FIL0106",
+          "nome": "FILOSOFIA LATINO AMERICANA",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "889",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "FIL0109",
+          "nome": "FILOSOFIA AFRICANA",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1888",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "FIL0110",
+          "nome": "FILOSOFIA ORIENTAL",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1889",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "FIL0111",
+          "nome": "ECONOMIA POLÍTICA",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1890",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "FIL0137",
+          "nome": "TÓPICOS ESPECIAIS EM TEORIA DO CONHECIMENTO I",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3242",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0035 )",
+          "equivalencias_codigos": [
+            "FIL0035"
+          ]
+        },
+        {
+          "codigo": "FIL0138",
+          "nome": "TÓPICOS ESPECIAIS EM TEORIA DO CONHECIMENTO II",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3243",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "FIL0139",
+          "nome": "TÓPICOS ESPECIAIS EM TEORIA DO CONHECIMENTO III",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3244",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "FIL0140",
+          "nome": "TÓPICOS ESPECIAIS EM TEORIA DO CONHECIMENTO IV",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3245",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0028 )",
+          "equivalencias_codigos": [
+            "FIL0028"
+          ]
+        },
+        {
+          "codigo": "FIL0141",
+          "nome": "TÓPICOS ESPECIAIS EM CIÊNCIAS HUMANAS I",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3246",
+          "pre_requisitos_expressao": "( FIL0119 )",
+          "pre_requisitos_codigos": [
+            "FIL0119"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "FIL0119"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( CAR0006 )",
+          "equivalencias_codigos": [
+            "CAR0006"
+          ]
+        },
+        {
+          "codigo": "FIL0142",
+          "nome": "FILOSOFIA DAS CIÊNCIAS FORMAIS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3247",
+          "pre_requisitos_expressao": "( FIL0121 )",
+          "pre_requisitos_codigos": [
+            "FIL0121"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "FIL0121"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "FIL0143",
+          "nome": "INGLÊS INSTRUMENTAL",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3248",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "FIL0144",
+          "nome": "FILOSOFIA DA MENTE",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3249",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "FIL0145",
+          "nome": "TÓPICOS ESPECIAIS EM FILOSOFIA DA MENTE I",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3250",
+          "pre_requisitos_expressao": "( FIL0144 )",
+          "pre_requisitos_codigos": [
+            "FIL0144"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "FIL0144"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "FIL0146",
+          "nome": "TÓPICOS ESPECIAIS EM FILOSOFIA DA MENTE II",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3251",
+          "pre_requisitos_expressao": "( FIL0144 )",
+          "pre_requisitos_codigos": [
+            "FIL0144"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "FIL0144"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "FIL0147",
+          "nome": "TÓPICOS ESPECIAIS EM METAFÍSICA I",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3252",
+          "pre_requisitos_expressao": "( FIL0125 )",
+          "pre_requisitos_codigos": [
+            "FIL0125"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "FIL0125"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0026 )",
+          "equivalencias_codigos": [
+            "FIL0026"
+          ]
+        },
+        {
+          "codigo": "FIL0148",
+          "nome": "TÓPICOS ESPECIAIS EM METAFÍSICA II",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3253",
+          "pre_requisitos_expressao": "( FIL0125 )",
+          "pre_requisitos_codigos": [
+            "FIL0125"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "FIL0125"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0108 )",
+          "equivalencias_codigos": [
+            "FIL0108"
+          ]
+        },
+        {
+          "codigo": "FIL0149",
+          "nome": "TÓPICOS ESPECIAIS EM METAFÍSICA III",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3254",
+          "pre_requisitos_expressao": "( FIL0125 )",
+          "pre_requisitos_codigos": [
+            "FIL0125"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "FIL0125"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0016 )",
+          "equivalencias_codigos": [
+            "FIL0016"
+          ]
+        },
+        {
+          "codigo": "FIL0150",
+          "nome": "TÓPICOS ESPECIAIS EM METAFÍSICA IV",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3255",
+          "pre_requisitos_expressao": "( FIL0125 )",
+          "pre_requisitos_codigos": [
+            "FIL0125"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "FIL0125"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0024 )",
+          "equivalencias_codigos": [
+            "FIL0024"
+          ]
+        },
+        {
+          "codigo": "FIL0151",
+          "nome": "TÓPICOS ESPECIAIS EM METAFÍSICA V",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3256",
+          "pre_requisitos_expressao": "( FIL0125 )",
+          "pre_requisitos_codigos": [
+            "FIL0125"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "FIL0125"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0046 )",
+          "equivalencias_codigos": [
+            "FIL0046"
+          ]
+        },
+        {
+          "codigo": "FIL0152",
+          "nome": "TÓPICOS ESPECIAIS EM METAFÍSICA VI",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3257",
+          "pre_requisitos_expressao": "( FIL0125 )",
+          "pre_requisitos_codigos": [
+            "FIL0125"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "FIL0125"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0101 )",
+          "equivalencias_codigos": [
+            "FIL0101"
+          ]
+        },
+        {
+          "codigo": "FIL0153",
+          "nome": "TÓPICOS ESPECIAIS EM LÓGICA I",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3258",
+          "pre_requisitos_expressao": "( FIL0121 )",
+          "pre_requisitos_codigos": [
+            "FIL0121"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "FIL0121"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0031 )",
+          "equivalencias_codigos": [
+            "FIL0031"
+          ]
+        },
+        {
+          "codigo": "FIL0154",
+          "nome": "TÓPICOS ESPECIAIS EM LÓGICA II",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3259",
+          "pre_requisitos_expressao": "( FIL0121 )",
+          "pre_requisitos_codigos": [
+            "FIL0121"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "FIL0121"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0032 )",
+          "equivalencias_codigos": [
+            "FIL0032"
+          ]
+        },
+        {
+          "codigo": "FIL0155",
+          "nome": "TÓPICOS ESPECIAIS EM LÓGICA III",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3260",
+          "pre_requisitos_expressao": "( FIL0121 )",
+          "pre_requisitos_codigos": [
+            "FIL0121"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "FIL0121"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0041 )",
+          "equivalencias_codigos": [
+            "FIL0041"
+          ]
+        },
+        {
+          "codigo": "FIL0156",
+          "nome": "TÓPICOS ESPECIAIS EM LÓGICA IV",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3261",
+          "pre_requisitos_expressao": "( FIL0121 )",
+          "pre_requisitos_codigos": [
+            "FIL0121"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "FIL0121"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "FIL0157",
+          "nome": "TÓPICOS ESPECIAIS EM FILOSOFIA DA LINGUAGEM I",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3262",
+          "pre_requisitos_expressao": "( FIL0133 )",
+          "pre_requisitos_codigos": [
+            "FIL0133"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "FIL0133"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0034 )",
+          "equivalencias_codigos": [
+            "FIL0034"
+          ]
+        },
+        {
+          "codigo": "FIL0158",
+          "nome": "TÓPICOS ESPECIAIS EM FILOSOFIA DA LINGUAGEM II",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3263",
+          "pre_requisitos_expressao": "( FIL0133 )",
+          "pre_requisitos_codigos": [
+            "FIL0133"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "FIL0133"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0039 )",
+          "equivalencias_codigos": [
+            "FIL0039"
+          ]
+        },
+        {
+          "codigo": "FIL0159",
+          "nome": "TÓPICOS ESPECIAIS EM FILOSOFIA DA LINGUAGEM III",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3264",
+          "pre_requisitos_expressao": "( FIL0133 )",
+          "pre_requisitos_codigos": [
+            "FIL0133"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "FIL0133"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "FIL0160",
+          "nome": "TÓPICOS ESPECIAIS EM FILOSOFIA DA LINGUAGEM IV",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3265",
+          "pre_requisitos_expressao": "( FIL0133 )",
+          "pre_requisitos_codigos": [
+            "FIL0133"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "FIL0133"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0042 )",
+          "equivalencias_codigos": [
+            "FIL0042"
+          ]
+        },
+        {
+          "codigo": "FIL0161",
+          "nome": "TÓPICOS ESPECIAIS EM FILOSOFIA DA CIÊNCIA I",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3266",
+          "pre_requisitos_expressao": "( FIL0130 )",
+          "pre_requisitos_codigos": [
+            "FIL0130"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "FIL0130"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0038 )",
+          "equivalencias_codigos": [
+            "FIL0038"
+          ]
+        },
+        {
+          "codigo": "FIL0162",
+          "nome": "TÓPICOS ESPECIAIS EM FILOSOFIA DA CIÊNCIA II",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3267",
+          "pre_requisitos_expressao": "( FIL0130 )",
+          "pre_requisitos_codigos": [
+            "FIL0130"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "FIL0130"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0040 )",
+          "equivalencias_codigos": [
+            "FIL0040"
+          ]
+        },
+        {
+          "codigo": "FIL0163",
+          "nome": "TÓPICOS ESPECIAIS EM FILOSOFIA DA CIÊNCIA III",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3268",
+          "pre_requisitos_expressao": "( FIL0130 )",
+          "pre_requisitos_codigos": [
+            "FIL0130"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "FIL0130"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "FIL0164",
+          "nome": "TÓPICOS ESPECIAIS EM FILOSOFIA DA CIÊNCIA IV",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3269",
+          "pre_requisitos_expressao": "( FIL0130 )",
+          "pre_requisitos_codigos": [
+            "FIL0130"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "FIL0130"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "FIL0165",
+          "nome": "FILOSOFIA AMERÍNDIA",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3270",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "FIL0166",
+          "nome": "TÓPICOS ESPECIAIS EM FILOSOFIA ANTIGA I",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3271",
+          "pre_requisitos_expressao": "( FIL0120 )",
+          "pre_requisitos_codigos": [
+            "FIL0120"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "FIL0120"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0001 )",
+          "equivalencias_codigos": [
+            "FIL0001"
+          ]
+        },
+        {
+          "codigo": "FIL0167",
+          "nome": "TÓPICOS ESPECIAIS EM FILOSOFIA ANTIGA II",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3272",
+          "pre_requisitos_expressao": "( FIL0120 )",
+          "pre_requisitos_codigos": [
+            "FIL0120"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "FIL0120"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0030 )",
+          "equivalencias_codigos": [
+            "FIL0030"
+          ]
+        },
+        {
+          "codigo": "FIL0168",
+          "nome": "TÓPICOS ESPECIAIS EM FILOSOFIA ANTIGA III",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3273",
+          "pre_requisitos_expressao": "( FIL0120 )",
+          "pre_requisitos_codigos": [
+            "FIL0120"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "FIL0120"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0029 )",
+          "equivalencias_codigos": [
+            "FIL0029"
+          ]
+        },
+        {
+          "codigo": "FIL0169",
+          "nome": "TÓPICOS ESPECIAIS EM FILOSOFIA ANTIGA IV",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3274",
+          "pre_requisitos_expressao": "( FIL0120 )",
+          "pre_requisitos_codigos": [
+            "FIL0120"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "FIL0120"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0100 )",
+          "equivalencias_codigos": [
+            "FIL0100"
+          ]
+        },
+        {
+          "codigo": "FIL0170",
+          "nome": "TÓPICOS ESPECIAIS EM FILOSOFIA MEDIEVAL I",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3275",
+          "pre_requisitos_expressao": "( FIL0123 )",
+          "pre_requisitos_codigos": [
+            "FIL0123"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "FIL0123"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0102 )",
+          "equivalencias_codigos": [
+            "FIL0102"
+          ]
+        },
+        {
+          "codigo": "FIL0171",
+          "nome": "TÓPICOS ESPECIAIS EM FILOSOFIA MEDIEVAL II",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3276",
+          "pre_requisitos_expressao": "( FIL0123 )",
+          "pre_requisitos_codigos": [
+            "FIL0123"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "FIL0123"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0025 )",
+          "equivalencias_codigos": [
+            "FIL0025"
+          ]
+        },
+        {
+          "codigo": "FIL0172",
+          "nome": "TÓPICOS ESPECIAIS EM FILOSOFIA MEDIEVAL III",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3277",
+          "pre_requisitos_expressao": "( FIL0123 )",
+          "pre_requisitos_codigos": [
+            "FIL0123"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "FIL0123"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0003 )",
+          "equivalencias_codigos": [
+            "FIL0003"
+          ]
+        },
+        {
+          "codigo": "FIL0173",
+          "nome": "TÓPICOS ESPECIAIS EM FILOSOFIA MEDIEVAL IV",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3278",
+          "pre_requisitos_expressao": "( FIL0123 )",
+          "pre_requisitos_codigos": [
+            "FIL0123"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "FIL0123"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "FIL0174",
+          "nome": "TÓPICOS ESPECIAIS EM ÉTICA I",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3279",
+          "pre_requisitos_expressao": "( FIL0124 )",
+          "pre_requisitos_codigos": [
+            "FIL0124"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "FIL0124"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0057 )",
+          "equivalencias_codigos": [
+            "FIL0057"
+          ]
+        },
+        {
+          "codigo": "FIL0175",
+          "nome": "TÓPICOS ESPECIAIS EM ÉTICA II",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3280",
+          "pre_requisitos_expressao": "( FIL0124 )",
+          "pre_requisitos_codigos": [
+            "FIL0124"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "FIL0124"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0058 )",
+          "equivalencias_codigos": [
+            "FIL0058"
+          ]
+        },
+        {
+          "codigo": "FIL0176",
+          "nome": "TÓPICOS ESPECIAIS EM ÉTICA III",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3281",
+          "pre_requisitos_expressao": "( FIL0124 )",
+          "pre_requisitos_codigos": [
+            "FIL0124"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "FIL0124"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0062 )",
+          "equivalencias_codigos": [
+            "FIL0062"
+          ]
+        },
+        {
+          "codigo": "FIL0177",
+          "nome": "TÓPICOS ESPECIAIS EM ÉTICA IV",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3282",
+          "pre_requisitos_expressao": "( FIL0124 )",
+          "pre_requisitos_codigos": [
+            "FIL0124"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "FIL0124"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "FIL0178",
+          "nome": "TÓPICOS ESPECIAIS EM ESTÉTICA I",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3283",
+          "pre_requisitos_expressao": "( FIL0066 )",
+          "pre_requisitos_codigos": [
+            "FIL0066"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "FIL0066"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0067 )",
+          "equivalencias_codigos": [
+            "FIL0067"
+          ]
+        },
+        {
+          "codigo": "FIL0179",
+          "nome": "TÓPICOS ESPECIAIS EM ESTÉTICA II",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3284",
+          "pre_requisitos_expressao": "( FIL0066 )",
+          "pre_requisitos_codigos": [
+            "FIL0066"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "FIL0066"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "FIL0180",
+          "nome": "TÓPICOS ESPECIAIS EM ESTÉTICA III",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3285",
+          "pre_requisitos_expressao": "( FIL0066 )",
+          "pre_requisitos_codigos": [
+            "FIL0066"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "FIL0066"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "FIL0181",
+          "nome": "TÓPICOS ESPECIAIS EM ESTÉTICA IV",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3286",
+          "pre_requisitos_expressao": "( FIL0066 )",
+          "pre_requisitos_codigos": [
+            "FIL0066"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "FIL0066"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0071 )",
+          "equivalencias_codigos": [
+            "FIL0071"
+          ]
+        },
+        {
+          "codigo": "FIL0182",
+          "nome": "TÓPICOS ESPECIAIS EM FILOSOFIA CONTEMPORÂNEA I",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3287",
+          "pre_requisitos_expressao": "( FIL0132 )",
+          "pre_requisitos_codigos": [
+            "FIL0132"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "FIL0132"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0020 )",
+          "equivalencias_codigos": [
+            "FIL0020"
+          ]
+        },
+        {
+          "codigo": "FIL0183",
+          "nome": "TÓPICOS ESPECIAIS EM FILOSOFIA CONTEMPORÂNEA II",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3288",
+          "pre_requisitos_expressao": "( FIL0132 )",
+          "pre_requisitos_codigos": [
+            "FIL0132"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "FIL0132"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0107 )",
+          "equivalencias_codigos": [
+            "FIL0107"
+          ]
+        },
+        {
+          "codigo": "FIL0184",
+          "nome": "TÓPICOS ESPECIAIS EM FILOSOFIA CONTEMPORÂNEA III",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3289",
+          "pre_requisitos_expressao": "( FIL0132 )",
+          "pre_requisitos_codigos": [
+            "FIL0132"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "FIL0132"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0047 )",
+          "equivalencias_codigos": [
+            "FIL0047"
+          ]
+        },
+        {
+          "codigo": "FIL0185",
+          "nome": "TÓPICOS ESPECIAIS EM FILOSOFIA CONTEMPORÂNEA IV",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3290",
+          "pre_requisitos_expressao": "( FIL0132 )",
+          "pre_requisitos_codigos": [
+            "FIL0132"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "FIL0132"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0104 )",
+          "equivalencias_codigos": [
+            "FIL0104"
+          ]
+        },
+        {
+          "codigo": "FIL0186",
+          "nome": "TÓPICOS ESPECIAIS EM FILOSOFIA CONTEMPORÂNEA V",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3291",
+          "pre_requisitos_expressao": "( FIL0132 )",
+          "pre_requisitos_codigos": [
+            "FIL0132"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "FIL0132"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0049 )",
+          "equivalencias_codigos": [
+            "FIL0049"
+          ]
+        },
+        {
+          "codigo": "FIL0187",
+          "nome": "TÓPICOS ESPECIAIS EM FILOSOFIA CONTEMPORÂNEA VI",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3292",
+          "pre_requisitos_expressao": "( FIL0132 )",
+          "pre_requisitos_codigos": [
+            "FIL0132"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "FIL0132"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0048 OU FIL0050 )",
+          "equivalencias_codigos": [
+            "FIL0048",
+            "FIL0050"
+          ]
+        },
+        {
+          "codigo": "FIL0188",
+          "nome": "TÓPICOS ESPECIAIS EM FILOSOFIA MODERNA I",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3293",
+          "pre_requisitos_expressao": "( FIL0128 )",
+          "pre_requisitos_codigos": [
+            "FIL0128"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "FIL0128"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0018 )",
+          "equivalencias_codigos": [
+            "FIL0018"
+          ]
+        },
+        {
+          "codigo": "FIL0189",
+          "nome": "TÓPICOS ESPECIAIS EM FILOSOFIA MODERNA II",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3294",
+          "pre_requisitos_expressao": "( FIL0128 )",
+          "pre_requisitos_codigos": [
+            "FIL0128"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "FIL0128"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0027 )",
+          "equivalencias_codigos": [
+            "FIL0027"
+          ]
+        },
+        {
+          "codigo": "FIL0190",
+          "nome": "TÓPICOS ESPECIAIS EM FILOSOFIA MODERNA III",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3295",
+          "pre_requisitos_expressao": "( FIL0128 )",
+          "pre_requisitos_codigos": [
+            "FIL0128"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "FIL0128"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0075 )",
+          "equivalencias_codigos": [
+            "FIL0075"
+          ]
+        },
+        {
+          "codigo": "FIL0191",
+          "nome": "TÓPICOS ESPECIAIS EM FILOSOFIA MODERNA IV",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3296",
+          "pre_requisitos_expressao": "( FIL0128 )",
+          "pre_requisitos_codigos": [
+            "FIL0128"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "FIL0128"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0023 )",
+          "equivalencias_codigos": [
+            "FIL0023"
+          ]
+        },
+        {
+          "codigo": "FIL0192",
+          "nome": "TÓPICOS ESPECIAIS EM FILOSOFIA MODERNA V",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3297",
+          "pre_requisitos_expressao": "( FIL0128 )",
+          "pre_requisitos_codigos": [
+            "FIL0128"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "FIL0128"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0098 )",
+          "equivalencias_codigos": [
+            "FIL0098"
+          ]
+        },
+        {
+          "codigo": "FIL0193",
+          "nome": "TÓPICOS ESPECIAIS EM FILOSOFIA MODERNA VI",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3298",
+          "pre_requisitos_expressao": "( FIL0128 )",
+          "pre_requisitos_codigos": [
+            "FIL0128"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "FIL0128"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0099 )",
+          "equivalencias_codigos": [
+            "FIL0099"
+          ]
+        },
+        {
+          "codigo": "FIL0194",
+          "nome": "ESPANHOL INSTRUMENTAL",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3299",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "FIL0195",
+          "nome": "LATIM INSTRUMENTAL",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3300",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0079 )",
+          "equivalencias_codigos": [
+            "FIL0079"
+          ]
+        },
+        {
+          "codigo": "FIL0196",
+          "nome": "TÓPICOS ESPECIAIS EM FILOSOFIA DA EDUCAÇÃO I",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3301",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "FIL0197",
+          "nome": "TÓPICOS ESPECIAIS EM FILOSOFIA DA EDUCAÇÃO II",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3302",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "FIL0198",
+          "nome": "TÓPICOS ESPECIAIS EM FILOSOFIA POLÍTICA I",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3303",
+          "pre_requisitos_expressao": "( FIL0129 )",
+          "pre_requisitos_codigos": [
+            "FIL0129"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "FIL0129"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0060 )",
+          "equivalencias_codigos": [
+            "FIL0060"
+          ]
+        },
+        {
+          "codigo": "FIL0199",
+          "nome": "TÓPICOS ESPECIAIS EM FILOSOFIA POLÍTICA II",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3304",
+          "pre_requisitos_expressao": "( FIL0129 )",
+          "pre_requisitos_codigos": [
+            "FIL0129"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "FIL0129"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0077 )",
+          "equivalencias_codigos": [
+            "FIL0077"
+          ]
+        },
+        {
+          "codigo": "FIL0200",
+          "nome": "TÓPICOS ESPECIAIS EM FILOSOFIA POLÍTICA III",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3305",
+          "pre_requisitos_expressao": "( FIL0129 )",
+          "pre_requisitos_codigos": [
+            "FIL0129"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "FIL0129"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "FIL0201",
+          "nome": "TÓPICOS ESPECIAIS EM FILOSOFIA POLÍTICA IV",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3306",
+          "pre_requisitos_expressao": "( FIL0129 )",
+          "pre_requisitos_codigos": [
+            "FIL0129"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "FIL0129"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0063 )",
+          "equivalencias_codigos": [
+            "FIL0063"
+          ]
+        },
+        {
+          "codigo": "FIL0202",
+          "nome": "TÓPICOS ESPECIAIS EM FILOSOFIA DO DIREITO I",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3307",
+          "pre_requisitos_expressao": "( FIL0129 )",
+          "pre_requisitos_codigos": [
+            "FIL0129"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "FIL0129"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0061 )",
+          "equivalencias_codigos": [
+            "FIL0061"
+          ]
+        },
+        {
+          "codigo": "FIL0203",
+          "nome": "TÓPICOS ESPECIAIS EM FILOSOFIA DO DIREITO II",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3308",
+          "pre_requisitos_expressao": "( FIL0129 )",
+          "pre_requisitos_codigos": [
+            "FIL0129"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "FIL0129"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0059 )",
+          "equivalencias_codigos": [
+            "FIL0059"
+          ]
+        },
+        {
+          "codigo": "FIL0204",
+          "nome": "FILOSOFIA E PSICANÁLISE",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3309",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0103 )",
+          "equivalencias_codigos": [
+            "FIL0103"
+          ]
+        },
+        {
+          "codigo": "FIL0205",
+          "nome": "TÓPICOS ESPECIAIS EM FILOSOFIA DA ARTE I",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3310",
+          "pre_requisitos_expressao": "( FIL0066 )",
+          "pre_requisitos_codigos": [
+            "FIL0066"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "FIL0066"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0069 )",
+          "equivalencias_codigos": [
+            "FIL0069"
+          ]
+        },
+        {
+          "codigo": "FIL0206",
+          "nome": "TÓPICOS ESPECIAIS EM FILOSOFIA DA ARTE II",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3311",
+          "pre_requisitos_expressao": "( FIL0066 )",
+          "pre_requisitos_codigos": [
+            "FIL0066"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "FIL0066"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0070 )",
+          "equivalencias_codigos": [
+            "FIL0070"
+          ]
+        },
+        {
+          "codigo": "FIL0207",
+          "nome": "TÓPICOS ESPECIAIS EM FILOSOFIA DA ARTE III",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3312",
+          "pre_requisitos_expressao": "( FIL0066 )",
+          "pre_requisitos_codigos": [
+            "FIL0066"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "FIL0066"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "FIL0208",
+          "nome": "TÓPICOS ESPECIAIS EM FILOSOFIA DA ARTE IV",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3313",
+          "pre_requisitos_expressao": "( FIL0066 )",
+          "pre_requisitos_codigos": [
+            "FIL0066"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "FIL0066"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "FIL0209",
+          "nome": "GREGO ANTIGO INSTRUMENTAL",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3314",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0080 )",
+          "equivalencias_codigos": [
+            "FIL0080"
+          ]
+        },
+        {
+          "codigo": "FIL0210",
+          "nome": "TÓPICOS ESPECIAIS EM ENSINO DE FILOSOFIA I",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3315",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "FIL0211",
+          "nome": "TÓPICOS ESPECIAIS EM ENSINO DE FILOSOFIA II",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3316",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "FIL0212",
+          "nome": "TÓPICOS ESPECIAIS EM ENSINO DE FILOSOFIA III",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3317",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "FIL0213",
+          "nome": "TÓPICOS ESPECIAIS EM ENSINO DE FILOSOFIA IV",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3318",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "FIL0214",
+          "nome": "ALEMÃO INSTRUMENTAL",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3319",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "FIL0227",
+          "nome": "INGLÊS INSTRUMENTAL II",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "4362",
+          "pre_requisitos_expressao": "( FIL0143 )",
+          "pre_requisitos_codigos": [
+            "FIL0143"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "FIL0143"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "FIL0228",
+          "nome": "INGLÊS INSTRUMENTAL III",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "4363",
+          "pre_requisitos_expressao": "( FIL0227 )",
+          "pre_requisitos_codigos": [
+            "FIL0227"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "FIL0227"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "FIL0229",
+          "nome": "INGLÊS INSTRUMENTAL IV",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "4364",
+          "pre_requisitos_expressao": "( FIL0228 )",
+          "pre_requisitos_codigos": [
+            "FIL0228"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "FIL0228"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "FIL0230",
+          "nome": "EPISTEMOLOGIAS DECOLONIAIS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "4365",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "FIL0231",
+          "nome": "FILOSOFIA DA INFORMAÇÃO",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "4366",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        }
+      ]
+    },
+    {
+      "id": "631155",
+      "codigo": "2006.2B",
+      "ano_criacao": 2006,
+      "status": "Ativa",
+      "quantidade_componentes": 100,
+      "quantidade_obrigatorias": 17,
+      "quantidade_optativas": 83,
+      "componentes": [
+        {
+          "codigo": "FIL0001",
+          "nome": "LEITURA DE TEXTOS PRE SOCRATICOS",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 1,
+          "id": "601",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0166 )",
+          "equivalencias_codigos": [
+            "FIL0166"
+          ]
+        },
+        {
+          "codigo": "FIL0002",
+          "nome": "LOGICA I",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 1,
+          "id": "600",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0121 )",
+          "equivalencias_codigos": [
+            "FIL0121"
+          ]
+        },
+        {
+          "codigo": "FIL0003",
+          "nome": "ANTROPOLOGIA FILOSOFICA",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 1,
+          "id": "599",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0172 )",
+          "equivalencias_codigos": [
+            "FIL0172"
+          ]
+        },
+        {
+          "codigo": "FIL0004",
+          "nome": "INTRODUCAO A FILOSOFIA",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 1,
+          "id": "598",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0118 )",
+          "equivalencias_codigos": [
+            "FIL0118"
+          ]
+        },
+        {
+          "codigo": "FIL0005",
+          "nome": "HISTORIA DA FILOSOFIA I",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 2,
+          "id": "597",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0120 )",
+          "equivalencias_codigos": [
+            "FIL0120"
+          ]
+        },
+        {
+          "codigo": "FIL0007",
+          "nome": "METAFISICA I",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 2,
+          "id": "949",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0125 )",
+          "equivalencias_codigos": [
+            "FIL0125"
+          ]
+        },
+        {
+          "codigo": "FIL0008",
+          "nome": "FILOSOFIA POLITICA",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 2,
+          "id": "952",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0129 )",
+          "equivalencias_codigos": [
+            "FIL0129"
+          ]
+        },
+        {
+          "codigo": "FIL0006",
+          "nome": "TEORIA DO CONHECIMENTO I",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 3,
+          "id": "948",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0126 )",
+          "equivalencias_codigos": [
+            "FIL0126"
+          ]
+        },
+        {
+          "codigo": "FIL0011",
+          "nome": "HISTORIA DA FILOSOFIA II",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 3,
+          "id": "594",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0123 )",
+          "equivalencias_codigos": [
+            "FIL0123"
+          ]
+        },
+        {
+          "codigo": "FIL0014",
+          "nome": "ETICA I",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 3,
+          "id": "955",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0124 )",
+          "equivalencias_codigos": [
+            "FIL0124"
+          ]
+        },
+        {
+          "codigo": "FIL0016",
+          "nome": "DIALETICA I",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 3,
+          "id": "591",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0149 )",
+          "equivalencias_codigos": [
+            "FIL0149"
+          ]
+        },
+        {
+          "codigo": "FIL0017",
+          "nome": "HISTORIA DA FILOSOFIA III(MODERNA I)",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 4,
+          "id": "590",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0128 )",
+          "equivalencias_codigos": [
+            "FIL0128"
+          ]
+        },
+        {
+          "codigo": "FIL0018",
+          "nome": "HISTORIA DA FILOSOFIA III(MODERNA II)",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 4,
+          "id": "589",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0188 )",
+          "equivalencias_codigos": [
+            "FIL0188"
+          ]
+        },
+        {
+          "codigo": "FIL0019",
+          "nome": "HISTORIA DA FILOSOFIA IV(CONTEMPORANEA I)",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 5,
+          "id": "588",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0132 )",
+          "equivalencias_codigos": [
+            "FIL0132"
+          ]
+        },
+        {
+          "codigo": "FIL0020",
+          "nome": "HISTORIA DA FILOSOFIA IV(CONTEMPORANEA II)",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 6,
+          "id": "587",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0182 )",
+          "equivalencias_codigos": [
+            "FIL0182"
+          ]
+        },
+        {
+          "codigo": "FIL0021",
+          "nome": "PROJETO DE PESQUISA",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 7,
+          "id": "586",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0134 )",
+          "equivalencias_codigos": [
+            "FIL0134"
+          ]
+        },
+        {
+          "codigo": "FIL0022",
+          "nome": "MONOGRAFIA",
+          "carga_horaria": 128,
+          "tipo": "obrigatoria",
+          "nivel": 8,
+          "id": "585",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0136 )",
+          "equivalencias_codigos": [
+            "FIL0136"
+          ]
+        },
+        {
+          "codigo": "BIB0013",
+          "nome": "INFORMACAO E MOVIMENTOS SOCIAIS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "652",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CAR0010",
+          "nome": "LÍNGUA BRASILEIRA DE SINAIS: LIBRAS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1357",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "FIL0009",
+          "nome": "CULTURA BRASILEIRA",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "596",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "FIL0010",
+          "nome": "HISTORIA DA FILOSOFIA DO BRASIL",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "595",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0215 )",
+          "equivalencias_codigos": [
+            "FIL0215"
+          ]
+        },
+        {
+          "codigo": "FIL0013",
+          "nome": "TEORIA SOCIOLOGICA",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "593",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0119 )",
+          "equivalencias_codigos": [
+            "FIL0119"
+          ]
+        },
+        {
+          "codigo": "FIL0023",
+          "nome": "FILOSOFIA DA NATUREZA",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "584",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0191 )",
+          "equivalencias_codigos": [
+            "FIL0191"
+          ]
+        },
+        {
+          "codigo": "FIL0024",
+          "nome": "DIALETICA II",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "583",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0150 )",
+          "equivalencias_codigos": [
+            "FIL0150"
+          ]
+        },
+        {
+          "codigo": "FIL0025",
+          "nome": "ONTOLOGIA",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "582",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0171 )",
+          "equivalencias_codigos": [
+            "FIL0171"
+          ]
+        },
+        {
+          "codigo": "FIL0026",
+          "nome": "METAFISICA II",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "581",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0147 )",
+          "equivalencias_codigos": [
+            "FIL0147"
+          ]
+        },
+        {
+          "codigo": "FIL0027",
+          "nome": "IDEALISMO ALEMAO",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "580",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0189 )",
+          "equivalencias_codigos": [
+            "FIL0189"
+          ]
+        },
+        {
+          "codigo": "FIL0028",
+          "nome": "MARXISMO",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "579",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0140 )",
+          "equivalencias_codigos": [
+            "FIL0140"
+          ]
+        },
+        {
+          "codigo": "FIL0029",
+          "nome": "TOPICO ESPECIAL EM DIALETICA",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "578",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0168 )",
+          "equivalencias_codigos": [
+            "FIL0168"
+          ]
+        },
+        {
+          "codigo": "FIL0030",
+          "nome": "SEMINARIO EM DIALETICA",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "577",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0167 )",
+          "equivalencias_codigos": [
+            "FIL0167"
+          ]
+        },
+        {
+          "codigo": "FIL0031",
+          "nome": "LOGICA II",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "576",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0153 )",
+          "equivalencias_codigos": [
+            "FIL0153"
+          ]
+        },
+        {
+          "codigo": "FIL0032",
+          "nome": "FUNDAMENTOS DA LOGICA",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "575",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0154 )",
+          "equivalencias_codigos": [
+            "FIL0154"
+          ]
+        },
+        {
+          "codigo": "FIL0033",
+          "nome": "FILOSOFIA DA LINGUAGEM",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "574",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0133 )",
+          "equivalencias_codigos": [
+            "FIL0133"
+          ]
+        },
+        {
+          "codigo": "FIL0034",
+          "nome": "FILOSOFIA ANALITICA DA LINGUAGEM",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "573",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0157 )",
+          "equivalencias_codigos": [
+            "FIL0157"
+          ]
+        },
+        {
+          "codigo": "FIL0035",
+          "nome": "TEORIA DO CONHECIMENTO II",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "572",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0137 )",
+          "equivalencias_codigos": [
+            "FIL0137"
+          ]
+        },
+        {
+          "codigo": "FIL0036",
+          "nome": "FILOSOFIA DA MENTE",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "571",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0144 )",
+          "equivalencias_codigos": [
+            "FIL0144"
+          ]
+        },
+        {
+          "codigo": "FIL0037",
+          "nome": "FILOSOFIA DA CIENCIA I",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1164",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0130 )",
+          "equivalencias_codigos": [
+            "FIL0130"
+          ]
+        },
+        {
+          "codigo": "FIL0038",
+          "nome": "FILOSOFIA DA CIENCIA II",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "570",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0161 )",
+          "equivalencias_codigos": [
+            "FIL0161"
+          ]
+        },
+        {
+          "codigo": "FIL0039",
+          "nome": "FILOSOFIA ANALITICA I",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1163",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0158 )",
+          "equivalencias_codigos": [
+            "FIL0158"
+          ]
+        },
+        {
+          "codigo": "FIL0040",
+          "nome": "FILOSOFIA ANALITICA II",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1162",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0162 )",
+          "equivalencias_codigos": [
+            "FIL0162"
+          ]
+        },
+        {
+          "codigo": "FIL0041",
+          "nome": "TOPICO ESPECIAL EM LOGICA",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1161",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0155 )",
+          "equivalencias_codigos": [
+            "FIL0155"
+          ]
+        },
+        {
+          "codigo": "FIL0042",
+          "nome": "TOPICO ESP EM FILOSOFIA DA LINGUAGEM",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1160",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0160 )",
+          "equivalencias_codigos": [
+            "FIL0160"
+          ]
+        },
+        {
+          "codigo": "FIL0043",
+          "nome": "SEMINARIO EM LOGICA",
+          "carga_horaria": 32,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1159",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "FIL0044",
+          "nome": "SEMINARIO EM FILOSOFIA DA LINGUAGEM",
+          "carga_horaria": 32,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1158",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "FIL0046",
+          "nome": "FENOMENOLOGIA",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1156",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0151 )",
+          "equivalencias_codigos": [
+            "FIL0151"
+          ]
+        },
+        {
+          "codigo": "FIL0047",
+          "nome": "EXISTENCIALISMO",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "891",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0184 )",
+          "equivalencias_codigos": [
+            "FIL0184"
+          ]
+        },
+        {
+          "codigo": "FIL0048",
+          "nome": "HERMENEUTICA",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1155",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0187 )",
+          "equivalencias_codigos": [
+            "FIL0187"
+          ]
+        },
+        {
+          "codigo": "FIL0049",
+          "nome": "TOPICO ESPECIAL EM FENOMENOLOGIA",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1154",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0186 )",
+          "equivalencias_codigos": [
+            "FIL0186"
+          ]
+        },
+        {
+          "codigo": "FIL0050",
+          "nome": "TOPICO ESPECIAL EM HERMENEUTICA",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1153",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "FIL0051",
+          "nome": "SEMINARIO EM FENOMENOLOGIA",
+          "carga_horaria": 32,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1152",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "FIL0052",
+          "nome": "SEMINARIO EM HERMENEUTICA",
+          "carga_horaria": 32,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1151",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "FIL0053",
+          "nome": "SEMINARIO EM IDEALISMO TRANSCENDENTAL",
+          "carga_horaria": 32,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1150",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "FIL0054",
+          "nome": "SEMINARIO EM FENOMENOLOGIA DO ESPIRITO",
+          "carga_horaria": 32,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1149",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "FIL0055",
+          "nome": "SEMINARIO EM MARXISMO CONTEMPORANEO",
+          "carga_horaria": 32,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1148",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "FIL0056",
+          "nome": "SEMINARIO EM MATERIALISMO HISTORICO",
+          "carga_horaria": 32,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1147",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "FIL0057",
+          "nome": "ETICA II",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1146",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0174 )",
+          "equivalencias_codigos": [
+            "FIL0174"
+          ]
+        },
+        {
+          "codigo": "FIL0058",
+          "nome": "ETICAS CLASSICAS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1145",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0175 )",
+          "equivalencias_codigos": [
+            "FIL0175"
+          ]
+        },
+        {
+          "codigo": "FIL0059",
+          "nome": "TEORIAS DA JUSTICA",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1144",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0203 )",
+          "equivalencias_codigos": [
+            "FIL0203"
+          ]
+        },
+        {
+          "codigo": "FIL0060",
+          "nome": "FILOSOFIA POLITICA II",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1143",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0198 )",
+          "equivalencias_codigos": [
+            "FIL0198"
+          ]
+        },
+        {
+          "codigo": "FIL0061",
+          "nome": "TEORIAS DO PODER",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1142",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0202 )",
+          "equivalencias_codigos": [
+            "FIL0202"
+          ]
+        },
+        {
+          "codigo": "FIL0062",
+          "nome": "TOPICO ESPECIAL EM ETICA",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1141",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0176 )",
+          "equivalencias_codigos": [
+            "FIL0176"
+          ]
+        },
+        {
+          "codigo": "FIL0063",
+          "nome": "TOPICO ESPECIAL EM FILOSOFIA POLITICA",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1140",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0199 )",
+          "equivalencias_codigos": [
+            "FIL0199"
+          ]
+        },
+        {
+          "codigo": "FIL0064",
+          "nome": "SEMINARIO EM ETICA",
+          "carga_horaria": 32,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1139",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "FIL0065",
+          "nome": "SEMINARIO EM FILOSOFIA POLITICA",
+          "carga_horaria": 32,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1138",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "FIL0066",
+          "nome": "ESTETICA",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1137",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "FIL0067",
+          "nome": "ESTETICA CLASSICA",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1136",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "FIL0178",
+          "equivalencias_codigos": [
+            "FIL0178"
+          ]
+        },
+        {
+          "codigo": "FIL0068",
+          "nome": "FILOSOFIA DA ARTE",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1135",
+          "pre_requisitos_expressao": "( FIL0066 )",
+          "pre_requisitos_codigos": [
+            "FIL0066"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "FIL0066"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "FIL0069",
+          "nome": "FILOSOFIA E LITERATURA",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1134",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0205 )",
+          "equivalencias_codigos": [
+            "FIL0205"
+          ]
+        },
+        {
+          "codigo": "FIL0070",
+          "nome": "HERMENEUTICA E ARTE",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1133",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0206 )",
+          "equivalencias_codigos": [
+            "FIL0206"
+          ]
+        },
+        {
+          "codigo": "FIL0071",
+          "nome": "TOPICO ESPECIAL EM ESTETICA",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "974",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0181 )",
+          "equivalencias_codigos": [
+            "FIL0181"
+          ]
+        },
+        {
+          "codigo": "FIL0072",
+          "nome": "SEMINARIO EM ESTETICA",
+          "carga_horaria": 32,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1132",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "FIL0073",
+          "nome": "MITOLOGIA GRECO ROMANA",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1131",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "FIL0074",
+          "nome": "FILOSOFIA DA RELIGIAO",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "975",
+          "pre_requisitos_expressao": "( FIL0125 )",
+          "pre_requisitos_codigos": [
+            "FIL0125"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "FIL0125"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "FIL0075",
+          "nome": "FILOSOFIA DA HISTORIA",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "976",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0190 )",
+          "equivalencias_codigos": [
+            "FIL0190"
+          ]
+        },
+        {
+          "codigo": "FIL0076",
+          "nome": "FILOSOFIA DO DIREITO",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "980",
+          "pre_requisitos_expressao": "( FIL0129 )",
+          "pre_requisitos_codigos": [
+            "FIL0129"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "FIL0129"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "FIL0077",
+          "nome": "TOPICO ESPECIAL EM FILOSOFIA",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "981",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0127 )",
+          "equivalencias_codigos": [
+            "FIL0127"
+          ]
+        },
+        {
+          "codigo": "FIL0079",
+          "nome": "LINGUA LATINA I",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1130",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0195 )",
+          "equivalencias_codigos": [
+            "FIL0195"
+          ]
+        },
+        {
+          "codigo": "FIL0080",
+          "nome": "LINGUA GREGA I",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1129",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0209 )",
+          "equivalencias_codigos": [
+            "FIL0209"
+          ]
+        },
+        {
+          "codigo": "FIL0081",
+          "nome": "LINGUA PORTUGUESA (INSTRUMENTAL)",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1128",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0078 )",
+          "equivalencias_codigos": [
+            "FIL0078"
+          ]
+        },
+        {
+          "codigo": "FIL0082",
+          "nome": "CULTURA CLASSICA",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1127",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "FIL0096",
+          "nome": "TOPICO ESPECIAL EM FILOSOFIA II",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1063",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0131 )",
+          "equivalencias_codigos": [
+            "FIL0131"
+          ]
+        },
+        {
+          "codigo": "FIL0098",
+          "nome": "TOPICO ESPECIAL EM FILOSOFIA MODERNA I",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "778",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0222 )",
+          "equivalencias_codigos": [
+            "FIL0222"
+          ]
+        },
+        {
+          "codigo": "FIL0099",
+          "nome": "TOPICO ESPECIAL EM FILOSOFIA MODERNA II",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "702",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0193 )",
+          "equivalencias_codigos": [
+            "FIL0193"
+          ]
+        },
+        {
+          "codigo": "FIL0100",
+          "nome": "TOPICO ESPECIAL EM FILOSOFIA ANTIGA",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "701",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0169 )",
+          "equivalencias_codigos": [
+            "FIL0169"
+          ]
+        },
+        {
+          "codigo": "FIL0101",
+          "nome": "TOPICO ESPECIAL EM IDEALISMO ALEMAO",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "700",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0152 )",
+          "equivalencias_codigos": [
+            "FIL0152"
+          ]
+        },
+        {
+          "codigo": "FIL0102",
+          "nome": "TOPICO ESPECIAL EM FILOSOFIA MEDIEVAL",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "699",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0170 )",
+          "equivalencias_codigos": [
+            "FIL0170"
+          ]
+        },
+        {
+          "codigo": "FIL0103",
+          "nome": "FILOSOFIA DA PSICANALISE",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "758",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0204 )",
+          "equivalencias_codigos": [
+            "FIL0204"
+          ]
+        },
+        {
+          "codigo": "FIL0104",
+          "nome": "FILOSOFIA DA DIFERENCA",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "698",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0185 )",
+          "equivalencias_codigos": [
+            "FIL0185"
+          ]
+        },
+        {
+          "codigo": "FIL0106",
+          "nome": "FILOSOFIA LATINO AMERICANA",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "889",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "FIL0107",
+          "nome": "TOPICOS ESPECIAIS DE FILOSOFIA CONTEMPORANEA",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "863",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0183 )",
+          "equivalencias_codigos": [
+            "FIL0183"
+          ]
+        },
+        {
+          "codigo": "FIL0108",
+          "nome": "TÓPICO ESPECIAL EM ONTOLOGIA",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1829",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( FIL0148 )",
+          "equivalencias_codigos": [
+            "FIL0148"
+          ]
+        },
+        {
+          "codigo": "FIL0109",
+          "nome": "FILOSOFIA AFRICANA",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1888",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "FIL0110",
+          "nome": "FILOSOFIA ORIENTAL",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1889",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "FIL0111",
+          "nome": "ECONOMIA POLÍTICA",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1890",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "FIL0112",
+          "nome": "ÉTICAS DA SEXUALIDADE",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2896",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "FIL0113",
+          "nome": "FILOSOFIA DA CULTURA",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2897",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "FIL0114",
+          "nome": "INTRODUÇÃO À FILOSOFIA INTERCULTURAL",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2898",
+          "pre_requisitos_expressao": "( FIL0004 )",
+          "pre_requisitos_codigos": [
+            "FIL0004"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "FIL0004"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "FIL0115",
+          "nome": "TÓPICO ESPECIAL EM FILOSOFIA DAS CIÊNCIAS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3087",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "FIL0116",
+          "nome": "ÉTICAS DA SEXUALIDADE II",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3091",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "FIL0117",
+          "nome": "FILOSOFIA DA TECNOLOGIA",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3118",
+          "pre_requisitos_expressao": "( FIL0004 )",
+          "pre_requisitos_codigos": [
+            "FIL0004"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "FIL0004"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        }
+      ]
+    }
+  ],
+  "atualizado_em": "2026-09-06T22:40:34.436429+00:00"
+}

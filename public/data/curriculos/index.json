@@ -1,0 +1,155 @@
+{
+  "quantidade_cursos": 21,
+  "quantidade_disponiveis": 20,
+  "quantidade_indisponiveis": 1,
+  "cursos": [
+    {
+      "id": "628400",
+      "nome": "ADMINISTRAÇÃO",
+      "modalidade": "Presencial",
+      "disponivel": true,
+      "arquivo": "628400.json"
+    },
+    {
+      "id": "628410",
+      "nome": "ADMINISTRAÇÃO PÚBLICA",
+      "modalidade": "Presencial",
+      "disponivel": true,
+      "arquivo": "628410.json"
+    },
+    {
+      "id": "33597936",
+      "nome": "ADMINISTRAÇÃO PÚBLICA E GESTÃO SOCIAL",
+      "modalidade": "Presencial",
+      "disponivel": true,
+      "arquivo": "33597936.json"
+    },
+    {
+      "id": "35132811",
+      "nome": "ARQUIVOLOGIA",
+      "modalidade": "Presencial",
+      "disponivel": true,
+      "arquivo": "35132811.json"
+    },
+    {
+      "id": "628402",
+      "nome": "BIBLIOTECONOMIA",
+      "modalidade": "Presencial",
+      "disponivel": false,
+      "arquivo": null,
+      "erro": "Estrutura curricular indisponível."
+    },
+    {
+      "id": "32653402",
+      "nome": "CIÊNCIAS CONTÁBEIS",
+      "modalidade": "Presencial",
+      "disponivel": true,
+      "arquivo": "32653402.json"
+    },
+    {
+      "id": "35130403",
+      "nome": "MUSEOLOGIA",
+      "modalidade": "Presencial",
+      "disponivel": true,
+      "arquivo": "35130403.json"
+    },
+    {
+      "id": "32652294",
+      "nome": "CIÊNCIA DA COMPUTAÇÃO",
+      "modalidade": "Presencial",
+      "disponivel": true,
+      "arquivo": "32652294.json"
+    },
+    {
+      "id": "628403",
+      "nome": "ENGENHARIA CIVIL",
+      "modalidade": "Presencial",
+      "disponivel": true,
+      "arquivo": "628403.json"
+    },
+    {
+      "id": "628409",
+      "nome": "ENGENHARIA DE MATERIAIS",
+      "modalidade": "Presencial",
+      "disponivel": true,
+      "arquivo": "628409.json"
+    },
+    {
+      "id": "35137411",
+      "nome": "ENGENHARIA DE SOFTWARE",
+      "modalidade": "Presencial",
+      "disponivel": true,
+      "arquivo": "35137411.json"
+    },
+    {
+      "id": "32650450",
+      "nome": "MATEMÁTICA COMPUTACIONAL",
+      "modalidade": "Presencial",
+      "disponivel": true,
+      "arquivo": "32650450.json"
+    },
+    {
+      "id": "36242740",
+      "nome": "CINEMA E AUDIOVISUAL",
+      "modalidade": "Presencial",
+      "disponivel": true,
+      "arquivo": "36242740.json"
+    },
+    {
+      "id": "628406",
+      "nome": "COMUNICAÇÃO SOCIAL - JORNALISMO",
+      "modalidade": "Presencial",
+      "disponivel": true,
+      "arquivo": "628406.json"
+    },
+    {
+      "id": "628418",
+      "nome": "DESIGN",
+      "modalidade": "Presencial",
+      "disponivel": true,
+      "arquivo": "628418.json"
+    },
+    {
+      "id": "628407",
+      "nome": "DESIGN DE PRODUTO",
+      "modalidade": "Presencial",
+      "disponivel": true,
+      "arquivo": "628407.json"
+    },
+    {
+      "id": "628404",
+      "nome": "FILOSOFIA",
+      "modalidade": "Presencial",
+      "disponivel": true,
+      "arquivo": "628404.json"
+    },
+    {
+      "id": "628348",
+      "nome": "FILOSOFIA",
+      "modalidade": "Presencial",
+      "disponivel": true,
+      "arquivo": "628348.json"
+    },
+    {
+      "id": "32734769",
+      "nome": "JORNALISMO",
+      "modalidade": "Presencial",
+      "disponivel": true,
+      "arquivo": "32734769.json"
+    },
+    {
+      "id": "32644960",
+      "nome": "LETRAS - LIBRAS",
+      "modalidade": "Presencial",
+      "disponivel": true,
+      "arquivo": "32644960.json"
+    },
+    {
+      "id": "628408",
+      "nome": "MÚSICA",
+      "modalidade": "Presencial",
+      "disponivel": true,
+      "arquivo": "628408.json"
+    }
+  ]
+}

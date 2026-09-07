@@ -1,0 +1,280 @@
+.curriculo-page {
+  padding-bottom: 64px;
+}
+
+.curriculo-page-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 24px;
+
+  margin-bottom: 32px;
+  padding-bottom: 24px;
+
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.curriculo-page-header h1 {
+  margin: 4px 0 6px;
+
+  color: #0f172a;
+
+  font-size: 2rem;
+  line-height: 1.15;
+}
+
+.curriculo-page-eyebrow {
+  color: #2563eb;
+
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.curriculo-curso-nome {
+  margin: 0;
+
+  color: #64748b;
+
+  font-size: 1rem;
+}
+
+.link-voltar {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  flex-shrink: 0;
+
+  padding: 10px 15px;
+
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+
+  background: #ffffff;
+  color: #334155;
+
+  font-weight: 600;
+  text-decoration: none;
+
+  transition:
+    background 0.15s ease,
+    border-color 0.15s ease,
+    color 0.15s ease;
+}
+
+.link-voltar:hover {
+  border-color: #94a3b8;
+
+  background: #f8fafc;
+  color: #0f172a;
+}
+
+.link-voltar:focus-visible {
+  outline: 3px solid #2563eb30;
+  outline-offset: 2px;
+}
+
+
+/* Bloco principal da matriz */
+
+.estrutura-curricular {
+  padding: 28px;
+
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+
+  background: #ffffff;
+}
+
+.estrutura-curricular-cabecalho {
+  margin-bottom: 30px;
+  padding-bottom: 24px;
+
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.estrutura-curricular-cabecalho h2 {
+  margin: 0 0 18px;
+
+  color: #0f172a;
+
+  font-size: 1.3rem;
+}
+
+.estrutura-curricular-cabecalho p {
+  margin: 7px 0 0;
+
+  color: #64748b;
+
+  font-size: 0.9rem;
+}
+
+
+/* Seletor da estrutura */
+
+.estrutura-selector {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+
+  max-width: 360px;
+
+  margin-bottom: 18px;
+}
+
+.estrutura-selector label {
+  color: #475569;
+
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.estrutura-selector select {
+  width: 100%;
+
+  padding: 11px 13px;
+
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+
+  background: #ffffff;
+  color: #0f172a;
+
+  font: inherit;
+  cursor: pointer;
+}
+
+.estrutura-selector select:hover {
+  border-color: #94a3b8;
+}
+
+.estrutura-selector select:focus {
+  border-color: #2563eb;
+  outline: 3px solid #2563eb20;
+}
+
+
+/* Períodos */
+
+.niveis-curriculo {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.nivel-curriculo {
+  margin-top: 32px;
+}
+
+.niveis-curriculo
+  .nivel-curriculo:first-child {
+  margin-top: 0;
+}
+
+.nivel-curriculo h3 {
+  margin: 0 0 14px;
+
+  color: #1e3a8a;
+
+  font-size: 1.05rem;
+}
+
+
+/* Disciplinas */
+
+.componentes-curriculo {
+  display: grid;
+
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(300px, 1fr)
+  );
+
+  gap: 12px;
+}
+
+.componente-curricular {
+  padding: 16px;
+
+  border: 1px solid #e2e8f0;
+  border-radius: 9px;
+
+  background: #f8fafc;
+
+  transition:
+    border-color 0.15s ease,
+    box-shadow 0.15s ease;
+}
+
+.componente-curricular:hover {
+  border-color: #cbd5e1;
+  box-shadow: 0 2px 8px #0f172a0a;
+}
+
+.componente-curricular > div {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 14px;
+}
+
+.componente-curricular strong {
+  color: #0f172a;
+
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+.componente-curricular span {
+  flex-shrink: 0;
+
+  color: #475569;
+
+  font-size: 0.82rem;
+  font-weight: 700;
+}
+
+.componente-curricular p {
+  margin: 10px 0 0;
+
+  color: #64748b;
+
+  font-size: 0.8rem;
+  line-height: 1.45;
+}
+
+
+/* Responsividade */
+
+@media (max-width: 700px) {
+  .curriculo-page-header {
+    flex-direction: column;
+  }
+
+  .curriculo-page-header h1 {
+    font-size: 1.7rem;
+  }
+
+  .link-voltar {
+    width: 100%;
+  }
+
+  .estrutura-curricular {
+    padding: 20px;
+  }
+
+  .estrutura-selector {
+    max-width: none;
+  }
+
+  .componentes-curriculo {
+    grid-template-columns: 1fr;
+  }
+
+  .componente-curricular > div {
+    flex-direction: column;
+    gap: 5px;
+  }
+}

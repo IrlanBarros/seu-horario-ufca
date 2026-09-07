@@ -1,0 +1,4168 @@
+{
+  "curso_id": "628409",
+  "quantidade_estruturas": 2,
+  "estruturas": [
+    {
+      "id": "34281245",
+      "codigo": "EM01",
+      "ano_criacao": 2023,
+      "status": "Ativa",
+      "quantidade_componentes": 78,
+      "quantidade_obrigatorias": 50,
+      "quantidade_optativas": 28,
+      "componentes": [
+        {
+          "codigo": "CAR0001",
+          "nome": "CALCULO FUNDAMENTAL I",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 1,
+          "id": "1305",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( CAR0008 OU CC0002 OU MC0001 OU EM0001 )",
+          "equivalencias_codigos": [
+            "CAR0008",
+            "CC0002",
+            "MC0001",
+            "EM0001"
+          ]
+        },
+        {
+          "codigo": "EM0004",
+          "nome": "ALGEBRA VETORIAL E GEOMETRIA ANALITICA",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 1,
+          "id": "1006",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( CAR0009 ) OU ( MC0002 ) OU ( CC0004 )",
+          "equivalencias_codigos": [
+            "CAR0009",
+            "MC0002",
+            "CC0004"
+          ]
+        },
+        {
+          "codigo": "EM0076",
+          "nome": "QUÍMICA GERAL PARA ENGENHARIA",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 1,
+          "id": "3953",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": "( EM0077 )",
+          "co_requisitos_codigos": [
+            "EM0077"
+          ],
+          "equivalencias_expressao": "( EM0003 OU ECI0088 )",
+          "equivalencias_codigos": [
+            "EM0003",
+            "ECI0088"
+          ]
+        },
+        {
+          "codigo": "EM0077",
+          "nome": "QUÍMICA EXPERIMENTAL",
+          "carga_horaria": 32,
+          "tipo": "obrigatoria",
+          "nivel": 1,
+          "id": "3952",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": "( EM0076 )",
+          "co_requisitos_codigos": [
+            "EM0076"
+          ],
+          "equivalencias_expressao": "( ECI0089 )",
+          "equivalencias_codigos": [
+            "ECI0089"
+          ]
+        },
+        {
+          "codigo": "EM0079",
+          "nome": "INTRODUÇÃO À ENGENHARIA DE MATERIAIS",
+          "carga_horaria": 32,
+          "tipo": "obrigatoria",
+          "nivel": 1,
+          "id": "3955",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( EM0005 )",
+          "equivalencias_codigos": [
+            "EM0005"
+          ]
+        },
+        {
+          "codigo": "EM0084",
+          "nome": "PROGRAMAÇÃO COMPUTACIONAL",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 1,
+          "id": "4057",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( EM0006 OU ECI0099 OU CC0001 OU MC0004 )",
+          "equivalencias_codigos": [
+            "EM0006",
+            "ECI0099",
+            "CC0001",
+            "MC0004"
+          ]
+        },
+        {
+          "codigo": "CAR0004",
+          "nome": "CALCULO FUNDAMENTAL II",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 2,
+          "id": "1308",
+          "pre_requisitos_expressao": "( CAR0001 OU CAR0008 OU CC0002 OU MC0001 OU EM0001 )",
+          "pre_requisitos_codigos": [
+            "CAR0001",
+            "CAR0008",
+            "CC0002",
+            "MC0001",
+            "EM0001"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "operador": "OU",
+              "esquerda": {
+                "operador": "OU",
+                "esquerda": {
+                  "operador": "OU",
+                  "esquerda": {
+                    "codigo": "CAR0001"
+                  },
+                  "direita": {
+                    "codigo": "CAR0008"
+                  }
+                },
+                "direita": {
+                  "codigo": "CC0002"
+                }
+              },
+              "direita": {
+                "codigo": "MC0001"
+              }
+            },
+            "direita": {
+              "codigo": "EM0001"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( CAR0011 OU CC0007 OU MC0005 OU EM0007 OU IFE0035 )",
+          "equivalencias_codigos": [
+            "CAR0011",
+            "CC0007",
+            "MC0005",
+            "EM0007",
+            "IFE0035"
+          ]
+        },
+        {
+          "codigo": "EM0010",
+          "nome": "ALGEBRA LINEAR",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 2,
+          "id": "755",
+          "pre_requisitos_expressao": "( EM0004 OU CAR0009 OU MC0002 OU CC0004 )",
+          "pre_requisitos_codigos": [
+            "EM0004",
+            "CAR0009",
+            "MC0002",
+            "CC0004"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "operador": "OU",
+              "esquerda": {
+                "operador": "OU",
+                "esquerda": {
+                  "codigo": "EM0004"
+                },
+                "direita": {
+                  "codigo": "CAR0009"
+                }
+              },
+              "direita": {
+                "codigo": "MC0002"
+              }
+            },
+            "direita": {
+              "codigo": "CC0004"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( ECI0002 OU MC0006 OU CC0009 )",
+          "equivalencias_codigos": [
+            "ECI0002",
+            "MC0006",
+            "CC0009"
+          ]
+        },
+        {
+          "codigo": "EM0078",
+          "nome": "FÍSICA FUNDAMENTAL I",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 2,
+          "id": "3954",
+          "pre_requisitos_expressao": "( CAR0001 OU CAR0008 ) E ( CAR0009 OU EM0004 )",
+          "pre_requisitos_codigos": [
+            "CAR0001",
+            "CAR0008",
+            "CAR0009",
+            "EM0004"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "E",
+            "esquerda": {
+              "operador": "OU",
+              "esquerda": {
+                "codigo": "CAR0001"
+              },
+              "direita": {
+                "codigo": "CAR0008"
+              }
+            },
+            "direita": {
+              "operador": "OU",
+              "esquerda": {
+                "codigo": "CAR0009"
+              },
+              "direita": {
+                "codigo": "EM0004"
+              }
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( EM0008 OU CAR0002 OU CC0008 OU MC0009 )",
+          "equivalencias_codigos": [
+            "EM0008",
+            "CAR0002",
+            "CC0008",
+            "MC0009"
+          ]
+        },
+        {
+          "codigo": "EM0080",
+          "nome": "CIÊNCIA DOS MATERIAIS I",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 2,
+          "id": "4054",
+          "pre_requisitos_expressao": "( EM0076 OU EM0003 OU EM0009 OU ECI0088 )",
+          "pre_requisitos_codigos": [
+            "EM0076",
+            "EM0003",
+            "EM0009",
+            "ECI0088"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "operador": "OU",
+              "esquerda": {
+                "operador": "OU",
+                "esquerda": {
+                  "codigo": "EM0076"
+                },
+                "direita": {
+                  "codigo": "EM0003"
+                }
+              },
+              "direita": {
+                "codigo": "EM0009"
+              }
+            },
+            "direita": {
+              "codigo": "ECI0088"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( EM0018 )",
+          "equivalencias_codigos": [
+            "EM0018"
+          ]
+        },
+        {
+          "codigo": "EM0081",
+          "nome": "QUÍMICA ORGÂNICA",
+          "carga_horaria": 48,
+          "tipo": "obrigatoria",
+          "nivel": 2,
+          "id": "4053",
+          "pre_requisitos_expressao": "( EM0076 OU EM0003 OU ECI0088 )",
+          "pre_requisitos_codigos": [
+            "EM0076",
+            "EM0003",
+            "ECI0088"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "operador": "OU",
+              "esquerda": {
+                "codigo": "EM0076"
+              },
+              "direita": {
+                "codigo": "EM0003"
+              }
+            },
+            "direita": {
+              "codigo": "ECI0088"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "EM0082",
+          "nome": "QUÍMICA INORGÂNICA",
+          "carga_horaria": 48,
+          "tipo": "obrigatoria",
+          "nivel": 2,
+          "id": "4055",
+          "pre_requisitos_expressao": "( EM0076 OU EM0003 OU ECI0088 )",
+          "pre_requisitos_codigos": [
+            "EM0076",
+            "EM0003",
+            "ECI0088"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "operador": "OU",
+              "esquerda": {
+                "codigo": "EM0076"
+              },
+              "direita": {
+                "codigo": "EM0003"
+              }
+            },
+            "direita": {
+              "codigo": "ECI0088"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "EM0083",
+          "nome": "FÍSICA EXPERIMENTAL I",
+          "carga_horaria": 32,
+          "tipo": "obrigatoria",
+          "nivel": 2,
+          "id": "4056",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": "( EM0078 OU EM0008 OU CAR0002 OU CC0008 OU MC0009 )",
+          "co_requisitos_codigos": [
+            "EM0078",
+            "EM0008",
+            "CAR0002",
+            "CC0008",
+            "MC0009"
+          ],
+          "equivalencias_expressao": "( EM0048 OU ECI0078 )",
+          "equivalencias_codigos": [
+            "EM0048",
+            "ECI0078"
+          ]
+        },
+        {
+          "codigo": "CAR0005",
+          "nome": "CALCULO VETORIAL APLICADO",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 3,
+          "id": "1309",
+          "pre_requisitos_expressao": "( CAR0004 OU CAR0011 OU CC0007 OU MC0005 ) E ( CAR0009 OU MC0002 OU CC0004 OU EM0004 )",
+          "pre_requisitos_codigos": [
+            "CAR0004",
+            "CAR0011",
+            "CC0007",
+            "MC0005",
+            "CAR0009",
+            "MC0002",
+            "CC0004",
+            "EM0004"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "E",
+            "esquerda": {
+              "operador": "OU",
+              "esquerda": {
+                "operador": "OU",
+                "esquerda": {
+                  "operador": "OU",
+                  "esquerda": {
+                    "codigo": "CAR0004"
+                  },
+                  "direita": {
+                    "codigo": "CAR0011"
+                  }
+                },
+                "direita": {
+                  "codigo": "CC0007"
+                }
+              },
+              "direita": {
+                "codigo": "MC0005"
+              }
+            },
+            "direita": {
+              "operador": "OU",
+              "esquerda": {
+                "operador": "OU",
+                "esquerda": {
+                  "operador": "OU",
+                  "esquerda": {
+                    "codigo": "CAR0009"
+                  },
+                  "direita": {
+                    "codigo": "MC0002"
+                  }
+                },
+                "direita": {
+                  "codigo": "CC0004"
+                }
+              },
+              "direita": {
+                "codigo": "EM0004"
+              }
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( CAR0012 OU CC0013 OU MC0011 )",
+          "equivalencias_codigos": [
+            "CAR0012",
+            "CC0013",
+            "MC0011"
+          ]
+        },
+        {
+          "codigo": "EM0002",
+          "nome": "DESENHO TECNICO PARA ENGENHARIA DE MATERIAIS",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 3,
+          "id": "769",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( ECI0009 )",
+          "equivalencias_codigos": [
+            "ECI0009"
+          ]
+        },
+        {
+          "codigo": "EM0014",
+          "nome": "CALCULO NUMERICO",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 3,
+          "id": "973",
+          "pre_requisitos_expressao": "( ECI0099 OU CC0001 OU MC0004 OU EM0006 OU EM0084 )",
+          "pre_requisitos_codigos": [
+            "ECI0099",
+            "CC0001",
+            "MC0004",
+            "EM0006",
+            "EM0084"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "operador": "OU",
+              "esquerda": {
+                "operador": "OU",
+                "esquerda": {
+                  "operador": "OU",
+                  "esquerda": {
+                    "codigo": "ECI0099"
+                  },
+                  "direita": {
+                    "codigo": "CC0001"
+                  }
+                },
+                "direita": {
+                  "codigo": "MC0004"
+                }
+              },
+              "direita": {
+                "codigo": "EM0006"
+              }
+            },
+            "direita": {
+              "codigo": "EM0084"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( ECI0080 OU CC0018 OU MC0014 )",
+          "equivalencias_codigos": [
+            "ECI0080",
+            "CC0018",
+            "MC0014"
+          ]
+        },
+        {
+          "codigo": "EM0015",
+          "nome": "FISICA FUNDAMENTAL II",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 3,
+          "id": "972",
+          "pre_requisitos_expressao": "( EM0078 OU EM0008 OU CAR0002 )",
+          "pre_requisitos_codigos": [
+            "EM0078",
+            "EM0008",
+            "CAR0002"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "operador": "OU",
+              "esquerda": {
+                "codigo": "EM0078"
+              },
+              "direita": {
+                "codigo": "EM0008"
+              }
+            },
+            "direita": {
+              "codigo": "CAR0002"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( ECI0025 )",
+          "equivalencias_codigos": [
+            "ECI0025"
+          ]
+        },
+        {
+          "codigo": "EM0017",
+          "nome": "MECANICA GERAL",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 3,
+          "id": "970",
+          "pre_requisitos_expressao": "( EM0007 E EM0008 ) OU ( EM0078 E CAR0004 )",
+          "pre_requisitos_codigos": [
+            "EM0007",
+            "EM0008",
+            "EM0078",
+            "CAR0004"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "operador": "E",
+              "esquerda": {
+                "codigo": "EM0007"
+              },
+              "direita": {
+                "codigo": "EM0008"
+              }
+            },
+            "direita": {
+              "operador": "E",
+              "esquerda": {
+                "codigo": "EM0078"
+              },
+              "direita": {
+                "codigo": "CAR0004"
+              }
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( ECI0013 OU ECI0098 )",
+          "equivalencias_codigos": [
+            "ECI0013",
+            "ECI0098"
+          ]
+        },
+        {
+          "codigo": "EM0024",
+          "nome": "CIENCIA DOS MATERIAIS II",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 3,
+          "id": "738",
+          "pre_requisitos_expressao": "( EM0080 OU EM0018 )",
+          "pre_requisitos_codigos": [
+            "EM0080",
+            "EM0018"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "EM0080"
+            },
+            "direita": {
+              "codigo": "EM0018"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "EM0085",
+          "nome": "QUÍMICA INSTRUMENTAL",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 3,
+          "id": "4058",
+          "pre_requisitos_expressao": "( EM0080 E EM0081 E EM0082 ) OU ( EM0009 E EM0018 )",
+          "pre_requisitos_codigos": [
+            "EM0080",
+            "EM0081",
+            "EM0082",
+            "EM0009",
+            "EM0018"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "operador": "E",
+              "esquerda": {
+                "operador": "E",
+                "esquerda": {
+                  "codigo": "EM0080"
+                },
+                "direita": {
+                  "codigo": "EM0081"
+                }
+              },
+              "direita": {
+                "codigo": "EM0082"
+              }
+            },
+            "direita": {
+              "operador": "E",
+              "esquerda": {
+                "codigo": "EM0009"
+              },
+              "direita": {
+                "codigo": "EM0018"
+              }
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( EM0021 )",
+          "equivalencias_codigos": [
+            "EM0021"
+          ]
+        },
+        {
+          "codigo": "EM0019",
+          "nome": "MATEMATICA APLICADA",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 4,
+          "id": "737",
+          "pre_requisitos_expressao": "( CAR0005 OU CAR0012 )",
+          "pre_requisitos_codigos": [
+            "CAR0005",
+            "CAR0012"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "CAR0005"
+            },
+            "direita": {
+              "codigo": "CAR0012"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( ECI0015 OU CAR0017 OU MC0017 )",
+          "equivalencias_codigos": [
+            "ECI0015",
+            "CAR0017",
+            "MC0017"
+          ]
+        },
+        {
+          "codigo": "EM0022",
+          "nome": "TERMODINÂMICA DE SÓLIDOS",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 4,
+          "id": "734",
+          "pre_requisitos_expressao": "( EM0015 )",
+          "pre_requisitos_codigos": [
+            "EM0015"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "EM0015"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "EM0086",
+          "nome": "MATERIAIS CERÂMICOS",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 4,
+          "id": "4059",
+          "pre_requisitos_expressao": "( EM0024 )",
+          "pre_requisitos_codigos": [
+            "EM0024"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "EM0024"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( EM0035 ) OU ( EM0074 E EM0075 ) OU ( EM0071 )",
+          "equivalencias_codigos": [
+            "EM0035",
+            "EM0074",
+            "EM0075",
+            "EM0071"
+          ]
+        },
+        {
+          "codigo": "EM0087",
+          "nome": "MATERIAIS POLIMÉRICOS",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 4,
+          "id": "4060",
+          "pre_requisitos_expressao": "( EM0024 )",
+          "pre_requisitos_codigos": [
+            "EM0024"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "EM0024"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( EM0037 )",
+          "equivalencias_codigos": [
+            "EM0037"
+          ]
+        },
+        {
+          "codigo": "EM0088",
+          "nome": "MATERIAIS METÁLICOS",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 4,
+          "id": "4061",
+          "pre_requisitos_expressao": "( EM0024 )",
+          "pre_requisitos_codigos": [
+            "EM0024"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "EM0024"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( EM0039 )",
+          "equivalencias_codigos": [
+            "EM0039"
+          ]
+        },
+        {
+          "codigo": "EM0089",
+          "nome": "RESISTÊNCIA DOS MATERIAIS",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 4,
+          "id": "4062",
+          "pre_requisitos_expressao": "( EM0017 )",
+          "pre_requisitos_codigos": [
+            "EM0017"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "EM0017"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( EM0023 OU ECI0103 )",
+          "equivalencias_codigos": [
+            "EM0023",
+            "ECI0103"
+          ]
+        },
+        {
+          "codigo": "EM0020",
+          "nome": "ELETROMAGNETISMO",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 5,
+          "id": "736",
+          "pre_requisitos_expressao": "( EM0015 OU ECI0025 )",
+          "pre_requisitos_codigos": [
+            "EM0015",
+            "ECI0025"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "EM0015"
+            },
+            "direita": {
+              "codigo": "ECI0025"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( MC0010 OU ECI0011 OU IFE0119 )",
+          "equivalencias_codigos": [
+            "MC0010",
+            "ECI0011",
+            "IFE0119"
+          ]
+        },
+        {
+          "codigo": "EM0030",
+          "nome": "FENÔMENOS DE TRANSFERÊNCIA",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 5,
+          "id": "1294",
+          "pre_requisitos_expressao": "( EM0019 )",
+          "pre_requisitos_codigos": [
+            "EM0019"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "EM0019"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "EM0042",
+          "nome": "ESTRUTURA E PROPRIEDADE DE POLIMEROS",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 5,
+          "id": "1336",
+          "pre_requisitos_expressao": "( EM0037 OU EM0087 )",
+          "pre_requisitos_codigos": [
+            "EM0037",
+            "EM0087"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "EM0037"
+            },
+            "direita": {
+              "codigo": "EM0087"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "EM0090",
+          "nome": "PROCESSAMENTO DE MATERIAIS CERÂMICOS",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 5,
+          "id": "4063",
+          "pre_requisitos_expressao": "( EM0035 OU EM0071 ) OU ( EM0074 E EM0075 ) OU ( EM0086 )",
+          "pre_requisitos_codigos": [
+            "EM0035",
+            "EM0071",
+            "EM0074",
+            "EM0075",
+            "EM0086"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "operador": "OU",
+              "esquerda": {
+                "operador": "OU",
+                "esquerda": {
+                  "codigo": "EM0035"
+                },
+                "direita": {
+                  "codigo": "EM0071"
+                }
+              },
+              "direita": {
+                "operador": "E",
+                "esquerda": {
+                  "codigo": "EM0074"
+                },
+                "direita": {
+                  "codigo": "EM0075"
+                }
+              }
+            },
+            "direita": {
+              "codigo": "EM0086"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( EM0040 )",
+          "equivalencias_codigos": [
+            "EM0040"
+          ]
+        },
+        {
+          "codigo": "EM0091",
+          "nome": "TRANSFORMAÇÕES DE FASES EM METAIS",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 5,
+          "id": "4065",
+          "pre_requisitos_expressao": "( EM0022 ) E ( EM0024 )",
+          "pre_requisitos_codigos": [
+            "EM0022",
+            "EM0024"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "E",
+            "esquerda": {
+              "codigo": "EM0022"
+            },
+            "direita": {
+              "codigo": "EM0024"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( EM0036 )",
+          "equivalencias_codigos": [
+            "EM0036"
+          ]
+        },
+        {
+          "codigo": "EM0092",
+          "nome": "ENGENHARIA AMBIENTAL",
+          "carga_horaria": 32,
+          "tipo": "obrigatoria",
+          "nivel": 5,
+          "id": "4064",
+          "pre_requisitos_expressao": "( EM0003 OU EM0076 )",
+          "pre_requisitos_codigos": [
+            "EM0003",
+            "EM0076"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "EM0003"
+            },
+            "direita": {
+              "codigo": "EM0076"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( EM0027 OU ECI0020 )",
+          "equivalencias_codigos": [
+            "EM0027",
+            "ECI0020"
+          ]
+        },
+        {
+          "codigo": "EM0043",
+          "nome": "TRATAMENTOS TERMICOS E TERMOQUIMICOS",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 6,
+          "id": "1337",
+          "pre_requisitos_expressao": "( EM0036 OU EM0091 )",
+          "pre_requisitos_codigos": [
+            "EM0036",
+            "EM0091"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "EM0036"
+            },
+            "direita": {
+              "codigo": "EM0091"
+            }
+          },
+          "co_requisitos_expressao": "( EM0095 )",
+          "co_requisitos_codigos": [
+            "EM0095"
+          ],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "EM0050",
+          "nome": "PROCESSAMENTO DE MATERIAIS POLIMÉRICOS",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 6,
+          "id": "1388",
+          "pre_requisitos_expressao": "( EM0042 )",
+          "pre_requisitos_codigos": [
+            "EM0042"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "EM0042"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "EM0093",
+          "nome": "COMPORTAMENTO MECÂNICO DE MATERIAIS",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 6,
+          "id": "4066",
+          "pre_requisitos_expressao": "( EM0024 ) E ( EM0030 )",
+          "pre_requisitos_codigos": [
+            "EM0024",
+            "EM0030"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "E",
+            "esquerda": {
+              "codigo": "EM0024"
+            },
+            "direita": {
+              "codigo": "EM0030"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( EM0034 )",
+          "equivalencias_codigos": [
+            "EM0034"
+          ]
+        },
+        {
+          "codigo": "EM0094",
+          "nome": "PROPRIEDADES DOS MATERIAIS CERÂMICOS",
+          "carga_horaria": 48,
+          "tipo": "obrigatoria",
+          "nivel": 6,
+          "id": "4067",
+          "pre_requisitos_expressao": "( EM0040 OU EM0090 )",
+          "pre_requisitos_codigos": [
+            "EM0040",
+            "EM0090"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "EM0040"
+            },
+            "direita": {
+              "codigo": "EM0090"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( EM0052 )",
+          "equivalencias_codigos": [
+            "EM0052"
+          ]
+        },
+        {
+          "codigo": "EM0095",
+          "nome": "PROCESSAMENTO DE MATERIAIS METÁLICOS",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 6,
+          "id": "4068",
+          "pre_requisitos_expressao": "( EM0039 OU EM0088 )",
+          "pre_requisitos_codigos": [
+            "EM0039",
+            "EM0088"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "EM0039"
+            },
+            "direita": {
+              "codigo": "EM0088"
+            }
+          },
+          "co_requisitos_expressao": "( EM0043 )",
+          "co_requisitos_codigos": [
+            "EM0043"
+          ],
+          "equivalencias_expressao": "( EM0049 )",
+          "equivalencias_codigos": [
+            "EM0049"
+          ]
+        },
+        {
+          "codigo": "EM0096",
+          "nome": "ENSAIOS DE MATERIAIS",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 6,
+          "id": "4069",
+          "pre_requisitos_expressao": "( EM0024 ) E ( EM0017 )",
+          "pre_requisitos_codigos": [
+            "EM0024",
+            "EM0017"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "E",
+            "esquerda": {
+              "codigo": "EM0024"
+            },
+            "direita": {
+              "codigo": "EM0017"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( EM0032 )",
+          "equivalencias_codigos": [
+            "EM0032"
+          ]
+        },
+        {
+          "codigo": "EM0033",
+          "nome": "CARACTERIZAÇÃO DE MATERIAIS",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 7,
+          "id": "1297",
+          "pre_requisitos_expressao": "( EM0024 )",
+          "pre_requisitos_codigos": [
+            "EM0024"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "EM0024"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "EM0051",
+          "nome": "CORROSÃO DE MATERIAIS",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 7,
+          "id": "1389",
+          "pre_requisitos_expressao": "( EM0024 E EM0027 ) OU ( EM0024 E EM0092 )",
+          "pre_requisitos_codigos": [
+            "EM0024",
+            "EM0027",
+            "EM0024",
+            "EM0092"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "operador": "E",
+              "esquerda": {
+                "codigo": "EM0024"
+              },
+              "direita": {
+                "codigo": "EM0027"
+              }
+            },
+            "direita": {
+              "operador": "E",
+              "esquerda": {
+                "codigo": "EM0024"
+              },
+              "direita": {
+                "codigo": "EM0092"
+              }
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "EM0097",
+          "nome": "MATERIAIS COMPÓSITOS",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 7,
+          "id": "4070",
+          "pre_requisitos_expressao": "( EM0032 E EM0037 ) OU ( EM0087 E EM0096 )",
+          "pre_requisitos_codigos": [
+            "EM0032",
+            "EM0037",
+            "EM0087",
+            "EM0096"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "operador": "E",
+              "esquerda": {
+                "codigo": "EM0032"
+              },
+              "direita": {
+                "codigo": "EM0037"
+              }
+            },
+            "direita": {
+              "operador": "E",
+              "esquerda": {
+                "codigo": "EM0087"
+              },
+              "direita": {
+                "codigo": "EM0096"
+              }
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( EM0041 )",
+          "equivalencias_codigos": [
+            "EM0041"
+          ]
+        },
+        {
+          "codigo": "EM0098",
+          "nome": "MÉTODOS E TÉCNICAS DE PESQUISA",
+          "carga_horaria": 32,
+          "tipo": "obrigatoria",
+          "nivel": 7,
+          "id": "4071",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( EM0011 OU ECI0061 )",
+          "equivalencias_codigos": [
+            "EM0011",
+            "ECI0061"
+          ]
+        },
+        {
+          "codigo": "EM0099",
+          "nome": "FUNDAMENTOS DE ADMINISTRAÇÃO",
+          "carga_horaria": 32,
+          "tipo": "obrigatoria",
+          "nivel": 7,
+          "id": "4072",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( EM0029 OU ECI0021 OU ADM0302 OU ADM0405 )",
+          "equivalencias_codigos": [
+            "EM0029",
+            "ECI0021",
+            "ADM0302",
+            "ADM0405"
+          ]
+        },
+        {
+          "codigo": "EM0100",
+          "nome": "ELETROTÉCNICA",
+          "carga_horaria": 32,
+          "tipo": "obrigatoria",
+          "nivel": 7,
+          "id": "4073",
+          "pre_requisitos_expressao": "( EM0020 )",
+          "pre_requisitos_codigos": [
+            "EM0020"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "EM0020"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( EM0028 OU ECI0022 OU ECI0115 )",
+          "equivalencias_codigos": [
+            "EM0028",
+            "ECI0022",
+            "ECI0115"
+          ]
+        },
+        {
+          "codigo": "CAR0003",
+          "nome": "PROBABILIDADE E ESTATÍSTICA",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 8,
+          "id": "1307",
+          "pre_requisitos_expressao": "( CAR0001 OU CAR0008 )",
+          "pre_requisitos_codigos": [
+            "CAR0001",
+            "CAR0008"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "CAR0001"
+            },
+            "direita": {
+              "codigo": "CAR0008"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( EM0012 OU CC0010 OU MC0007 )",
+          "equivalencias_codigos": [
+            "EM0012",
+            "CC0010",
+            "MC0007"
+          ]
+        },
+        {
+          "codigo": "EM0060",
+          "nome": "FORMAÇÃO DE EMPREENDEDORES",
+          "carga_horaria": 32,
+          "tipo": "obrigatoria",
+          "nivel": 8,
+          "id": "1418",
+          "pre_requisitos_expressao": "( EM0099 OU EM0029 OU ECI0021 )",
+          "pre_requisitos_codigos": [
+            "EM0099",
+            "EM0029",
+            "ECI0021"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "operador": "OU",
+              "esquerda": {
+                "codigo": "EM0099"
+              },
+              "direita": {
+                "codigo": "EM0029"
+              }
+            },
+            "direita": {
+              "codigo": "ECI0021"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( ADM0343 )",
+          "equivalencias_codigos": [
+            "ADM0343"
+          ]
+        },
+        {
+          "codigo": "EM0101",
+          "nome": "FUNDAMENTOS DA ECONOMIA",
+          "carga_horaria": 32,
+          "tipo": "obrigatoria",
+          "nivel": 8,
+          "id": "4074",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( EM0031 OU ECI0102 )",
+          "equivalencias_codigos": [
+            "EM0031",
+            "ECI0102"
+          ]
+        },
+        {
+          "codigo": "EM0102",
+          "nome": "ERGONOMIA E SEGURANÇA NO TRABALHO",
+          "carga_horaria": 32,
+          "tipo": "obrigatoria",
+          "nivel": 8,
+          "id": "4075",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( EM0013 OU ECI0045 )",
+          "equivalencias_codigos": [
+            "EM0013",
+            "ECI0045"
+          ]
+        },
+        {
+          "codigo": "EM0103",
+          "nome": "TRABALHO DE CONCLUSÃO DE CURSO (TCC)",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 9,
+          "id": "4076",
+          "pre_requisitos_expressao": "( EM0050 E EM0090 E EM0095 ) OU ( EM0040 E EM0049 E EM0050 )",
+          "pre_requisitos_codigos": [
+            "EM0050",
+            "EM0090",
+            "EM0095",
+            "EM0040",
+            "EM0049",
+            "EM0050"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "operador": "E",
+              "esquerda": {
+                "operador": "E",
+                "esquerda": {
+                  "codigo": "EM0050"
+                },
+                "direita": {
+                  "codigo": "EM0090"
+                }
+              },
+              "direita": {
+                "codigo": "EM0095"
+              }
+            },
+            "direita": {
+              "operador": "E",
+              "esquerda": {
+                "operador": "E",
+                "esquerda": {
+                  "codigo": "EM0040"
+                },
+                "direita": {
+                  "codigo": "EM0049"
+                }
+              },
+              "direita": {
+                "codigo": "EM0050"
+              }
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( EM0072 )",
+          "equivalencias_codigos": [
+            "EM0072"
+          ]
+        },
+        {
+          "codigo": "EM0104",
+          "nome": "ESTÁGIO INTEGRADO",
+          "carga_horaria": 160,
+          "tipo": "obrigatoria",
+          "nivel": 10,
+          "id": "4077",
+          "pre_requisitos_expressao": "( EM0050 E EM0090 E EM0095 ) OU ( EM0040 E EM0049 E EM0050 )",
+          "pre_requisitos_codigos": [
+            "EM0050",
+            "EM0090",
+            "EM0095",
+            "EM0040",
+            "EM0049",
+            "EM0050"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "operador": "E",
+              "esquerda": {
+                "operador": "E",
+                "esquerda": {
+                  "codigo": "EM0050"
+                },
+                "direita": {
+                  "codigo": "EM0090"
+                }
+              },
+              "direita": {
+                "codigo": "EM0095"
+              }
+            },
+            "direita": {
+              "operador": "E",
+              "esquerda": {
+                "operador": "E",
+                "esquerda": {
+                  "codigo": "EM0040"
+                },
+                "direita": {
+                  "codigo": "EM0049"
+                }
+              },
+              "direita": {
+                "codigo": "EM0050"
+              }
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( EM0070 )",
+          "equivalencias_codigos": [
+            "EM0070"
+          ]
+        },
+        {
+          "codigo": "CAR0010",
+          "nome": "LÍNGUA BRASILEIRA DE SINAIS: LIBRAS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1357",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "EM0045",
+          "nome": "CERAMICAS REFRATARIAS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1346",
+          "pre_requisitos_expressao": "( EM0035 OU EM0071 ) OU ( EM0074 E EM0075 ) OU ( EM0086 )",
+          "pre_requisitos_codigos": [
+            "EM0035",
+            "EM0071",
+            "EM0074",
+            "EM0075",
+            "EM0086"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "operador": "OU",
+              "esquerda": {
+                "operador": "OU",
+                "esquerda": {
+                  "codigo": "EM0035"
+                },
+                "direita": {
+                  "codigo": "EM0071"
+                }
+              },
+              "direita": {
+                "operador": "E",
+                "esquerda": {
+                  "codigo": "EM0074"
+                },
+                "direita": {
+                  "codigo": "EM0075"
+                }
+              }
+            },
+            "direita": {
+              "codigo": "EM0086"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "EM0046",
+          "nome": "ARGILAS: PROPRIEDADES E USOS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1347",
+          "pre_requisitos_expressao": "( EM0035 OU EM0071 ) OU ( EM0074 E EM0075 ) OU ( EM0086 )",
+          "pre_requisitos_codigos": [
+            "EM0035",
+            "EM0071",
+            "EM0074",
+            "EM0075",
+            "EM0086"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "operador": "OU",
+              "esquerda": {
+                "operador": "OU",
+                "esquerda": {
+                  "codigo": "EM0035"
+                },
+                "direita": {
+                  "codigo": "EM0071"
+                }
+              },
+              "direita": {
+                "operador": "E",
+                "esquerda": {
+                  "codigo": "EM0074"
+                },
+                "direita": {
+                  "codigo": "EM0075"
+                }
+              }
+            },
+            "direita": {
+              "codigo": "EM0086"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "EM0047",
+          "nome": "INTRODUÇÃO AO EQUILIBRIO DE FASES EM MATERIAIS CERAMICOS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1348",
+          "pre_requisitos_expressao": "( EM0022 E EM0086 ) OU ( EM0035 OU EM0071 ) OU ( EM0074 E EM0075 )",
+          "pre_requisitos_codigos": [
+            "EM0022",
+            "EM0086",
+            "EM0035",
+            "EM0071",
+            "EM0074",
+            "EM0075"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "operador": "OU",
+              "esquerda": {
+                "operador": "E",
+                "esquerda": {
+                  "codigo": "EM0022"
+                },
+                "direita": {
+                  "codigo": "EM0086"
+                }
+              },
+              "direita": {
+                "operador": "OU",
+                "esquerda": {
+                  "codigo": "EM0035"
+                },
+                "direita": {
+                  "codigo": "EM0071"
+                }
+              }
+            },
+            "direita": {
+              "operador": "E",
+              "esquerda": {
+                "codigo": "EM0074"
+              },
+              "direita": {
+                "codigo": "EM0075"
+              }
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "EM0058",
+          "nome": "TECNOLOGIA DE ELASTÔMEROS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1403",
+          "pre_requisitos_expressao": "( EM0042 )",
+          "pre_requisitos_codigos": [
+            "EM0042"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "EM0042"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "EM0059",
+          "nome": "DEGRADAÇÃO DE POLÍMEROS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1404",
+          "pre_requisitos_expressao": "( EM0042 )",
+          "pre_requisitos_codigos": [
+            "EM0042"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "EM0042"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "EM0062",
+          "nome": "METALURGIA DA SOLDAGEM",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1420",
+          "pre_requisitos_expressao": "( EM0088 OU EM0039 )",
+          "pre_requisitos_codigos": [
+            "EM0088",
+            "EM0039"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "EM0088"
+            },
+            "direita": {
+              "codigo": "EM0039"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "EM0067",
+          "nome": "REFINO DE PETRÓLEO",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1425",
+          "pre_requisitos_expressao": "( EM0092 OU EM0027 )",
+          "pre_requisitos_codigos": [
+            "EM0092",
+            "EM0027"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "EM0092"
+            },
+            "direita": {
+              "codigo": "EM0027"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "EM0073",
+          "nome": "TECNOLOGIA DE VIDROS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2719",
+          "pre_requisitos_expressao": "( EM0090 OU EM0040 )",
+          "pre_requisitos_codigos": [
+            "EM0090",
+            "EM0040"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "EM0090"
+            },
+            "direita": {
+              "codigo": "EM0040"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "EM0105",
+          "nome": "TÓPICOS ESPECIAIS EM: SÍNTESE DE CERÂMICAS AVANÇADAS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3960",
+          "pre_requisitos_expressao": "( EM0071 OU EM0086 )",
+          "pre_requisitos_codigos": [
+            "EM0071",
+            "EM0086"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "EM0071"
+            },
+            "direita": {
+              "codigo": "EM0086"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "EM0106",
+          "nome": "MINERALOGIA APLICADA AO USO DE MINÉRIOS, ROCHAS E MINERAIS INDUSTRIAIS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "4080",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( EM0026 )",
+          "equivalencias_codigos": [
+            "EM0026"
+          ]
+        },
+        {
+          "codigo": "EM0107",
+          "nome": "QUÍMICA ORGÂNICA II",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "4081",
+          "pre_requisitos_expressao": "( EM0081 )",
+          "pre_requisitos_codigos": [
+            "EM0081"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "EM0081"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "EM0108",
+          "nome": "PROJETO INTEGRATIVO EM ENGENHARIA DE MATERIAIS 1",
+          "carga_horaria": 32,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "4082",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "EM0109",
+          "nome": "PROJETO INTEGRATIVO EM ENGENHARIA DE MATERIAIS 2",
+          "carga_horaria": 32,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "4083",
+          "pre_requisitos_expressao": "( EM0108 )",
+          "pre_requisitos_codigos": [
+            "EM0108"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "EM0108"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "EM0110",
+          "nome": "PROJETO INTEGRATIVO EM ENGENHARIA DE MATERIAIS 3",
+          "carga_horaria": 32,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "4084",
+          "pre_requisitos_expressao": "( EM0109 )",
+          "pre_requisitos_codigos": [
+            "EM0109"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "EM0109"
+          },
+          "co_requisitos_expressao": "( EM0086 E EM0087 E EM0088 )",
+          "co_requisitos_codigos": [
+            "EM0086",
+            "EM0087",
+            "EM0088"
+          ],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "EM0111",
+          "nome": "PROJETO INTEGRATIVO EM ENGENHARIA DE MATERIAIS 4",
+          "carga_horaria": 32,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "4085",
+          "pre_requisitos_expressao": "( EM0110 )",
+          "pre_requisitos_codigos": [
+            "EM0110"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "EM0110"
+          },
+          "co_requisitos_expressao": "( EM0050 E EM0095 )",
+          "co_requisitos_codigos": [
+            "EM0050",
+            "EM0095"
+          ],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "EM0112",
+          "nome": "MECÂNICA DA FRATURA",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "4086",
+          "pre_requisitos_expressao": "( EM0089 OU EM0023 )",
+          "pre_requisitos_codigos": [
+            "EM0089",
+            "EM0023"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "EM0089"
+            },
+            "direita": {
+              "codigo": "EM0023"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( EM0061 )",
+          "equivalencias_codigos": [
+            "EM0061"
+          ]
+        },
+        {
+          "codigo": "EM0113",
+          "nome": "TÓPICOS ESPECIAIS EM MATERIAIS METÁLICOS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "4087",
+          "pre_requisitos_expressao": "( EM0088 OU EM0039 )",
+          "pre_requisitos_codigos": [
+            "EM0088",
+            "EM0039"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "EM0088"
+            },
+            "direita": {
+              "codigo": "EM0039"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "EM0114",
+          "nome": "ADITIVAÇÃO DE POLÍMEROS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "4088",
+          "pre_requisitos_expressao": "( EM0087 OU EM0037 )",
+          "pre_requisitos_codigos": [
+            "EM0087",
+            "EM0037"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "EM0087"
+            },
+            "direita": {
+              "codigo": "EM0037"
+            }
+          },
+          "co_requisitos_expressao": "( EM0050 )",
+          "co_requisitos_codigos": [
+            "EM0050"
+          ],
+          "equivalencias_expressao": "( EM0057 )",
+          "equivalencias_codigos": [
+            "EM0057"
+          ]
+        },
+        {
+          "codigo": "EM0115",
+          "nome": "FALHA PREMATURA DE POLÍMEROS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "4089",
+          "pre_requisitos_expressao": "( EM0050 )",
+          "pre_requisitos_codigos": [
+            "EM0050"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "EM0050"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "EM0116",
+          "nome": "TÓPICOS ESPECIAIS EM MATERIAIS POLIMÉRICOS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "4090",
+          "pre_requisitos_expressao": "( EM0087 OU EM0037 )",
+          "pre_requisitos_codigos": [
+            "EM0087",
+            "EM0037"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "EM0087"
+            },
+            "direita": {
+              "codigo": "EM0037"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "EM0117",
+          "nome": "TÓPICOS ESPECIAIS EM MATERIAIS CERÂMICOS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "4091",
+          "pre_requisitos_expressao": "( EM0035 OU EM0071 ) OU ( EM0074 E EM0075 ) OU ( EM0086 )",
+          "pre_requisitos_codigos": [
+            "EM0035",
+            "EM0071",
+            "EM0074",
+            "EM0075",
+            "EM0086"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "operador": "OU",
+              "esquerda": {
+                "operador": "OU",
+                "esquerda": {
+                  "codigo": "EM0035"
+                },
+                "direita": {
+                  "codigo": "EM0071"
+                }
+              },
+              "direita": {
+                "operador": "E",
+                "esquerda": {
+                  "codigo": "EM0074"
+                },
+                "direita": {
+                  "codigo": "EM0075"
+                }
+              }
+            },
+            "direita": {
+              "codigo": "EM0086"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "EM0118",
+          "nome": "RECICLAGEM DE MATERIAIS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "4092",
+          "pre_requisitos_expressao": "( EM0092 OU EM0027 ) E ( EM0050 E EM0049 OU EM0095 )",
+          "pre_requisitos_codigos": [
+            "EM0092",
+            "EM0027",
+            "EM0050",
+            "EM0049",
+            "EM0095"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "E",
+            "esquerda": {
+              "operador": "OU",
+              "esquerda": {
+                "codigo": "EM0092"
+              },
+              "direita": {
+                "codigo": "EM0027"
+              }
+            },
+            "direita": {
+              "operador": "OU",
+              "esquerda": {
+                "operador": "E",
+                "esquerda": {
+                  "codigo": "EM0050"
+                },
+                "direita": {
+                  "codigo": "EM0049"
+                }
+              },
+              "direita": {
+                "codigo": "EM0095"
+              }
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( EM0044 )",
+          "equivalencias_codigos": [
+            "EM0044"
+          ]
+        },
+        {
+          "codigo": "EM0119",
+          "nome": "INTRODUÇÃO À CIÊNCIA DOS BIOMATERIAIS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "4093",
+          "pre_requisitos_expressao": "( EM0024 )",
+          "pre_requisitos_codigos": [
+            "EM0024"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "EM0024"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( EM0054 )",
+          "equivalencias_codigos": [
+            "EM0054"
+          ]
+        },
+        {
+          "codigo": "EM0120",
+          "nome": "MATERIAIS DA INDÚSTRIA DA CONSTRUÇÃO CIVIL",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "4094",
+          "pre_requisitos_expressao": "( EM0035 OU EM0071 ) OU ( EM0074 E EM0075 OU EM0086 ) E ( EM0037 OU EM0087 ) E ( EM0039 OU EM0088 )",
+          "pre_requisitos_codigos": [
+            "EM0035",
+            "EM0071",
+            "EM0074",
+            "EM0075",
+            "EM0086",
+            "EM0037",
+            "EM0087",
+            "EM0039",
+            "EM0088"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "operador": "OU",
+              "esquerda": {
+                "codigo": "EM0035"
+              },
+              "direita": {
+                "codigo": "EM0071"
+              }
+            },
+            "direita": {
+              "operador": "E",
+              "esquerda": {
+                "operador": "E",
+                "esquerda": {
+                  "operador": "OU",
+                  "esquerda": {
+                    "operador": "E",
+                    "esquerda": {
+                      "codigo": "EM0074"
+                    },
+                    "direita": {
+                      "codigo": "EM0075"
+                    }
+                  },
+                  "direita": {
+                    "codigo": "EM0086"
+                  }
+                },
+                "direita": {
+                  "operador": "OU",
+                  "esquerda": {
+                    "codigo": "EM0037"
+                  },
+                  "direita": {
+                    "codigo": "EM0087"
+                  }
+                }
+              },
+              "direita": {
+                "operador": "OU",
+                "esquerda": {
+                  "codigo": "EM0039"
+                },
+                "direita": {
+                  "codigo": "EM0088"
+                }
+              }
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "EM0121",
+          "nome": "TÓPICOS ESPECIAIS EM CIÊNCIA DOS MATERIAIS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "4095",
+          "pre_requisitos_expressao": "( EM0024 )",
+          "pre_requisitos_codigos": [
+            "EM0024"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "EM0024"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "EM0122",
+          "nome": "TÓPICOS ESPECIAIS EM: FUNDAMENTOS DA QUARTA REVOLUÇÃO INDUSTRIAL",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "4096",
+          "pre_requisitos_expressao": "( EM0095 OU EM0049 )",
+          "pre_requisitos_codigos": [
+            "EM0095",
+            "EM0049"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "EM0095"
+            },
+            "direita": {
+              "codigo": "EM0049"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "EM0123",
+          "nome": "INTRODUÇÃO À ESTRUTURA DA MATÉRIA",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "4174",
+          "pre_requisitos_expressao": "( EM0020 )",
+          "pre_requisitos_codigos": [
+            "EM0020"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "EM0020"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        }
+      ]
+    },
+    {
+      "id": "631160",
+      "codigo": "2010.1",
+      "ano_criacao": 2010,
+      "status": "Ativa",
+      "quantidade_componentes": 75,
+      "quantidade_obrigatorias": 49,
+      "quantidade_optativas": 26,
+      "componentes": [
+        {
+          "codigo": "CAR0001",
+          "nome": "CALCULO FUNDAMENTAL I",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 1,
+          "id": "1305",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( CAR0008 OU CC0002 OU MC0001 OU EM0001 )",
+          "equivalencias_codigos": [
+            "CAR0008",
+            "CC0002",
+            "MC0001",
+            "EM0001"
+          ]
+        },
+        {
+          "codigo": "EM0002",
+          "nome": "DESENHO TECNICO PARA ENGENHARIA DE MATERIAIS",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 1,
+          "id": "769",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( ECI0009 )",
+          "equivalencias_codigos": [
+            "ECI0009"
+          ]
+        },
+        {
+          "codigo": "EM0003",
+          "nome": "QUIMICA GERAL PARA ENGENHARIA",
+          "carga_horaria": 96,
+          "tipo": "obrigatoria",
+          "nivel": 1,
+          "id": "750",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( EM0076 E EM0077 ) OU ( ECI0088 E ECI0089 )",
+          "equivalencias_codigos": [
+            "EM0076",
+            "EM0077",
+            "ECI0088",
+            "ECI0089"
+          ]
+        },
+        {
+          "codigo": "EM0004",
+          "nome": "ALGEBRA VETORIAL E GEOMETRIA ANALITICA",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 1,
+          "id": "1006",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( CAR0009 ) OU ( MC0002 ) OU ( CC0004 )",
+          "equivalencias_codigos": [
+            "CAR0009",
+            "MC0002",
+            "CC0004"
+          ]
+        },
+        {
+          "codigo": "EM0005",
+          "nome": "INTRODUCAO A ENGENHARIA DE MATERIAIS",
+          "carga_horaria": 32,
+          "tipo": "obrigatoria",
+          "nivel": 1,
+          "id": "751",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( EM0079 )",
+          "equivalencias_codigos": [
+            "EM0079"
+          ]
+        },
+        {
+          "codigo": "EM0011",
+          "nome": "METODOLOGIA E TECNICAS DE PESQUISA",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 1,
+          "id": "756",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( EM0098 OU ECI0061 )",
+          "equivalencias_codigos": [
+            "EM0098",
+            "ECI0061"
+          ]
+        },
+        {
+          "codigo": "CAR0002",
+          "nome": "FISICA FUNDAMENTAL I",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 2,
+          "id": "1306",
+          "pre_requisitos_expressao": "( CAR0008 E CAR0009 ) OU ( CAR0008 E CAR0033 )",
+          "pre_requisitos_codigos": [
+            "CAR0008",
+            "CAR0009",
+            "CAR0008",
+            "CAR0033"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "operador": "E",
+              "esquerda": {
+                "codigo": "CAR0008"
+              },
+              "direita": {
+                "codigo": "CAR0009"
+              }
+            },
+            "direita": {
+              "operador": "E",
+              "esquerda": {
+                "codigo": "CAR0008"
+              },
+              "direita": {
+                "codigo": "CAR0033"
+              }
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( EM0008 OU CC0008 OU MC0009 OU EM0078 )",
+          "equivalencias_codigos": [
+            "EM0008",
+            "CC0008",
+            "MC0009",
+            "EM0078"
+          ]
+        },
+        {
+          "codigo": "CAR0003",
+          "nome": "PROBABILIDADE E ESTATÍSTICA",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 2,
+          "id": "1307",
+          "pre_requisitos_expressao": "( CAR0001 OU CAR0008 )",
+          "pre_requisitos_codigos": [
+            "CAR0001",
+            "CAR0008"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "CAR0001"
+            },
+            "direita": {
+              "codigo": "CAR0008"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( EM0012 OU CC0010 OU MC0007 )",
+          "equivalencias_codigos": [
+            "EM0012",
+            "CC0010",
+            "MC0007"
+          ]
+        },
+        {
+          "codigo": "CAR0004",
+          "nome": "CALCULO FUNDAMENTAL II",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 2,
+          "id": "1308",
+          "pre_requisitos_expressao": "( CAR0001 OU CAR0008 OU CC0002 OU MC0001 OU EM0001 )",
+          "pre_requisitos_codigos": [
+            "CAR0001",
+            "CAR0008",
+            "CC0002",
+            "MC0001",
+            "EM0001"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "operador": "OU",
+              "esquerda": {
+                "operador": "OU",
+                "esquerda": {
+                  "operador": "OU",
+                  "esquerda": {
+                    "codigo": "CAR0001"
+                  },
+                  "direita": {
+                    "codigo": "CAR0008"
+                  }
+                },
+                "direita": {
+                  "codigo": "CC0002"
+                }
+              },
+              "direita": {
+                "codigo": "MC0001"
+              }
+            },
+            "direita": {
+              "codigo": "EM0001"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( CAR0011 OU CC0007 OU MC0005 OU EM0007 OU IFE0035 )",
+          "equivalencias_codigos": [
+            "CAR0011",
+            "CC0007",
+            "MC0005",
+            "EM0007",
+            "IFE0035"
+          ]
+        },
+        {
+          "codigo": "EM0006",
+          "nome": "PROGRAMACAO COMPUTACIONAL PARA ENGENHARIA",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 2,
+          "id": "768",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( ECI0099 OU CC0001 OU MC0004 OU EM0084 )",
+          "equivalencias_codigos": [
+            "ECI0099",
+            "CC0001",
+            "MC0004",
+            "EM0084"
+          ]
+        },
+        {
+          "codigo": "EM0009",
+          "nome": "QUIMICA DOS MATERIAIS",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 2,
+          "id": "754",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "EM0010",
+          "nome": "ALGEBRA LINEAR",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 2,
+          "id": "755",
+          "pre_requisitos_expressao": "( EM0004 OU CAR0009 OU MC0002 OU CC0004 )",
+          "pre_requisitos_codigos": [
+            "EM0004",
+            "CAR0009",
+            "MC0002",
+            "CC0004"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "operador": "OU",
+              "esquerda": {
+                "operador": "OU",
+                "esquerda": {
+                  "codigo": "EM0004"
+                },
+                "direita": {
+                  "codigo": "CAR0009"
+                }
+              },
+              "direita": {
+                "codigo": "MC0002"
+              }
+            },
+            "direita": {
+              "codigo": "CC0004"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( ECI0002 OU MC0006 OU CC0009 )",
+          "equivalencias_codigos": [
+            "ECI0002",
+            "MC0006",
+            "CC0009"
+          ]
+        },
+        {
+          "codigo": "EM0013",
+          "nome": "HIGIENE INDUSTRIAL E SEGURANÇA DO TRABALHO",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 2,
+          "id": "902",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( ECI0045 OU EM0102 )",
+          "equivalencias_codigos": [
+            "ECI0045",
+            "EM0102"
+          ]
+        },
+        {
+          "codigo": "CAR0005",
+          "nome": "CALCULO VETORIAL APLICADO",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 3,
+          "id": "1309",
+          "pre_requisitos_expressao": "( CAR0004 OU CAR0011 OU CC0007 OU MC0005 ) E ( CAR0009 OU MC0002 OU CC0004 OU EM0004 )",
+          "pre_requisitos_codigos": [
+            "CAR0004",
+            "CAR0011",
+            "CC0007",
+            "MC0005",
+            "CAR0009",
+            "MC0002",
+            "CC0004",
+            "EM0004"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "E",
+            "esquerda": {
+              "operador": "OU",
+              "esquerda": {
+                "operador": "OU",
+                "esquerda": {
+                  "operador": "OU",
+                  "esquerda": {
+                    "codigo": "CAR0004"
+                  },
+                  "direita": {
+                    "codigo": "CAR0011"
+                  }
+                },
+                "direita": {
+                  "codigo": "CC0007"
+                }
+              },
+              "direita": {
+                "codigo": "MC0005"
+              }
+            },
+            "direita": {
+              "operador": "OU",
+              "esquerda": {
+                "operador": "OU",
+                "esquerda": {
+                  "operador": "OU",
+                  "esquerda": {
+                    "codigo": "CAR0009"
+                  },
+                  "direita": {
+                    "codigo": "MC0002"
+                  }
+                },
+                "direita": {
+                  "codigo": "CC0004"
+                }
+              },
+              "direita": {
+                "codigo": "EM0004"
+              }
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( CAR0012 OU CC0013 OU MC0011 )",
+          "equivalencias_codigos": [
+            "CAR0012",
+            "CC0013",
+            "MC0011"
+          ]
+        },
+        {
+          "codigo": "EM0014",
+          "nome": "CALCULO NUMERICO",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 3,
+          "id": "973",
+          "pre_requisitos_expressao": "( ECI0099 OU CC0001 OU MC0004 OU EM0006 OU EM0084 )",
+          "pre_requisitos_codigos": [
+            "ECI0099",
+            "CC0001",
+            "MC0004",
+            "EM0006",
+            "EM0084"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "operador": "OU",
+              "esquerda": {
+                "operador": "OU",
+                "esquerda": {
+                  "operador": "OU",
+                  "esquerda": {
+                    "codigo": "ECI0099"
+                  },
+                  "direita": {
+                    "codigo": "CC0001"
+                  }
+                },
+                "direita": {
+                  "codigo": "MC0004"
+                }
+              },
+              "direita": {
+                "codigo": "EM0006"
+              }
+            },
+            "direita": {
+              "codigo": "EM0084"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( ECI0080 OU CC0018 OU MC0014 )",
+          "equivalencias_codigos": [
+            "ECI0080",
+            "CC0018",
+            "MC0014"
+          ]
+        },
+        {
+          "codigo": "EM0015",
+          "nome": "FISICA FUNDAMENTAL II",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 3,
+          "id": "972",
+          "pre_requisitos_expressao": "( EM0078 OU EM0008 OU CAR0002 )",
+          "pre_requisitos_codigos": [
+            "EM0078",
+            "EM0008",
+            "CAR0002"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "operador": "OU",
+              "esquerda": {
+                "codigo": "EM0078"
+              },
+              "direita": {
+                "codigo": "EM0008"
+              }
+            },
+            "direita": {
+              "codigo": "CAR0002"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( ECI0025 )",
+          "equivalencias_codigos": [
+            "ECI0025"
+          ]
+        },
+        {
+          "codigo": "EM0017",
+          "nome": "MECANICA GERAL",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 3,
+          "id": "970",
+          "pre_requisitos_expressao": "( EM0007 E EM0008 ) OU ( EM0078 E CAR0004 )",
+          "pre_requisitos_codigos": [
+            "EM0007",
+            "EM0008",
+            "EM0078",
+            "CAR0004"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "operador": "E",
+              "esquerda": {
+                "codigo": "EM0007"
+              },
+              "direita": {
+                "codigo": "EM0008"
+              }
+            },
+            "direita": {
+              "operador": "E",
+              "esquerda": {
+                "codigo": "EM0078"
+              },
+              "direita": {
+                "codigo": "CAR0004"
+              }
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( ECI0013 OU ECI0098 )",
+          "equivalencias_codigos": [
+            "ECI0013",
+            "ECI0098"
+          ]
+        },
+        {
+          "codigo": "EM0018",
+          "nome": "CIENCIA DOS MATERIAIS I",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 3,
+          "id": "969",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( EM0080 )",
+          "equivalencias_codigos": [
+            "EM0080"
+          ]
+        },
+        {
+          "codigo": "EM0048",
+          "nome": "FISICA EXPERIMENTAL I",
+          "carga_horaria": 32,
+          "tipo": "obrigatoria",
+          "nivel": 3,
+          "id": "1356",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( ECI0078 OU EM0083 )",
+          "equivalencias_codigos": [
+            "ECI0078",
+            "EM0083"
+          ]
+        },
+        {
+          "codigo": "EM0019",
+          "nome": "MATEMATICA APLICADA",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 4,
+          "id": "737",
+          "pre_requisitos_expressao": "( CAR0005 OU CAR0012 )",
+          "pre_requisitos_codigos": [
+            "CAR0005",
+            "CAR0012"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "CAR0005"
+            },
+            "direita": {
+              "codigo": "CAR0012"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( ECI0015 OU CAR0017 OU MC0017 )",
+          "equivalencias_codigos": [
+            "ECI0015",
+            "CAR0017",
+            "MC0017"
+          ]
+        },
+        {
+          "codigo": "EM0020",
+          "nome": "ELETROMAGNETISMO",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 4,
+          "id": "736",
+          "pre_requisitos_expressao": "( EM0015 OU ECI0025 )",
+          "pre_requisitos_codigos": [
+            "EM0015",
+            "ECI0025"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "EM0015"
+            },
+            "direita": {
+              "codigo": "ECI0025"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( MC0010 OU ECI0011 OU IFE0119 )",
+          "equivalencias_codigos": [
+            "MC0010",
+            "ECI0011",
+            "IFE0119"
+          ]
+        },
+        {
+          "codigo": "EM0021",
+          "nome": "QUIMICA ANALITICA",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 4,
+          "id": "735",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( EM0085 )",
+          "equivalencias_codigos": [
+            "EM0085"
+          ]
+        },
+        {
+          "codigo": "EM0022",
+          "nome": "TERMODINÂMICA DE SÓLIDOS",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 4,
+          "id": "734",
+          "pre_requisitos_expressao": "( EM0015 )",
+          "pre_requisitos_codigos": [
+            "EM0015"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "EM0015"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "EM0023",
+          "nome": "MECANICA DOS MATERIAIS",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 4,
+          "id": "733",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( ECI0028 OU EM0089 )",
+          "equivalencias_codigos": [
+            "ECI0028",
+            "EM0089"
+          ]
+        },
+        {
+          "codigo": "EM0024",
+          "nome": "CIENCIA DOS MATERIAIS II",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 4,
+          "id": "738",
+          "pre_requisitos_expressao": "( EM0080 OU EM0018 )",
+          "pre_requisitos_codigos": [
+            "EM0080",
+            "EM0018"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "EM0080"
+            },
+            "direita": {
+              "codigo": "EM0018"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "EM0027",
+          "nome": "ENGENHARIA AMBIENTAL",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 4,
+          "id": "1257",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( EM0092 OU ECI0020 )",
+          "equivalencias_codigos": [
+            "EM0092",
+            "ECI0020"
+          ]
+        },
+        {
+          "codigo": "EM0028",
+          "nome": "ELETROTÉCNICA",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 5,
+          "id": "1292",
+          "pre_requisitos_expressao": "( EM0020 )",
+          "pre_requisitos_codigos": [
+            "EM0020"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "EM0020"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( EM0100 OU ECI0022 OU ECI0115 )",
+          "equivalencias_codigos": [
+            "EM0100",
+            "ECI0022",
+            "ECI0115"
+          ]
+        },
+        {
+          "codigo": "EM0029",
+          "nome": "FUNDAMENTOS DE ADMINISTRAÇÃO",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 5,
+          "id": "1293",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( EM0099 OU ECI0021 OU ADM0302 OU ADM0405 )",
+          "equivalencias_codigos": [
+            "EM0099",
+            "ECI0021",
+            "ADM0302",
+            "ADM0405"
+          ]
+        },
+        {
+          "codigo": "EM0030",
+          "nome": "FENÔMENOS DE TRANSFERÊNCIA",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 5,
+          "id": "1294",
+          "pre_requisitos_expressao": "( EM0019 )",
+          "pre_requisitos_codigos": [
+            "EM0019"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "EM0019"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "EM0031",
+          "nome": "FUNDAMENTOS DA ECONOMIA",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 5,
+          "id": "1295",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( EM0101 OU ECI0102 )",
+          "equivalencias_codigos": [
+            "EM0101",
+            "ECI0102"
+          ]
+        },
+        {
+          "codigo": "EM0032",
+          "nome": "ENSAIOS MECANICOS DE MATERIAIS",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 5,
+          "id": "1296",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( EM0096 )",
+          "equivalencias_codigos": [
+            "EM0096"
+          ]
+        },
+        {
+          "codigo": "EM0033",
+          "nome": "CARACTERIZAÇÃO DE MATERIAIS",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 5,
+          "id": "1297",
+          "pre_requisitos_expressao": "( EM0024 )",
+          "pre_requisitos_codigos": [
+            "EM0024"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "EM0024"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "EM0034",
+          "nome": "PROPRIEDADES MECANICAS DE MATERIAIS",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 6,
+          "id": "1323",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( EM0093 )",
+          "equivalencias_codigos": [
+            "EM0093"
+          ]
+        },
+        {
+          "codigo": "EM0036",
+          "nome": "TRANSFORMAÇÃO DE FASES",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 6,
+          "id": "1325",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( EM0091 )",
+          "equivalencias_codigos": [
+            "EM0091"
+          ]
+        },
+        {
+          "codigo": "EM0037",
+          "nome": "INTRODUÇÃO AOS MATERIAIS POLIMERICOS",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 6,
+          "id": "1326",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( EM0087 )",
+          "equivalencias_codigos": [
+            "EM0087"
+          ]
+        },
+        {
+          "codigo": "EM0038",
+          "nome": "ETICA E LEGISLAÇÃO",
+          "carga_horaria": 32,
+          "tipo": "obrigatoria",
+          "nivel": 6,
+          "id": "1327",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "EM0039",
+          "nome": "INTRODUÇÃO AOS MATERIAIS METALICOS",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 6,
+          "id": "1328",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( EM0088 )",
+          "equivalencias_codigos": [
+            "EM0088"
+          ]
+        },
+        {
+          "codigo": "EM0071",
+          "nome": "INTRODUÇÃO AOS MATERIAIS CERÂMICOS",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 6,
+          "id": "2201",
+          "pre_requisitos_expressao": "( EM0024 )",
+          "pre_requisitos_codigos": [
+            "EM0024"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "EM0024"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( EM0035 OU EM0086 )",
+          "equivalencias_codigos": [
+            "EM0035",
+            "EM0086"
+          ]
+        },
+        {
+          "codigo": "EM0040",
+          "nome": "PROCESSAMENTO DE MATERIAIS CERAMICOS",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 7,
+          "id": "1334",
+          "pre_requisitos_expressao": "( EM0035 OU EM0071 )",
+          "pre_requisitos_codigos": [
+            "EM0035",
+            "EM0071"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "EM0035"
+            },
+            "direita": {
+              "codigo": "EM0071"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( EM0090 )",
+          "equivalencias_codigos": [
+            "EM0090"
+          ]
+        },
+        {
+          "codigo": "EM0041",
+          "nome": "MATERIAIS COMPOSITOS",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 7,
+          "id": "1335",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( EM0097 )",
+          "equivalencias_codigos": [
+            "EM0097"
+          ]
+        },
+        {
+          "codigo": "EM0042",
+          "nome": "ESTRUTURA E PROPRIEDADE DE POLIMEROS",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 7,
+          "id": "1336",
+          "pre_requisitos_expressao": "( EM0037 OU EM0087 )",
+          "pre_requisitos_codigos": [
+            "EM0037",
+            "EM0087"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "EM0037"
+            },
+            "direita": {
+              "codigo": "EM0087"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "EM0043",
+          "nome": "TRATAMENTOS TERMICOS E TERMOQUIMICOS",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 7,
+          "id": "1337",
+          "pre_requisitos_expressao": "( EM0036 OU EM0091 )",
+          "pre_requisitos_codigos": [
+            "EM0036",
+            "EM0091"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "EM0036"
+            },
+            "direita": {
+              "codigo": "EM0091"
+            }
+          },
+          "co_requisitos_expressao": "( EM0095 )",
+          "co_requisitos_codigos": [
+            "EM0095"
+          ],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "EM0049",
+          "nome": "PROCESSAMENTO DOS MATERIAIS METALICOS",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 8,
+          "id": "1387",
+          "pre_requisitos_expressao": "( EM0039 OU EM0088 )",
+          "pre_requisitos_codigos": [
+            "EM0039",
+            "EM0088"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "EM0039"
+            },
+            "direita": {
+              "codigo": "EM0088"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( EM0095 )",
+          "equivalencias_codigos": [
+            "EM0095"
+          ]
+        },
+        {
+          "codigo": "EM0050",
+          "nome": "PROCESSAMENTO DE MATERIAIS POLIMÉRICOS",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 8,
+          "id": "1388",
+          "pre_requisitos_expressao": "( EM0042 )",
+          "pre_requisitos_codigos": [
+            "EM0042"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "EM0042"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "EM0051",
+          "nome": "CORROSÃO DE MATERIAIS",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 8,
+          "id": "1389",
+          "pre_requisitos_expressao": "( EM0024 E EM0027 ) OU ( EM0024 E EM0092 )",
+          "pre_requisitos_codigos": [
+            "EM0024",
+            "EM0027",
+            "EM0024",
+            "EM0092"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "operador": "E",
+              "esquerda": {
+                "codigo": "EM0024"
+              },
+              "direita": {
+                "codigo": "EM0027"
+              }
+            },
+            "direita": {
+              "operador": "E",
+              "esquerda": {
+                "codigo": "EM0024"
+              },
+              "direita": {
+                "codigo": "EM0092"
+              }
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "EM0052",
+          "nome": "PROPRIEDADES DOS MATERIAIS CERÂMICOS",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 8,
+          "id": "1390",
+          "pre_requisitos_expressao": "( EM0040 )",
+          "pre_requisitos_codigos": [
+            "EM0040"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "EM0040"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( EM0094 )",
+          "equivalencias_codigos": [
+            "EM0094"
+          ]
+        },
+        {
+          "codigo": "EM0060",
+          "nome": "FORMAÇÃO DE EMPREENDEDORES",
+          "carga_horaria": 32,
+          "tipo": "obrigatoria",
+          "nivel": 9,
+          "id": "1418",
+          "pre_requisitos_expressao": "( EM0099 OU EM0029 OU ECI0021 )",
+          "pre_requisitos_codigos": [
+            "EM0099",
+            "EM0029",
+            "ECI0021"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "operador": "OU",
+              "esquerda": {
+                "codigo": "EM0099"
+              },
+              "direita": {
+                "codigo": "EM0029"
+              }
+            },
+            "direita": {
+              "codigo": "ECI0021"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( ADM0343 )",
+          "equivalencias_codigos": [
+            "ADM0343"
+          ]
+        },
+        {
+          "codigo": "EM0070",
+          "nome": "ESTÁGIO INTEGRADO",
+          "carga_horaria": 160,
+          "tipo": "obrigatoria",
+          "nivel": 10,
+          "id": "1431",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( EM0104 )",
+          "equivalencias_codigos": [
+            "EM0104"
+          ]
+        },
+        {
+          "codigo": "EM0072",
+          "nome": "TRABALHO DE CONCLUSÃO DE CURSO",
+          "carga_horaria": 128,
+          "tipo": "obrigatoria",
+          "nivel": 10,
+          "id": "2202",
+          "pre_requisitos_expressao": "( ( EM0052 E EM0049 E EM0050 ) OU ( EM0068 ) )",
+          "pre_requisitos_codigos": [
+            "EM0052",
+            "EM0049",
+            "EM0050",
+            "EM0068"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "operador": "E",
+              "esquerda": {
+                "operador": "E",
+                "esquerda": {
+                  "codigo": "EM0052"
+                },
+                "direita": {
+                  "codigo": "EM0049"
+                }
+              },
+              "direita": {
+                "codigo": "EM0050"
+              }
+            },
+            "direita": {
+              "codigo": "EM0068"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CAR0010",
+          "nome": "LÍNGUA BRASILEIRA DE SINAIS: LIBRAS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1357",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "EM0026",
+          "nome": "MINEROLOGIA APLICADA AO USO DE MINERIOS, ROCHAS E MINERAIS INDUSTRIAIS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1256",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "EM0044",
+          "nome": "OS MATERIAIS E A RECICLAGEM",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1345",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( EM0118 )",
+          "equivalencias_codigos": [
+            "EM0118"
+          ]
+        },
+        {
+          "codigo": "EM0045",
+          "nome": "CERAMICAS REFRATARIAS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1346",
+          "pre_requisitos_expressao": "( EM0035 OU EM0071 ) OU ( EM0074 E EM0075 ) OU ( EM0086 )",
+          "pre_requisitos_codigos": [
+            "EM0035",
+            "EM0071",
+            "EM0074",
+            "EM0075",
+            "EM0086"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "operador": "OU",
+              "esquerda": {
+                "operador": "OU",
+                "esquerda": {
+                  "codigo": "EM0035"
+                },
+                "direita": {
+                  "codigo": "EM0071"
+                }
+              },
+              "direita": {
+                "operador": "E",
+                "esquerda": {
+                  "codigo": "EM0074"
+                },
+                "direita": {
+                  "codigo": "EM0075"
+                }
+              }
+            },
+            "direita": {
+              "codigo": "EM0086"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "EM0046",
+          "nome": "ARGILAS: PROPRIEDADES E USOS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1347",
+          "pre_requisitos_expressao": "( EM0035 OU EM0071 ) OU ( EM0074 E EM0075 ) OU ( EM0086 )",
+          "pre_requisitos_codigos": [
+            "EM0035",
+            "EM0071",
+            "EM0074",
+            "EM0075",
+            "EM0086"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "operador": "OU",
+              "esquerda": {
+                "operador": "OU",
+                "esquerda": {
+                  "codigo": "EM0035"
+                },
+                "direita": {
+                  "codigo": "EM0071"
+                }
+              },
+              "direita": {
+                "operador": "E",
+                "esquerda": {
+                  "codigo": "EM0074"
+                },
+                "direita": {
+                  "codigo": "EM0075"
+                }
+              }
+            },
+            "direita": {
+              "codigo": "EM0086"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "EM0047",
+          "nome": "INTRODUÇÃO AO EQUILIBRIO DE FASES EM MATERIAIS CERAMICOS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1348",
+          "pre_requisitos_expressao": "( EM0022 E EM0086 ) OU ( EM0035 OU EM0071 ) OU ( EM0074 E EM0075 )",
+          "pre_requisitos_codigos": [
+            "EM0022",
+            "EM0086",
+            "EM0035",
+            "EM0071",
+            "EM0074",
+            "EM0075"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "operador": "OU",
+              "esquerda": {
+                "operador": "E",
+                "esquerda": {
+                  "codigo": "EM0022"
+                },
+                "direita": {
+                  "codigo": "EM0086"
+                }
+              },
+              "direita": {
+                "operador": "OU",
+                "esquerda": {
+                  "codigo": "EM0035"
+                },
+                "direita": {
+                  "codigo": "EM0071"
+                }
+              }
+            },
+            "direita": {
+              "operador": "E",
+              "esquerda": {
+                "codigo": "EM0074"
+              },
+              "direita": {
+                "codigo": "EM0075"
+              }
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "EM0054",
+          "nome": "INTRODUÇÃO À CIÊNCIA DOS BIOMATERIAIS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1392",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "EM0055",
+          "nome": "METALURGIA MECÂNICA",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1400",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "EM0056",
+          "nome": "PROCESSAMENTO DE ELASTÔMEROS E TERMOFIXOS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1401",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "EM0057",
+          "nome": "ADITIVAÇÃO DE POLÍMEROS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1402",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( EM0114 )",
+          "equivalencias_codigos": [
+            "EM0114"
+          ]
+        },
+        {
+          "codigo": "EM0058",
+          "nome": "TECNOLOGIA DE ELASTÔMEROS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1403",
+          "pre_requisitos_expressao": "( EM0042 )",
+          "pre_requisitos_codigos": [
+            "EM0042"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "EM0042"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "EM0059",
+          "nome": "DEGRADAÇÃO DE POLÍMEROS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1404",
+          "pre_requisitos_expressao": "( EM0042 )",
+          "pre_requisitos_codigos": [
+            "EM0042"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "EM0042"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "EM0061",
+          "nome": "FRATURA DE MATERIAIS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1419",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( EM0112 )",
+          "equivalencias_codigos": [
+            "EM0112"
+          ]
+        },
+        {
+          "codigo": "EM0062",
+          "nome": "METALURGIA DA SOLDAGEM",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1420",
+          "pre_requisitos_expressao": "( EM0088 OU EM0039 )",
+          "pre_requisitos_codigos": [
+            "EM0088",
+            "EM0039"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "EM0088"
+            },
+            "direita": {
+              "codigo": "EM0039"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "EM0063",
+          "nome": "INTRODUÇÃO À ENGENHARIA DE PETRÓLEO",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1421",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "EM0064",
+          "nome": "CARACTERIZAÇÃO E PROCESSAMENTO PRIMÁRIO DO PETRÓLEO",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1422",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "EM0065",
+          "nome": "GEOLOGIA DO PETRÓLEO",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1423",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "EM0066",
+          "nome": "INTRODUÇÃO À ENGENHARIA DE POÇO",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1424",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "EM0067",
+          "nome": "REFINO DE PETRÓLEO",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1425",
+          "pre_requisitos_expressao": "( EM0092 OU EM0027 )",
+          "pre_requisitos_codigos": [
+            "EM0092",
+            "EM0027"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "EM0092"
+            },
+            "direita": {
+              "codigo": "EM0027"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "EM0068",
+          "nome": "PROJETO DE GRADUAÇÃO I",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1429",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "EM0073",
+          "nome": "TECNOLOGIA DE VIDROS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2719",
+          "pre_requisitos_expressao": "( EM0090 OU EM0040 )",
+          "pre_requisitos_codigos": [
+            "EM0090",
+            "EM0040"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "EM0090"
+            },
+            "direita": {
+              "codigo": "EM0040"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "EM0074",
+          "nome": "INTRODUÇÃO AOS MATERIAIS CERÂMICOS (TEÓRICO)",
+          "carga_horaria": 48,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2892",
+          "pre_requisitos_expressao": "( EM0024 )",
+          "pre_requisitos_codigos": [
+            "EM0024"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "EM0024"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "EM0075",
+          "nome": "INTRODUÇÃO AOS MATERIAIS CERÂMICOS (PRÁTICO)",
+          "carga_horaria": 16,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2893",
+          "pre_requisitos_expressao": "( EM0024 )",
+          "pre_requisitos_codigos": [
+            "EM0024"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "EM0024"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "PRG0002",
+          "nome": "RELAÇOES ETNICO RACIAIS E AFRICANIDADES",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1367",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "PRG0003",
+          "nome": "EDUCAÇAO AMBIENTAL",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1368",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "PRG0004",
+          "nome": "EDUCAÇAO EM DIREITOS HUMANOS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "1369",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        }
+      ]
+    }
+  ],
+  "atualizado_em": "2026-09-06T22:34:19.074106+00:00"
+}

@@ -1,0 +1,3953 @@
+{
+  "curso_id": "32652294",
+  "quantidade_estruturas": 2,
+  "estruturas": [
+    {
+      "id": "34161744",
+      "codigo": "CC002",
+      "ano_criacao": 2023,
+      "status": "Ativa",
+      "quantidade_componentes": 104,
+      "quantidade_obrigatorias": 29,
+      "quantidade_optativas": 75,
+      "componentes": [
+        {
+          "codigo": "CC0001",
+          "nome": "INTRODUÇÃO À PROGRAMAÇÃO",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 1,
+          "id": "2388",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( MC0004 OU ECI0099 OU EM0006 OU EM0084 OU ES0003 )",
+          "equivalencias_codigos": [
+            "MC0004",
+            "ECI0099",
+            "EM0006",
+            "EM0084",
+            "ES0003"
+          ]
+        },
+        {
+          "codigo": "CC0002",
+          "nome": "CÁLCULO DIFERENCIAL E INTEGRAL I",
+          "carga_horaria": 96,
+          "tipo": "obrigatoria",
+          "nivel": 1,
+          "id": "2389",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( MC0001 ) OU ( CAR0008 ) OU ( CAR0001 )",
+          "equivalencias_codigos": [
+            "MC0001",
+            "CAR0008",
+            "CAR0001"
+          ]
+        },
+        {
+          "codigo": "CC0004",
+          "nome": "ÁLGEBRA VETORIAL E GEOMETRIA ANALÍTICA",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 1,
+          "id": "2391",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( MC0002 ) OU ( CAR0009 ) OU ( EM0004 )",
+          "equivalencias_codigos": [
+            "MC0002",
+            "CAR0009",
+            "EM0004"
+          ]
+        },
+        {
+          "codigo": "CC0005",
+          "nome": "FUNDAMENTOS DE MATEMÁTICA DISCRETA",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 1,
+          "id": "2392",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( MC0003 )",
+          "equivalencias_codigos": [
+            "MC0003"
+          ]
+        },
+        {
+          "codigo": "CC0015",
+          "nome": "CIRCUITOS DIGITAIS",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 1,
+          "id": "2402",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CC0007",
+          "nome": "CÁLCULO DIFERENCIAL E INTEGRAL II",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 2,
+          "id": "2394",
+          "pre_requisitos_expressao": "CC0002",
+          "pre_requisitos_codigos": [
+            "CC0002"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CC0002"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( MC0005 ) OU ( CAR0011 ) OU ( CAR0004 )",
+          "equivalencias_codigos": [
+            "MC0005",
+            "CAR0011",
+            "CAR0004"
+          ]
+        },
+        {
+          "codigo": "CC0020",
+          "nome": "ARQUITETURA E ORGANIZAÇÃO DE COMPUTADORES",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 2,
+          "id": "2407",
+          "pre_requisitos_expressao": "CC0015",
+          "pre_requisitos_codigos": [
+            "CC0015"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CC0015"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CC0061",
+          "nome": "ALGORITMOS E ESTRUTURAS DE DADOS",
+          "carga_horaria": 96,
+          "tipo": "obrigatoria",
+          "nivel": 2,
+          "id": "3881",
+          "pre_requisitos_expressao": "( CC0001 E CC0005 )",
+          "pre_requisitos_codigos": [
+            "CC0001",
+            "CC0005"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "E",
+            "esquerda": {
+              "codigo": "CC0001"
+            },
+            "direita": {
+              "codigo": "CC0005"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( CC0006 OU MC0008 ) E ( CC0012 OU MC0013 ) OU ( MC0043 )",
+          "equivalencias_codigos": [
+            "CC0006",
+            "MC0008",
+            "CC0012",
+            "MC0013",
+            "MC0043"
+          ]
+        },
+        {
+          "codigo": "CC0062",
+          "nome": "LABORATÓRIO DE ALGORITMOS E ESTRUTURAS DE DADOS",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 2,
+          "id": "3882",
+          "pre_requisitos_expressao": "( CC0001 E CC0005 )",
+          "pre_requisitos_codigos": [
+            "CC0001",
+            "CC0005"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "E",
+            "esquerda": {
+              "codigo": "CC0001"
+            },
+            "direita": {
+              "codigo": "CC0005"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( CC0006 OU MC0008 ) E ( CC0012 OU MC0013 ) OU ( MC0042 )",
+          "equivalencias_codigos": [
+            "CC0006",
+            "MC0008",
+            "CC0012",
+            "MC0013",
+            "MC0042"
+          ]
+        },
+        {
+          "codigo": "CC0063",
+          "nome": "ÁLGEBRA LINEAR",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 2,
+          "id": "3883",
+          "pre_requisitos_expressao": "( CC0004 )",
+          "pre_requisitos_codigos": [
+            "CC0004"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CC0004"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( MC0006 OU ECI0002 OU EM0010 OU CC0009 )",
+          "equivalencias_codigos": [
+            "MC0006",
+            "ECI0002",
+            "EM0010",
+            "CC0009"
+          ]
+        },
+        {
+          "codigo": "CC0017",
+          "nome": "ALGORITMOS EM GRAFOS",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 3,
+          "id": "2404",
+          "pre_requisitos_expressao": "( CC0005 ) E ( CC0012 ) OU ( CC0061 )",
+          "pre_requisitos_codigos": [
+            "CC0005",
+            "CC0012",
+            "CC0061"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "operador": "E",
+              "esquerda": {
+                "codigo": "CC0005"
+              },
+              "direita": {
+                "codigo": "CC0012"
+              }
+            },
+            "direita": {
+              "codigo": "CC0061"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( MC0016 )",
+          "equivalencias_codigos": [
+            "MC0016"
+          ]
+        },
+        {
+          "codigo": "CC0018",
+          "nome": "CÁLCULO NUMÉRICO",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 3,
+          "id": "2405",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( MC0015 ) OU ( ECI0080 ) OU ( EM0014 ) OU ( MC0014 )",
+          "equivalencias_codigos": [
+            "MC0015",
+            "ECI0080",
+            "EM0014",
+            "MC0014"
+          ]
+        },
+        {
+          "codigo": "CC0019",
+          "nome": "PROGRAMAÇÃO ORIENTADA A OBJETOS",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 3,
+          "id": "2406",
+          "pre_requisitos_expressao": "( CC0001 )",
+          "pre_requisitos_codigos": [
+            "CC0001"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CC0001"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( MC0018 OU ES0008 )",
+          "equivalencias_codigos": [
+            "MC0018",
+            "ES0008"
+          ]
+        },
+        {
+          "codigo": "CC0026",
+          "nome": "SISTEMAS OPERACIONAIS",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 3,
+          "id": "2413",
+          "pre_requisitos_expressao": "( CC0020 )",
+          "pre_requisitos_codigos": [
+            "CC0020"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CC0020"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( ES0011 )",
+          "equivalencias_codigos": [
+            "ES0011"
+          ]
+        },
+        {
+          "codigo": "CC0064",
+          "nome": "LÓGICA PARA CIÊNCIA DA COMPUTAÇÃO",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 3,
+          "id": "3884",
+          "pre_requisitos_expressao": "( CC0005 )",
+          "pre_requisitos_codigos": [
+            "CC0005"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CC0005"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( CC0011 )",
+          "equivalencias_codigos": [
+            "CC0011"
+          ]
+        },
+        {
+          "codigo": "CC0010",
+          "nome": "PROBABILIDADE E ESTATÍSTICA",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 4,
+          "id": "2397",
+          "pre_requisitos_expressao": "CC0002",
+          "pre_requisitos_codigos": [
+            "CC0002"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CC0002"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( MC0007 ) OU ( CAR0003 )",
+          "equivalencias_codigos": [
+            "MC0007",
+            "CAR0003"
+          ]
+        },
+        {
+          "codigo": "CC0022",
+          "nome": "FUNDAMENTOS DE LINGUAGENS DE PROGRAMAÇÃO",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 4,
+          "id": "2409",
+          "pre_requisitos_expressao": "( CC0016 OU CC0019 )",
+          "pre_requisitos_codigos": [
+            "CC0016",
+            "CC0019"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "CC0016"
+            },
+            "direita": {
+              "codigo": "CC0019"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( ES0012 )",
+          "equivalencias_codigos": [
+            "ES0012"
+          ]
+        },
+        {
+          "codigo": "CC0024",
+          "nome": "REDES DE COMPUTADORES",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 4,
+          "id": "2411",
+          "pre_requisitos_expressao": "( CC0020 ) OU ( CC0001 )",
+          "pre_requisitos_codigos": [
+            "CC0020",
+            "CC0001"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "CC0020"
+            },
+            "direita": {
+              "codigo": "CC0001"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CC0025",
+          "nome": "BANCO DE DADOS",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 4,
+          "id": "2412",
+          "pre_requisitos_expressao": "( CC0012 ) OU ( CC0001 )",
+          "pre_requisitos_codigos": [
+            "CC0012",
+            "CC0001"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "CC0012"
+            },
+            "direita": {
+              "codigo": "CC0001"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CC0065",
+          "nome": "CONSTRUÇÃO E ANÁLISE DE ALGORITMOS",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 4,
+          "id": "3885",
+          "pre_requisitos_expressao": "( CC0017 )",
+          "pre_requisitos_codigos": [
+            "CC0017"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CC0017"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( CC0023 )",
+          "equivalencias_codigos": [
+            "CC0023"
+          ]
+        },
+        {
+          "codigo": "CC0029",
+          "nome": "COMPUTAÇÃO GRÁFICA",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 5,
+          "id": "2416",
+          "pre_requisitos_expressao": "( CC0006 ) OU ( CC0062 E CC0063 )",
+          "pre_requisitos_codigos": [
+            "CC0006",
+            "CC0062",
+            "CC0063"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "CC0006"
+            },
+            "direita": {
+              "operador": "E",
+              "esquerda": {
+                "codigo": "CC0062"
+              },
+              "direita": {
+                "codigo": "CC0063"
+              }
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CC0030",
+          "nome": "ENGENHARIA DE SOFTWARE",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 5,
+          "id": "2417",
+          "pre_requisitos_expressao": "CC0019",
+          "pre_requisitos_codigos": [
+            "CC0019"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CC0019"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CC0044",
+          "nome": "LABORATÓRIO DE REDES",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 5,
+          "id": "2431",
+          "pre_requisitos_expressao": "CC0024",
+          "pre_requisitos_codigos": [
+            "CC0024"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CC0024"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CC0066",
+          "nome": "AUTÔMATOS E LINGUAGENS FORMAIS",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 5,
+          "id": "3886",
+          "pre_requisitos_expressao": "( CC0064 )",
+          "pre_requisitos_codigos": [
+            "CC0064"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CC0064"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( CC0028 )",
+          "equivalencias_codigos": [
+            "CC0028"
+          ]
+        },
+        {
+          "codigo": "CC0027",
+          "nome": "INTELIGÊNCIA ARTIFICIAL",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 6,
+          "id": "2414",
+          "pre_requisitos_expressao": "( CC0011 ) OU ( CC0064 E CC0062 E CC0010 )",
+          "pre_requisitos_codigos": [
+            "CC0011",
+            "CC0064",
+            "CC0062",
+            "CC0010"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "CC0011"
+            },
+            "direita": {
+              "operador": "E",
+              "esquerda": {
+                "operador": "E",
+                "esquerda": {
+                  "codigo": "CC0064"
+                },
+                "direita": {
+                  "codigo": "CC0062"
+                }
+              },
+              "direita": {
+                "codigo": "CC0010"
+              }
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( ES0032 )",
+          "equivalencias_codigos": [
+            "ES0032"
+          ]
+        },
+        {
+          "codigo": "CC0032",
+          "nome": "COMPILADORES",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 6,
+          "id": "2419",
+          "pre_requisitos_expressao": "( CC0022 E CC0028 ) OU ( CC0020 E CC0022 E CC0066 )",
+          "pre_requisitos_codigos": [
+            "CC0022",
+            "CC0028",
+            "CC0020",
+            "CC0022",
+            "CC0066"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "operador": "E",
+              "esquerda": {
+                "codigo": "CC0022"
+              },
+              "direita": {
+                "codigo": "CC0028"
+              }
+            },
+            "direita": {
+              "operador": "E",
+              "esquerda": {
+                "operador": "E",
+                "esquerda": {
+                  "codigo": "CC0020"
+                },
+                "direita": {
+                  "codigo": "CC0022"
+                }
+              },
+              "direita": {
+                "codigo": "CC0066"
+              }
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CC0042",
+          "nome": "SISTEMAS DISTRIBUÍDOS",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 6,
+          "id": "2429",
+          "pre_requisitos_expressao": "( CC0024 ) E ( CC0026 )",
+          "pre_requisitos_codigos": [
+            "CC0024",
+            "CC0026"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "E",
+            "esquerda": {
+              "codigo": "CC0024"
+            },
+            "direita": {
+              "codigo": "CC0026"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( ES0025 )",
+          "equivalencias_codigos": [
+            "ES0025"
+          ]
+        },
+        {
+          "codigo": "CC0067",
+          "nome": "TEORIA DA COMPUTAÇÃO",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 6,
+          "id": "3887",
+          "pre_requisitos_expressao": "( CC0066 )",
+          "pre_requisitos_codigos": [
+            "CC0066"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CC0066"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CC0068",
+          "nome": "COMPUTAÇÃO, ÉTICA E SOCIEDADE",
+          "carga_horaria": 32,
+          "tipo": "obrigatoria",
+          "nivel": 6,
+          "id": "3888",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( CC0031 OU ES0030 )",
+          "equivalencias_codigos": [
+            "CC0031",
+            "ES0030"
+          ]
+        },
+        {
+          "codigo": "CC0003",
+          "nome": "INTRODUÇÃO À CIÊNCIA DA COMPUTAÇÃO",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2390",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( ES0001 )",
+          "equivalencias_codigos": [
+            "ES0001"
+          ]
+        },
+        {
+          "codigo": "CC0008",
+          "nome": "FUNDAMENTOS DE MECÂNICA",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2395",
+          "pre_requisitos_expressao": "( CC0002 ) E ( CC0004 )",
+          "pre_requisitos_codigos": [
+            "CC0002",
+            "CC0004"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "E",
+            "esquerda": {
+              "codigo": "CC0002"
+            },
+            "direita": {
+              "codigo": "CC0004"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( MC0009 ) OU ( EM0008 ) OU ( CAR0002 )",
+          "equivalencias_codigos": [
+            "MC0009",
+            "EM0008",
+            "CAR0002"
+          ]
+        },
+        {
+          "codigo": "CC0013",
+          "nome": "CÁLCULO VETORIAL",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2400",
+          "pre_requisitos_expressao": "( CC0002 E CC0009 ) OU ( CC0002 E CC0063 )",
+          "pre_requisitos_codigos": [
+            "CC0002",
+            "CC0009",
+            "CC0002",
+            "CC0063"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "operador": "E",
+              "esquerda": {
+                "codigo": "CC0002"
+              },
+              "direita": {
+                "codigo": "CC0009"
+              }
+            },
+            "direita": {
+              "operador": "E",
+              "esquerda": {
+                "codigo": "CC0002"
+              },
+              "direita": {
+                "codigo": "CC0063"
+              }
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( MC0011 ) OU ( CAR0012 )",
+          "equivalencias_codigos": [
+            "MC0011",
+            "CAR0012"
+          ]
+        },
+        {
+          "codigo": "CC0014",
+          "nome": "FUNDAMENTOS DE ELETROMAGNETISMO",
+          "carga_horaria": 96,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2401",
+          "pre_requisitos_expressao": "( CC0007 ) E ( CC0008 )",
+          "pre_requisitos_codigos": [
+            "CC0007",
+            "CC0008"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "E",
+            "esquerda": {
+              "codigo": "CC0007"
+            },
+            "direita": {
+              "codigo": "CC0008"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( MC0010 ) OU ( ECI0101 ) OU ( EM0020 )",
+          "equivalencias_codigos": [
+            "MC0010",
+            "ECI0101",
+            "EM0020"
+          ]
+        },
+        {
+          "codigo": "CC0016",
+          "nome": "LABORATÓRIO DE PROGRAMAÇÃO",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2403",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( MC0012 )",
+          "equivalencias_codigos": [
+            "MC0012"
+          ]
+        },
+        {
+          "codigo": "CC0021",
+          "nome": "PROGRAMAÇÃO CONCORRENTE",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2408",
+          "pre_requisitos_expressao": "( CC0016 ) OU ( CC0062 )",
+          "pre_requisitos_codigos": [
+            "CC0016",
+            "CC0062"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "CC0016"
+            },
+            "direita": {
+              "codigo": "CC0062"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CC0033",
+          "nome": "PROJETO DE GRADUAÇÃO I TCC",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2420",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CC0035",
+          "nome": "PROJETO DE GRADUAÇÃO II TCC",
+          "carga_horaria": 96,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2422",
+          "pre_requisitos_expressao": "CC0033",
+          "pre_requisitos_codigos": [
+            "CC0033"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CC0033"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CC0036",
+          "nome": "ANÁLISE E PROJETO DE SISTEMAS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2423",
+          "pre_requisitos_expressao": "( CC0019 )",
+          "pre_requisitos_codigos": [
+            "CC0019"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CC0019"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( ES0018 )",
+          "equivalencias_codigos": [
+            "ES0018"
+          ]
+        },
+        {
+          "codigo": "CC0037",
+          "nome": "INTERFACE HUMANO COMPUTADOR",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2424",
+          "pre_requisitos_expressao": "( CC0019 )",
+          "pre_requisitos_codigos": [
+            "CC0019"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CC0019"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( ES0013 )",
+          "equivalencias_codigos": [
+            "ES0013"
+          ]
+        },
+        {
+          "codigo": "CC0038",
+          "nome": "PROGRAMAÇÃO PARA WEB",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2425",
+          "pre_requisitos_expressao": "( CC0019 )",
+          "pre_requisitos_codigos": [
+            "CC0019"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CC0019"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( ES0022 )",
+          "equivalencias_codigos": [
+            "ES0022"
+          ]
+        },
+        {
+          "codigo": "CC0039",
+          "nome": "GERÊNCIA DE PROJETOS E QUALIDADE DE SOFTWARE",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2426",
+          "pre_requisitos_expressao": "( CC0025 ) E ( CC0030 )",
+          "pre_requisitos_codigos": [
+            "CC0025",
+            "CC0030"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "E",
+            "esquerda": {
+              "codigo": "CC0025"
+            },
+            "direita": {
+              "codigo": "CC0030"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CC0040",
+          "nome": "VERIFICAÇÃO E VALIDAÇÃO DE SOFTWARE",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2427",
+          "pre_requisitos_expressao": "( CC0025 ) E ( CC0030 )",
+          "pre_requisitos_codigos": [
+            "CC0025",
+            "CC0030"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "E",
+            "esquerda": {
+              "codigo": "CC0025"
+            },
+            "direita": {
+              "codigo": "CC0030"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CC0043",
+          "nome": "PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2430",
+          "pre_requisitos_expressao": "( CC0019 )",
+          "pre_requisitos_codigos": [
+            "CC0019"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CC0019"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( ES0027 )",
+          "equivalencias_codigos": [
+            "ES0027"
+          ]
+        },
+        {
+          "codigo": "CC0045",
+          "nome": "PROJETO DE REDES DE COMPUTADORES",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2432",
+          "pre_requisitos_expressao": "( CC0024 )",
+          "pre_requisitos_codigos": [
+            "CC0024"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CC0024"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CC0046",
+          "nome": "REDES CONVERGENTES",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2433",
+          "pre_requisitos_expressao": "( CC0024 )",
+          "pre_requisitos_codigos": [
+            "CC0024"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CC0024"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CC0047",
+          "nome": "AVALIAÇÃO DE DESEMPENHO DE REDES",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2434",
+          "pre_requisitos_expressao": "CC0024",
+          "pre_requisitos_codigos": [
+            "CC0024"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CC0024"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CC0048",
+          "nome": "REDES SEM FIO",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2435",
+          "pre_requisitos_expressao": "CC0024",
+          "pre_requisitos_codigos": [
+            "CC0024"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CC0024"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CC0049",
+          "nome": "SEGURANÇA DE REDES",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2436",
+          "pre_requisitos_expressao": "( CC0024 E CC0044 )",
+          "pre_requisitos_codigos": [
+            "CC0024",
+            "CC0044"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "E",
+            "esquerda": {
+              "codigo": "CC0024"
+            },
+            "direita": {
+              "codigo": "CC0044"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CC0050",
+          "nome": "PRINCÍPIOS DE DESENVOLVIMENTO WEB",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2437",
+          "pre_requisitos_expressao": "( CC0001 )",
+          "pre_requisitos_codigos": [
+            "CC0001"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CC0001"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( ES0017 )",
+          "equivalencias_codigos": [
+            "ES0017"
+          ]
+        },
+        {
+          "codigo": "CC0051",
+          "nome": "APRENDIZADO DE MÁQUINA",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2438",
+          "pre_requisitos_expressao": "( CC0006 ) OU ( CC0027 )",
+          "pre_requisitos_codigos": [
+            "CC0006",
+            "CC0027"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "CC0006"
+            },
+            "direita": {
+              "codigo": "CC0027"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( MC0036 )",
+          "equivalencias_codigos": [
+            "MC0036"
+          ]
+        },
+        {
+          "codigo": "CC0052",
+          "nome": "INTRODUÇÃO À ANÁLISE DE DADOS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2439",
+          "pre_requisitos_expressao": "( CC0001 E CC0010 ) OU ( CC0027 )",
+          "pre_requisitos_codigos": [
+            "CC0001",
+            "CC0010",
+            "CC0027"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "operador": "E",
+              "esquerda": {
+                "codigo": "CC0001"
+              },
+              "direita": {
+                "codigo": "CC0010"
+              }
+            },
+            "direita": {
+              "codigo": "CC0027"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( ES0040 )",
+          "equivalencias_codigos": [
+            "ES0040"
+          ]
+        },
+        {
+          "codigo": "CC0053",
+          "nome": "MINERAÇÃO DE DADOS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2440",
+          "pre_requisitos_expressao": "( CC0010 ) OU ( CC0027 )",
+          "pre_requisitos_codigos": [
+            "CC0010",
+            "CC0027"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "CC0010"
+            },
+            "direita": {
+              "codigo": "CC0027"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CC0055",
+          "nome": "RECUPERAÇÃO DA INFORMAÇÃO",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2442",
+          "pre_requisitos_expressao": "( CC0001 E CC0010 ) OU ( CC0027 )",
+          "pre_requisitos_codigos": [
+            "CC0001",
+            "CC0010",
+            "CC0027"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "operador": "E",
+              "esquerda": {
+                "codigo": "CC0001"
+              },
+              "direita": {
+                "codigo": "CC0010"
+              }
+            },
+            "direita": {
+              "codigo": "CC0027"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CC0056",
+          "nome": "PROCESSAMENTO DE LINGUAGEM NATURAL",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2443",
+          "pre_requisitos_expressao": "( CC0001 E CC0010 ) OU ( CC0027 )",
+          "pre_requisitos_codigos": [
+            "CC0001",
+            "CC0010",
+            "CC0027"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "operador": "E",
+              "esquerda": {
+                "codigo": "CC0001"
+              },
+              "direita": {
+                "codigo": "CC0010"
+              }
+            },
+            "direita": {
+              "codigo": "CC0027"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CC0057",
+          "nome": "INTRODUÇÃO À TEORIA DOS JOGOS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3122",
+          "pre_requisitos_expressao": "( CC0010 )",
+          "pre_requisitos_codigos": [
+            "CC0010"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CC0010"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CC0059",
+          "nome": "TÓPICOS AVANÇADOS EM ENGENHARIA DE SOFTWARE",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3124",
+          "pre_requisitos_expressao": "( CC0030 )",
+          "pre_requisitos_codigos": [
+            "CC0030"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CC0030"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CC0060",
+          "nome": "TEORIA DOS GRAFOS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3149",
+          "pre_requisitos_expressao": "( CC0005 )",
+          "pre_requisitos_codigos": [
+            "CC0005"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CC0005"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CC0069",
+          "nome": "ALGORITMOS APROXIMATIVOS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3899",
+          "pre_requisitos_expressao": "( CC0065 )",
+          "pre_requisitos_codigos": [
+            "CC0065"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CC0065"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CC0070",
+          "nome": "OTIMIZAÇÃO COMBINATÓRIA",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3900",
+          "pre_requisitos_expressao": "( CC0065 E CC0063 )",
+          "pre_requisitos_codigos": [
+            "CC0065",
+            "CC0063"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "E",
+            "esquerda": {
+              "codigo": "CC0065"
+            },
+            "direita": {
+              "codigo": "CC0063"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CC0071",
+          "nome": "PESQUISA OPERACIONAL",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3901",
+          "pre_requisitos_expressao": "( CC0063 )",
+          "pre_requisitos_codigos": [
+            "CC0063"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CC0063"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CC0072",
+          "nome": "GEOMETRIA COMPUTACIONAL",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3902",
+          "pre_requisitos_expressao": "( CC0062 E CC0065 )",
+          "pre_requisitos_codigos": [
+            "CC0062",
+            "CC0065"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "E",
+            "esquerda": {
+              "codigo": "CC0062"
+            },
+            "direita": {
+              "codigo": "CC0065"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CC0073",
+          "nome": "PROGRAMAÇÃO LINEAR",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3903",
+          "pre_requisitos_expressao": "( CC0065 E CC0063 )",
+          "pre_requisitos_codigos": [
+            "CC0065",
+            "CC0063"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "E",
+            "esquerda": {
+              "codigo": "CC0065"
+            },
+            "direita": {
+              "codigo": "CC0063"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CC0074",
+          "nome": "PROGRAMAÇÃO FUNCIONAL",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3904",
+          "pre_requisitos_expressao": "( CC0062 )",
+          "pre_requisitos_codigos": [
+            "CC0062"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CC0062"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CC0075",
+          "nome": "PROGRAMAÇÃO PARALELA",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3905",
+          "pre_requisitos_expressao": "( CC0022 )",
+          "pre_requisitos_codigos": [
+            "CC0022"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CC0022"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CC0076",
+          "nome": "ARQUITETURA DE COMPUTADORES DE ALTO DESEMPENHO",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3906",
+          "pre_requisitos_expressao": "( CC0020 )",
+          "pre_requisitos_codigos": [
+            "CC0020"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CC0020"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CC0077",
+          "nome": "AVALIAÇÃO DE DESEMPENHO DE SISTEMAS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3907",
+          "pre_requisitos_expressao": "( CC0010 )",
+          "pre_requisitos_codigos": [
+            "CC0010"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CC0010"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CC0078",
+          "nome": "MÉTODOS FORMAIS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3908",
+          "pre_requisitos_expressao": "( CC0064 )",
+          "pre_requisitos_codigos": [
+            "CC0064"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CC0064"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CC0079",
+          "nome": "PROJETO DE SISTEMAS DE BANCO DE DADOS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3909",
+          "pre_requisitos_expressao": "( CC0025 )",
+          "pre_requisitos_codigos": [
+            "CC0025"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CC0025"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CC0080",
+          "nome": "COMPUTAÇÃO EVOLUTIVA",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3910",
+          "pre_requisitos_expressao": "( CC0027 )",
+          "pre_requisitos_codigos": [
+            "CC0027"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CC0027"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CC0081",
+          "nome": "SISTEMAS MULTIAGENTES",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3911",
+          "pre_requisitos_expressao": "( CC0027 )",
+          "pre_requisitos_codigos": [
+            "CC0027"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CC0027"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CC0082",
+          "nome": "WEB SEMÂNTICA",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3912",
+          "pre_requisitos_expressao": "( CC0027 )",
+          "pre_requisitos_codigos": [
+            "CC0027"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CC0027"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CC0083",
+          "nome": "PROCESSAMENTO DE IMAGENS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3913",
+          "pre_requisitos_expressao": "( CC0010 E CC0062 )",
+          "pre_requisitos_codigos": [
+            "CC0010",
+            "CC0062"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "E",
+            "esquerda": {
+              "codigo": "CC0010"
+            },
+            "direita": {
+              "codigo": "CC0062"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CC0084",
+          "nome": "EMPREENDEDORISMO",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3914",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( ES0005 )",
+          "equivalencias_codigos": [
+            "ES0005"
+          ]
+        },
+        {
+          "codigo": "CC0085",
+          "nome": "ANÁLISE MULTIVARIADA",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3915",
+          "pre_requisitos_expressao": "( CC0063 E CC0010 )",
+          "pre_requisitos_codigos": [
+            "CC0063",
+            "CC0010"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "E",
+            "esquerda": {
+              "codigo": "CC0063"
+            },
+            "direita": {
+              "codigo": "CC0010"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( MC0037 )",
+          "equivalencias_codigos": [
+            "MC0037"
+          ]
+        },
+        {
+          "codigo": "CC0086",
+          "nome": "MODELAGEM E SIMULAÇÃO DE SISTEMAS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3916",
+          "pre_requisitos_expressao": "( CC0010 )",
+          "pre_requisitos_codigos": [
+            "CC0010"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CC0010"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CC0087",
+          "nome": "INFERÊNCIA ESTATÍSTICA",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3917",
+          "pre_requisitos_expressao": "( CC0010 )",
+          "pre_requisitos_codigos": [
+            "CC0010"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CC0010"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CC0088",
+          "nome": "TÉCNICAS DE AMOSTRAGEM",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3918",
+          "pre_requisitos_expressao": "( CC0010 )",
+          "pre_requisitos_codigos": [
+            "CC0010"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CC0010"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CC0089",
+          "nome": "PROCESSOS ESTOCÁSTICOS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3919",
+          "pre_requisitos_expressao": "( CC0010 )",
+          "pre_requisitos_codigos": [
+            "CC0010"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CC0010"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CC0090",
+          "nome": "SIMULAÇÃO ESTOCÁSTICA",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3920",
+          "pre_requisitos_expressao": "( CC0010 )",
+          "pre_requisitos_codigos": [
+            "CC0010"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CC0010"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CC0091",
+          "nome": "ANÁLISE DE REGRESSÃO",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3921",
+          "pre_requisitos_expressao": "( CC0010 )",
+          "pre_requisitos_codigos": [
+            "CC0010"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CC0010"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CC0092",
+          "nome": "SÉRIES TEMPORAIS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3922",
+          "pre_requisitos_expressao": "( CC0089 )",
+          "pre_requisitos_codigos": [
+            "CC0089"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CC0089"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( MC0039 )",
+          "equivalencias_codigos": [
+            "MC0039"
+          ]
+        },
+        {
+          "codigo": "CC0093",
+          "nome": "CONTROLE ESTATÍSTICO DE QUALIDADE",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3923",
+          "pre_requisitos_expressao": "( CC0010 )",
+          "pre_requisitos_codigos": [
+            "CC0010"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CC0010"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CC0094",
+          "nome": "INGLÊS TÉCNICO CIENTÍFICO",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3924",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( ES0042 )",
+          "equivalencias_codigos": [
+            "ES0042"
+          ]
+        },
+        {
+          "codigo": "CC0095",
+          "nome": "TÓPICOS AVANÇADOS EM COMPLEXIDADE",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3925",
+          "pre_requisitos_expressao": "( CC0065 )",
+          "pre_requisitos_codigos": [
+            "CC0065"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CC0065"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CC0096",
+          "nome": "TÓPICOS AVANÇADOS EM ALGORITMOS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3926",
+          "pre_requisitos_expressao": "( CC0017 )",
+          "pre_requisitos_codigos": [
+            "CC0017"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CC0017"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CC0097",
+          "nome": "PROJETO DE DESENVOLVIMENTO",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3948",
+          "pre_requisitos_expressao": "( CC0030 )",
+          "pre_requisitos_codigos": [
+            "CC0030"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CC0030"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CC0098",
+          "nome": "RACIOCÍNIO AUTOMATIZADO VIA LÓGICA",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3949",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CC0099",
+          "nome": "METODOLOGIA CIENTÍFICA PARA CIÊNCIA DA COMPUTAÇÃO",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "4369",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( ES0031 )",
+          "equivalencias_codigos": [
+            "ES0031"
+          ]
+        },
+        {
+          "codigo": "CC0100",
+          "nome": "INTRODUÇÃO A DESIGN DE JOGOS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "4709",
+          "pre_requisitos_expressao": "( CC0019 )",
+          "pre_requisitos_codigos": [
+            "CC0019"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CC0019"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CC0101",
+          "nome": "FUNDAMENTOS DE SENSORES INTELIGENTES PARA INDÚSTRIA",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "4710",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CC0102",
+          "nome": "RELAÇÕES ÉTNICO RACIAIS E AFRICANIDADES",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "5167",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( MU0017 OU PRG0002 OU PRG0004 OU GPS0030 OU CIN0012 )",
+          "equivalencias_codigos": [
+            "MU0017",
+            "PRG0002",
+            "PRG0004",
+            "GPS0030",
+            "CIN0012"
+          ]
+        },
+        {
+          "codigo": "CC0103",
+          "nome": "LÍNGUA BRASILEIRA DE SINAIS (LIBRAS)",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "5168",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( CAR0010 OU MUS0168 OU DES0014 OU ARQ0044 OU DES0102 )",
+          "equivalencias_codigos": [
+            "CAR0010",
+            "MUS0168",
+            "DES0014",
+            "ARQ0044",
+            "DES0102"
+          ]
+        },
+        {
+          "codigo": "CC0104",
+          "nome": "PROCESSOS DE SOFTWARE E GESTÃO ÁGIL",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "5234",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( ES0010 )",
+          "equivalencias_codigos": [
+            "ES0010"
+          ]
+        },
+        {
+          "codigo": "CC0105",
+          "nome": "ENGENHARIA DE REQUISITOS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "5235",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( ES0014 )",
+          "equivalencias_codigos": [
+            "ES0014"
+          ]
+        },
+        {
+          "codigo": "CC0106",
+          "nome": "GERÊNCIA DE CONFIGURAÇÃO",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "5236",
+          "pre_requisitos_expressao": "( CC0104 )",
+          "pre_requisitos_codigos": [
+            "CC0104"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CC0104"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( ES0015 )",
+          "equivalencias_codigos": [
+            "ES0015"
+          ]
+        },
+        {
+          "codigo": "CC0107",
+          "nome": "TESTE DE SOFTWARE",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "5237",
+          "pre_requisitos_expressao": "( CC0105 )",
+          "pre_requisitos_codigos": [
+            "CC0105"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CC0105"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( ES0020 )",
+          "equivalencias_codigos": [
+            "ES0020"
+          ]
+        },
+        {
+          "codigo": "CC0108",
+          "nome": "EXPERIMENTAÇÃO EM ENGENHARIA DE SOFTWARE",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "5238",
+          "pre_requisitos_expressao": "( CC0104 )",
+          "pre_requisitos_codigos": [
+            "CC0104"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CC0104"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( ES0023 )",
+          "equivalencias_codigos": [
+            "ES0023"
+          ]
+        },
+        {
+          "codigo": "CC0109",
+          "nome": "ARQUITETURA DE SOFTWARE",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "5239",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( ES0024 )",
+          "equivalencias_codigos": [
+            "ES0024"
+          ]
+        },
+        {
+          "codigo": "CC0110",
+          "nome": "QUALIDADE E MANUTENÇÃO DE SOFTWARE",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "5240",
+          "pre_requisitos_expressao": "( CC0107 )",
+          "pre_requisitos_codigos": [
+            "CC0107"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CC0107"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( ES0026 )",
+          "equivalencias_codigos": [
+            "ES0026"
+          ]
+        },
+        {
+          "codigo": "CC0111",
+          "nome": "ENGENHARIA DE SOFTWARE PARA WEB",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "5241",
+          "pre_requisitos_expressao": "( CC0038 OU CC0050 )",
+          "pre_requisitos_codigos": [
+            "CC0038",
+            "CC0050"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "CC0038"
+            },
+            "direita": {
+              "codigo": "CC0050"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( ES0028 )",
+          "equivalencias_codigos": [
+            "ES0028"
+          ]
+        },
+        {
+          "codigo": "CC0112",
+          "nome": "CARREIRA, NEGÓCIOS E SOFT SKILLS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "5242",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( ES0029 )",
+          "equivalencias_codigos": [
+            "ES0029"
+          ]
+        },
+        {
+          "codigo": "CC0113",
+          "nome": "SISTEMAS DE INFORMAÇÃO",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "5243",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( ES0037 )",
+          "equivalencias_codigos": [
+            "ES0037"
+          ]
+        },
+        {
+          "codigo": "CC0114",
+          "nome": "GOVERNANÇA DE TI E GESTÃO DO CONHECIMENTO",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "5244",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( ES0038 )",
+          "equivalencias_codigos": [
+            "ES0038"
+          ]
+        },
+        {
+          "codigo": "CC0115",
+          "nome": "SISTEMAS COLABORATIVOS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "5245",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( ES0039 )",
+          "equivalencias_codigos": [
+            "ES0039"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "32652460",
+      "codigo": "CC001",
+      "ano_criacao": 2019,
+      "status": "Ativa",
+      "quantidade_componentes": 68,
+      "quantidade_obrigatorias": 35,
+      "quantidade_optativas": 33,
+      "componentes": [
+        {
+          "codigo": "CC0001",
+          "nome": "INTRODUÇÃO À PROGRAMAÇÃO",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 1,
+          "id": "2388",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( MC0004 OU ECI0099 OU EM0006 OU EM0084 OU ES0003 )",
+          "equivalencias_codigos": [
+            "MC0004",
+            "ECI0099",
+            "EM0006",
+            "EM0084",
+            "ES0003"
+          ]
+        },
+        {
+          "codigo": "CC0002",
+          "nome": "CÁLCULO DIFERENCIAL E INTEGRAL I",
+          "carga_horaria": 96,
+          "tipo": "obrigatoria",
+          "nivel": 1,
+          "id": "2389",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( MC0001 ) OU ( CAR0008 ) OU ( CAR0001 )",
+          "equivalencias_codigos": [
+            "MC0001",
+            "CAR0008",
+            "CAR0001"
+          ]
+        },
+        {
+          "codigo": "CC0003",
+          "nome": "INTRODUÇÃO À CIÊNCIA DA COMPUTAÇÃO",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 1,
+          "id": "2390",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( ES0001 )",
+          "equivalencias_codigos": [
+            "ES0001"
+          ]
+        },
+        {
+          "codigo": "CC0004",
+          "nome": "ÁLGEBRA VETORIAL E GEOMETRIA ANALÍTICA",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 1,
+          "id": "2391",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( MC0002 ) OU ( CAR0009 ) OU ( EM0004 )",
+          "equivalencias_codigos": [
+            "MC0002",
+            "CAR0009",
+            "EM0004"
+          ]
+        },
+        {
+          "codigo": "CC0005",
+          "nome": "FUNDAMENTOS DE MATEMÁTICA DISCRETA",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 1,
+          "id": "2392",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( MC0003 )",
+          "equivalencias_codigos": [
+            "MC0003"
+          ]
+        },
+        {
+          "codigo": "CC0006",
+          "nome": "ALGORITMOS E ESTRUTURAS DE DADOS I",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 2,
+          "id": "2393",
+          "pre_requisitos_expressao": "( CC0001 E CC0005 )",
+          "pre_requisitos_codigos": [
+            "CC0001",
+            "CC0005"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "E",
+            "esquerda": {
+              "codigo": "CC0001"
+            },
+            "direita": {
+              "codigo": "CC0005"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( CC0061 E CC0062 ) OU ( MC0008 )",
+          "equivalencias_codigos": [
+            "CC0061",
+            "CC0062",
+            "MC0008"
+          ]
+        },
+        {
+          "codigo": "CC0007",
+          "nome": "CÁLCULO DIFERENCIAL E INTEGRAL II",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 2,
+          "id": "2394",
+          "pre_requisitos_expressao": "CC0002",
+          "pre_requisitos_codigos": [
+            "CC0002"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CC0002"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( MC0005 ) OU ( CAR0011 ) OU ( CAR0004 )",
+          "equivalencias_codigos": [
+            "MC0005",
+            "CAR0011",
+            "CAR0004"
+          ]
+        },
+        {
+          "codigo": "CC0008",
+          "nome": "FUNDAMENTOS DE MECÂNICA",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 2,
+          "id": "2395",
+          "pre_requisitos_expressao": "( CC0002 ) E ( CC0004 )",
+          "pre_requisitos_codigos": [
+            "CC0002",
+            "CC0004"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "E",
+            "esquerda": {
+              "codigo": "CC0002"
+            },
+            "direita": {
+              "codigo": "CC0004"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( MC0009 ) OU ( EM0008 ) OU ( CAR0002 )",
+          "equivalencias_codigos": [
+            "MC0009",
+            "EM0008",
+            "CAR0002"
+          ]
+        },
+        {
+          "codigo": "CC0009",
+          "nome": "ÁLGEBRA LINEAR I",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 2,
+          "id": "2396",
+          "pre_requisitos_expressao": "CC0004",
+          "pre_requisitos_codigos": [
+            "CC0004"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CC0004"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( CC0063 OU MC0006 OU ECI0002 OU EM0010 )",
+          "equivalencias_codigos": [
+            "CC0063",
+            "MC0006",
+            "ECI0002",
+            "EM0010"
+          ]
+        },
+        {
+          "codigo": "CC0010",
+          "nome": "PROBABILIDADE E ESTATÍSTICA",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 2,
+          "id": "2397",
+          "pre_requisitos_expressao": "CC0002",
+          "pre_requisitos_codigos": [
+            "CC0002"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CC0002"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( MC0007 ) OU ( CAR0003 )",
+          "equivalencias_codigos": [
+            "MC0007",
+            "CAR0003"
+          ]
+        },
+        {
+          "codigo": "CC0011",
+          "nome": "LÓGICA APLICADA À COMPUTAÇÃO",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 2,
+          "id": "2398",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( CC0064 )",
+          "equivalencias_codigos": [
+            "CC0064"
+          ]
+        },
+        {
+          "codigo": "CC0012",
+          "nome": "ALGORITMOS E ESTRUTURAS DE DADOS II",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 3,
+          "id": "2399",
+          "pre_requisitos_expressao": "CC0006",
+          "pre_requisitos_codigos": [
+            "CC0006"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CC0006"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( CC0061 E CC0062 ) OU ( MC0013 )",
+          "equivalencias_codigos": [
+            "CC0061",
+            "CC0062",
+            "MC0013"
+          ]
+        },
+        {
+          "codigo": "CC0013",
+          "nome": "CÁLCULO VETORIAL",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 3,
+          "id": "2400",
+          "pre_requisitos_expressao": "( CC0002 E CC0009 ) OU ( CC0002 E CC0063 )",
+          "pre_requisitos_codigos": [
+            "CC0002",
+            "CC0009",
+            "CC0002",
+            "CC0063"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "operador": "E",
+              "esquerda": {
+                "codigo": "CC0002"
+              },
+              "direita": {
+                "codigo": "CC0009"
+              }
+            },
+            "direita": {
+              "operador": "E",
+              "esquerda": {
+                "codigo": "CC0002"
+              },
+              "direita": {
+                "codigo": "CC0063"
+              }
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( MC0011 ) OU ( CAR0012 )",
+          "equivalencias_codigos": [
+            "MC0011",
+            "CAR0012"
+          ]
+        },
+        {
+          "codigo": "CC0014",
+          "nome": "FUNDAMENTOS DE ELETROMAGNETISMO",
+          "carga_horaria": 96,
+          "tipo": "obrigatoria",
+          "nivel": 3,
+          "id": "2401",
+          "pre_requisitos_expressao": "( CC0007 ) E ( CC0008 )",
+          "pre_requisitos_codigos": [
+            "CC0007",
+            "CC0008"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "E",
+            "esquerda": {
+              "codigo": "CC0007"
+            },
+            "direita": {
+              "codigo": "CC0008"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( MC0010 ) OU ( ECI0101 ) OU ( EM0020 )",
+          "equivalencias_codigos": [
+            "MC0010",
+            "ECI0101",
+            "EM0020"
+          ]
+        },
+        {
+          "codigo": "CC0015",
+          "nome": "CIRCUITOS DIGITAIS",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 3,
+          "id": "2402",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CC0016",
+          "nome": "LABORATÓRIO DE PROGRAMAÇÃO",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 3,
+          "id": "2403",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( MC0012 )",
+          "equivalencias_codigos": [
+            "MC0012"
+          ]
+        },
+        {
+          "codigo": "CC0017",
+          "nome": "ALGORITMOS EM GRAFOS",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 4,
+          "id": "2404",
+          "pre_requisitos_expressao": "( CC0005 ) E ( CC0012 ) OU ( CC0061 )",
+          "pre_requisitos_codigos": [
+            "CC0005",
+            "CC0012",
+            "CC0061"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "operador": "E",
+              "esquerda": {
+                "codigo": "CC0005"
+              },
+              "direita": {
+                "codigo": "CC0012"
+              }
+            },
+            "direita": {
+              "codigo": "CC0061"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( MC0016 )",
+          "equivalencias_codigos": [
+            "MC0016"
+          ]
+        },
+        {
+          "codigo": "CC0018",
+          "nome": "CÁLCULO NUMÉRICO",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 4,
+          "id": "2405",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( MC0015 ) OU ( ECI0080 ) OU ( EM0014 ) OU ( MC0014 )",
+          "equivalencias_codigos": [
+            "MC0015",
+            "ECI0080",
+            "EM0014",
+            "MC0014"
+          ]
+        },
+        {
+          "codigo": "CC0019",
+          "nome": "PROGRAMAÇÃO ORIENTADA A OBJETOS",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 4,
+          "id": "2406",
+          "pre_requisitos_expressao": "( CC0001 )",
+          "pre_requisitos_codigos": [
+            "CC0001"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CC0001"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( MC0018 OU ES0008 )",
+          "equivalencias_codigos": [
+            "MC0018",
+            "ES0008"
+          ]
+        },
+        {
+          "codigo": "CC0020",
+          "nome": "ARQUITETURA E ORGANIZAÇÃO DE COMPUTADORES",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 4,
+          "id": "2407",
+          "pre_requisitos_expressao": "CC0015",
+          "pre_requisitos_codigos": [
+            "CC0015"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CC0015"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CC0021",
+          "nome": "PROGRAMAÇÃO CONCORRENTE",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 4,
+          "id": "2408",
+          "pre_requisitos_expressao": "( CC0016 ) OU ( CC0062 )",
+          "pre_requisitos_codigos": [
+            "CC0016",
+            "CC0062"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "CC0016"
+            },
+            "direita": {
+              "codigo": "CC0062"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CC0022",
+          "nome": "FUNDAMENTOS DE LINGUAGENS DE PROGRAMAÇÃO",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 4,
+          "id": "2409",
+          "pre_requisitos_expressao": "( CC0016 OU CC0019 )",
+          "pre_requisitos_codigos": [
+            "CC0016",
+            "CC0019"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "CC0016"
+            },
+            "direita": {
+              "codigo": "CC0019"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( ES0012 )",
+          "equivalencias_codigos": [
+            "ES0012"
+          ]
+        },
+        {
+          "codigo": "CC0023",
+          "nome": "PROJETO E ANÁLISE DE ALGORITMOS",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 5,
+          "id": "2410",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( CC0065 )",
+          "equivalencias_codigos": [
+            "CC0065"
+          ]
+        },
+        {
+          "codigo": "CC0024",
+          "nome": "REDES DE COMPUTADORES",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 5,
+          "id": "2411",
+          "pre_requisitos_expressao": "( CC0020 ) OU ( CC0001 )",
+          "pre_requisitos_codigos": [
+            "CC0020",
+            "CC0001"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "CC0020"
+            },
+            "direita": {
+              "codigo": "CC0001"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CC0025",
+          "nome": "BANCO DE DADOS",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 5,
+          "id": "2412",
+          "pre_requisitos_expressao": "( CC0012 ) OU ( CC0001 )",
+          "pre_requisitos_codigos": [
+            "CC0012",
+            "CC0001"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "CC0012"
+            },
+            "direita": {
+              "codigo": "CC0001"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CC0026",
+          "nome": "SISTEMAS OPERACIONAIS",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 5,
+          "id": "2413",
+          "pre_requisitos_expressao": "( CC0020 )",
+          "pre_requisitos_codigos": [
+            "CC0020"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CC0020"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( ES0011 )",
+          "equivalencias_codigos": [
+            "ES0011"
+          ]
+        },
+        {
+          "codigo": "CC0027",
+          "nome": "INTELIGÊNCIA ARTIFICIAL",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 5,
+          "id": "2414",
+          "pre_requisitos_expressao": "( CC0011 ) OU ( CC0064 E CC0062 E CC0010 )",
+          "pre_requisitos_codigos": [
+            "CC0011",
+            "CC0064",
+            "CC0062",
+            "CC0010"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "CC0011"
+            },
+            "direita": {
+              "operador": "E",
+              "esquerda": {
+                "operador": "E",
+                "esquerda": {
+                  "codigo": "CC0064"
+                },
+                "direita": {
+                  "codigo": "CC0062"
+                }
+              },
+              "direita": {
+                "codigo": "CC0010"
+              }
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( ES0032 )",
+          "equivalencias_codigos": [
+            "ES0032"
+          ]
+        },
+        {
+          "codigo": "CC0028",
+          "nome": "AUTÔMATOS, COMPUTABILIDADE E COMPLEXIDADE",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 6,
+          "id": "2415",
+          "pre_requisitos_expressao": "CC0023",
+          "pre_requisitos_codigos": [
+            "CC0023"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CC0023"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( CC0066 )",
+          "equivalencias_codigos": [
+            "CC0066"
+          ]
+        },
+        {
+          "codigo": "CC0029",
+          "nome": "COMPUTAÇÃO GRÁFICA",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 6,
+          "id": "2416",
+          "pre_requisitos_expressao": "( CC0006 ) OU ( CC0062 E CC0063 )",
+          "pre_requisitos_codigos": [
+            "CC0006",
+            "CC0062",
+            "CC0063"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "CC0006"
+            },
+            "direita": {
+              "operador": "E",
+              "esquerda": {
+                "codigo": "CC0062"
+              },
+              "direita": {
+                "codigo": "CC0063"
+              }
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CC0030",
+          "nome": "ENGENHARIA DE SOFTWARE",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 6,
+          "id": "2417",
+          "pre_requisitos_expressao": "CC0019",
+          "pre_requisitos_codigos": [
+            "CC0019"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CC0019"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CC0031",
+          "nome": "COMPUTAÇÃO, ÉTICA E SOCIEDADE",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 6,
+          "id": "2418",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( CC0068 )",
+          "equivalencias_codigos": [
+            "CC0068"
+          ]
+        },
+        {
+          "codigo": "CC0032",
+          "nome": "COMPILADORES",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 7,
+          "id": "2419",
+          "pre_requisitos_expressao": "( CC0022 E CC0028 ) OU ( CC0020 E CC0022 E CC0066 )",
+          "pre_requisitos_codigos": [
+            "CC0022",
+            "CC0028",
+            "CC0020",
+            "CC0022",
+            "CC0066"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "operador": "E",
+              "esquerda": {
+                "codigo": "CC0022"
+              },
+              "direita": {
+                "codigo": "CC0028"
+              }
+            },
+            "direita": {
+              "operador": "E",
+              "esquerda": {
+                "operador": "E",
+                "esquerda": {
+                  "codigo": "CC0020"
+                },
+                "direita": {
+                  "codigo": "CC0022"
+                }
+              },
+              "direita": {
+                "codigo": "CC0066"
+              }
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CC0033",
+          "nome": "PROJETO DE GRADUAÇÃO I TCC",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 7,
+          "id": "2420",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CC0034",
+          "nome": "ESTÁGIO SUPERVISIONADO",
+          "carga_horaria": 160,
+          "tipo": "obrigatoria",
+          "nivel": 7,
+          "id": "2421",
+          "pre_requisitos_expressao": "CC0031",
+          "pre_requisitos_codigos": [
+            "CC0031"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CC0031"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CC0035",
+          "nome": "PROJETO DE GRADUAÇÃO II TCC",
+          "carga_horaria": 96,
+          "tipo": "obrigatoria",
+          "nivel": 8,
+          "id": "2422",
+          "pre_requisitos_expressao": "CC0033",
+          "pre_requisitos_codigos": [
+            "CC0033"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CC0033"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CC0036",
+          "nome": "ANÁLISE E PROJETO DE SISTEMAS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2423",
+          "pre_requisitos_expressao": "( CC0019 )",
+          "pre_requisitos_codigos": [
+            "CC0019"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CC0019"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( ES0018 )",
+          "equivalencias_codigos": [
+            "ES0018"
+          ]
+        },
+        {
+          "codigo": "CC0037",
+          "nome": "INTERFACE HUMANO COMPUTADOR",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2424",
+          "pre_requisitos_expressao": "( CC0019 )",
+          "pre_requisitos_codigos": [
+            "CC0019"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CC0019"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( ES0013 )",
+          "equivalencias_codigos": [
+            "ES0013"
+          ]
+        },
+        {
+          "codigo": "CC0038",
+          "nome": "PROGRAMAÇÃO PARA WEB",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2425",
+          "pre_requisitos_expressao": "( CC0019 )",
+          "pre_requisitos_codigos": [
+            "CC0019"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CC0019"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( ES0022 )",
+          "equivalencias_codigos": [
+            "ES0022"
+          ]
+        },
+        {
+          "codigo": "CC0039",
+          "nome": "GERÊNCIA DE PROJETOS E QUALIDADE DE SOFTWARE",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2426",
+          "pre_requisitos_expressao": "( CC0025 ) E ( CC0030 )",
+          "pre_requisitos_codigos": [
+            "CC0025",
+            "CC0030"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "E",
+            "esquerda": {
+              "codigo": "CC0025"
+            },
+            "direita": {
+              "codigo": "CC0030"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CC0040",
+          "nome": "VERIFICAÇÃO E VALIDAÇÃO DE SOFTWARE",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2427",
+          "pre_requisitos_expressao": "( CC0025 ) E ( CC0030 )",
+          "pre_requisitos_codigos": [
+            "CC0025",
+            "CC0030"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "E",
+            "esquerda": {
+              "codigo": "CC0025"
+            },
+            "direita": {
+              "codigo": "CC0030"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CC0041",
+          "nome": "SEGURANÇA DE DADOS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2428",
+          "pre_requisitos_expressao": "( CC0023 E CC0024 E CC0026 ) OU ( CC0024 E CC0026 E CC0065 )",
+          "pre_requisitos_codigos": [
+            "CC0023",
+            "CC0024",
+            "CC0026",
+            "CC0024",
+            "CC0026",
+            "CC0065"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "operador": "E",
+              "esquerda": {
+                "operador": "E",
+                "esquerda": {
+                  "codigo": "CC0023"
+                },
+                "direita": {
+                  "codigo": "CC0024"
+                }
+              },
+              "direita": {
+                "codigo": "CC0026"
+              }
+            },
+            "direita": {
+              "operador": "E",
+              "esquerda": {
+                "operador": "E",
+                "esquerda": {
+                  "codigo": "CC0024"
+                },
+                "direita": {
+                  "codigo": "CC0026"
+                }
+              },
+              "direita": {
+                "codigo": "CC0065"
+              }
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( ES0019 )",
+          "equivalencias_codigos": [
+            "ES0019"
+          ]
+        },
+        {
+          "codigo": "CC0042",
+          "nome": "SISTEMAS DISTRIBUÍDOS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2429",
+          "pre_requisitos_expressao": "( CC0024 ) E ( CC0026 )",
+          "pre_requisitos_codigos": [
+            "CC0024",
+            "CC0026"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "E",
+            "esquerda": {
+              "codigo": "CC0024"
+            },
+            "direita": {
+              "codigo": "CC0026"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( ES0025 )",
+          "equivalencias_codigos": [
+            "ES0025"
+          ]
+        },
+        {
+          "codigo": "CC0043",
+          "nome": "PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2430",
+          "pre_requisitos_expressao": "( CC0019 )",
+          "pre_requisitos_codigos": [
+            "CC0019"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CC0019"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( ES0027 )",
+          "equivalencias_codigos": [
+            "ES0027"
+          ]
+        },
+        {
+          "codigo": "CC0044",
+          "nome": "LABORATÓRIO DE REDES",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2431",
+          "pre_requisitos_expressao": "CC0024",
+          "pre_requisitos_codigos": [
+            "CC0024"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CC0024"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CC0045",
+          "nome": "PROJETO DE REDES DE COMPUTADORES",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2432",
+          "pre_requisitos_expressao": "( CC0024 )",
+          "pre_requisitos_codigos": [
+            "CC0024"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CC0024"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CC0046",
+          "nome": "REDES CONVERGENTES",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2433",
+          "pre_requisitos_expressao": "( CC0024 )",
+          "pre_requisitos_codigos": [
+            "CC0024"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CC0024"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CC0047",
+          "nome": "AVALIAÇÃO DE DESEMPENHO DE REDES",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2434",
+          "pre_requisitos_expressao": "CC0024",
+          "pre_requisitos_codigos": [
+            "CC0024"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CC0024"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CC0048",
+          "nome": "REDES SEM FIO",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2435",
+          "pre_requisitos_expressao": "CC0024",
+          "pre_requisitos_codigos": [
+            "CC0024"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CC0024"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CC0049",
+          "nome": "SEGURANÇA DE REDES",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2436",
+          "pre_requisitos_expressao": "( CC0024 E CC0044 )",
+          "pre_requisitos_codigos": [
+            "CC0024",
+            "CC0044"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "E",
+            "esquerda": {
+              "codigo": "CC0024"
+            },
+            "direita": {
+              "codigo": "CC0044"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CC0050",
+          "nome": "PRINCÍPIOS DE DESENVOLVIMENTO WEB",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2437",
+          "pre_requisitos_expressao": "( CC0001 )",
+          "pre_requisitos_codigos": [
+            "CC0001"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CC0001"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( ES0017 )",
+          "equivalencias_codigos": [
+            "ES0017"
+          ]
+        },
+        {
+          "codigo": "CC0051",
+          "nome": "APRENDIZADO DE MÁQUINA",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2438",
+          "pre_requisitos_expressao": "( CC0006 ) OU ( CC0027 )",
+          "pre_requisitos_codigos": [
+            "CC0006",
+            "CC0027"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "CC0006"
+            },
+            "direita": {
+              "codigo": "CC0027"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( MC0036 )",
+          "equivalencias_codigos": [
+            "MC0036"
+          ]
+        },
+        {
+          "codigo": "CC0052",
+          "nome": "INTRODUÇÃO À ANÁLISE DE DADOS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2439",
+          "pre_requisitos_expressao": "( CC0001 E CC0010 ) OU ( CC0027 )",
+          "pre_requisitos_codigos": [
+            "CC0001",
+            "CC0010",
+            "CC0027"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "operador": "E",
+              "esquerda": {
+                "codigo": "CC0001"
+              },
+              "direita": {
+                "codigo": "CC0010"
+              }
+            },
+            "direita": {
+              "codigo": "CC0027"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( ES0040 )",
+          "equivalencias_codigos": [
+            "ES0040"
+          ]
+        },
+        {
+          "codigo": "CC0053",
+          "nome": "MINERAÇÃO DE DADOS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2440",
+          "pre_requisitos_expressao": "( CC0010 ) OU ( CC0027 )",
+          "pre_requisitos_codigos": [
+            "CC0010",
+            "CC0027"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "codigo": "CC0010"
+            },
+            "direita": {
+              "codigo": "CC0027"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CC0054",
+          "nome": "FUNDAMENTOS MATEMÁTICOS DA CIÊNCIA DE DADOS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2441",
+          "pre_requisitos_expressao": "( CC0009 E CC0010 E CC0023 ) OU ( CC0027 )",
+          "pre_requisitos_codigos": [
+            "CC0009",
+            "CC0010",
+            "CC0023",
+            "CC0027"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "operador": "E",
+              "esquerda": {
+                "operador": "E",
+                "esquerda": {
+                  "codigo": "CC0009"
+                },
+                "direita": {
+                  "codigo": "CC0010"
+                }
+              },
+              "direita": {
+                "codigo": "CC0023"
+              }
+            },
+            "direita": {
+              "codigo": "CC0027"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CC0055",
+          "nome": "RECUPERAÇÃO DA INFORMAÇÃO",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2442",
+          "pre_requisitos_expressao": "( CC0001 E CC0010 ) OU ( CC0027 )",
+          "pre_requisitos_codigos": [
+            "CC0001",
+            "CC0010",
+            "CC0027"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "operador": "E",
+              "esquerda": {
+                "codigo": "CC0001"
+              },
+              "direita": {
+                "codigo": "CC0010"
+              }
+            },
+            "direita": {
+              "codigo": "CC0027"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CC0056",
+          "nome": "PROCESSAMENTO DE LINGUAGEM NATURAL",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "2443",
+          "pre_requisitos_expressao": "( CC0001 E CC0010 ) OU ( CC0027 )",
+          "pre_requisitos_codigos": [
+            "CC0001",
+            "CC0010",
+            "CC0027"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "OU",
+            "esquerda": {
+              "operador": "E",
+              "esquerda": {
+                "codigo": "CC0001"
+              },
+              "direita": {
+                "codigo": "CC0010"
+              }
+            },
+            "direita": {
+              "codigo": "CC0027"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CC0057",
+          "nome": "INTRODUÇÃO À TEORIA DOS JOGOS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3122",
+          "pre_requisitos_expressao": "( CC0010 )",
+          "pre_requisitos_codigos": [
+            "CC0010"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CC0010"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CC0058",
+          "nome": "TÓPICOS AVANÇADOS EM ALGORITMOS E COMPLEXIDADE",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3123",
+          "pre_requisitos_expressao": "( CC0017 )",
+          "pre_requisitos_codigos": [
+            "CC0017"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CC0017"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( CC0095 OU CC0096 )",
+          "equivalencias_codigos": [
+            "CC0095",
+            "CC0096"
+          ]
+        },
+        {
+          "codigo": "CC0059",
+          "nome": "TÓPICOS AVANÇADOS EM ENGENHARIA DE SOFTWARE",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3124",
+          "pre_requisitos_expressao": "( CC0030 )",
+          "pre_requisitos_codigos": [
+            "CC0030"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CC0030"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CC0060",
+          "nome": "TEORIA DOS GRAFOS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3149",
+          "pre_requisitos_expressao": "( CC0005 )",
+          "pre_requisitos_codigos": [
+            "CC0005"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CC0005"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CC0076",
+          "nome": "ARQUITETURA DE COMPUTADORES DE ALTO DESEMPENHO",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3906",
+          "pre_requisitos_expressao": "( CC0020 )",
+          "pre_requisitos_codigos": [
+            "CC0020"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CC0020"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CC0083",
+          "nome": "PROCESSAMENTO DE IMAGENS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3913",
+          "pre_requisitos_expressao": "( CC0010 E CC0062 )",
+          "pre_requisitos_codigos": [
+            "CC0010",
+            "CC0062"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "E",
+            "esquerda": {
+              "codigo": "CC0010"
+            },
+            "direita": {
+              "codigo": "CC0062"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CC0084",
+          "nome": "EMPREENDEDORISMO",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3914",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( ES0005 )",
+          "equivalencias_codigos": [
+            "ES0005"
+          ]
+        },
+        {
+          "codigo": "CC0097",
+          "nome": "PROJETO DE DESENVOLVIMENTO",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3948",
+          "pre_requisitos_expressao": "( CC0030 )",
+          "pre_requisitos_codigos": [
+            "CC0030"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CC0030"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CC0098",
+          "nome": "RACIOCÍNIO AUTOMATIZADO VIA LÓGICA",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "3949",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CC0099",
+          "nome": "METODOLOGIA CIENTÍFICA PARA CIÊNCIA DA COMPUTAÇÃO",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "4369",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( ES0031 )",
+          "equivalencias_codigos": [
+            "ES0031"
+          ]
+        },
+        {
+          "codigo": "CC0100",
+          "nome": "INTRODUÇÃO A DESIGN DE JOGOS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "4709",
+          "pre_requisitos_expressao": "( CC0019 )",
+          "pre_requisitos_codigos": [
+            "CC0019"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "CC0019"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "CC0101",
+          "nome": "FUNDAMENTOS DE SENSORES INTELIGENTES PARA INDÚSTRIA",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "4710",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        }
+      ]
+    }
+  ],
+  "atualizado_em": "2026-09-06T22:16:08.698017+00:00"
+}
