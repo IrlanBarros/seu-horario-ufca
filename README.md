@@ -629,6 +629,10 @@ Entre as possíveis evoluções futuras estão:
 - melhorias de acessibilidade;
 - otimizações para dispositivos móveis.
 
+## Licença
+
+Este projeto é distribuído sob a licença MIT. Consulte o arquivo `LICENSE` para mais informações.
+
 ## Autor
 
 Desenvolvido por **Irlan Barros**.
