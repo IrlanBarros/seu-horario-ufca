@@ -1,8 +1,8 @@
 # Seu Horário - UFCA
 
-Aplicação web para auxiliar estudantes da Universidade Federal do Cariri (campus Juazeiro do Norte) na montagem do horário acadêmico.
+Aplicação web para auxiliar estudantes da Universidade Federal do Cariri (campus Juazeiro do Norte) na montagem do horário acadêmico e na consulta da estrutura curricular do curso.
 
-O sistema utiliza as turmas disponibilizadas publicamente pelo SIGAA da UFCA e permite selecionar disciplinas, visualizar a grade semanal, identificar conflitos de horário e exportar o planejamento em CSV ou PDF.
+O sistema utiliza dados disponibilizados publicamente pelo SIGAA da UFCA e permite selecionar disciplinas, visualizar a grade semanal, identificar conflitos de horário, consultar matrizes curriculares, visualizar pré-requisitos, identificar disciplinas optativas e exportar o planejamento em CSV ou PDF.
 
 O projeto foi desenvolvido com uma arquitetura sem backend permanente, mantendo a aplicação simples, rápida e de baixo custo.
 
@@ -14,48 +14,63 @@ https://seuhorarioufca.pages.dev/
 
 ## Funcionalidades
 
-- Consulta automática das turmas no SIGAA da UFCA (todos os cursos do campus Juazeiro do Norte)
+### Montagem do horário
+
+- Consulta automática das turmas no SIGAA da UFCA para os cursos do campus Juazeiro do Norte
 - Conversão dos códigos de horário do SIGAA para dias e horários reais
 - Seleção e remoção de turmas
 - Detecção automática de conflitos de horário
 - Bloqueio visual de turmas incompatíveis com o horário atual
 - Exibição detalhada dos conflitos diretamente nos cards das disciplinas
+- Identificação visual de disciplinas optativas
 - Grade semanal de segunda a sexta
 - Persistência do horário escolhido no navegador com `localStorage`
-- Busca por:
-  - código da disciplina
-  - nome da disciplina
-  - docente
-- Filtros por:
-  - todas as turmas
-  - disponíveis
-  - com conflito
-  - selecionadas
+- Busca por código da disciplina, nome da disciplina e docente
+- Filtros por todas as turmas, disponíveis, com conflito e selecionadas
 - Exportação do horário em CSV
 - Exportação do horário em PDF
+
+### Estrutura curricular
+
+- Página dedicada para consulta da estrutura curricular do curso
+- Suporte a múltiplas estruturas curriculares do mesmo curso
+- Seleção da matriz curricular por ano
+- Identificação da estrutura mais nova como `Mais recente`
+- Disciplinas obrigatórias organizadas por período
+- Disciplinas optativas exibidas separadamente
+- Exibição de código, nome e carga horária dos componentes
+- Exibição dos pré-requisitos disponibilizados pelo SIGAA
+- Suporte a expressões de pré-requisito com operadores `E` e `OU`
+- Preservação da estrutura lógica dos pré-requisitos para uso futuro no frontend
+
+### Automação e qualidade
+
 - Atualização automática das turmas através do GitHub Actions
-- Testes automatizados para o scraper e para a lógica do frontend
+- Atualização automática das estruturas curriculares através do GitHub Actions
+- Cache dos componentes curriculares para reduzir consultas repetidas ao SIGAA
+- Reaproveitamento dos últimos dados curriculares válidos quando uma atualização falha
+- Testes automatizados para o scraper, parser de horários, parser de pré-requisitos e lógica do frontend
 - CI para validação de testes, lint e build
 
 ## Como funciona
 
 A aplicação não utiliza um backend permanente.
 
-Os dados das turmas são coletados periodicamente da consulta pública do SIGAA através de um scraper escrito em Python.
+Os dados são coletados das páginas públicas do SIGAA por scrapers escritos em Python e armazenados como arquivos JSON estáticos utilizados diretamente pelo frontend.
 
-O fluxo principal é:
+### Fluxo das turmas
 
 ```text
 SIGAA UFCA
     |
     v
-Scraper Python
+Scraper de turmas
     |
     v
 Parser de horários
     |
     v
-public/data/<periodo>.json
+public/data/cursos-atual.json
     |
     v
 React
@@ -64,9 +79,43 @@ React
 Navegador do usuário
 ```
 
-O GitHub Actions executa o scraper automaticamente e atualiza o arquivo JSON apenas quando alguma informação das turmas realmente muda.
+O scraper consulta as turmas disponíveis, converte os códigos de horário do SIGAA e gera um arquivo contendo os cursos e suas respectivas turmas.
 
-Isso permite que o frontend permaneça completamente estático.
+O GitHub Actions atualiza os dados automaticamente e cria um novo commit apenas quando alguma informação realmente muda.
+
+### Fluxo das estruturas curriculares
+
+```text
+SIGAA UFCA
+    |
+    v
+Scraper de currículos
+    |
+    +--> Índice dos cursos
+    |
+    +--> Estruturas curriculares
+    |
+    +--> Componentes curriculares
+    |
+    +--> Pré-requisitos
+    |
+    v
+public/data/curriculos/
+    |
+    +--> index.json
+    |
+    `--> <curso_id>.json
+            |
+            v
+      React Router
+            |
+            v
+      /curriculo?curso=<id>
+```
+
+Cada curso pode possuir mais de uma estrutura curricular. Essas estruturas são preservadas para permitir a consulta de matrizes antigas e atuais.
+
+As consultas detalhadas dos componentes utilizam cache local durante a execução do scraper, evitando requisições desnecessárias ao SIGAA e permitindo retomar atualizações interrompidas com maior eficiência.
 
 ## Arquitetura
 
@@ -75,22 +124,36 @@ seu-horario-ufca/
 |
 |-- .github/
 |   `-- workflows/
+|       |-- atualizar-curriculos.yml
 |       |-- atualizar-turmas.yml
 |       `-- ci.yml
 |
+|-- data/
+|   `-- cache/
+|       `-- cache-componentes.json
+|
 |-- public/
 |   `-- data/
-|       `-- atual.json
+|       |-- cursos-atual.json
+|       `-- curriculos/
+|           |-- index.json
+|           `-- <curso_id>.json
 |
 |-- scraper/
 |   |-- __init__.py
-|   |-- scraper.py
+|   |-- curricula.py
+|   |-- requisite_parser.py
 |   |-- schedule_parser.py
+|   |-- scraper.py
 |   `-- requirements.txt
 |
 |-- src/
 |   |-- components/
 |   |   `-- GradeSemanal.tsx
+|   |
+|   |-- pages/
+|   |   |-- CurriculoPage.css
+|   |   `-- CurriculoPage.tsx
 |   |
 |   |-- utils/
 |   |   |-- conflitos.ts
@@ -105,6 +168,7 @@ seu-horario-ufca/
 |   `-- types.ts
 |
 |-- tests/
+|   |-- test_requisite_parser.py
 |   `-- test_schedule_parser.py
 |
 |-- package.json
@@ -119,6 +183,7 @@ seu-horario-ufca/
 ### Frontend
 
 - React
+- React Router
 - TypeScript
 - Vite
 - CSS
@@ -217,11 +282,87 @@ Horários consecutivos não são considerados conflito:
 10:00 - 12:00
 ```
 
+## Estruturas curriculares
+
+A página de estrutura curricular é acessada a partir do curso selecionado na página principal.
+
+A navegação utiliza uma rota no formato:
+
+```text
+/curriculo?curso=<id_do_curso>
+```
+
+A página carrega o índice de currículos e, em seguida, o arquivo correspondente ao curso selecionado.
+
+Quando um curso possui múltiplas estruturas curriculares, a mais nova é selecionada por padrão e apresentada como:
+
+```text
+Mais recente
+```
+
+As estruturas anteriores são identificadas pelo ano de criação.
+
+Cada estrutura pode conter:
+
+- disciplinas obrigatórias;
+- disciplinas optativas;
+- período ou nível recomendado;
+- carga horária;
+- pré-requisitos;
+- co-requisitos;
+- equivalências.
+
+No momento, o frontend apresenta principalmente a organização por período, as optativas e os pré-requisitos.
+
+## Pré-requisitos
+
+Os pré-requisitos são coletados das páginas públicas de detalhes dos componentes curriculares.
+
+Expressões simples e compostas são preservadas.
+
+Exemplo:
+
+```text
+( CAR0012 ) E ( ECI0025 OU ECI0097 )
+```
+
+Internamente, a expressão também pode ser representada de forma estruturada:
+
+```json
+{
+  "operador": "E",
+  "esquerda": {
+    "codigo": "CAR0012"
+  },
+  "direita": {
+    "operador": "OU",
+    "esquerda": {
+      "codigo": "ECI0025"
+    },
+    "direita": {
+      "codigo": "ECI0097"
+    }
+  }
+}
+```
+
+Essa representação permite que, futuramente, o sistema avalie automaticamente se o estudante atende aos requisitos necessários para cursar uma disciplina.
+
+## Identificação de disciplinas optativas
+
+Na página principal, as turmas correspondentes a componentes optativos são identificadas visualmente nos cards.
+
+Para isso, o frontend consulta a estrutura curricular mais recente do curso selecionado e compara o código das turmas ofertadas com os componentes classificados como optativos.
+
+Essa identificação é apenas informativa e não altera a lógica de seleção ou de conflitos.
+
 ## Persistência local
 
 As disciplinas selecionadas são armazenadas no `localStorage` do navegador.
 
 Isso significa que o usuário pode atualizar ou fechar a página sem perder o horário montado.
+
+As seleções são armazenadas separadamente por período acadêmico e por curso.
 
 Nenhuma informação do estudante é enviada ou armazenada em um servidor.
 
@@ -247,6 +388,31 @@ Caso os dados permaneçam iguais, nenhum novo commit é criado.
 
 O workflow também pode ser executado manualmente pela interface do GitHub Actions.
 
+## Atualização automática das estruturas curriculares
+
+O workflow:
+
+```text
+.github/workflows/atualizar-curriculos.yml
+```
+
+atualiza periodicamente as estruturas curriculares extraídas do SIGAA.
+
+A execução automática ocorre uma vez por mês.
+
+O processo:
+
+1. configura o ambiente Python;
+2. restaura o cache de componentes quando disponível;
+3. instala as dependências;
+4. executa os testes;
+5. consulta as estruturas curriculares;
+6. consulta os detalhes dos componentes necessários;
+7. atualiza os arquivos em `public/data/curriculos/`;
+8. cria um commit apenas quando os dados públicos realmente mudam.
+
+Se a atualização de um curso falhar e já existir uma versão válida salva anteriormente, o sistema mantém os últimos dados disponíveis.
+
 ## Integração contínua
 
 O projeto possui um workflow de CI executado em pushes e Pull Requests para a branch `main`.
@@ -267,7 +433,7 @@ npm run lint
 npm run build
 ```
 
-O objetivo é impedir que alterações que quebrem o parser, a lógica de conflitos, o TypeScript ou o build da aplicação sejam incorporadas sem serem detectadas.
+O objetivo é impedir que alterações que quebrem os parsers, a lógica de conflitos, o TypeScript ou o build da aplicação sejam incorporadas sem serem detectadas.
 
 ## Executando localmente
 
@@ -308,16 +474,28 @@ pip install -r scraper/requirements.txt
 python -m pytest -v
 ```
 
-### Atualize os dados do SIGAA
+### Atualize os dados das turmas
 
 ```bash
 python -m scraper.scraper
 ```
 
+Os dados das turmas serão gerados em:
+
+```text
+public/data/cursos-atual.json
+```
+
+### Atualize as estruturas curriculares
+
+```bash
+python -m scraper.curricula
+```
+
 Os dados serão gerados em:
 
 ```text
-public/data/atual.json
+public/data/curriculos/
 ```
 
 ### Instale as dependências do frontend
@@ -342,6 +520,18 @@ O Vite exibirá no terminal o endereço local da aplicação, normalmente:
 
 ```text
 http://localhost:5173
+```
+
+A página principal ficará disponível em:
+
+```text
+/
+```
+
+e as estruturas curriculares em:
+
+```text
+/curriculo?curso=<id_do_curso>
 ```
 
 ## Build de produção
@@ -404,7 +594,7 @@ As escolhas realizadas pelo usuário permanecem armazenadas apenas no navegador 
 
 ## Fonte dos dados
 
-As informações de componentes curriculares, turmas, docentes, vagas e horários são obtidas a partir das páginas públicas do SIGAA da Universidade Federal do Cariri.
+As informações de estruturas curriculares, componentes, turmas, docentes, vagas e horários são obtidas a partir das páginas públicas do SIGAA da Universidade Federal do Cariri.
 
 Este projeto não possui vínculo oficial com a UFCA.
 
@@ -414,11 +604,25 @@ Para decisões acadêmicas oficiais, consulte sempre os sistemas e canais instit
 
 ## Status do projeto
 
-O projeto possui atualmente um MVP funcional, incluindo coleta automática de dados, montagem do horário, detecção de conflitos, persistência local, busca, filtros e exportação.
+O projeto possui atualmente uma versão funcional com:
+
+- coleta automática das turmas;
+- montagem do horário;
+- detecção de conflitos;
+- persistência local;
+- busca e filtros;
+- exportação em CSV e PDF;
+- consulta de estruturas curriculares;
+- suporte a múltiplas matrizes;
+- exibição de pré-requisitos;
+- identificação visual de disciplinas optativas;
+- atualização automatizada dos dados.
 
 Entre as possíveis evoluções futuras estão:
 
-- suporte automático a novos períodos acadêmicos;
+- uso do histórico acadêmico para identificar disciplinas concluídas;
+- avaliação automática de pré-requisitos;
+- indicação de quais disciplinas o estudante pode cursar;
 - geração automática de combinações de horários;
 - priorização de horários com menos janelas;
 - preferência por determinados dias ou turnos;
