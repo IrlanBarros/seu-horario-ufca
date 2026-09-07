@@ -1,3 +1,4 @@
+import time
 import json
 from datetime import datetime, timezone
 from zoneinfo import ZoneInfo
@@ -172,6 +173,40 @@ def coletar_turmas_dos_cursos(
 
     return resultados
 
+def executar_com_retry(
+    operacao,
+    descricao,
+    tentativas=4,
+):
+    ultimo_erro = None
+
+    for tentativa in range(
+        1,
+        tentativas + 1,
+    ):
+        try:
+            return operacao()
+
+        except requests.RequestException as error:
+            ultimo_erro = error
+
+            if tentativa == tentativas:
+                break
+
+            espera = 2 ** tentativa
+
+            print(
+                f"{descricao} falhou "
+                f"(tentativa {tentativa}/"
+                f"{tentativas}). "
+                f"Nova tentativa em "
+                f"{espera}s..."
+            )
+
+            time.sleep(espera)
+
+    raise ultimo_erro
+
 def consultar_sigaa(curso_id, ano, periodo):
     session = criar_sessao()
     url = (
@@ -182,7 +217,13 @@ def consultar_sigaa(curso_id, ano, periodo):
 
     # Primeiro GET:
     # cria a sessão e obtém o javax.faces.ViewState
-    response = session.get(url, timeout=30)
+    response = executar_com_retry(
+        lambda: session.get(
+            url,
+            timeout=30,
+        ),
+        "GET do SIGAA",
+    )
     response.raise_for_status()
 
     soup = BeautifulSoup(
@@ -224,10 +265,13 @@ def consultar_sigaa(curso_id, ano, periodo):
     )
 
     # Consulta efetiva das turmas
-    result = session.post(
-        post_url,
-        data=payload,
-        timeout=30,
+    result = executar_com_retry(
+        lambda: session.post(
+            post_url,
+            data=payload,
+            timeout=30,
+        ),
+        "POST do SIGAA",
     )
 
     result.raise_for_status()
