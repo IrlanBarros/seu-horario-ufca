@@ -2,6 +2,8 @@ import { useEffect, useState } from 'react'
 import type {
   Curso,
   DadosCursos,
+  DadosCurriculoCurso,
+  IndiceCurriculos,
   Turma,
 } from './types'
 import {
@@ -12,6 +14,7 @@ import './App.css'
 import GradeSemanal from './components/GradeSemanal'
 import { exportarHorarioCsv } from './utils/exportarCsv'
 import { exportarHorarioPdf } from './utils/exportarPdf'
+import { Link } from 'react-router-dom'
 
 type FiltroTurmas =
   | 'todas'
@@ -79,6 +82,13 @@ function App() {
 
   const [filtro, setFiltro] =
     useState<FiltroTurmas>('todas')
+
+  const [
+    codigosOptativas,
+    setCodigosOptativas,
+  ] = useState<Set<string>>(
+    new Set(),
+  )
 
   useEffect(() => {
     async function carregarDados() {
@@ -150,6 +160,113 @@ function App() {
 
     carregarDados()
   }, [])
+
+  useEffect(() => {
+    if (!cursoSelecionadoId) {
+      return
+    }
+
+    const cursoIdAtual =
+      cursoSelecionadoId
+
+    let cancelado = false
+
+    async function carregarOptativas() {
+      try {
+        const responseIndice =
+          await fetch(
+            '/data/curriculos/index.json',
+          )
+
+        if (!responseIndice.ok) {
+          return
+        }
+
+        const indice: IndiceCurriculos =
+          await responseIndice.json()
+
+        const curso =
+          indice.cursos.find(
+            (item) =>
+              item.id === cursoIdAtual,
+          )
+
+        if (
+          !curso ||
+          !curso.disponivel ||
+          !curso.arquivo
+        ) {
+          if (!cancelado) {
+            setCodigosOptativas(
+              new Set(),
+            )
+          }
+
+          return
+        }
+
+        const responseCurriculo =
+          await fetch(
+            `/data/curriculos/` +
+            `${curso.arquivo}`,
+          )
+
+        if (!responseCurriculo.ok) {
+          return
+        }
+
+        const dadosCurriculo:
+          DadosCurriculoCurso =
+          await responseCurriculo.json()
+
+        if (cancelado) {
+          return
+        }
+
+        const estruturaMaisRecente =
+          [...dadosCurriculo.estruturas]
+            .sort(
+              (a, b) =>
+                b.ano_criacao -
+                a.ano_criacao,
+            )[0]
+
+        const optativas = new Set(
+          estruturaMaisRecente
+            ?.componentes
+            .filter(
+              (componente) =>
+                componente.tipo ===
+                'optativa',
+            )
+            .map(
+              (componente) =>
+                componente.codigo,
+            ) ?? [],
+        )
+
+        setCodigosOptativas(
+          optativas,
+        )
+      } catch (error) {
+        console.error(error)
+
+        if (!cancelado) {
+          setCodigosOptativas(
+            new Set(),
+          )
+        }
+      }
+    }
+
+    carregarOptativas()
+
+    return () => {
+      cancelado = true
+    }
+  }, [
+    cursoSelecionadoId,
+  ])
 
   useEffect(() => {
     if (!dados || !cursoSelecionadoId) {
@@ -401,6 +518,16 @@ function App() {
             </select>
           </div>
 
+          <Link
+            className="link-curriculo"
+            to={
+              `/curriculo?curso=` +
+              `${cursoSelecionado.id}`
+            }
+          >
+            Ver estrutura curricular
+          </Link>
+
         <p>
           {cursoSelecionado.nome} • {dados.periodo}
         </p>
@@ -619,138 +746,154 @@ function App() {
 
         <div className="lista-turmas">
           {turmasFiltradas.map((turma) => {
-          const selecionada =
-            turmaEstaSelecionada(turma)
+            const selecionada =
+              turmaEstaSelecionada(turma)
 
-          const conflitosDaTurma = selecionada
-            ? []
-            : encontrarConflitos(
-                turma,
-                selecionadas,
+            const optativa =
+              codigosOptativas.has(
+                turma.codigo,
               )
 
-          const possuiConflito =
-            conflitosDaTurma.length > 0
+            const conflitosDaTurma = selecionada
+              ? []
+              : encontrarConflitos(
+                  turma,
+                  selecionadas,
+                )
 
-            return (
-              <article
-                className={[
-                  'turma-card',
-                  selecionada
-                    ? 'selecionada-card'
-                    : '',
-                  possuiConflito
-                    ? 'conflito-card'
-                    : '',
-                ]
-                  .filter(Boolean)
-                  .join(' ')}
-                key={gerarIdTurma(turma)}
-              >
-                <div className="turma-cabecalho">
-                  <span className="codigo">
-                    {turma.codigo}
-                  </span>
+            const possuiConflito =
+              conflitosDaTurma.length > 0
 
-                  <span>
-                    Turma {turma.turma}
-                  </span>
-                </div>
-
-                <h2>
-                  {turma.disciplina}
-                </h2>
-
-                <p>
-                  <strong>
-                    Docente:
-                  </strong>{' '}
-                  {turma.docente || 'Não informado'}
-                </p>
-
-                <p>
-                  <strong>
-                    Horário:
-                  </strong>{' '}
-                  {turma.horario_sigaa || 'Não informado'}
-                </p>
-
-                <div className="horarios">
-                  {turma.horarios.map((horario) => (
-                    <span
-                      className="horario"
-                      key={[
-                        horario.dia,
-                        horario.inicio,
-                        horario.fim,
-                      ].join('|')}
-                    >
-                      {horario.dia_nome}:{' '}
-                      {horario.inicio}–{horario.fim}
-                    </span>
-                  ))}
-                </div>
-
-                {possuiConflito && (
-                  <div className="conflito-card-aviso">
-                    <strong>
-                      ⚠ Conflito de horário
-                    </strong>
-
-                    {conflitosDaTurma.map(
-                      (conflito, index) => (
-                        <p
-                          key={[
-                            conflito.turma.codigo,
-                            conflito.dia,
-                            conflito.inicio,
-                            index,
-                          ].join('|')}
-                        >
-                          Conflita com{' '}
-                          <strong>
-                            {conflito.turma.disciplina}
-                          </strong>
-                          {' '}na {conflito.diaNome}, das{' '}
-                          {conflito.inicio} às {conflito.fim}.
-                        </p>
-                      ),
-                    )}
-                  </div>
-                )}
-
-                <button
-                  type="button"
-                  className={
+              return (
+                <article
+                  className={[
+                    'turma-card',
+                    optativa
+                      ? 'optativa-card'
+                      : '',
                     selecionada
-                      ? 'botao-remover'
-                      : possuiConflito
-                        ? 'botao-bloqueado'
-                        : 'botao-adicionar'
-                  }
-                  aria-disabled={
-                    !selecionada && possuiConflito
-                  }
-                  onClick={() => {
-                    if (selecionada) {
-                      alternarTurma(turma)
-                      return
-                    }
-
-                    tentarAdicionarTurma(
-                      turma,
-                      conflitosDaTurma,
-                    )
-                  }}
+                    ? 'selecionada-card'
+                      : '',
+                    possuiConflito
+                      ? 'conflito-card'
+                      : '',
+                  ]
+                    .filter(Boolean)
+                    .join(' ')}
+                  key={gerarIdTurma(turma)}
                 >
-                  {selecionada
-                    ? 'Remover do horário'
-                    : possuiConflito
-                      ? 'Indisponível por conflito'
-                      : 'Adicionar ao horário'}
-                </button>
-              </article>
-            )
+                  <div className="turma-cabecalho">
+                    <div className="turma-identificacao">
+                      <span className="codigo">
+                        {turma.codigo}
+                      </span>
+
+                      {optativa && (
+                        <span className="badge-optativa">
+                          Optativa
+                        </span>
+                      )}
+                    </div>
+
+                    <span>
+                      Turma {turma.turma}
+                    </span>
+                  </div>
+
+                  <h2>
+                    {turma.disciplina}
+                  </h2>
+
+                  <p>
+                    <strong>
+                      Docente:
+                    </strong>{' '}
+                    {turma.docente || 'Não informado'}
+                  </p>
+
+                  <p>
+                    <strong>
+                      Horário:
+                    </strong>{' '}
+                    {turma.horario_sigaa || 'Não informado'}
+                  </p>
+
+                  <div className="horarios">
+                    {turma.horarios.map((horario) => (
+                      <span
+                        className="horario"
+                        key={[
+                          horario.dia,
+                          horario.inicio,
+                          horario.fim,
+                        ].join('|')}
+                      >
+                        {horario.dia_nome}:{' '}
+                        {horario.inicio}–{horario.fim}
+                      </span>
+                    ))}
+                  </div>
+
+                  {possuiConflito && (
+                    <div className="conflito-card-aviso">
+                      <strong>
+                        ⚠ Conflito de horário
+                      </strong>
+
+                      {conflitosDaTurma.map(
+                        (conflito, index) => (
+                          <p
+                            key={[
+                              conflito.turma.codigo,
+                              conflito.dia,
+                              conflito.inicio,
+                              index,
+                            ].join('|')}
+                          >
+                            Conflita com{' '}
+                            <strong>
+                              {conflito.turma.disciplina}
+                            </strong>
+                            {' '}na {conflito.diaNome}, das{' '}
+                            {conflito.inicio} às {conflito.fim}.
+                          </p>
+                        ),
+                      )}
+                    </div>
+                  )}
+
+                  <button
+                    type="button"
+                    className={
+                      selecionada
+                        ? 'botao-remover'
+                        : possuiConflito
+                          ? 'botao-bloqueado'
+                          : 'botao-adicionar'
+                    }
+                    aria-disabled={
+                      !selecionada && possuiConflito
+                    }
+                    onClick={() => {
+                      if (selecionada) {
+                        alternarTurma(turma)
+                        return
+                      }
+
+                      tentarAdicionarTurma(
+                        turma,
+                        conflitosDaTurma,
+                      )
+                    }}
+                  >
+                    {selecionada
+                      ? 'Remover do horário'
+                      : possuiConflito
+                        ? 'Indisponível por conflito'
+                        : 'Adicionar ao horário'}
+                  </button>
+                </article>
+              )
           })}
         </div>
       </section>
