@@ -1,14 +1,14 @@
 {
   "periodo": "2026.2",
   "quantidade_cursos": 21,
-  "quantidade_turmas": 489,
+  "quantidade_turmas": 491,
   "cursos": [
     {
       "id": "628400",
       "nome": "ADMINISTRAÇÃO",
       "sede": "Juazeiro do Norte",
       "modalidade": "Presencial",
-      "quantidade_turmas": 46,
+      "quantidade_turmas": 48,
       "turmas": [
         {
           "codigo": "ADM0417",
@@ -368,6 +368,52 @@
               "dia_nome": "sexta-feira",
               "inicio": "20:00",
               "fim": "22:00"
+            }
+          ],
+          "periodo": "2026.2"
+        },
+        {
+          "codigo": "ADM0414",
+          "disciplina": "FINANÇAS I",
+          "turma": "02",
+          "docente": "FABYANO NOGUEIRA DE BRITO",
+          "vagas_reservadas": 50,
+          "horario_sigaa": "2N68 6N24",
+          "horarios": [
+            {
+              "dia": 2,
+              "dia_nome": "segunda-feira",
+              "inicio": "20:00",
+              "fim": "22:00"
+            },
+            {
+              "dia": 6,
+              "dia_nome": "sexta-feira",
+              "inicio": "18:00",
+              "fim": "20:00"
+            }
+          ],
+          "periodo": "2026.2"
+        },
+        {
+          "codigo": "ADM0414",
+          "disciplina": "FINANÇAS I",
+          "turma": "03",
+          "docente": "FABYANO NOGUEIRA DE BRITO",
+          "vagas_reservadas": 50,
+          "horario_sigaa": "2N68 6N24",
+          "horarios": [
+            {
+              "dia": 2,
+              "dia_nome": "segunda-feira",
+              "inicio": "20:00",
+              "fim": "22:00"
+            },
+            {
+              "dia": 6,
+              "dia_nome": "sexta-feira",
+              "inicio": "18:00",
+              "fim": "20:00"
             }
           ],
           "periodo": "2026.2"
