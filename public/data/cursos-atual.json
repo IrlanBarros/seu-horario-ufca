@@ -245,7 +245,7 @@
           "disciplina": "EMPREENDEDORISMO I",
           "turma": "01",
           "docente": "ROBERTO RODRIGUES RAMOS",
-          "vagas_reservadas": 60,
+          "vagas_reservadas": 10,
           "horario_sigaa": "3N68 5N24",
           "horarios": [
             {
@@ -337,7 +337,7 @@
           "disciplina": "FILOSOFIA E ÉTICA ORGANIZACIONAL",
           "turma": "01",
           "docente": "",
-          "vagas_reservadas": 50,
+          "vagas_reservadas": 0,
           "horario_sigaa": "3N24",
           "horarios": [
             {
@@ -814,7 +814,7 @@
           "disciplina": "MATEMÁTICA PARA ADMINISTRAÇÃO E CONTABILIDADE",
           "turma": "01",
           "docente": "FELIPE ALVES REIS",
-          "vagas_reservadas": 50,
+          "vagas_reservadas": 0,
           "horario_sigaa": "2N24 4N68",
           "horarios": [
             {
@@ -883,7 +883,7 @@
           "disciplina": "METODOLOGIA DO TRABALHO CIENTIFICO",
           "turma": "01",
           "docente": "WALESKA JAMES SOUSA FELIX",
-          "vagas_reservadas": 60,
+          "vagas_reservadas": 10,
           "horario_sigaa": "4N24 6N68",
           "horarios": [
             {
@@ -998,7 +998,7 @@
           "disciplina": "SOCIOLOGIA DAS ORGANIZAÇÕES",
           "turma": "01",
           "docente": "WENDELL DE FREITAS BARBOSA",
-          "vagas_reservadas": 50,
+          "vagas_reservadas": 0,
           "horario_sigaa": "5N68",
           "horarios": [
             {
@@ -1015,7 +1015,7 @@
           "disciplina": "TEORIAS DA ADMINISTRAÇÃO I",
           "turma": "01",
           "docente": "WALESKA JAMES SOUSA FELIX",
-          "vagas_reservadas": 60,
+          "vagas_reservadas": 10,
           "horario_sigaa": "2N68 6N24",
           "horarios": [
             {
@@ -4177,7 +4177,7 @@
           "codigo": "ECI0025",
           "disciplina": "FISICA FUNDAMENTAL II",
           "turma": "01",
-          "docente": "JOSE FERREIRA DA SILVA NETO",
+          "docente": "ANTONIO CARLOS ALONGE RAMOS",
           "vagas_reservadas": 50,
           "horario_sigaa": "24M24",
           "horarios": [
@@ -4379,23 +4379,6 @@
           "periodo": "2026.2"
         },
         {
-          "codigo": "ECI0116",
-          "disciplina": "INSTALAÇÕES HIDROSSANITÁRIAS",
-          "turma": "01",
-          "docente": "AMANDA BEZERRA DE SOUSA PINO",
-          "vagas_reservadas": 50,
-          "horario_sigaa": "6M68",
-          "horarios": [
-            {
-              "dia": 6,
-              "dia_nome": "sexta-feira",
-              "inicio": "10:00",
-              "fim": "12:00"
-            }
-          ],
-          "periodo": "2026.2"
-        },
-        {
           "codigo": "ECI0141",
           "disciplina": "INSTALAÇÕES HIDROSSANITÁRIAS",
           "turma": "01",
@@ -4408,6 +4391,23 @@
               "dia_nome": "sexta-feira",
               "inicio": "08:00",
               "fim": "11:00"
+            }
+          ],
+          "periodo": "2026.2"
+        },
+        {
+          "codigo": "ECI0116",
+          "disciplina": "INSTALAÇÕES HIDROSSANITÁRIAS",
+          "turma": "01",
+          "docente": "AMANDA BEZERRA DE SOUSA PINO",
+          "vagas_reservadas": 50,
+          "horario_sigaa": "6M68",
+          "horarios": [
+            {
+              "dia": 6,
+              "dia_nome": "sexta-feira",
+              "inicio": "10:00",
+              "fim": "12:00"
             }
           ],
           "periodo": "2026.2"
@@ -5223,7 +5223,7 @@
           "disciplina": "ALGEBRA VETORIAL E GEOMETRIA ANALITICA",
           "turma": "01",
           "docente": "FRANCISCO DE ASSIS BENJAMIM FILHO",
-          "vagas_reservadas": 55,
+          "vagas_reservadas": 25,
           "horario_sigaa": "35M68",
           "horarios": [
             {
@@ -5269,7 +5269,7 @@
           "disciplina": "CALCULO FUNDAMENTAL I",
           "turma": "01",
           "docente": "VALDINES LEITE DE SOUSA JUNIOR",
-          "vagas_reservadas": 50,
+          "vagas_reservadas": 20,
           "horario_sigaa": "24M24",
           "horarios": [
             {
@@ -5796,7 +5796,7 @@
           "disciplina": "INTRODUÇÃO À ENGENHARIA DE MATERIAIS",
           "turma": "01",
           "docente": "ANDRE WESLEY BARBOSA RODRIGUES",
-          "vagas_reservadas": 30,
+          "vagas_reservadas": 0,
           "horario_sigaa": "6M24",
           "horarios": [
             {
@@ -6077,7 +6077,7 @@
           "disciplina": "PROGRAMAÇÃO COMPUTACIONAL",
           "turma": "01",
           "docente": "THIAGO BESSA PONTES",
-          "vagas_reservadas": 30,
+          "vagas_reservadas": 0,
           "horario_sigaa": "24M68",
           "horarios": [
             {
@@ -6123,7 +6123,7 @@
           "disciplina": "QUÍMICA EXPERIMENTAL",
           "turma": "01",
           "docente": "ROSIANE MARIA DA COSTA FARIAS",
-          "vagas_reservadas": 15,
+          "vagas_reservadas": 0,
           "horario_sigaa": "2T46",
           "horarios": [
             {
@@ -6140,7 +6140,7 @@
           "disciplina": "QUÍMICA EXPERIMENTAL",
           "turma": "02",
           "docente": "ROSIANE MARIA DA COSTA FARIAS",
-          "vagas_reservadas": 15,
+          "vagas_reservadas": 0,
           "horario_sigaa": "2T8  2N0",
           "horarios": [
             {
@@ -6157,7 +6157,7 @@
           "disciplina": "QUÍMICA GERAL PARA ENGENHARIA",
           "turma": "01",
           "docente": "ROSIANE MARIA DA COSTA FARIAS",
-          "vagas_reservadas": 40,
+          "vagas_reservadas": 10,
           "horario_sigaa": "35M24",
           "horarios": [
             {
@@ -8459,7 +8459,7 @@
           "disciplina": "JORNALISMO IMPRESSO II",
           "turma": "01A",
           "docente": "LILIANE DO NASCIMENTO SANTOS",
-          "vagas_reservadas": 25,
+          "vagas_reservadas": 45,
           "horario_sigaa": "3N2468",
           "horarios": [
             {
@@ -8538,7 +8538,7 @@
           "codigo": "CSJ0052",
           "disciplina": "LABORATORIO DE JORNALISMO IMPRESSO",
           "turma": "01",
-          "docente": "JULIANA LOTIF ARAUJO",
+          "docente": "JOEDSON KELVIN FELIX DE OLIVEIRA , JULIANA LOTIF ARAUJO",
           "vagas_reservadas": 4,
           "horario_sigaa": "24N2468",
           "horarios": [
