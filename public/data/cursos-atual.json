@@ -1,6 +1,6 @@
 {
   "periodo": "2026.2",
-  "quantidade_cursos": 21,
+  "quantidade_cursos": 22,
   "quantidade_turmas": 491,
   "cursos": [
     {
@@ -2257,7 +2257,7 @@
           "codigo": "CCB0048",
           "disciplina": "CONTABILIDADE APLICADA ÀS ENTIDADES DE INTERESSE SOCIAL",
           "turma": "01",
-          "docente": "",
+          "docente": "JOSE MAURO MADEIROS VELOSO SOARES",
           "vagas_reservadas": 50,
           "horario_sigaa": "3N68 5N24",
           "horarios": [
@@ -2350,7 +2350,7 @@
           "disciplina": "CONTABILIDADE INTRODUTÓRIA I",
           "turma": "01",
           "docente": "MARIO CESAR SOUSA DE OLIVEIRA",
-          "vagas_reservadas": 65,
+          "vagas_reservadas": 15,
           "horario_sigaa": "3N68 5N24",
           "horarios": [
             {
@@ -2511,7 +2511,7 @@
           "disciplina": "ESTUDOS SOCIOLÓGICOS E ANTROPOLÓGICOS",
           "turma": "01",
           "docente": "GEOVANE GESTEIRA SALES TORRES",
-          "vagas_reservadas": 55,
+          "vagas_reservadas": 5,
           "horario_sigaa": "3N24 5N68",
           "horarios": [
             {
@@ -2580,7 +2580,7 @@
           "disciplina": "INTRODUÇÃO AO ESTUDO DO DIREITO",
           "turma": "01",
           "docente": "CICERO MARCELO BEZERRA DOS SANTOS",
-          "vagas_reservadas": 60,
+          "vagas_reservadas": 10,
           "horario_sigaa": "4N24 6N68",
           "horarios": [
             {
@@ -2649,7 +2649,7 @@
           "disciplina": "MATEMÁTICA PARA ADMINISTRAÇÃO E CONTABILIDADE",
           "turma": "01",
           "docente": "",
-          "vagas_reservadas": 55,
+          "vagas_reservadas": 5,
           "horario_sigaa": "2N24 4N68",
           "horarios": [
             {
@@ -2810,7 +2810,7 @@
           "disciplina": "TEORIAS DA ADMINISTRAÇÃO I",
           "turma": "01",
           "docente": "MANOEL BASTOS GOMES NETO",
-          "vagas_reservadas": 55,
+          "vagas_reservadas": 5,
           "horario_sigaa": "2N68 6N24",
           "horarios": [
             {
@@ -6652,6 +6652,14 @@
       ]
     },
     {
+      "id": "36525875",
+      "nome": "INTELIGÊNCIA ARTIFICIAL",
+      "sede": "Juazeiro do Norte",
+      "modalidade": "Presencial",
+      "quantidade_turmas": 0,
+      "turmas": []
+    },
+    {
       "id": "32650450",
       "nome": "MATEMÁTICA COMPUTACIONAL",
       "sede": "Juazeiro do Norte",
@@ -8538,7 +8546,7 @@
           "codigo": "CSJ0052",
           "disciplina": "LABORATORIO DE JORNALISMO IMPRESSO",
           "turma": "01",
-          "docente": "JOEDSON KELVIN FELIX DE OLIVEIRA , JULIANA LOTIF ARAUJO",
+          "docente": "JULIANA LOTIF ARAUJO , JOEDSON KELVIN FELIX DE OLIVEIRA",
           "vagas_reservadas": 4,
           "horario_sigaa": "24N2468",
           "horarios": [
