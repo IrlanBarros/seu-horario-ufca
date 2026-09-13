@@ -652,7 +652,7 @@
           "codigo": "ADM0470",
           "disciplina": "GESTÃO POR PROCESSOS",
           "turma": "01",
-          "docente": "",
+          "docente": "FABYANO NOGUEIRA DE BRITO",
           "vagas_reservadas": 30,
           "horario_sigaa": "4N24 6N68",
           "horarios": [
@@ -3645,7 +3645,7 @@
           "disciplina": "ÁLGEBRA VETORIAL E GEOMETRIA ANALÍTICA",
           "turma": "01",
           "docente": "SAMARA COSTA LIMA",
-          "vagas_reservadas": 50,
+          "vagas_reservadas": 0,
           "horario_sigaa": "3M24",
           "horarios": [
             {
@@ -3765,7 +3765,7 @@
           "disciplina": "CÁLCULO I",
           "turma": "01",
           "docente": "MARIA SILVANA ALCANTARA COSTA",
-          "vagas_reservadas": 50,
+          "vagas_reservadas": 66,
           "horario_sigaa": "246M24",
           "horarios": [
             {
@@ -4434,7 +4434,7 @@
           "disciplina": "INTRODUÇÃO À ENGENHARIA CIVIL",
           "turma": "02",
           "docente": "LUCIMAR DA SILVA SANTIAGO",
-          "vagas_reservadas": 50,
+          "vagas_reservadas": 0,
           "horario_sigaa": "3M68",
           "horarios": [
             {
@@ -4514,7 +4514,7 @@
           "disciplina": "LABORATÓRIO DE QUÍMICA GERAL PARA ENGENHARIAS",
           "turma": "01",
           "docente": "MARCELO OLIVEIRA SANTIAGO",
-          "vagas_reservadas": 25,
+          "vagas_reservadas": 0,
           "horario_sigaa": "5M24",
           "horarios": [
             {
@@ -4531,7 +4531,7 @@
           "disciplina": "LABORATÓRIO DE QUÍMICA GERAL PARA ENGENHARIAS",
           "turma": "02",
           "docente": "MARCELO OLIVEIRA SANTIAGO",
-          "vagas_reservadas": 25,
+          "vagas_reservadas": 0,
           "horario_sigaa": "5M68",
           "horarios": [
             {
@@ -4990,7 +4990,7 @@
           "disciplina": "QUÍMICA GERAL PARA ENGENHARIAS",
           "turma": "02",
           "docente": "MARCELO OLIVEIRA SANTIAGO",
-          "vagas_reservadas": 50,
+          "vagas_reservadas": 0,
           "horario_sigaa": "26M68",
           "horarios": [
             {
@@ -9612,7 +9612,7 @@
           "disciplina": "PERCUSSÃO BRASILEIRA APLICADA À EDUCAÇÃO MUSICAL",
           "turma": "01",
           "docente": "JOAO LUIS SOARES STUDART GUIMARAES",
-          "vagas_reservadas": 50,
+          "vagas_reservadas": 20,
           "horario_sigaa": "2T468  2N0",
           "horarios": [
             {
