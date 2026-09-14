@@ -1,7 +1,7 @@
 {
   "periodo": "2026.2",
   "quantidade_cursos": 22,
-  "quantidade_turmas": 491,
+  "quantidade_turmas": 492,
   "cursos": [
     {
       "id": "628400",
@@ -468,7 +468,7 @@
           "codigo": "ADM0408",
           "disciplina": "FUNDAMENTOS DE CONTABILIDADE",
           "turma": "01",
-          "docente": "",
+          "docente": "RONALDO JOSE REGO DE ARAUJO",
           "vagas_reservadas": 50,
           "horario_sigaa": "2N68 6N24",
           "horarios": [
@@ -1659,7 +1659,7 @@
           "codigo": "ARQ0018",
           "disciplina": "CONSERVAÇÃO E PRESERVAÇÃO DE BENS CULTURAIS I",
           "turma": "01",
-          "docente": "",
+          "docente": "ANA CAROLINA MOTTA ROCHA MONTALVAO",
           "vagas_reservadas": 30,
           "horario_sigaa": "6T468  6N0",
           "horarios": [
@@ -1727,7 +1727,7 @@
           "codigo": "CIN0008",
           "disciplina": "MÉTODOS QUANTITATIVOS EM CIÊNCIA DA INFORMAÇÃO",
           "turma": "01",
-          "docente": "",
+          "docente": "JEAN COSTA SOUZA",
           "vagas_reservadas": 30,
           "horario_sigaa": "3T468  3N0",
           "horarios": [
@@ -2171,7 +2171,7 @@
           "codigo": "CCB0044",
           "disciplina": "AUDITORIA GOVERNAMENTAL",
           "turma": "01",
-          "docente": "",
+          "docente": "RONALDO JOSE REGO DE ARAUJO",
           "vagas_reservadas": 50,
           "horario_sigaa": "2N24 4N68",
           "horarios": [
@@ -2326,7 +2326,7 @@
           "codigo": "CCB0011",
           "disciplina": "CONTABILIDADE INTERMEDIÁRIA",
           "turma": "01",
-          "docente": "",
+          "docente": "CARLA JANAINA FERREIRA NOBRE REGO",
           "vagas_reservadas": 50,
           "horario_sigaa": "3N68 5N24",
           "horarios": [
@@ -2648,7 +2648,7 @@
           "codigo": "CCB0003",
           "disciplina": "MATEMÁTICA PARA ADMINISTRAÇÃO E CONTABILIDADE",
           "turma": "01",
-          "docente": "",
+          "docente": "JOSE AUGUSTO PEREIRA NOGUEIRA",
           "vagas_reservadas": 5,
           "horario_sigaa": "2N24 4N68",
           "horarios": [
@@ -2671,7 +2671,7 @@
           "codigo": "CCB0010",
           "disciplina": "METODOLOGIA DO TRABALHO CIENTÍFICO",
           "turma": "01",
-          "docente": "",
+          "docente": "CARLA JANAINA FERREIRA NOBRE REGO",
           "vagas_reservadas": 50,
           "horario_sigaa": "4N24 6N68",
           "horarios": [
@@ -2841,7 +2841,7 @@
           "codigo": "MU0016",
           "disciplina": "CONSERVAÇÃO E PRESERVAÇÃO DE BENS CULTURAIS I",
           "turma": "01",
-          "docente": "",
+          "docente": "ANA CAROLINA MOTTA ROCHA MONTALVAO",
           "vagas_reservadas": 50,
           "horario_sigaa": "3N2468",
           "horarios": [
@@ -2909,7 +2909,7 @@
           "codigo": "MU0006",
           "disciplina": "HISTÓRIA E PATRIMÔNIO",
           "turma": "01",
-          "docente": "",
+          "docente": "ANA CAROLINA MOTTA ROCHA MONTALVAO",
           "vagas_reservadas": 50,
           "horario_sigaa": "2N2468",
           "horarios": [
@@ -8777,7 +8777,7 @@
       "nome": "LETRAS - LIBRAS",
       "sede": "Juazeiro do Norte",
       "modalidade": "Presencial",
-      "quantidade_turmas": 25,
+      "quantidade_turmas": 26,
       "turmas": [
         {
           "codigo": "LIB0013",
@@ -9099,6 +9099,23 @@
               "dia_nome": "quarta-feira",
               "inicio": "18:00",
               "fim": "22:00"
+            }
+          ],
+          "periodo": "2026.2"
+        },
+        {
+          "codigo": "LIB0057",
+          "disciplina": "POLÍTICA E GESTÃO DA EDUCAÇÃO BÁSICA",
+          "turma": "01",
+          "docente": "ANA CARMITA BEZERRA DE SOUZA",
+          "vagas_reservadas": 30,
+          "horario_sigaa": "4T24",
+          "horarios": [
+            {
+              "dia": 4,
+              "dia_nome": "quarta-feira",
+              "inicio": "13:00",
+              "fim": "15:00"
             }
           ],
           "periodo": "2026.2"
