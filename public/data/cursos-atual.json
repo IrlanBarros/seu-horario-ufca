@@ -1,7 +1,7 @@
 {
   "periodo": "2026.2",
   "quantidade_cursos": 22,
-  "quantidade_turmas": 492,
+  "quantidade_turmas": 493,
   "cursos": [
     {
       "id": "628400",
@@ -152,7 +152,7 @@
           "codigo": "ADM0322",
           "disciplina": "CONTABILIDADE DE CUSTOS",
           "turma": "01",
-          "docente": "",
+          "docente": "MARCONE VENANCIO DA SILVA",
           "vagas_reservadas": 50,
           "horario_sigaa": "2N68 6N24",
           "horarios": [
@@ -336,7 +336,7 @@
           "codigo": "ADM0404",
           "disciplina": "FILOSOFIA E ÉTICA ORGANIZACIONAL",
           "turma": "01",
-          "docente": "",
+          "docente": "DIEGO BARBOSA DE OLIVEIRA",
           "vagas_reservadas": 0,
           "horario_sigaa": "3N24",
           "horarios": [
@@ -514,7 +514,7 @@
           "codigo": "ADM0409",
           "disciplina": "FUNDAMENTOS DE MICROECONOMIA",
           "turma": "01",
-          "docente": "DIEGO DE SOUSA GUERRA",
+          "docente": "FABYANO NOGUEIRA DE BRITO",
           "vagas_reservadas": 50,
           "horario_sigaa": "2N24 4N68",
           "horarios": [
@@ -2194,7 +2194,7 @@
           "codigo": "CCB0028",
           "disciplina": "AUDITORIA I",
           "turma": "01",
-          "docente": "",
+          "docente": "JOSE MAURO MADEIROS VELOSO SOARES",
           "vagas_reservadas": 50,
           "horario_sigaa": "4N2468",
           "horarios": [
@@ -2625,7 +2625,7 @@
           "codigo": "CCB0009",
           "disciplina": "MATEMÁTICA FINANCEIRA",
           "turma": "01",
-          "docente": "",
+          "docente": "DIEGO DE SOUSA GUERRA",
           "vagas_reservadas": 50,
           "horario_sigaa": "2N24 4N68",
           "horarios": [
@@ -7799,7 +7799,7 @@
       "nome": "FILOSOFIA",
       "sede": "Juazeiro do Norte",
       "modalidade": "Presencial",
-      "quantidade_turmas": 22,
+      "quantidade_turmas": 23,
       "turmas": [
         {
           "codigo": "FIL0095",
@@ -7814,6 +7814,29 @@
               "dia_nome": "terça-feira",
               "inicio": "18:00",
               "fim": "20:00"
+            },
+            {
+              "dia": 5,
+              "dia_nome": "quinta-feira",
+              "inicio": "18:00",
+              "fim": "22:00"
+            }
+          ],
+          "periodo": "2026.2"
+        },
+        {
+          "codigo": "FIL0095",
+          "disciplina": "CAPACITACAO PARA O ENSINO DA FILOSOFIA IV",
+          "turma": "02",
+          "docente": "DIEGO BARBOSA DE OLIVEIRA",
+          "vagas_reservadas": 5,
+          "horario_sigaa": "3N68 5N2468",
+          "horarios": [
+            {
+              "dia": 3,
+              "dia_nome": "terça-feira",
+              "inicio": "20:00",
+              "fim": "22:00"
             },
             {
               "dia": 5,
