@@ -1,7 +1,7 @@
 {
   "periodo": "2026.2",
   "quantidade_cursos": 22,
-  "quantidade_turmas": 493,
+  "quantidade_turmas": 497,
   "cursos": [
     {
       "id": "628400",
@@ -5170,13 +5170,13 @@
       "nome": "ENGENHARIA DE MATERIAIS",
       "sede": "Juazeiro do Norte",
       "modalidade": "Presencial",
-      "quantidade_turmas": 58,
+      "quantidade_turmas": 59,
       "turmas": [
         {
           "codigo": "EM0114",
           "disciplina": "ADITIVAÇÃO DE POLÍMEROS",
           "turma": "01",
-          "docente": "ANDRE WESLEY BARBOSA RODRIGUES",
+          "docente": "",
           "vagas_reservadas": 30,
           "horario_sigaa": "46M68",
           "horarios": [
@@ -5185,6 +5185,29 @@
               "dia_nome": "quarta-feira",
               "inicio": "10:00",
               "fim": "12:00"
+            },
+            {
+              "dia": 6,
+              "dia_nome": "sexta-feira",
+              "inicio": "10:00",
+              "fim": "12:00"
+            }
+          ],
+          "periodo": "2026.2"
+        },
+        {
+          "codigo": "EM0114",
+          "disciplina": "ADITIVAÇÃO DE POLÍMEROS",
+          "turma": "02",
+          "docente": "ANDRE WESLEY BARBOSA RODRIGUES",
+          "vagas_reservadas": 20,
+          "horario_sigaa": "4M24 6M68",
+          "horarios": [
+            {
+              "dia": 4,
+              "dia_nome": "quarta-feira",
+              "inicio": "08:00",
+              "fim": "10:00"
             },
             {
               "dia": 6,
@@ -5761,8 +5784,8 @@
           "codigo": "EM0101",
           "disciplina": "FUNDAMENTOS DA ECONOMIA",
           "turma": "01",
-          "docente": "",
-          "vagas_reservadas": 25,
+          "docente": "MARCUS VINICIUS DE OLIVEIRA BRASIL",
+          "vagas_reservadas": 30,
           "horario_sigaa": "2M68",
           "horarios": [
             {
@@ -5984,7 +6007,7 @@
           "codigo": "CAR0003",
           "disciplina": "PROBABILIDADE E ESTATÍSTICA",
           "turma": "01",
-          "docente": "",
+          "docente": "FRANCISCO ALIXANDRE AVILA RODRIGUES",
           "vagas_reservadas": 30,
           "horario_sigaa": "35T46",
           "horarios": [
@@ -9269,7 +9292,7 @@
       "nome": "MÚSICA",
       "sede": "Juazeiro do Norte",
       "modalidade": "Presencial",
-      "quantidade_turmas": 48,
+      "quantidade_turmas": 51,
       "turmas": [
         {
           "codigo": "MUS0164",
@@ -9355,8 +9378,25 @@
           "codigo": "MUS0216",
           "disciplina": "EDUCAÇÃO E SOCIEDADE",
           "turma": "01",
-          "docente": "MARIA GORETTI HERCULANO SILVA",
+          "docente": "",
           "vagas_reservadas": 50,
+          "horario_sigaa": "6M24",
+          "horarios": [
+            {
+              "dia": 6,
+              "dia_nome": "sexta-feira",
+              "inicio": "08:00",
+              "fim": "10:00"
+            }
+          ],
+          "periodo": "2026.2"
+        },
+        {
+          "codigo": "MUS0216",
+          "disciplina": "EDUCAÇÃO E SOCIEDADE",
+          "turma": "02",
+          "docente": "",
+          "vagas_reservadas": 32,
           "horario_sigaa": "5M24",
           "horarios": [
             {
@@ -9648,6 +9688,29 @@
           "periodo": "2026.2"
         },
         {
+          "codigo": "MUS0121",
+          "disciplina": "PERCEPÇÃO E SOLFEJO IV",
+          "turma": "02A",
+          "docente": "ISAURA RUTE GINO DE AZEVEDO",
+          "vagas_reservadas": 50,
+          "horario_sigaa": "4M68 5M24",
+          "horarios": [
+            {
+              "dia": 4,
+              "dia_nome": "quarta-feira",
+              "inicio": "10:00",
+              "fim": "12:00"
+            },
+            {
+              "dia": 5,
+              "dia_nome": "quinta-feira",
+              "inicio": "08:00",
+              "fim": "10:00"
+            }
+          ],
+          "periodo": "2026.2"
+        },
+        {
           "codigo": "MUS0264",
           "disciplina": "PERCUSSÃO BRASILEIRA APLICADA À EDUCAÇÃO MUSICAL",
           "turma": "01",
@@ -9751,6 +9814,23 @@
               "dia_nome": "segunda-feira",
               "inicio": "10:00",
               "fim": "12:00"
+            }
+          ],
+          "periodo": "2026.2"
+        },
+        {
+          "codigo": "MUS0266",
+          "disciplina": "PRÁTICA DE INSTRUMENTOS DE CORDAS FRICCIONADAS V",
+          "turma": "01",
+          "docente": "MARCO ANTONIO SILVA",
+          "vagas_reservadas": 50,
+          "horario_sigaa": "3T468  3N0",
+          "horarios": [
+            {
+              "dia": 3,
+              "dia_nome": "terça-feira",
+              "inicio": "14:00",
+              "fim": "18:00"
             }
           ],
           "periodo": "2026.2"
