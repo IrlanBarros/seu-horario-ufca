@@ -1,7 +1,7 @@
 {
   "periodo": "2026.2",
   "quantidade_cursos": 22,
-  "quantidade_turmas": 497,
+  "quantidade_turmas": 499,
   "cursos": [
     {
       "id": "628400",
@@ -7711,7 +7711,7 @@
       "nome": "FILOSOFIA",
       "sede": "Juazeiro do Norte",
       "modalidade": "Presencial",
-      "quantidade_turmas": 6,
+      "quantidade_turmas": 7,
       "turmas": [
         {
           "codigo": "FIL0133",
@@ -7743,6 +7743,23 @@
               "dia_nome": "segunda-feira",
               "inicio": "18:00",
               "fim": "22:00"
+            }
+          ],
+          "periodo": "2026.2"
+        },
+        {
+          "codigo": "FIL0105",
+          "disciplina": "LINGUA GREGA II",
+          "turma": "01",
+          "docente": "WESLEY RENNYER MARTINS RABELO PORTO",
+          "vagas_reservadas": 10,
+          "horario_sigaa": "6T468  6N0",
+          "horarios": [
+            {
+              "dia": 6,
+              "dia_nome": "sexta-feira",
+              "inicio": "14:00",
+              "fim": "18:00"
             }
           ],
           "periodo": "2026.2"
@@ -7822,7 +7839,7 @@
       "nome": "FILOSOFIA",
       "sede": "Juazeiro do Norte",
       "modalidade": "Presencial",
-      "quantidade_turmas": 23,
+      "quantidade_turmas": 24,
       "turmas": [
         {
           "codigo": "FIL0095",
@@ -8053,6 +8070,23 @@
               "dia_nome": "sexta-feira",
               "inicio": "18:00",
               "fim": "22:00"
+            }
+          ],
+          "periodo": "2026.2"
+        },
+        {
+          "codigo": "FIL0105",
+          "disciplina": "LINGUA GREGA II",
+          "turma": "01",
+          "docente": "WESLEY RENNYER MARTINS RABELO PORTO",
+          "vagas_reservadas": 10,
+          "horario_sigaa": "6T468  6N0",
+          "horarios": [
+            {
+              "dia": 6,
+              "dia_nome": "sexta-feira",
+              "inicio": "14:00",
+              "fim": "18:00"
             }
           ],
           "periodo": "2026.2"
@@ -9016,7 +9050,7 @@
           "codigo": "LIB0067",
           "disciplina": "LIBRAS III: LÍNGUA E CULTURA",
           "turma": "01",
-          "docente": "JÚLIA BATISTA ALVES",
+          "docente": "JULIA BATISTA ALVES",
           "vagas_reservadas": 40,
           "horario_sigaa": "3N2468 6N24",
           "horarios": [
@@ -9554,7 +9588,7 @@
           "codigo": "MUS0168",
           "disciplina": "LIBRAS",
           "turma": "01A",
-          "docente": "JÚLIA BATISTA ALVES",
+          "docente": "JULIA BATISTA ALVES",
           "vagas_reservadas": 50,
           "horario_sigaa": "4T468  4N0",
           "horarios": [
