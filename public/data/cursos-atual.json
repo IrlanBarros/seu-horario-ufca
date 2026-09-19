@@ -1,7 +1,7 @@
 {
   "periodo": "2026.2",
   "quantidade_cursos": 22,
-  "quantidade_turmas": 499,
+  "quantidade_turmas": 500,
   "cursos": [
     {
       "id": "628400",
@@ -5170,7 +5170,7 @@
       "nome": "ENGENHARIA DE MATERIAIS",
       "sede": "Juazeiro do Norte",
       "modalidade": "Presencial",
-      "quantidade_turmas": 59,
+      "quantidade_turmas": 60,
       "turmas": [
         {
           "codigo": "EM0114",
@@ -6349,6 +6349,23 @@
               "dia_nome": "sexta-feira",
               "inicio": "10:00",
               "fim": "12:00"
+            }
+          ],
+          "periodo": "2026.2"
+        },
+        {
+          "codigo": "EM0121",
+          "disciplina": "TÓPICOS ESPECIAIS EM CIÊNCIA DOS MATERIAIS",
+          "turma": "03",
+          "docente": "HILLANE MIRELLE LOPES FERREIRA DE LIMA OLIVEIRA",
+          "vagas_reservadas": 10,
+          "horario_sigaa": "6T468  6N0",
+          "horarios": [
+            {
+              "dia": 6,
+              "dia_nome": "sexta-feira",
+              "inicio": "14:00",
+              "fim": "18:00"
             }
           ],
           "periodo": "2026.2"
@@ -9412,7 +9429,7 @@
           "codigo": "MUS0216",
           "disciplina": "EDUCAÇÃO E SOCIEDADE",
           "turma": "01",
-          "docente": "",
+          "docente": "MARIA GORETTI HERCULANO SILVA",
           "vagas_reservadas": 50,
           "horario_sigaa": "6M24",
           "horarios": [
