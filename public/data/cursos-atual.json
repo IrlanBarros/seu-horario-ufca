@@ -1,7 +1,7 @@
 {
   "periodo": "2026.2",
   "quantidade_cursos": 22,
-  "quantidade_turmas": 500,
+  "quantidade_turmas": 501,
   "cursos": [
     {
       "id": "628400",
@@ -5170,7 +5170,7 @@
       "nome": "ENGENHARIA DE MATERIAIS",
       "sede": "Juazeiro do Norte",
       "modalidade": "Presencial",
-      "quantidade_turmas": 60,
+      "quantidade_turmas": 61,
       "turmas": [
         {
           "codigo": "EM0114",
@@ -6267,6 +6267,29 @@
           "turma": "01",
           "docente": "FRANCISCO ALEX CORREIA MONTEIRO",
           "vagas_reservadas": 25,
+          "horario_sigaa": "35T8  35N0",
+          "horarios": [
+            {
+              "dia": 3,
+              "dia_nome": "terça-feira",
+              "inicio": "16:00",
+              "fim": "18:00"
+            },
+            {
+              "dia": 5,
+              "dia_nome": "quinta-feira",
+              "inicio": "16:00",
+              "fim": "18:00"
+            }
+          ],
+          "periodo": "2026.2"
+        },
+        {
+          "codigo": "EM0089",
+          "disciplina": "RESISTÊNCIA DOS MATERIAIS",
+          "turma": "02",
+          "docente": "CARLOS MARLEY DE SOUZA JUNIOR",
+          "vagas_reservadas": 1,
           "horario_sigaa": "35T8  35N0",
           "horarios": [
             {
